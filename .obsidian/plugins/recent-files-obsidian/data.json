@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Dify使用",
+      "path": "learning学习/Dify使用.md"
+    },
+    {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
     },
     {
-      "basename": "Dify使用",
-      "path": "learning学习/Dify使用.md"
+      "basename": "2026-06-20",
+      "path": "2026-06-20.md"
     },
     {
       "basename": "Deepseek",
@@ -39,10 +43,6 @@
     {
       "basename": "61839154-d074-4b07-986f-a8c9508fb850_1",
       "path": "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md"
-    },
-    {
-      "basename": "2026-06-20",
-      "path": "2026-06-20.md"
     }
   ],
   "omittedPaths": [],
