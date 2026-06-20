@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects项目文档/Git基础使用.md",
+                "file": "learning学习/Git基础使用.md",
                 "mode": "source",
                 "source": false
               },
@@ -73,13 +73,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "13506b6f5d5669e0",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent files"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -95,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects项目文档/Git基础使用.md",
+                "file": "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Git基础使用 的反向链接列表"
+              "title": "61839154-d074-4b07-986f-a8c9508fb850_1 的反向链接列表"
             }
           },
           {
@@ -114,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects项目文档/Git基础使用.md",
+                "file": "README.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Git基础使用 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -157,20 +166,41 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects项目文档/Git基础使用.md",
+                "file": "learning学习/Dify使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git基础使用 的大纲"
+              "title": "Dify使用 的大纲"
+            }
+          },
+          {
+            "id": "965f9024bd8f723a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "1747a4006c8bde39",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 438.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -181,26 +211,43 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "realclaudian:Open Claudian": false,
+      "omnisearch:Omnisearch": false,
+      "random-note:开始漫游笔记": false
     }
   },
   "active": "cff61929e20ac8d1",
   "lastOpenFiles": [
-    "未命名 3.base",
-    "未命名 2.base",
-    "未命名 2.canvas",
-    "2026-06-20.md",
-    "未命名.base",
-    "README.md",
-    "未命名 1.base",
-    "projects项目文档/Git基础使用.md",
-    "Pasted image 20260620142943.png.md",
-    "assets/Pasted image 20260620142937.png",
-    "未命名 1.canvas",
     "未命名.canvas",
-    "Pasted image 20260620142943.png",
+    "README.md",
+    "未命名.base",
     "templates/tech-note.md",
     "templates/project-doc.md",
-    "templates/learning-note.md"
+    "templates/learning-note.md",
+    "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md",
+    "learning学习/Git基础使用.md",
+    "learning学习/Deepseek.md",
+    "2026-06-20.md",
+    "learning学习/Dify使用.md",
+    "Clippings/Bilibili/2026-06-20-Obsidian+AI 知识库搭建，把 claude code 和 DeepSeek 装进来.md",
+    "Clippings/Bilibili",
+    "Clippings",
+    "notes笔记/life生活/微信机器人.md",
+    "未命名.md",
+    "未命名 1",
+    "未命名",
+    "notes笔记/tech/2026-06-20-python-async.md",
+    "Pasted image 20260620142943.png.md",
+    "未命名 1.canvas",
+    "未命名 1.base",
+    "未命名 4.base",
+    "未命名 3.base",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "未命名 2.base",
+    "assets/Pasted image 20260620142937.png",
+    "未命名 5.base",
+    "Pasted image 20260620142943.png"
   ]
 }

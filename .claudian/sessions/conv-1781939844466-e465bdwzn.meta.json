@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781939844466-e465bdwzn",
+  "providerId": "claude",
+  "title": "Initialize a Git repository",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781939844473,
+  "updatedAt": 1781939852315,
+  "lastResponseAt": 1781939852315,
+  "sessionId": "0003c004-1a13-4778-832b-8193c71e0d9f",
+  "providerState": {
+    "providerSessionId": "0003c004-1a13-4778-832b-8193c71e0d9f"
+  },
+  "currentNote": "projects项目文档/Git基础使用.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 728,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 20352,
+    "contextWindow": 200000,
+    "contextTokens": 21080,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781941122310-acybvhpj1",
+  "providerId": "claude",
+  "title": "Identify AI model",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781941122311,
+  "updatedAt": 1781945660644,
+  "lastResponseAt": 1781941126566,
+  "sessionId": "7526866c-18b0-49ae-a17a-13116fe86da0",
+  "providerState": {
+    "providerSessionId": "7526866c-18b0-49ae-a17a-13116fe86da0"
+  },
+  "currentNote": "projects项目文档/Git基础使用.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 20230,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 20230,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}
