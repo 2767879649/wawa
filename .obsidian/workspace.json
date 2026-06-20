@@ -8,20 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cff61929e20ac8d1",
+            "id": "0aa2af20c7d9361d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/Git基础使用.md",
-                "mode": "source",
+                "file": "learning学习/Dify使用.md",
+                "mode": "preview",
                 "source": false
               },
+              "icon": "lucide-file",
+              "title": "Dify使用"
+            }
+          },
+          {
+            "id": "b6a49f5c0953dbca",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning学习/Git基础使用.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Git基础使用"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,6 +222,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -217,8 +235,13 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "cff61929e20ac8d1",
+  "active": "b6a49f5c0953dbca",
   "lastOpenFiles": [
+    "fast/compose.yml",
+    "fast",
+    "learning学习/Dify使用.md",
+    "learning学习/Git基础使用.md",
+    "learning学习/Deepseek.md",
     "未命名.canvas",
     "README.md",
     "未命名.base",
@@ -226,10 +249,7 @@
     "templates/project-doc.md",
     "templates/learning-note.md",
     "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md",
-    "learning学习/Git基础使用.md",
-    "learning学习/Deepseek.md",
     "2026-06-20.md",
-    "learning学习/Dify使用.md",
     "Clippings/Bilibili/2026-06-20-Obsidian+AI 知识库搭建，把 claude code 和 DeepSeek 装进来.md",
     "Clippings/Bilibili",
     "Clippings",
@@ -247,7 +267,6 @@
     "未命名 2.canvas",
     "未命名 2.base",
     "assets/Pasted image 20260620142937.png",
-    "未命名 5.base",
     "Pasted image 20260620142943.png"
   ]
 }

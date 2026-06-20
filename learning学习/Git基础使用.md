@@ -14,15 +14,15 @@
 ---
 **提交**
 ## 文件分为三种状态：未跟踪→暂存区→本地仓库
-1. 添加文件到暂存区 git add .             
-2. 提交到本地 git commit -m "这里写本次修改内容"
-3. 推送到远程仓库 git push origin 
+1. 添加文件到暂存区 ==git add .==             
+2. 提交到本地 ==git commit -m "这里写本次修改内容"==
+3. 推送到远程仓库 ==git push origin 分支名==
 *出错执行拉取*
-4. 查看修改状态 git status
-## git push -u origin master# 第一次推送需要加‑u绑定分支
+4. 查看修改状态 ==git status==
+*git push -u origin master# 第一次推送需要加‑u绑定分支*
 ---
-**拉取远程代码（提交记录）**
-1.  拉取历史 git pull origin master
+**拉取远程代码（提交记录）**====
+1.  拉取历史 ==git pull origin master====
 2. 本地和远程历史不一致时报错，合并无关历史 git pull origin master --allow-unrelated-histories
 ---
 **分支**

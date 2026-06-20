@@ -5,6 +5,14 @@
       "path": "learning学习/Git基础使用.md"
     },
     {
+      "basename": "Dify使用",
+      "path": "learning学习/Dify使用.md"
+    },
+    {
+      "basename": "Deepseek",
+      "path": "learning学习/Deepseek.md"
+    },
+    {
       "basename": "未命名",
       "path": "未命名.canvas"
     },
@@ -33,16 +41,8 @@
       "path": "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md"
     },
     {
-      "basename": "Deepseek",
-      "path": "learning学习/Deepseek.md"
-    },
-    {
       "basename": "2026-06-20",
       "path": "2026-06-20.md"
-    },
-    {
-      "basename": "Dify使用",
-      "path": "learning学习/Dify使用.md"
     }
   ],
   "omittedPaths": [],
