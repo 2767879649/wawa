@@ -19,7 +19,7 @@ ui-ux-pro-max  用于页面ui设计
 ---
 # 常用
 - ==/context== 查看上下文
-- ==/compact== 压缩上下文，==update CLAUDE.md== ，把
+- ==/compact== 压缩上下文，压缩前先进行==update CLAUDE.md== ，防止进度丢失
 - ==/clear== — 清空会话
 -  ==Shift+Tab== 切换模式
 - - /rewind — 打开回滚菜单，可恢复对话/代码/两者
