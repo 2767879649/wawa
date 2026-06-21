@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "27d41d62f4cf5e8f",
+        "id": "117ac868d0589f65",
         "type": "tabs",
         "children": [
           {
-            "id": "6f83a1073f9c7eb0",
+            "id": "cee9fe5348dbacc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "learning学习/Dify使用.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "Dify使用 的出链列表"
             }
           },
           {
@@ -138,7 +138,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -153,7 +153,7 @@
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning学习/Git基础使用.md",
+                "file": "learning学习/Dify使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git基础使用 的大纲"
+              "title": "Dify使用 的大纲"
             }
           },
           {
@@ -206,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -227,21 +227,23 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "dbacba43b8ad0c9f",
+  "active": "cee9fe5348dbacc9",
   "lastOpenFiles": [
+    "templates/tech-note.md",
+    "templates/learning-note.md",
     "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
+    "notes笔记/tech/2026-06-20-python-async.md",
     "learning学习/Dify使用.md",
+    "templates/project-doc.md",
     "learning学习/Deepseek.md",
     "learning学习/Git基础使用.md",
+    "assets/Pasted image 20260620142937.png",
     "2026-06-20.md",
     "fast/compose.yml",
     "fast",
     "未命名.canvas",
     "README.md",
     "未命名.base",
-    "templates/tech-note.md",
-    "templates/project-doc.md",
-    "templates/learning-note.md",
     "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md",
     "Clippings/Bilibili/2026-06-20-Obsidian+AI 知识库搭建，把 claude code 和 DeepSeek 装进来.md",
     "Clippings/Bilibili",
@@ -250,7 +252,6 @@
     "未命名.md",
     "未命名 1",
     "未命名",
-    "notes笔记/tech/2026-06-20-python-async.md",
     "Pasted image 20260620142943.png.md",
     "未命名 1.canvas",
     "未命名 1.base",
@@ -258,7 +259,6 @@
     "未命名 3.base",
     "未命名 3.canvas",
     "未命名 2.canvas",
-    "assets/Pasted image 20260620142937.png",
     "Pasted image 20260620142943.png"
   ]
 }

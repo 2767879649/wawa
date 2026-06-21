@@ -1,3 +1,4 @@
+#Git
 ![[Pasted image 20260620142943.png]]
 **获取帮助**
 1. git --help 获取命令帮助
