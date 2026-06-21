@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/Dify使用.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dify使用"
+              "title": "README"
             }
           }
         ]
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/Dify使用.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Dify使用 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning学习/Dify使用.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dify使用 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -204,6 +204,18 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "2d6908ce8d92546c",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
           }
         ],
         "currentTab": 3
@@ -229,21 +241,21 @@
   },
   "active": "cee9fe5348dbacc9",
   "lastOpenFiles": [
-    "templates/tech-note.md",
-    "templates/learning-note.md",
-    "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
-    "notes笔记/tech/2026-06-20-python-async.md",
-    "learning学习/Dify使用.md",
-    "templates/project-doc.md",
-    "learning学习/Deepseek.md",
-    "learning学习/Git基础使用.md",
-    "assets/Pasted image 20260620142937.png",
     "2026-06-20.md",
-    "fast/compose.yml",
-    "fast",
     "未命名.canvas",
+    "templates/project-doc.md",
+    "learning学习/Dify使用.md",
+    "learning学习/Git基础使用.md",
+    "learning学习/Deepseek.md",
+    "templates/learning-note.md",
+    "templates/tech-note.md",
     "README.md",
     "未命名.base",
+    "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
+    "notes笔记/tech/2026-06-20-python-async.md",
+    "assets/Pasted image 20260620142937.png",
+    "fast/compose.yml",
+    "fast",
     "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md",
     "Clippings/Bilibili/2026-06-20-Obsidian+AI 知识库搭建，把 claude code 和 DeepSeek 装进来.md",
     "Clippings/Bilibili",

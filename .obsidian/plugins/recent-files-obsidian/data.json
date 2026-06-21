@@ -1,40 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Dify使用",
-      "path": "learning学习/Dify使用.md"
-    },
-    {
-      "basename": "tech-note",
-      "path": "templates/tech-note.md"
-    },
-    {
-      "basename": "learning-note",
-      "path": "templates/learning-note.md"
-    },
-    {
-      "basename": "2026-06-21-三分钟搞懂Docker",
-      "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
-    },
-    {
-      "basename": "2026-06-20-python-async",
-      "path": "notes笔记/tech/2026-06-20-python-async.md"
-    },
-    {
-      "basename": "project-doc",
-      "path": "templates/project-doc.md"
-    },
-    {
-      "basename": "Deepseek",
-      "path": "learning学习/Deepseek.md"
-    },
-    {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
-    },
-    {
-      "basename": "Pasted image 20260620142937",
-      "path": "assets/Pasted image 20260620142937.png"
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "2026-06-20",
@@ -45,12 +13,44 @@
       "path": "未命名.canvas"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "project-doc",
+      "path": "templates/project-doc.md"
+    },
+    {
+      "basename": "Dify使用",
+      "path": "learning学习/Dify使用.md"
+    },
+    {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
+      "basename": "Deepseek",
+      "path": "learning学习/Deepseek.md"
+    },
+    {
+      "basename": "learning-note",
+      "path": "templates/learning-note.md"
+    },
+    {
+      "basename": "tech-note",
+      "path": "templates/tech-note.md"
     },
     {
       "basename": "未命名",
       "path": "未命名.base"
+    },
+    {
+      "basename": "2026-06-21-三分钟搞懂Docker",
+      "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
+    },
+    {
+      "basename": "2026-06-20-python-async",
+      "path": "notes笔记/tech/2026-06-20-python-async.md"
+    },
+    {
+      "basename": "Pasted image 20260620142937",
+      "path": "assets/Pasted image 20260620142937.png"
     },
     {
       "basename": "61839154-d074-4b07-986f-a8c9508fb850_1",
