@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/claude/笔记文件/基础知识.md",
+                "file": "learning学习/claude/笔记文件/技能.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基础知识"
+              "title": "技能"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,11 +255,11 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "6ed06150c4f81cd3",
+  "active": "4e16eacde0ae5371",
   "lastOpenFiles": [
+    "learning学习/claude/claude基础使用.md",
     "learning学习/claude/笔记文件/基础知识.md",
     "心情日记.md",
-    "learning学习/claude/claude基础使用.md",
     "learning学习/claude/笔记文件/技能.md",
     "learning学习/Deepseek.md",
     "learning学习/claude/笔记文件/注意事项.md",
