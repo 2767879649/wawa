@@ -18,8 +18,14 @@ tags:
 - ==/context== 查看上下文
 - ==/compact== 压缩上下文
 - ==/clear== — 清空会话
-- - ==Shift+Tab== 切换模式
-- - ==/rewind==  回滚代码
+-  ==Shift+Tab== 切换模式
+- - /rewind — 打开回滚菜单，可恢复对话/代码/两者
+- ==/effort== — 设置推理深度（low / medium / high / max）
+- - /hooks — 查看已配置的 hooks
+- - /mcp — 管理 MCP 服务器连接
+- - /model — 切换当前使用的模型
+- - /schedule — 云端定时任务（电脑关机照样按时跑）
+- ==/export== — 导出当前会话为纯文本
 - ==**ultrathink**==+问题，会让模型这一轮想得更深，啃硬骨头那一问再加。
 - ==/init== 保存记忆文件，生成 CLAUDE.md，每个项目开工时一次
 - ==update CLAUDE.md== ，把进度写进记忆，每完成一个功能使用
@@ -28,8 +34,7 @@ tags:
 -
 
 ---
-# 基础知识
-
+# 基础知识[[基础知识]]
 
 1. 到底该用哪个？四行判断标准
 - 让 Claude 稳定完成某个流程：写 Skill
@@ -39,6 +44,31 @@ tags:
 大礼包 · Plugins：整个职位打包安装
 安装Superpowers**——开发最佳实践包：先头脑风暴钉死需求 → 写计划 → 分批执行 → 审查。大项目开工前说一句 先用 Superpowers 头脑风暴，只梳理需求，不写代码，它会一个问题一个问题把你的模糊需求钉死。
 
+## 1.权限模式
+
+不同模式下运行时获得的权限不同，这影响了人的介入范围和安全性
+### 1.1 Default（默认模式）
+
+启动后即处于此模式。所有操作都会弹出确认框，需逐条审批。
+
+![](https://imgheybox.max-c.com/web/bbs/2026/05/12/7151ce81ff6a886da6d5cecb78bb8016/thumb.png?imageMogr2/format/webp/quality/75/ignore-error/1/auto-orient)
+
+**适用场景**：生产环境操作、敏感配置修改、新项目的初次探索。不确定 Claude 会做什么时，Default 最安全。
+### 1.2 Plan（规划模式）
+此模式下Claude 可以读文件、分析代码、提出方案，但**不能修改任何文件，不能执行任何命令**。
+
+![](https://imgheybox.max-c.com/web/bbs/2026/05/12/4220100daf4b9c5c41e04e1e2892922a/thumb.png?imageMogr2/format/webp/quality/75/ignore-error/1/auto-orient)
+
+使用cc最浪费 token 的用法是：**边做边改，反复返工**。cc写了个方案，你发现不对，让它重写，它改了一半，你又发现新问题，再调整……几个来回下来，tokens烧了不少，项目还没成型。
+
+Plan 模式就是为了打破这个循环，它的核心理念很简单：**把「讨论方案」和「执行方案」彻底分开**。在 Plan 模式下，Claude 只能读文件、提方案，不能修改任何代码。你们来回讨论、细化、确认，直到方案双方都认可，**再切换回执行模式一次性完成**。用低成本的文本讨论替代高成本的实际试错，把不确定性消灭在执行之前。
+### 1.3 Accept Edits（自动编辑）
+
+文件编辑自动放行，命令执行仍需确认。日常开发最常用的模式。
+
+![](https://imgheybox.max-c.com/web/bbs/2026/05/12/e5d0d6164bb2d72583c94642b2df8dd1/thumb.png?imageMogr2/format/webp/quality/75/ignore-error/1/auto-orient)
+
+**适用场景**：大量文件的日常修改、样式调整等。省去反复审批，但命令执行仍由你把关
 ## 2.记忆系统
 
 ### 2.1 CLAUDE.md
