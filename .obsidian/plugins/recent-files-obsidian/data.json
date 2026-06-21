@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "基础使用",
-      "path": "learning学习/claude/基础使用.md"
+      "basename": "claude基础使用",
+      "path": "learning学习/claude/claude基础使用.md"
     },
     {
-      "basename": "注意事项",
-      "path": "learning学习/claude/注意事项.md"
+      "basename": "Deepseek",
+      "path": "learning学习/Deepseek.md"
     },
     {
       "basename": "技能",
-      "path": "learning学习/claude/技能.md"
+      "path": "learning学习/claude/笔记文件/技能.md"
+    },
+    {
+      "basename": "注意事项",
+      "path": "learning学习/claude/笔记文件/注意事项.md"
     },
     {
       "basename": "个人主页",
@@ -19,10 +23,6 @@
     {
       "basename": "()",
       "path": "().md"
-    },
-    {
-      "basename": "Deepseek",
-      "path": "learning学习/Deepseek.md"
     },
     {
       "basename": "个人网站",
