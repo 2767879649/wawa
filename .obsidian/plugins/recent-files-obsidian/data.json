@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
-    },
-    {
       "basename": "Dify使用",
       "path": "learning学习/Dify使用.md"
     },
@@ -13,12 +9,16 @@
       "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
     },
     {
-      "basename": "2026-06-20",
-      "path": "2026-06-20.md"
-    },
-    {
       "basename": "Deepseek",
       "path": "learning学习/Deepseek.md"
+    },
+    {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
+      "basename": "2026-06-20",
+      "path": "2026-06-20.md"
     },
     {
       "basename": "未命名",
