@@ -16,6 +16,8 @@ tags:
 使用的skill
 ui-ux-pro-max  用于页面ui设计
 
+Superpowers 用于初期方案设计
+
 ---
 # 常用
 - ==/context== 查看上下文
