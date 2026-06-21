@@ -15,16 +15,22 @@ tags:
 
 ---
 # 常用
-- /context 查看上下文
-- /compact 压缩上下文
+- ==/context== 查看上下文
+- ==/compact== 压缩上下文
+- ==/clear== — 清空会话
+- - ==Shift+Tab== 切换模式
+- - ==/rewind==  回滚代码
 - ==**ultrathink**==+问题，会让模型这一轮想得更深，啃硬骨头那一问再加。
 - ==/init== 保存记忆文件，生成 CLAUDE.md，每个项目开工时一次
 - ==update CLAUDE.md== ，把进度写进记忆，每完成一个功能使用
-- ==/rewind==  回滚代码
-- /btw +问题，不打断主任务，并且本次提问不会存入主对话上下文，不会干扰钩子代码执行逻辑
+- ==/btw +问题==，不打断主任务，并且本次提问不会存入主对话上下文，不会干扰钩子代码执行逻辑
+- ==/resume== — 恢复会话
+-
 
 ---
-# 基本常识
+# 基础知识
+
+
 1. 到底该用哪个？四行判断标准
 - 让 Claude 稳定完成某个流程：写 Skill
 - 让 Claude 能用某个外部服务 / 工具：装 MCP / 连接器
@@ -33,6 +39,19 @@ tags:
 大礼包 · Plugins：整个职位打包安装
 安装Superpowers**——开发最佳实践包：先头脑风暴钉死需求 → 写计划 → 分批执行 → 审查。大项目开工前说一句 先用 Superpowers 头脑风暴，只梳理需求，不写代码，它会一个问题一个问题把你的模糊需求钉死。
 
+## 2.记忆系统
+
+### 2.1 CLAUDE.md
+CLAUDE.md 不只是一个文件，而是一套层级系统。Claude Code 启动时会自动按层级顺序读取多个位置的 CLAUDE.md：
+
+![](https://imgheybox.max-c.com/web/bbs/2026/05/12/0397f762899bf94ea6ef47d85329dad0/thumb.png?imageMogr2/format/webp/quality/75/ignore-error/1/auto-orient)
+
+==CLAUDE.md应该保持精简，不要过长==
+### 2.2 Auto Memory
+除了CLAUDE.md ，Claude 还有一个自动记忆系统，会往独立的文件里记录偏好和习惯，跟手写的 CLAUDE.md 互不干扰。默认开启。每次新会话，自动记忆文件也不像CLAUDE.md全部加载进上下文，只是按需加载
+
+- **CLAUDE.md**：适合团队共享，检入 git，你主动维护，结构化、有组织
+- **Auto Memory**：适合个人偏好，存在本地，Claude 自动维护，零散、按时间累积
 ---
 
 # [[注意事项]]
