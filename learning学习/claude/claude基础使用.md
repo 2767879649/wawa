@@ -14,12 +14,12 @@ tags:
 | **最后定外观** | 有喜欢的产品风格就给截图或参考链接；没有就说：保持简单、干净、像一份排版讲究的电子报纸。    |
 |           |                                                 |
 使用的skill
-ui-ux-pro-max
+ui-ux-pro-max  用于页面ui设计
 
 ---
 # 常用
 - ==/context== 查看上下文
-- ==/compact== 压缩上下文
+- ==/compact== 压缩上下文，==update CLAUDE.md== ，把
 - ==/clear== — 清空会话
 -  ==Shift+Tab== 切换模式
 - - /rewind — 打开回滚菜单，可恢复对话/代码/两者
