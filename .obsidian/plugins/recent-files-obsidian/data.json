@@ -5,12 +5,24 @@
       "path": "learning学习/claude/基础使用.md"
     },
     {
+      "basename": "注意事项",
+      "path": "learning学习/claude/注意事项.md"
+    },
+    {
       "basename": "技能",
       "path": "learning学习/claude/技能.md"
     },
     {
-      "basename": "注意事项",
-      "path": "learning学习/claude/注意事项.md"
+      "basename": "个人主页",
+      "path": "learning学习/claude/实验案例/个人主页.md"
+    },
+    {
+      "basename": "()",
+      "path": "().md"
+    },
+    {
+      "basename": "Deepseek",
+      "path": "learning学习/Deepseek.md"
     },
     {
       "basename": "个人网站",
@@ -19,10 +31,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Deepseek",
-      "path": "learning学习/Deepseek.md"
     },
     {
       "basename": "2026-06-20",
