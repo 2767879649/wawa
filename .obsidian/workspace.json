@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "deep",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -241,15 +241,15 @@
   },
   "active": "cee9fe5348dbacc9",
   "lastOpenFiles": [
+    "learning学习/Deepseek.md",
+    "README.md",
     "2026-06-20.md",
     "未命名.canvas",
     "templates/project-doc.md",
     "learning学习/Dify使用.md",
     "learning学习/Git基础使用.md",
-    "learning学习/Deepseek.md",
     "templates/learning-note.md",
     "templates/tech-note.md",
-    "README.md",
     "未命名.base",
     "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
     "notes笔记/tech/2026-06-20-python-async.md",

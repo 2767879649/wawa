@@ -5,6 +5,10 @@
       "path": "README.md"
     },
     {
+      "basename": "Deepseek",
+      "path": "learning学习/Deepseek.md"
+    },
+    {
       "basename": "2026-06-20",
       "path": "2026-06-20.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
-    },
-    {
-      "basename": "Deepseek",
-      "path": "learning学习/Deepseek.md"
     },
     {
       "basename": "learning-note",
