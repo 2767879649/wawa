@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "个人日报",
+      "path": "learning学习/claude/实验案例/个人日报.md"
+    },
+    {
+      "basename": "心情日记",
+      "path": "learning学习/claude/实验案例/心情日记.md"
+    },
+    {
       "basename": "claude基础使用",
       "path": "learning学习/claude/claude基础使用.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "模型",
       "path": "learning学习/模型.md"
-    },
-    {
-      "basename": "心情日记",
-      "path": "心情日记.md"
     },
     {
       "basename": "技能",
