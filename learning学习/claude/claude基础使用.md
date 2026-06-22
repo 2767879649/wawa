@@ -28,6 +28,7 @@ Superpowers 用于初期方案设计
 - ==/compact== 压缩上下文，压缩前先进行==update CLAUDE.md== ，防止进度丢失
 - ==/clear== — 清空会话
 -  ==Shift+Tab== 切换模式
+- 
 - - /rewind — 打开回滚菜单，可恢复对话/代码/两者
 - ==/effort== — 设置推理深度（low / medium / high / max）
 - - /hooks — 查看已配置的 hooks
