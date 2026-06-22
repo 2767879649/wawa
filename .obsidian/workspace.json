@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/claude/claude基础使用.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -49,8 +49,7 @@
               "title": "Deepseek"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -269,8 +268,9 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "4e16eacde0ae5371",
+  "active": "6ed06150c4f81cd3",
   "lastOpenFiles": [
+    "learning学习/claude/实验案例/个人主页.md",
     "心情日记.md",
     "learning学习/Deepseek.md",
     "learning学习/claude/claude基础使用.md",
@@ -279,7 +279,6 @@
     "learning学习/claude/笔记文件/注意事项.md",
     "learning学习/claude/笔记文件/网页上线前检查.md",
     "learning学习/claude/笔记文件",
-    "learning学习/claude/实验案例/个人主页.md",
     "().md",
     "learning学习/claude/实验案例/index.html",
     "learning学习/claude/实验案例",

@@ -23,6 +23,7 @@ Superpowers 用于初期方案设计
 
 ---
 # 常用
+正常使用deepseek，建立网页shi'yo
 - ==/context== 查看上下文
 - ==/compact== 压缩上下文，压缩前先进行==update CLAUDE.md== ，防止进度丢失
 - ==/clear== — 清空会话
