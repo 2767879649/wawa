@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "模型",
+      "path": "learning学习/模型.md"
+    },
+    {
       "basename": "claude基础使用",
       "path": "learning学习/claude/claude基础使用.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "心情日记",
       "path": "心情日记.md"
-    },
-    {
-      "basename": "Deepseek",
-      "path": "learning学习/Deepseek.md"
     },
     {
       "basename": "技能",
