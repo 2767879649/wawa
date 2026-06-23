@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-06-23",
+      "path": "2026-06-23.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.canvas"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.base"
+    },
+    {
       "basename": "模型API",
       "path": "learning学习/模型API.md"
     },
@@ -57,14 +69,6 @@
       "path": "README.md"
     },
     {
-      "basename": "2026-06-20",
-      "path": "2026-06-20.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.canvas"
-    },
-    {
       "basename": "project-doc",
       "path": "templates/project-doc.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "tech-note",
       "path": "templates/tech-note.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.base"
     },
     {
       "basename": "2026-06-21-三分钟搞懂Docker",
