@@ -85,18 +85,19 @@ function extractFromSection(
   if (section.heading) {
     const listItems = extractListItems(section.body);
     const boldItems = extractBoldSegments(section.body);
+    const rawOptionItems = extractRawOptionLines(section.body);
 
-    if (listItems.length > 0) {
+    // 选择题优先检测
+    const allOptionItems = listItems.length > 0 ? listItems : rawOptionItems;
+    if (isMultipleChoice(allOptionItems)) {
       const question = generateQuestionFromHeading(section.heading);
-      if (isMultipleChoice(listItems)) {
-        // 选择题：保留全部选项，标记正确答案
-        const answer = formatMultipleChoiceAnswer(listItems);
+      const answer = formatMultipleChoiceAnswer(allOptionItems);
+      questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
+    } else if (listItems.length > 0) {
+      const question = generateQuestionFromHeading(section.heading);
+      const answer = listItems.join("\n");
+      if (answer.trim()) {
         questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
-      } else {
-        const answer = listItems.join("\n");
-        if (answer.trim()) {
-          questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
-        }
       }
     } else if (boldItems.length > 0) {
       const question = generateQuestionFromHeading(section.heading);
@@ -122,11 +123,13 @@ function extractFromSection(
   // 无标题节
   const listItems = extractListItems(section.body);
   const boldItems = extractBoldSegments(section.body);
+  const rawOptionItems = extractRawOptionLines(section.body);
 
-  // 检查列表项是否为选择题格式
-  if (isMultipleChoice(listItems)) {
-    const question = generateQuestionFromHeading(section.heading || "以下题目");
-    const answer = formatMultipleChoiceAnswer(listItems);
+  // 检查列表项或原始选项行是否为选择题格式
+  const allOptionItems = listItems.length > 0 ? listItems : rawOptionItems;
+  if (isMultipleChoice(allOptionItems)) {
+    const question = generateQuestionFromHeading(section.heading || extractContextBeforeOptions(section.body, allOptionItems[0]));
+    const answer = formatMultipleChoiceAnswer(allOptionItems);
     questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
     return questions;
   }
@@ -276,6 +279,10 @@ function splitListItem(item: string): { question: string; answer: string } {
     }
   }
   if (item.length > 5) {
+    // 如果是选项格式，生成选择题题面
+    if (/^[A-D]([).、．]\s*|\s+)/.test(item)) {
+      return { question: "以下哪个选项是正确的？", answer: item };
+    }
     return { question: "", answer: item };
   }
   return { question: "", answer: "" };
@@ -312,10 +319,29 @@ function cleanBody(body: string[]): string {
     .trim();
 }
 
+/** 从原始行中提取以 A-D 开头的选项行（不依赖列表标记） */
+function extractRawOptionLines(body: string[]): string[] {
+  return body
+    .map((line) => line.trim())
+    .filter((line) => /^[A-D]([).、．]\s*|\s+)/.test(line));
+}
+
+/** 从选项中提取题干上下文（选项之前的问句行） */
+function extractContextBeforeOptions(body: string[], firstOption: string): string {
+  const optIdx = body.findIndex((line) => line.trim() === firstOption);
+  if (optIdx > 0) {
+    const prevLine = body[optIdx - 1].trim();
+    if (prevLine && !/^[A-D]([).、．]\s*|\s+)/.test(prevLine)) {
+      return prevLine;
+    }
+  }
+  return "以下题目";
+}
+
 /** 判断列表项是否为选择题选项（A. B. C. D. 格式） */
 function isMultipleChoice(items: string[]): boolean {
   if (items.length < 2) return false;
-  const optionPattern = /^[A-D][).、．]\s*/;
+  const optionPattern = /^[A-D]([).、．]\s*|\s+)/;
   const matchCount = items.filter((item) => optionPattern.test(item)).length;
   return matchCount >= 2 && matchCount >= items.length * 0.5;
 }
@@ -323,8 +349,8 @@ function isMultipleChoice(items: string[]): boolean {
 /** 格式化选择题答案：保留全部选项，首个匹配的为正确答案 */
 function formatMultipleChoiceAnswer(items: string[]): string {
   const options = items.map((item) => {
-    const cleaned = item.replace(/^[A-D][).、．]\s*/, "").trim();
-    const label = item.match(/^([A-D])[).、．]/)?.[1] || "";
+    const cleaned = item.replace(/^[A-D]([).、．]\s*|\s+)/, "").trim();
+    const label = item.match(/^([A-D])/)?.[1] || "";
     return { label, text: cleaned };
   });
 
@@ -346,9 +372,9 @@ function formatMultipleChoiceAnswer(items: string[]): string {
 function extractInlineMultipleChoice(body: string[]): string | null {
   const fullText = body.join(" ");
   // 匹配 A.xxx B.xxx C.xxx D.xxx 内联格式
-  const match = fullText.match(/([A-D][).、．]\s*[^\s]+(?:\s+[A-D][).、．]\s*[^\s]+){2,})/);
+  const match = fullText.match(/([A-D]([).、．]\s*|\s+)[^\s]+(?:\s+[A-D]([).、．]\s*|\s+)[^\s]+){1,})/);
   if (match) {
-    const options = match[1].split(/\s+(?=[A-D][).、．])/);
+    const options = match[1].split(/\s+(?=[A-D]([).、．]\s*|\s+))/);
     const formatted = options.map((opt) => opt.trim()).join("\n");
     return "答案：全部选项如下\n" + formatted;
   }

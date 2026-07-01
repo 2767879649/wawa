@@ -183,3 +183,51 @@
   overflow-y: auto;
   margin-bottom: 16px;
 }
+
+/* 选择题选项样式 */
+.quiz-option-row {
+  display: flex;
+  align-items: baseline;
+  padding: 4px 0;
+  gap: 8px;
+}
+
+.quiz-option-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--background-modifier-border);
+  color: var(--text-muted);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.quiz-option-label.quiz-option-correct {
+  background: var(--color-green);
+  color: #fff;
+}
+
+.quiz-option-text {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.quiz-option-text.quiz-option-correct {
+  color: var(--text-normal);
+  font-weight: 600;
+}
+
+.quiz-option-check {
+  color: var(--color-green);
+  font-weight: 700;
+}
+
+.quiz-answer-note {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin: 4px 0;
+}

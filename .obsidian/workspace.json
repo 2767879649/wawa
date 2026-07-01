@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/嵌入式.md",
+                "file": "learning学习/模型API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "嵌入式"
+              "title": "模型API"
             }
           },
           {
@@ -302,9 +302,9 @@
           }
         ],
         "direction": "vertical",
-        "x": 853,
+        "x": 852,
         "y": 0,
-        "width": 854,
+        "width": 858,
         "height": 456,
         "maximize": false,
         "zoom": 0
@@ -313,11 +313,13 @@
   },
   "active": "4e16eacde0ae5371",
   "lastOpenFiles": [
-    "learning学习/模型API.md",
+    "learning学习/备考/题库.md",
+    "learning学习/Dify使用.md",
     "learning学习/备考/嵌入式.md",
+    "嵌入式.md",
+    "learning学习/模型API.md",
     "考试.md",
     "未命名 1.canvas",
-    "嵌入式.md",
     "智能.md",
     "learning学习/备考",
     "未命名",
@@ -325,7 +327,6 @@
     "().md",
     "未命名.canvas",
     "未命名.base",
-    "learning学习/Dify使用.md",
     "learning学习/Git基础使用.md",
     "learning学习/claude/实验案例/个人主页.md",
     "learning学习/claude/实验案例/心情日记.md",

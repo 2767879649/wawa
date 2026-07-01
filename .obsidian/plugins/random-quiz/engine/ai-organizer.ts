@@ -4,6 +4,13 @@ import { RandomQuizSettings, QuestionItem } from "../settings";
 import { extractQuestions } from "./rule-extractor";
 import { normalizeQAPairs, searchAndAnswer, generateQuestionsFromText } from "./ai-extractor";
 
+/** 检查答案是否包含选择题选项 */
+function hasChoiceOptions(answer: string): boolean {
+  const lines = answer.split("\n");
+  const optionCount = lines.filter((l) => /^[A-D]([).、．]\s*|\s+)/.test(l.trim())).length;
+  return optionCount >= 2;
+}
+
 /**
  * AI 智能整理器：自动识别题目段落 + 搜索答案 + 格式规范化
  */
@@ -36,11 +43,15 @@ export class AIOrganizer {
       }
     }
 
-    // 第三步：格式规范化
+    // 第三步：格式规范化（保护选择题选项不被 AI 丢弃）
     if (this.settings.normalizeFormat && this.settings.aiApiKey && items.length > 0) {
+      const before = items.map((i) => ({ question: i.question, answer: i.answer, hasOptions: hasChoiceOptions(i.answer) }));
       items = await normalizeQAPairs(items, this.settings);
-      for (const item of items) {
-        item.sourceFile = file.path;
+      for (let i = 0; i < items.length; i++) {
+        if (before[i]?.hasOptions && !hasChoiceOptions(items[i].answer)) {
+          items[i].answer = before[i].answer;
+        }
+        items[i].sourceFile = file.path;
       }
     }
 
@@ -70,9 +81,15 @@ export class AIOrganizer {
       }
     }
 
-    // 规范化
+    // 规范化（保护选项）
     if (this.settings.normalizeFormat && this.settings.aiApiKey && items.length > 0) {
+      const before = items.map((i) => ({ answer: i.answer, hasOptions: hasChoiceOptions(i.answer) }));
       items = await normalizeQAPairs(items, this.settings);
+      for (let i = 0; i < items.length; i++) {
+        if (before[i]?.hasOptions && !hasChoiceOptions(items[i].answer)) {
+          items[i].answer = before[i].answer;
+        }
+      }
     }
 
     return items;

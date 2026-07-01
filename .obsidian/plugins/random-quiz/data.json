@@ -1,7 +1,7 @@
 {
   "targetFolder": "learning学习/备考/",
   "excludePatterns": "",
-  "aiApiKey": "sk-432aa370f3a04b49ae2b14900ec3c156",
+  "aiApiKey": "",
   "aiEndpoint": "https://api.deepseek.com/v1/chat/completions",
   "aiModel": "deepseek-chat",
   "questionsPerRound": 10,
@@ -10,6 +10,16 @@
   "aiDetectQuestions": true,
   "normalizeFormat": true,
   "outputFile": "learning学习/备考/题库.md",
-  "items": [],
-  "updatedAt": 1782900149993
+  "items": [
+    {
+      "id": "imported-text::5::1782901043393",
+      "question": "在中断处理函数中，不能调用的函数是什么？",
+      "answer": "在中断处理函数中，不能调用的函数是()。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 5,
+      "createdAt": 1782901043393,
+      "answerSource": "extracted"
+    }
+  ],
+  "updatedAt": 1782901068679
 }

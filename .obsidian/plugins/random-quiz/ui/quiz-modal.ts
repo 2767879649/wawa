@@ -126,7 +126,7 @@ export class QuizModal extends Modal {
 
 /** 判断答案是否包含选择题选项 */
 function isChoiceAnswer(answer: string): boolean {
-  return /[A-D][).、．]\s/.test(answer);
+  return /[A-D]([).、．]\s*|\s+)/.test(answer);
 }
 
 /** 渲染选择题选项，高亮正确答案 */
@@ -138,7 +138,7 @@ function renderChoiceAnswer(answer: string): HTMLElement {
     const trimmed = line.trim();
     if (!trimmed) continue;
 
-    const optionMatch = trimmed.match(/^([A-D])[).、．]\s*(.+)/);
+    const optionMatch = trimmed.match(/^([A-D])([).、．]\s*|\s+)(.+)/);
     if (optionMatch) {
       const row = container.createEl("div", { cls: "quiz-option-row" });
       const isCorrect = /\*\*\[✓\]\*\*/.test(trimmed);
@@ -148,7 +148,7 @@ function renderChoiceAnswer(answer: string): HTMLElement {
         text: optionMatch[1],
       });
 
-      const text = optionMatch[2].replace(/\*\*\[✓\]\*\*/, "").trim();
+      const text = optionMatch[3].replace(/\*\*\[✓\]\*\*/, "").trim();
       const textEl = row.createEl("span", {
         cls: `quiz-option-text${isCorrect ? " quiz-option-correct" : ""}`,
         text,
