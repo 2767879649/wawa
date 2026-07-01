@@ -1,0 +1,119 @@
+/* 随机题目抽取插件样式 */
+
+.random-quiz-modal {
+  padding: 16px;
+  max-width: 600px;
+}
+
+.random-quiz-modal .quiz-progress {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.random-quiz-modal .quiz-source {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.random-quiz-modal .quiz-question {
+  margin-bottom: 20px;
+}
+
+.random-quiz-modal .quiz-question strong {
+  display: block;
+  font-size: 14px;
+  color: var(--text-accent);
+  margin-bottom: 8px;
+}
+
+.random-quiz-modal .quiz-question p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-normal);
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--background-primary-alt);
+  border-radius: 8px;
+  border-left: 4px solid var(--interactive-accent);
+}
+
+.random-quiz-modal .quiz-answer-container {
+  margin-bottom: 20px;
+  min-height: 60px;
+}
+
+.random-quiz-modal .quiz-answer-label {
+  margin-bottom: 8px;
+}
+
+.random-quiz-modal .quiz-answer-label strong {
+  font-size: 14px;
+  color: var(--text-success);
+}
+
+.random-quiz-modal .quiz-answer {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-normal);
+  padding: 12px 16px;
+  background: var(--background-secondary);
+  border-radius: 8px;
+  border-left: 4px solid var(--color-green);
+  white-space: pre-wrap;
+}
+
+.random-quiz-modal .quiz-reveal-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.random-quiz-modal .quiz-reveal-btn:hover {
+  background: var(--interactive-accent-hover);
+}
+
+.random-quiz-modal .quiz-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-top: 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.random-quiz-modal .quiz-buttons button {
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  transition: background-color 0.2s;
+}
+
+.random-quiz-modal .quiz-buttons button:hover {
+  background: var(--background-modifier-hover);
+}
+
+.random-quiz-modal .quiz-next-btn,
+.random-quiz-modal .quiz-finish-btn {
+  background: var(--interactive-accent) !important;
+  color: var(--text-on-accent) !important;
+  border: none !important;
+}
+
+.random-quiz-modal .quiz-next-btn:hover,
+.random-quiz-modal .quiz-finish-btn:hover {
+  background: var(--interactive-accent-hover) !important;
+}

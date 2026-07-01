@@ -2,7 +2,19 @@
   "recentFiles": [
     {
       "basename": "嵌入式",
+      "path": "learning学习/备考/嵌入式.md"
+    },
+    {
+      "basename": "模型API",
+      "path": "learning学习/模型API.md"
+    },
+    {
+      "basename": "嵌入式",
       "path": "嵌入式.md"
+    },
+    {
+      "basename": "智能",
+      "path": "智能.md"
     },
     {
       "basename": "考试",
@@ -23,10 +35,6 @@
     {
       "basename": "未命名",
       "path": "未命名.base"
-    },
-    {
-      "basename": "模型API",
-      "path": "learning学习/模型API.md"
     },
     {
       "basename": "Dify使用",
