@@ -9,12 +9,12 @@
       "path": "learning学习/备考/题库.md"
     },
     {
-      "basename": "claude基础使用",
-      "path": "learning学习/claude/claude基础使用.md"
-    },
-    {
       "basename": "模型API",
       "path": "learning学习/模型API.md"
+    },
+    {
+      "basename": "claude基础使用",
+      "path": "learning学习/claude/claude基础使用.md"
     },
     {
       "basename": "未命名 1",

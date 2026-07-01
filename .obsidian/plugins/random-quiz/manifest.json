@@ -1,9 +1,0 @@
-{
-  "id": "random-quiz",
-  "name": "随机题目抽取",
-  "version": "1.0.0",
-  "minAppVersion": "0.15.0",
-  "description": "从文档中自动提取题目，随机展示用于复习备考",
-  "author": "Your Name",
-  "isDesktopOnly": false
-}
