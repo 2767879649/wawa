@@ -258,6 +258,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "question-extractor:抽题组卷": false,
+      "question-extractor:导入题目": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "obsidian-git:Open Git source control": false,
@@ -268,8 +270,7 @@
       "bases:新建数据库": false,
       "realclaudian:Open Claudian": false,
       "omnisearch:Omnisearch": false,
-      "random-note:开始漫游笔记": false,
-      "random-quiz:随机抽题": false
+      "random-note:开始漫游笔记": false
     }
   },
   "active": "4e16eacde0ae5371",

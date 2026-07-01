@@ -1,0 +1,9 @@
+{
+  "id": "question-extractor",
+  "name": "自动抽题备考",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "题库管理、随机抽题组卷、错题本、智能复习的备考插件",
+  "author": "",
+  "isDesktopOnly": true
+}

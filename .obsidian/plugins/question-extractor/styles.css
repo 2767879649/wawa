@@ -1,0 +1,151 @@
+/* 抽题插件样式 */
+
+/* 通用 */
+.qe-hint {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.qe-status {
+  font-size: 0.85em;
+  color: var(--text-accent);
+  margin-top: 8px;
+}
+
+.qe-btn-row {
+  display: flex;
+  gap: 8px;
+}
+
+.qe-btn-primary {
+  padding: 6px 16px;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.qe-btn-primary:hover {
+  background: var(--interactive-accent-hover);
+}
+
+.qe-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Tab 切换 */
+.qe-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.qe-tab {
+  padding: 6px 14px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9em;
+}
+
+.qe-tab.active {
+  color: var(--text-accent);
+  border-bottom-color: var(--interactive-accent);
+}
+
+.qe-tab:hover {
+  color: var(--text-normal);
+}
+
+/* 面板 */
+.qe-panel {
+  min-height: 200px;
+}
+
+.qe-panel-item textarea {
+  font-family: var(--font-monospace);
+  font-size: 0.9em;
+  padding: 8px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  resize: vertical;
+}
+
+/* 错题本视图 */
+.qe-wrong-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.qe-wrong-item {
+  padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: var(--background-primary);
+  transition: background 0.15s;
+}
+
+.qe-wrong-item:hover {
+  background: var(--background-secondary-alt);
+}
+
+.qe-wrong-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.qe-wrong-badge {
+  font-weight: 600;
+  font-size: 0.85em;
+  background: var(--background-modifier-error);
+  color: var(--text-error);
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+
+.qe-wrong-count {
+  font-size: 0.8em;
+  color: var(--text-error);
+}
+
+.qe-wrong-tags {
+  font-size: 0.75em;
+  color: var(--text-muted);
+}
+
+.qe-wrong-preview {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  margin-top: 4px;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* 试卷生成后的选项样式 */
+.exam-choices {
+  margin-left: 20px;
+}
+
+.exam-answer-block {
+  background: var(--background-secondary);
+  border-left: 3px solid var(--interactive-accent);
+  padding: 8px 12px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
