@@ -67,6 +67,27 @@ export class QuizModal extends Modal {
     questionEl.createEl("strong", { text: "题目：" });
     questionEl.createEl("p", { text: item.question });
 
+    // 选项列表（在题目下方始终显示，不依赖答案揭示）
+    if (item.options && item.options.length > 0) {
+      const optionsContainer = contentEl.createEl("div", { cls: "quiz-options-container" });
+      const labels = ["A", "B", "C", "D", "E", "F"];
+      for (let i = 0; i < item.options.length; i++) {
+        const row = optionsContainer.createEl("div", { cls: "quiz-option-row" });
+        const isCorrect = this.answerRevealed && i === (item.correctIndex ?? 0);
+        row.createEl("span", {
+          cls: `quiz-option-label${isCorrect ? " quiz-option-correct" : ""}`,
+          text: labels[i] || String(i),
+        });
+        row.createEl("span", {
+          cls: `quiz-option-text${isCorrect ? " quiz-option-correct" : ""}`,
+          text: item.options[i],
+        });
+        if (isCorrect) {
+          row.createEl("span", { cls: "quiz-option-check", text: " ✓" });
+        }
+      }
+    }
+
     // 答案区域
     const answerContainer = contentEl.createEl("div", { cls: "quiz-answer-container" });
 
@@ -78,6 +99,17 @@ export class QuizModal extends Modal {
       revealBtn.addEventListener("click", () => {
         this.answerRevealed = true;
         this.displayQuestion();
+      });
+    } else if (item.options && item.options.length > 0) {
+      // 结构化选项：只显示正确答案
+      const correctIdx = item.correctIndex ?? 0;
+      const label = ["A", "B", "C", "D", "E", "F"][correctIdx] || "?";
+      answerContainer.createEl("div", { cls: "quiz-answer-label" }).createEl("strong", {
+        text: "答案：",
+      });
+      answerContainer.createEl("div", {
+        cls: "quiz-answer",
+        text: `${label}. ${item.options[correctIdx] || item.answer}`,
       });
     } else {
       answerContainer.createEl("div", { cls: "quiz-answer-label" }).createEl("strong", {

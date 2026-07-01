@@ -185,6 +185,14 @@
 }
 
 /* 选择题选项样式 */
+.quiz-options-container {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background: var(--background-primary-alt);
+  border-radius: 8px;
+  border-left: 4px solid var(--interactive-accent);
+}
+
 .quiz-option-row {
   display: flex;
   align-items: baseline;

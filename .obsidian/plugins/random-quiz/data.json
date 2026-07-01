@@ -188,7 +188,97 @@
       "sectionIndex": 45,
       "createdAt": 1782903994969,
       "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::0::1782905453505",
+      "question": "Linux命令中，查询当前文件夹绝对路径的命令是什么？",
+      "answer": "Linux命令中，查询当前文件夹绝对路径的命令是pwd。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 0,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::5::1782905453505",
+      "question": "决定Shell将到哪些目录中寻找命令的环境变量是什么？",
+      "answer": "决定Shell将到哪些目录中寻找命令的环境变量是PATH。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 5,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::10::1782905453505",
+      "question": "最简的I2C通信需要几根信号线（地线除外）？",
+      "answer": "最简的I2C通信需要2根信号线（地线除外）。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 10,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::15::1782905453505",
+      "question": "以下不是嵌入式操作系统的是？",
+      "answer": "以下不是嵌入式操作系统的是Windows。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 15,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::20::1782905453505",
+      "question": "用于卸载Linux内核模块的命令是什么？",
+      "answer": "用于卸载Linux内核模块的命令是rmmod。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 20,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::25::1782905453505",
+      "question": "在ARM处理器中，复位后CPU通常从哪个地址取第一条指令？",
+      "answer": "在ARM处理器中，复位后CPU通常从0x00000000地址取第一条指令。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 25,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::30::1782905453505",
+      "question": "下面关于冯·诺依曼结构描述正确的是？",
+      "answer": "下面关于冯·诺依曼结构描述正确的是：程序和数据共用同一存储空间。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 30,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::35::1782905453505",
+      "question": "以下不属于串行通信方式的接口是？",
+      "answer": "以下不属于串行通信方式的接口是并行接口。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 35,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::40::1782905453505",
+      "question": "以下哪个命令用于查看当前Linux系统中已注册的设备号信息？",
+      "answer": "用于查看当前Linux系统中已注册的设备号信息的命令是cat /proc/devices。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 40,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::45::1782905453505",
+      "question": "Linux命令执行期间，按下键盘哪个键能终止当前运行的命令？",
+      "answer": "Linux命令执行期间，按下键盘Ctrl+C键能终止当前运行的命令。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 45,
+      "createdAt": 1782905453505,
+      "answerSource": "extracted"
     }
   ],
-  "updatedAt": 1782904012294
+  "updatedAt": 1782905468035
 }

@@ -102,8 +102,8 @@ function extractFromSection(section, sourceFile, sectionIndex) {
     const allOptionItems2 = listItems2.length > 0 ? listItems2 : rawOptionItems2;
     if (isMultipleChoice(allOptionItems2)) {
       const question = generateQuestionFromHeading(section.heading);
-      const answer = formatMultipleChoiceAnswer(allOptionItems2);
-      questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
+      const mc = formatMultipleChoiceAnswer(allOptionItems2);
+      questions.push(createItem(question, mc.formatted, sourceFile, sectionIndex, "extracted", mc.options, mc.correctIndex));
     } else if (listItems2.length > 0) {
       const question = generateQuestionFromHeading(section.heading);
       const answer = listItems2.join("\n");
@@ -121,7 +121,7 @@ function extractFromSection(section, sourceFile, sectionIndex) {
       const inlineMc2 = extractInlineMultipleChoice(section.body);
       if (inlineMc2) {
         const question = generateQuestionFromHeading(section.heading);
-        questions.push(createItem(question, inlineMc2, sourceFile, sectionIndex, "extracted"));
+        questions.push(createItem(question, inlineMc2.formatted, sourceFile, sectionIndex, "extracted", inlineMc2.options, inlineMc2.correctIndex));
       } else if (bodyText.trim().length > 10) {
         const question = generateQuestionFromHeading(section.heading);
         questions.push(createItem(question, bodyText, sourceFile, sectionIndex, "extracted"));
@@ -135,14 +135,14 @@ function extractFromSection(section, sourceFile, sectionIndex) {
   const allOptionItems = listItems.length > 0 ? listItems : rawOptionItems;
   if (isMultipleChoice(allOptionItems)) {
     const question = generateQuestionFromHeading(section.heading || extractContextBeforeOptions(section.body, allOptionItems[0]));
-    const answer = formatMultipleChoiceAnswer(allOptionItems);
-    questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
+    const mc = formatMultipleChoiceAnswer(allOptionItems);
+    questions.push(createItem(question, mc.formatted, sourceFile, sectionIndex, "extracted", mc.options, mc.correctIndex));
     return questions;
   }
   const inlineMc = extractInlineMultipleChoice(section.body);
   if (inlineMc) {
     const question = generateQuestionFromHeading(section.heading || "\u4EE5\u4E0B\u9898\u76EE");
-    questions.push(createItem(question, inlineMc, sourceFile, sectionIndex, "extracted"));
+    questions.push(createItem(question, inlineMc.formatted, sourceFile, sectionIndex, "extracted", inlineMc.options, inlineMc.correctIndex));
     return questions;
   }
   for (const item of listItems) {
@@ -313,29 +313,31 @@ function formatMultipleChoiceAnswer(items) {
   const correctIdx = options.findIndex(
     (o) => /\*$|✓$|（正确）|（答案）/.test(o.text)
   );
-  const answerLabel = correctIdx >= 0 ? options[correctIdx].label : options[0]?.label || "?";
+  const correctIndex = correctIdx >= 0 ? correctIdx : 0;
+  const cleanOptions = options.map((o) => o.text.replace(/[*✓]|\（正确）|\（答案）/g, "").trim());
   const lines = ["\u7B54\u6848\uFF1A\u5168\u90E8\u9009\u9879\u5982\u4E0B"];
-  for (const opt of options) {
-    const marker = opt.label === answerLabel ? " **[\u2713]**" : "";
-    lines.push(`${opt.label}. ${opt.text}${marker}`);
+  for (let i = 0; i < options.length; i++) {
+    const marker = i === correctIndex ? " **[\u2713]**" : "";
+    lines.push(`${options[i].label}. ${cleanOptions[i]}${marker}`);
   }
-  return lines.join("\n");
+  return { formatted: lines.join("\n"), options: cleanOptions, correctIndex };
 }
 function extractInlineMultipleChoice(body) {
   const fullText = body.join(" ");
   const match = fullText.match(/([A-D]([).、．]\s*|\s+)[^\s]+(?:\s+[A-D]([).、．]\s*|\s+)[^\s]+){1,})/);
   if (match) {
-    const options = match[1].split(/\s+(?=[A-D]([).、．]\s*|\s+))/);
-    const formatted = options.map((opt) => opt.trim()).join("\n");
-    return "\u7B54\u6848\uFF1A\u5168\u90E8\u9009\u9879\u5982\u4E0B\n" + formatted;
+    const rawOptions = match[1].split(/\s+(?=[A-D]([).、．]\s*|\s+))/);
+    const options = rawOptions.map((opt) => opt.replace(/^[A-D]([).、．]\s*|\s+)/, "").trim());
+    const formatted = "\u7B54\u6848\uFF1A\u5168\u90E8\u9009\u9879\u5982\u4E0B\n" + rawOptions.map((opt) => opt.trim()).join("\n");
+    return { formatted, options, correctIndex: 0 };
   }
   return null;
 }
 function cleanQuestionText(text) {
   return text.replace(/^[\d.、\s]+/, "").replace(/[#*>`_~]/g, "").replace(/\s+/g, " ").trim();
 }
-function createItem(question, answer, sourceFile, sectionIndex, answerSource) {
-  return {
+function createItem(question, answer, sourceFile, sectionIndex, answerSource, options, correctIndex) {
+  const item = {
     id: `${sourceFile}::${sectionIndex}::${Date.now()}`,
     question: cleanQuestionText(question),
     answer: answer.trim(),
@@ -344,6 +346,11 @@ function createItem(question, answer, sourceFile, sectionIndex, answerSource) {
     createdAt: Date.now(),
     answerSource
   };
+  if (options && options.length > 0) {
+    item.options = options;
+    item.correctIndex = correctIndex ?? 0;
+  }
+  return item;
 }
 
 // engine/ai-extractor.ts
@@ -478,6 +485,29 @@ ${contextText || "\uFF08\u65E0\u989D\u5916\u53C2\u8003\u8D44\u6599\uFF09"}
     return null;
   }
 }
+function tryParseOptions(answer) {
+  const lines = answer.split("\n");
+  const optionLines = [];
+  for (const line of lines) {
+    const match = line.trim().match(/^([A-D])([).、．]\s*|\s+)(.+)/);
+    if (match) {
+      const text = match[3].trim();
+      const isCorrect = /\*\*\[✓\]\*\*/.test(text);
+      optionLines.push({
+        label: match[1],
+        text: text.replace(/\*\*\[✓\]\*\*/, "").trim(),
+        isCorrect
+      });
+    }
+  }
+  if (optionLines.length < 2)
+    return null;
+  const correctIdx = optionLines.findIndex((o) => o.isCorrect);
+  return {
+    options: optionLines.map((o) => o.text),
+    correctIndex: correctIdx >= 0 ? correctIdx : 0
+  };
+}
 async function callLLM(settings, prompt) {
   try {
     const response = await fetch(settings.aiEndpoint, {
@@ -510,15 +540,24 @@ async function callLLM(settings, prompt) {
       return [];
     }
     const pairs = JSON.parse(jsonMatch[0]);
-    return pairs.map((pair, idx) => ({
-      id: `ai::${Date.now()}::${idx}`,
-      question: pair.question || "",
-      answer: pair.answer || "",
-      sourceFile: "",
-      sectionIndex: -1,
-      createdAt: Date.now(),
-      answerSource: "ai-generated"
-    }));
+    return pairs.map((pair, idx) => {
+      const answer = pair.answer || "";
+      const parsed = tryParseOptions(answer);
+      const item = {
+        id: `ai::${Date.now()}::${idx}`,
+        question: pair.question || "",
+        answer,
+        sourceFile: "",
+        sectionIndex: -1,
+        createdAt: Date.now(),
+        answerSource: "ai-generated"
+      };
+      if (parsed) {
+        item.options = parsed.options;
+        item.correctIndex = parsed.correctIndex;
+      }
+      return item;
+    });
   } catch (e) {
     console.error("[RandomQuiz] AI call error:", e);
     new import_obsidian.Notice("AI \u8C03\u7528\u51FA\u9519\uFF0C\u8BF7\u68C0\u67E5\u7F51\u7EDC\u548C API \u914D\u7F6E");
@@ -851,6 +890,13 @@ var QuestionBank = class {
     for (const item of items) {
       newContent += `### Q: ${item.question}
 `;
+      if (item.options && item.options.length > 0) {
+        const labels = ["A", "B", "C", "D", "E", "F"];
+        for (let i = 0; i < item.options.length; i++) {
+          newContent += `${labels[i] || i}. ${item.options[i]}
+`;
+        }
+      }
       newContent += `A: ${item.answer}
 `;
       if (item.answerSource === "ai-generated") {
@@ -984,6 +1030,25 @@ var QuizModal = class extends import_obsidian3.Modal {
     const questionEl = contentEl.createEl("div", { cls: "quiz-question" });
     questionEl.createEl("strong", { text: "\u9898\u76EE\uFF1A" });
     questionEl.createEl("p", { text: item.question });
+    if (item.options && item.options.length > 0) {
+      const optionsContainer = contentEl.createEl("div", { cls: "quiz-options-container" });
+      const labels = ["A", "B", "C", "D", "E", "F"];
+      for (let i = 0; i < item.options.length; i++) {
+        const row = optionsContainer.createEl("div", { cls: "quiz-option-row" });
+        const isCorrect = this.answerRevealed && i === (item.correctIndex ?? 0);
+        row.createEl("span", {
+          cls: `quiz-option-label${isCorrect ? " quiz-option-correct" : ""}`,
+          text: labels[i] || String(i)
+        });
+        row.createEl("span", {
+          cls: `quiz-option-text${isCorrect ? " quiz-option-correct" : ""}`,
+          text: item.options[i]
+        });
+        if (isCorrect) {
+          row.createEl("span", { cls: "quiz-option-check", text: " \u2713" });
+        }
+      }
+    }
     const answerContainer = contentEl.createEl("div", { cls: "quiz-answer-container" });
     if (!this.answerRevealed) {
       const revealBtn = answerContainer.createEl("button", {
@@ -993,6 +1058,16 @@ var QuizModal = class extends import_obsidian3.Modal {
       revealBtn.addEventListener("click", () => {
         this.answerRevealed = true;
         this.displayQuestion();
+      });
+    } else if (item.options && item.options.length > 0) {
+      const correctIdx = item.correctIndex ?? 0;
+      const label = ["A", "B", "C", "D", "E", "F"][correctIdx] || "?";
+      answerContainer.createEl("div", { cls: "quiz-answer-label" }).createEl("strong", {
+        text: "\u7B54\u6848\uFF1A"
+      });
+      answerContainer.createEl("div", {
+        cls: "quiz-answer",
+        text: `${label}. ${item.options[correctIdx] || item.answer}`
       });
     } else {
       answerContainer.createEl("div", { cls: "quiz-answer-label" }).createEl("strong", {

@@ -115,6 +115,12 @@ export class QuestionBank {
 
     for (const item of items) {
       newContent += `### Q: ${item.question}\n`;
+      if (item.options && item.options.length > 0) {
+        const labels = ["A", "B", "C", "D", "E", "F"];
+        for (let i = 0; i < item.options.length; i++) {
+          newContent += `${labels[i] || i}. ${item.options[i]}\n`;
+        }
+      }
       newContent += `A: ${item.answer}\n`;
       if (item.answerSource === "ai-generated") {
         newContent += `> AI 生成`;

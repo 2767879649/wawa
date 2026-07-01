@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "嵌入式",
+      "path": "learning学习/备考/嵌入式.md"
+    },
+    {
       "basename": "题库",
       "path": "learning学习/备考/题库.md"
+    },
+    {
+      "basename": "claude基础使用",
+      "path": "learning学习/claude/claude基础使用.md"
     },
     {
       "basename": "模型API",
       "path": "learning学习/模型API.md"
     },
     {
-      "basename": "嵌入式",
-      "path": "learning学习/备考/嵌入式.md"
-    },
-    {
-      "basename": "claude基础使用",
-      "path": "learning学习/claude/claude基础使用.md"
+      "basename": "未命名 1",
+      "path": "未命名 1.canvas"
     },
     {
       "basename": "Git基础使用",
@@ -31,10 +35,6 @@
     {
       "basename": "考试",
       "path": "考试.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "未命名 1.canvas"
     },
     {
       "basename": "智能",

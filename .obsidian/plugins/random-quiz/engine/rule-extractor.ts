@@ -91,8 +91,8 @@ function extractFromSection(
     const allOptionItems = listItems.length > 0 ? listItems : rawOptionItems;
     if (isMultipleChoice(allOptionItems)) {
       const question = generateQuestionFromHeading(section.heading);
-      const answer = formatMultipleChoiceAnswer(allOptionItems);
-      questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
+      const mc = formatMultipleChoiceAnswer(allOptionItems);
+      questions.push(createItem(question, mc.formatted, sourceFile, sectionIndex, "extracted", mc.options, mc.correctIndex));
     } else if (listItems.length > 0) {
       const question = generateQuestionFromHeading(section.heading);
       const answer = listItems.join("\n");
@@ -111,7 +111,7 @@ function extractFromSection(
       const inlineMc = extractInlineMultipleChoice(section.body);
       if (inlineMc) {
         const question = generateQuestionFromHeading(section.heading);
-        questions.push(createItem(question, inlineMc, sourceFile, sectionIndex, "extracted"));
+        questions.push(createItem(question, inlineMc.formatted, sourceFile, sectionIndex, "extracted", inlineMc.options, inlineMc.correctIndex));
       } else if (bodyText.trim().length > 10) {
         const question = generateQuestionFromHeading(section.heading);
         questions.push(createItem(question, bodyText, sourceFile, sectionIndex, "extracted"));
@@ -129,8 +129,8 @@ function extractFromSection(
   const allOptionItems = listItems.length > 0 ? listItems : rawOptionItems;
   if (isMultipleChoice(allOptionItems)) {
     const question = generateQuestionFromHeading(section.heading || extractContextBeforeOptions(section.body, allOptionItems[0]));
-    const answer = formatMultipleChoiceAnswer(allOptionItems);
-    questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
+    const mc = formatMultipleChoiceAnswer(allOptionItems);
+    questions.push(createItem(question, mc.formatted, sourceFile, sectionIndex, "extracted", mc.options, mc.correctIndex));
     return questions;
   }
 
@@ -138,7 +138,7 @@ function extractFromSection(
   const inlineMc = extractInlineMultipleChoice(section.body);
   if (inlineMc) {
     const question = generateQuestionFromHeading(section.heading || "以下题目");
-    questions.push(createItem(question, inlineMc, sourceFile, sectionIndex, "extracted"));
+    questions.push(createItem(question, inlineMc.formatted, sourceFile, sectionIndex, "extracted", inlineMc.options, inlineMc.correctIndex));
     return questions;
   }
 
@@ -347,7 +347,11 @@ function isMultipleChoice(items: string[]): boolean {
 }
 
 /** 格式化选择题答案：保留全部选项，首个匹配的为正确答案 */
-function formatMultipleChoiceAnswer(items: string[]): string {
+function formatMultipleChoiceAnswer(items: string[]): {
+  formatted: string;
+  options: string[];
+  correctIndex: number;
+} {
   const options = items.map((item) => {
     const cleaned = item.replace(/^[A-D]([).、．]\s*|\s+)/, "").trim();
     const label = item.match(/^([A-D])/)?.[1] || "";
@@ -358,25 +362,30 @@ function formatMultipleChoiceAnswer(items: string[]): string {
   const correctIdx = options.findIndex((o) =>
     /\*$|✓$|（正确）|（答案）/.test(o.text)
   );
-  const answerLabel = correctIdx >= 0 ? options[correctIdx].label : options[0]?.label || "?";
+  const correctIndex = correctIdx >= 0 ? correctIdx : 0;
+
+  // 清理正确选项文本中的标记
+  const cleanOptions = options.map((o) => o.text.replace(/[*✓]|\（正确）|\（答案）/g, "").trim());
 
   const lines = ["答案：全部选项如下"];
-  for (const opt of options) {
-    const marker = opt.label === answerLabel ? " **[✓]**" : "";
-    lines.push(`${opt.label}. ${opt.text}${marker}`);
+  for (let i = 0; i < options.length; i++) {
+    const marker = i === correctIndex ? " **[✓]**" : "";
+    lines.push(`${options[i].label}. ${cleanOptions[i]}${marker}`);
   }
-  return lines.join("\n");
+
+  return { formatted: lines.join("\n"), options: cleanOptions, correctIndex };
 }
 
 /** 从正文中提取内嵌选择题选项（如 "A.xxx B.xxx C.xxx"） */
-function extractInlineMultipleChoice(body: string[]): string | null {
+function extractInlineMultipleChoice(body: string[]): { formatted: string; options: string[]; correctIndex: number } | null {
   const fullText = body.join(" ");
   // 匹配 A.xxx B.xxx C.xxx D.xxx 内联格式
   const match = fullText.match(/([A-D]([).、．]\s*|\s+)[^\s]+(?:\s+[A-D]([).、．]\s*|\s+)[^\s]+){1,})/);
   if (match) {
-    const options = match[1].split(/\s+(?=[A-D]([).、．]\s*|\s+))/);
-    const formatted = options.map((opt) => opt.trim()).join("\n");
-    return "答案：全部选项如下\n" + formatted;
+    const rawOptions = match[1].split(/\s+(?=[A-D]([).、．]\s*|\s+))/);
+    const options = rawOptions.map((opt) => opt.replace(/^[A-D]([).、．]\s*|\s+)/, "").trim());
+    const formatted = "答案：全部选项如下\n" + rawOptions.map((opt) => opt.trim()).join("\n");
+    return { formatted, options, correctIndex: 0 };
   }
   return null;
 }
@@ -395,9 +404,11 @@ function createItem(
   answer: string,
   sourceFile: string,
   sectionIndex: number,
-  answerSource: "extracted" | "ai-generated"
+  answerSource: "extracted" | "ai-generated",
+  options?: string[],
+  correctIndex?: number
 ): QuestionItem {
-  return {
+  const item: QuestionItem = {
     id: `${sourceFile}::${sectionIndex}::${Date.now()}`,
     question: cleanQuestionText(question),
     answer: answer.trim(),
@@ -406,4 +417,9 @@ function createItem(
     createdAt: Date.now(),
     answerSource,
   };
+  if (options && options.length > 0) {
+    item.options = options;
+    item.correctIndex = correctIndex ?? 0;
+  }
+  return item;
 }

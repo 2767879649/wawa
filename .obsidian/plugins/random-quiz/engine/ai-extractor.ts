@@ -172,6 +172,33 @@ ${contextText || "（无额外参考资料）"}
   }
 }
 
+/** 从 AI 返回的 answer 字符串中解析选择题选项 */
+function tryParseOptions(answer: string): { options: string[]; correctIndex: number } | null {
+  const lines = answer.split("\n");
+  const optionLines: { label: string; text: string; isCorrect: boolean }[] = [];
+
+  for (const line of lines) {
+    const match = line.trim().match(/^([A-D])([).、．]\s*|\s+)(.+)/);
+    if (match) {
+      const text = match[3].trim();
+      const isCorrect = /\*\*\[✓\]\*\*/.test(text);
+      optionLines.push({
+        label: match[1],
+        text: text.replace(/\*\*\[✓\]\*\*/, "").trim(),
+        isCorrect,
+      });
+    }
+  }
+
+  if (optionLines.length < 2) return null;
+
+  const correctIdx = optionLines.findIndex((o) => o.isCorrect);
+  return {
+    options: optionLines.map((o) => o.text),
+    correctIndex: correctIdx >= 0 ? correctIdx : 0,
+  };
+}
+
 /** 通用 LLM 调用，返回 JSON 数组 */
 async function callLLM(
   settings: RandomQuizSettings,
@@ -211,15 +238,24 @@ async function callLLM(
     }
 
     const pairs = JSON.parse(jsonMatch[0]);
-    return pairs.map((pair: any, idx: number) => ({
-      id: `ai::${Date.now()}::${idx}`,
-      question: pair.question || "",
-      answer: pair.answer || "",
-      sourceFile: "",
-      sectionIndex: -1,
-      createdAt: Date.now(),
-      answerSource: "ai-generated" as const,
-    }));
+    return pairs.map((pair: any, idx: number) => {
+      const answer: string = pair.answer || "";
+      const parsed = tryParseOptions(answer);
+      const item: QuestionItem = {
+        id: `ai::${Date.now()}::${idx}`,
+        question: pair.question || "",
+        answer,
+        sourceFile: "",
+        sectionIndex: -1,
+        createdAt: Date.now(),
+        answerSource: "ai-generated" as const,
+      };
+      if (parsed) {
+        item.options = parsed.options;
+        item.correctIndex = parsed.correctIndex;
+      }
+      return item;
+    });
   } catch (e) {
     console.error("[RandomQuiz] AI call error:", e);
     new Notice("AI 调用出错，请检查网络和 API 配置");

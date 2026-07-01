@@ -30,6 +30,8 @@ export interface QuestionItem {
   id: string;
   question: string;
   answer: string;
+  options?: string[];
+  correctIndex?: number;
   sourceFile: string;
   sectionIndex: number;
   createdAt: number;
