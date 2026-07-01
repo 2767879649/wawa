@@ -98,7 +98,97 @@
       "sectionIndex": 45,
       "createdAt": 1782901469994,
       "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::0::1782903994968",
+      "question": "Linux内核中，kthread_create函数用于创建什么？",
+      "answer": "Linux内核中，kthread_create函数用于创建一个内核线程。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 0,
+      "createdAt": 1782903994968,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::5::1782903994968",
+      "question": "在中断处理函数中，不能调用的函数是什么？",
+      "answer": "在中断处理函数中，不能调用的函数是可能导致睡眠或阻塞的函数，例如信号量down操作、调度函数等。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 5,
+      "createdAt": 1782903994968,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::10::1782903994969",
+      "question": "以下哪个函数用于禁止中断但不等待当前中断处理完成？",
+      "answer": "用于禁止中断但不等待当前中断处理完成的函数是local_irq_disable()。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 10,
+      "createdAt": 1782903994969,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::15::1782903994969",
+      "question": "关于中断嵌套，下列说法正确的是什么？",
+      "answer": "关于中断嵌套，下列说法正确的是：中断嵌套是指在一个中断处理过程中，又发生了另一个中断，并且允许高优先级中断打断低优先级中断的处理。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 15,
+      "createdAt": 1782903994969,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::20::1782903994969",
+      "question": "以下哪个函数用于使能中断？",
+      "answer": "用于使能中断的函数是local_irq_enable()。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 20,
+      "createdAt": 1782903994969,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::25::1782903994969",
+      "question": "信号量的down操作如果无法获取信号量，进程会怎样？",
+      "answer": "信号量的down操作如果无法获取信号量，进程会进入休眠状态，等待信号量可用。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 25,
+      "createdAt": 1782903994969,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::30::1782903994969",
+      "question": "自旋锁适用于什么场景？",
+      "answer": "自旋锁适用于短时间内持有锁的场景，且不能在可能导致睡眠的上下文中使用，如中断处理函数。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 30,
+      "createdAt": 1782903994969,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::35::1782903994969",
+      "question": "在Linux内核模块中，__init宏的作用是什么？",
+      "answer": "在Linux内核模块中，__init宏的作用是将函数标记为初始化函数，该函数在模块加载后会被释放，以节省内核内存。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 35,
+      "createdAt": 1782903994969,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::40::1782903994969",
+      "question": "在Linux内核中，申请中断的函数是什么？",
+      "answer": "在Linux内核中，申请中断的函数是request_irq()。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 40,
+      "createdAt": 1782903994969,
+      "answerSource": "extracted"
+    },
+    {
+      "id": "imported-text::45::1782903994969",
+      "question": "关于IO多路复用，下列说法正确的是什么？",
+      "answer": "关于IO多路复用，下列说法正确的是：IO多路复用允许一个进程监视多个文件描述符，一旦某个描述符就绪，就通知应用程序进行相应的读写操作。",
+      "sourceFile": "imported-text",
+      "sectionIndex": 45,
+      "createdAt": 1782903994969,
+      "answerSource": "extracted"
     }
   ],
-  "updatedAt": 1782901485059
+  "updatedAt": 1782904012294
 }
