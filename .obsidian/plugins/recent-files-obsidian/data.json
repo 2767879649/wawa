@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "模型API",
-      "path": "learning学习/模型API.md"
-    },
-    {
       "basename": "题库",
       "path": "learning学习/备考/题库.md"
+    },
+    {
+      "basename": "嵌入式",
+      "path": "learning学习/备考/嵌入式.md"
+    },
+    {
+      "basename": "claude基础使用",
+      "path": "learning学习/claude/claude基础使用.md"
+    },
+    {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
     },
     {
       "basename": "Dify使用",
@@ -14,11 +22,11 @@
     },
     {
       "basename": "嵌入式",
-      "path": "learning学习/备考/嵌入式.md"
+      "path": "嵌入式.md"
     },
     {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
+      "basename": "模型API",
+      "path": "learning学习/模型API.md"
     },
     {
       "basename": "考试",
@@ -49,10 +57,6 @@
       "path": "未命名.base"
     },
     {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
-    },
-    {
       "basename": "个人主页",
       "path": "learning学习/claude/实验案例/个人主页.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "个人日报",
       "path": "learning学习/claude/实验案例/个人日报.md"
-    },
-    {
-      "basename": "claude基础使用",
-      "path": "learning学习/claude/claude基础使用.md"
     },
     {
       "basename": "技能",

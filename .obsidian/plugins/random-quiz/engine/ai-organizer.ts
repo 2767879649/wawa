@@ -60,7 +60,8 @@ export class AIOrganizer {
       items = await this.enrichAnswersWithSearch(items);
     }
 
-    return items;
+    // 过滤掉没有答案的题目
+    return items.filter((item) => item.answer && item.answer.trim().length > 0);
   }
 
   /** 处理粘贴文本 */
@@ -92,7 +93,7 @@ export class AIOrganizer {
       }
     }
 
-    return items;
+    return items.filter((item) => item.answer && item.answer.trim().length > 0);
   }
 
   /** 去重：按题目文本相似度合并 */
@@ -259,7 +260,7 @@ export class AIOrganizer {
       }
     }
 
-    return items;
+    return items.filter((item) => item.answer && item.answer.trim().length > 0);
   }
 
   /** 提取搜索词：中文用字符级 n-gram + 常见词组 */

@@ -1,6 +1,13 @@
 import { Notice } from "obsidian";
 import { RandomQuizSettings, QuestionItem } from "../settings";
 
+/** 检查答案是否包含选择题选项 */
+function hasChoiceOptions(answer: string): boolean {
+  const lines = answer.split("\n");
+  const optionCount = lines.filter((l) => /^[A-D]([).、．]\s*|\s+)/.test(l.trim())).length;
+  return optionCount >= 2;
+}
+
 /**
  * 调用 LLM API 从选中文本生成 Q&A 对
  */
@@ -48,8 +55,21 @@ export async function normalizeQAPairs(
 ): Promise<QuestionItem[]> {
   if (!settings.aiApiKey || items.length === 0) return items;
 
+  // 分离选择题和非选择题：选择题跳过 AI 规范化，防止选项被丢失
+  const choiceIndices: number[] = [];
+  const nonChoiceItems: QuestionItem[] = [];
+  for (let i = 0; i < items.length; i++) {
+    if (hasChoiceOptions(items[i].answer)) {
+      choiceIndices.push(i);
+    } else {
+      nonChoiceItems.push(items[i]);
+    }
+  }
+
+  if (nonChoiceItems.length === 0) return items;
+
   const itemsJson = JSON.stringify(
-    items.map((i) => ({ question: i.question, answer: i.answer }))
+    nonChoiceItems.map((i) => ({ question: i.question, answer: i.answer }))
   );
 
   const prompt = `请将以下题目和答案整理为统一格式。
@@ -59,8 +79,7 @@ export async function normalizeQAPairs(
 2. 答案：保持原意但格式清晰，中文使用全角标点，英文使用半角标点
 3. 去除噪声和无意义的空白
 4. 如果原始答案不完整，尽量根据上下文补全
-5. 如果是选择题，必须保留全部选项（A. B. C. D.），用 **[✓]** 标记正确答案
-6. 输出 JSON 数组格式：输出格式与输入格式相同
+5. 输出 JSON 数组格式：输出格式与输入格式相同
 
 原始题目列表：
 ${itemsJson}
@@ -70,12 +89,24 @@ ${itemsJson}
   const result = await callLLM(settings, prompt);
   if (result.length === 0) return items;
 
-  // 合并回原对象
-  for (let i = 0; i < Math.min(items.length, result.length); i++) {
-    items[i].question = result[i].question;
-    items[i].answer = result[i].answer;
+  // 将 AI 结果合并回非选择题
+  for (let i = 0; i < Math.min(nonChoiceItems.length, result.length); i++) {
+    if (result[i].question) nonChoiceItems[i].question = result[i].question;
+    if (result[i].answer) nonChoiceItems[i].answer = result[i].answer;
   }
-  return items;
+
+  // 按原始顺序重建完整数组：选择题保持原样
+  const merged: QuestionItem[] = [];
+  let nonChoiceIdx = 0;
+  for (let i = 0; i < items.length; i++) {
+    if (choiceIndices.includes(i)) {
+      merged.push(items[i]);
+    } else {
+      merged.push(nonChoiceItems[nonChoiceIdx++]);
+    }
+  }
+
+  return merged;
 }
 
 /**
@@ -182,8 +213,8 @@ async function callLLM(
     const pairs = JSON.parse(jsonMatch[0]);
     return pairs.map((pair: any, idx: number) => ({
       id: `ai::${Date.now()}::${idx}`,
-      question: pair.question,
-      answer: pair.answer,
+      question: pair.question || "",
+      answer: pair.answer || "",
       sourceFile: "",
       sectionIndex: -1,
       createdAt: Date.now(),
