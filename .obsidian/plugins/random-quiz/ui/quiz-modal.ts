@@ -1,4 +1,4 @@
-import { App, Modal, Setting } from "obsidian";
+import { App, Modal } from "obsidian";
 import { QuestionItem } from "../settings";
 
 export class QuizModal extends Modal {
@@ -29,7 +29,7 @@ export class QuizModal extends Modal {
     contentEl.addClass("random-quiz-modal");
 
     if (this.questions.length === 0) {
-      contentEl.createEl("p", { text: "题库为空，请先扫描题库。" });
+      contentEl.createEl("p", { text: "题库为空，请先扫描题库或导入题目。" });
       return;
     }
 
@@ -39,11 +39,28 @@ export class QuizModal extends Modal {
     // 进度
     contentEl.createEl("div", { cls: "quiz-progress", text: progress });
 
-    // 来源文件
-    contentEl.createEl("div", {
-      cls: "quiz-source",
-      text: `来源: ${item.sourceFile}`,
-    });
+    // 来源信息
+    const sourceText = item.sourceFile !== "imported-text"
+      ? `来源: ${item.sourceFile}`
+      : "来源: 导入的文本";
+
+    const sourceDiv = contentEl.createEl("div", { cls: "quiz-source" });
+    sourceDiv.createEl("span", { text: sourceText });
+
+    // 答案来源标识
+    if (item.answerSource === "ai-generated") {
+      sourceDiv.createEl("span", {
+        cls: "quiz-ai-badge",
+        text: "AI 生成",
+      });
+    }
+
+    if (item.relatedFiles && item.relatedFiles.length > 0) {
+      sourceDiv.createEl("div", {
+        cls: "quiz-related",
+        text: `参考: ${item.relatedFiles.join(", ")}`,
+      });
+    }
 
     // 题目
     const questionEl = contentEl.createEl("div", { cls: "quiz-question" });

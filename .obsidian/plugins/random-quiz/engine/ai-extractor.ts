@@ -35,6 +35,77 @@ ${text}
 
 只输出 JSON 数组，不要输出其他内容。`;
 
+  return await callLLM(settings, prompt);
+}
+
+/**
+ * 规范化 Q&A 对格式
+ */
+export async function normalizeQAPairs(
+  items: QuestionItem[],
+  settings: RandomQuizSettings
+): Promise<QuestionItem[]> {
+  if (!settings.aiApiKey || items.length === 0) return items;
+
+  const itemsJson = JSON.stringify(
+    items.map((i) => ({ question: i.question, answer: i.answer }))
+  );
+
+  const prompt = `请将以下题目和答案整理为统一格式。
+
+规范化要求：
+1. 题目：改为完整的问句形式（如"Git init" → "git init 命令的作用是什么？"）
+2. 答案：保持原意但格式清晰，中文使用全角标点，英文使用半角标点
+3. 去除噪声和无意义的空白
+4. 如果原始答案不完整，尽量根据上下文补全
+5. 输出 JSON 数组格式：输出格式与输入格式相同
+
+原始题目列表：
+${itemsJson}
+
+只输出规范化后的 JSON 数组，不要输出其他内容。`;
+
+  const result = await callLLM(settings, prompt);
+  if (result.length === 0) return items;
+
+  // 合并回原对象
+  for (let i = 0; i < Math.min(items.length, result.length); i++) {
+    items[i].question = result[i].question;
+    items[i].answer = result[i].answer;
+  }
+  return items;
+}
+
+/**
+ * 根据题目和参考上下文，用 AI 生成答案
+ */
+export async function searchAndAnswer(
+  question: string,
+  originalAnswer: string,
+  contexts: { file: string; content: string }[],
+  settings: RandomQuizSettings
+): Promise<{ answer: string; relatedFiles: string[] } | null> {
+  if (!settings.aiApiKey) return null;
+
+  const contextText = contexts
+    .map((c) => `【来源：${c.file}】\n${c.content.substring(0, 1500)}`)
+    .join("\n\n---\n\n");
+
+  const prompt = `你是一个学习助手。请根据以下参考资料，为这道题目生成准确、完整的答案。
+
+题目：${question}
+
+原始答案（可能不完整）：${originalAnswer}
+
+参考资料：
+${contextText || "（无额外参考资料）"}
+
+要求：
+1. 答案准确、简洁、完整
+2. 优先使用参考资料中的内容
+3. 如果参考资料不足，基于已有知识补充
+4. 只输出答案文本，不需要 JSON 格式`;
+
   try {
     const response = await fetch(settings.aiEndpoint, {
       method: "POST",
@@ -45,11 +116,50 @@ ${text}
       body: JSON.stringify({
         model: settings.aiModel,
         messages: [
-          { role: "system", content: "你是一个专业的备考题目生成器，只输出 JSON 格式。" },
+          { role: "system", content: "你是一个专业的学习助手，输出准确简洁的答案。" },
+          { role: "user", content: prompt },
+        ],
+        temperature: 0.5,
+        max_tokens: 1024,
+      }),
+    });
+
+    if (!response.ok) {
+      console.error("[RandomQuiz] AI API error:", await response.text());
+      return null;
+    }
+
+    const data = await response.json();
+    const answer = data.choices?.[0]?.message?.content || "";
+    const relatedFiles = [...new Set(contexts.map((c) => c.file))];
+
+    return { answer: answer.trim(), relatedFiles };
+  } catch (e) {
+    console.error("[RandomQuiz] searchAndAnswer error:", e);
+    return null;
+  }
+}
+
+/** 通用 LLM 调用，返回 JSON 数组 */
+async function callLLM(
+  settings: RandomQuizSettings,
+  prompt: string
+): Promise<QuestionItem[]> {
+  try {
+    const response = await fetch(settings.aiEndpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${settings.aiApiKey}`,
+      },
+      body: JSON.stringify({
+        model: settings.aiModel,
+        messages: [
+          { role: "system", content: "你是一个专业的备考题目处理器，只输出 JSON 格式。" },
           { role: "user", content: prompt },
         ],
         temperature: 0.7,
-        max_tokens: 2048,
+        max_tokens: 4096,
       }),
     });
 
@@ -69,19 +179,17 @@ ${text}
     }
 
     const pairs = JSON.parse(jsonMatch[0]);
-    const items: QuestionItem[] = pairs.map((pair: any, idx: number) => ({
-      id: `${sourceFile}::ai::${Date.now()}::${idx}`,
+    return pairs.map((pair: any, idx: number) => ({
+      id: `ai::${Date.now()}::${idx}`,
       question: pair.question,
       answer: pair.answer,
-      sourceFile: sourceFile,
+      sourceFile: "",
       sectionIndex: -1,
       createdAt: Date.now(),
+      answerSource: "ai-generated" as const,
     }));
-
-    new Notice(`AI 生成了 ${items.length} 道题目`);
-    return items;
   } catch (e) {
-    console.error("[RandomQuiz] AI extraction error:", e);
+    console.error("[RandomQuiz] AI call error:", e);
     new Notice("AI 调用出错，请检查网络和 API 配置");
     return [];
   }

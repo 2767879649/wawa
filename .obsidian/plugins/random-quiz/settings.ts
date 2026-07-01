@@ -5,6 +5,10 @@ export interface RandomQuizSettings {
   aiEndpoint: string;
   aiModel: string;
   questionsPerRound: number;
+  aiAutoSearch: boolean;
+  aiSearchScope: "document" | "folder" | "vault";
+  aiDetectQuestions: boolean;
+  normalizeFormat: boolean;
 }
 
 export const DEFAULT_SETTINGS: RandomQuizSettings = {
@@ -14,6 +18,10 @@ export const DEFAULT_SETTINGS: RandomQuizSettings = {
   aiEndpoint: "https://api.deepseek.com/v1/chat/completions",
   aiModel: "deepseek-chat",
   questionsPerRound: 1,
+  aiAutoSearch: true,
+  aiSearchScope: "folder",
+  aiDetectQuestions: true,
+  normalizeFormat: true,
 };
 
 export interface QuestionItem {
@@ -23,4 +31,6 @@ export interface QuestionItem {
   sourceFile: string;
   sectionIndex: number;
   createdAt: number;
+  answerSource: "extracted" | "ai-generated";
+  relatedFiles?: string[];
 }

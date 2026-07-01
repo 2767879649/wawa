@@ -117,3 +117,69 @@
 .random-quiz-modal .quiz-finish-btn:hover {
   background: var(--interactive-accent-hover) !important;
 }
+
+/* AI 来源标识 */
+.quiz-ai-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  font-size: 10px;
+  background: var(--color-purple);
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* 参考文件 */
+.quiz-related {
+  font-size: 11px;
+  color: var(--text-faint);
+  margin-top: 4px;
+}
+
+/* 预览卡片 */
+.quiz-preview-card {
+  margin-bottom: 12px;
+  padding: 12px;
+  background: var(--background-secondary);
+  border-radius: 8px;
+  border-left: 3px solid var(--interactive-accent);
+}
+
+.quiz-preview-card strong {
+  font-size: 14px;
+  color: var(--text-accent);
+}
+
+.quiz-preview-card p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.quiz-preview-card button {
+  margin-top: 6px;
+  padding: 4px 12px;
+  font-size: 12px;
+  background: var(--background-modifier-error);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quiz-preview-card input,
+.quiz-preview-card textarea {
+  width: 100%;
+  margin-top: 4px;
+  padding: 4px 8px;
+  font-size: 13px;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+}
+
+.quiz-preview-list {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+}

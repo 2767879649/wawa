@@ -2,7 +2,7 @@ import { QuestionItem } from "../settings";
 
 /**
  * 从 Markdown 文本中提取 Q&A 对
- * 规则优先级：标题 > 列表项 > 加粗文本 > 分隔符 > 段落切分
+ * 规则优先级：标题 > 列表项 > 加粗文本 > 问句 > 定义型 > 分隔符 > 段落切分
  */
 export function extractQuestions(
   content: string,
@@ -18,7 +18,7 @@ export function extractQuestions(
     if (end !== -1) startIdx = end + 1;
   }
 
-  // 按分隔符拆分为节
+  // 按空行和分隔符拆分为段落块
   const sections = splitSections(lines, startIdx);
 
   for (let si = 0; si < sections.length; si++) {
@@ -48,39 +48,28 @@ function splitSections(lines: string[], startIdx: number): Section[] {
 
     if (headingMatch) {
       if (currentBody.length > 0 || currentHeading) {
-        sections.push({
-          heading: currentHeading,
-          headingLevel: currentLevel,
-          body: currentBody,
-        });
+        sections.push({ heading: currentHeading, headingLevel: currentLevel, body: [...currentBody] });
       }
       currentHeading = headingMatch[2].trim();
       currentLevel = headingMatch[1].length;
       currentBody = [];
-    } else if (line.trim() === "---") {
-      // 分隔符作为节边界
+    } else if (line.trim() === "---" || line.trim() === "") {
+      // 分隔符或空行作为节边界
       if (currentBody.length > 0 || currentHeading) {
-        sections.push({
-          heading: currentHeading,
-          headingLevel: currentLevel,
-          body: currentBody,
-        });
+        sections.push({ heading: currentHeading, headingLevel: currentLevel, body: [...currentBody] });
       }
-      currentHeading = "";
-      currentLevel = 0;
+      if (line.trim() === "---") {
+        currentHeading = "";
+        currentLevel = 0;
+      }
       currentBody = [];
     } else {
       currentBody.push(line);
     }
   }
 
-  // 最后一节
   if (currentBody.length > 0 || currentHeading) {
-    sections.push({
-      heading: currentHeading,
-      headingLevel: currentLevel,
-      body: currentBody,
-    });
+    sections.push({ heading: currentHeading, headingLevel: currentLevel, body: currentBody });
   }
 
   return sections;
@@ -93,62 +82,68 @@ function extractFromSection(
 ): QuestionItem[] {
   const questions: QuestionItem[] = [];
 
-  // 规则1: 从标题生成题面
   if (section.heading) {
     const listItems = extractListItems(section.body);
     const boldItems = extractBoldSegments(section.body);
 
     if (listItems.length > 0) {
-      // 标题为题面，列表项为答案内容
       const question = generateQuestionFromHeading(section.heading);
       const answer = listItems.join("\n");
       if (answer.trim()) {
-        questions.push(createItem(question, answer, sourceFile, sectionIndex));
+        questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
       }
     } else if (boldItems.length > 0) {
       const question = generateQuestionFromHeading(section.heading);
       const answer = boldItems.join("\n");
       if (answer.trim()) {
-        questions.push(createItem(question, answer, sourceFile, sectionIndex));
+        questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
       }
     } else {
       const bodyText = cleanBody(section.body);
       if (bodyText.trim().length > 10) {
         const question = generateQuestionFromHeading(section.heading);
-        questions.push(
-          createItem(question, bodyText, sourceFile, sectionIndex)
-        );
+        questions.push(createItem(question, bodyText, sourceFile, sectionIndex, "extracted"));
       }
     }
     return questions;
   }
 
-  // 无标题节：检查列表项和加粗内容
+  // 无标题节
   const listItems = extractListItems(section.body);
   const boldItems = extractBoldSegments(section.body);
 
-  // 规则2: 列表项独立拆分
   for (const item of listItems) {
     const parts = splitListItem(item);
     if (parts.question && parts.answer) {
-      questions.push(
-        createItem(parts.question, parts.answer, sourceFile, sectionIndex)
-      );
+      questions.push(createItem(parts.question, parts.answer, sourceFile, sectionIndex, "extracted"));
     }
   }
 
-  // 规则3: 加粗文本识别
   for (const item of boldItems) {
     const parts = splitBoldItem(item);
     if (parts.question && parts.answer) {
-      questions.push(
-        createItem(parts.question, parts.answer, sourceFile, sectionIndex)
-      );
+      questions.push(createItem(parts.question, parts.answer, sourceFile, sectionIndex, "extracted"));
     }
   }
 
-  // 规则5: 兜底 — 段落切分
-  if (questions.length === 0 && listItems.length === 0 && boldItems.length === 0) {
+  // 新增：识别问句
+  if (questions.length === 0) {
+    const qaFromQuestion = extractQuestionSentences(section.body);
+    if (qaFromQuestion) {
+      questions.push(createItem(qaFromQuestion.question, qaFromQuestion.answer, sourceFile, sectionIndex, "extracted"));
+    }
+  }
+
+  // 新增：识别定义型段落
+  if (questions.length === 0) {
+    const qaFromDef = extractDefinitionPattern(section.body);
+    if (qaFromDef) {
+      questions.push(createItem(qaFromDef.question, qaFromDef.answer, sourceFile, sectionIndex, "extracted"));
+    }
+  }
+
+  // 兜底：段落切分
+  if (questions.length === 0) {
     const bodyText = cleanBody(section.body);
     if (bodyText.trim().length > 20) {
       const sentences = bodyText.split(/[。.!！?\n]+/).filter((s) => s.trim().length > 5);
@@ -156,7 +151,7 @@ function extractFromSection(
         const question = sentences[0].trim();
         const answer = sentences.slice(1).join("。").trim();
         if (question && answer) {
-          questions.push(createItem(question, answer, sourceFile, sectionIndex));
+          questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
         }
       }
     }
@@ -165,7 +160,7 @@ function extractFromSection(
   return questions;
 }
 
-/** 提取列表项（有序/无序） */
+/** 提取列表项 */
 function extractListItems(body: string[]): string[] {
   return body
     .filter((line) => /^\s*[-*\d]+[.)]\s+/.test(line) || /^\s*\d+[、．]\s*/.test(line))
@@ -188,9 +183,60 @@ function extractBoldSegments(body: string[]): string[] {
   return segments;
 }
 
+/** 新增：提取问句（以 ? ？结尾的句子） */
+function extractQuestionSentences(body: string[]): { question: string; answer: string } | null {
+  const fullText = body.join(" ");
+  // 匹配以 ？或 ? 结尾的句子，后面跟的内容作为答案
+  const match = fullText.match(/([^。！？?!\n]{5,80}[？?])\s*(.*)/);
+  if (match) {
+    const question = match[1].trim();
+    const answer = match[2].trim();
+    if (answer.length > 0) {
+      return { question, answer };
+    }
+    // 如果答案太短，整个作为题目，body其余部分为答案
+    const qIdx = fullText.indexOf(match[1]);
+    const beforeQ = fullText.substring(0, qIdx).trim();
+    const afterQ = fullText.substring(qIdx + match[1].length).trim();
+    if (afterQ.length > 5) {
+      return { question, answer: afterQ };
+    }
+    return { question, answer: "请参考原文" };
+  }
+
+  // 匹配 "X 吗？" "X 呢？" 结尾
+  const altMatch = fullText.match(/([^。！？?!\n]{5,80}[吗呢][？?])\s*(.*)/);
+  if (altMatch) {
+    const question = altMatch[1].trim();
+    const answer = altMatch[2].trim() || "请参考原文";
+    return { question, answer };
+  }
+
+  return null;
+}
+
+/** 新增：提取定义型段落（X是Y, X指Y, X称为Y） */
+function extractDefinitionPattern(body: string[]): { question: string; answer: string } | null {
+  const fullText = body.join("");
+  const patterns = [
+    /(.{2,40})(?:是|是指|指的是|即|称为|叫做|定义为)\s*(.{2,200})/,
+    /(.{2,40})(?:指|就是指)\s*(.{2,200})/,
+  ];
+
+  for (const pattern of patterns) {
+    const match = fullText.match(pattern);
+    if (match) {
+      const term = match[1].trim();
+      const def = match[2].trim();
+      return { question: `什么是${term}？`, answer: `${term}是${def}` };
+    }
+  }
+
+  return null;
+}
+
 /** 分割列表项为题面和答案 */
 function splitListItem(item: string): { question: string; answer: string } {
-  // 匹配各种分隔符：——, --, :, ：, =
   const separators = ["——", "--", "：", ":", "==", "→"];
   for (const sep of separators) {
     const idx = item.indexOf(sep);
@@ -202,7 +248,6 @@ function splitListItem(item: string): { question: string; answer: string } {
       }
     }
   }
-  // 无法分割，整行作为答案，生成题面
   if (item.length > 5) {
     return { question: "", answer: item };
   }
@@ -240,18 +285,29 @@ function cleanBody(body: string[]): string {
     .trim();
 }
 
+/** 公开的基础清理函数，供 AI 模块调用 */
+export function cleanQuestionText(text: string): string {
+  return text
+    .replace(/^[\d.、\s]+/, "")
+    .replace(/[#*>`_~]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function createItem(
   question: string,
   answer: string,
   sourceFile: string,
-  sectionIndex: number
+  sectionIndex: number,
+  answerSource: "extracted" | "ai-generated"
 ): QuestionItem {
   return {
     id: `${sourceFile}::${sectionIndex}::${Date.now()}`,
-    question,
-    answer,
+    question: cleanQuestionText(question),
+    answer: answer.trim(),
     sourceFile,
     sectionIndex,
     createdAt: Date.now(),
+    answerSource,
   };
 }

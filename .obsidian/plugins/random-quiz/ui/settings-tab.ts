@@ -17,6 +17,9 @@ export class RandomQuizSettingTab extends PluginSettingTab {
 
     containerEl.createEl("h2", { text: "随机题目抽取 - 设置" });
 
+    // === 基本设置 ===
+    containerEl.createEl("h3", { text: "基本设置" });
+
     new Setting(containerEl)
       .setName("目标文件夹")
       .setDesc("扫描此文件夹内的 Markdown 文件提取题目")
@@ -57,11 +60,12 @@ export class RandomQuizSettingTab extends PluginSettingTab {
           })
       );
 
-    containerEl.createEl("h3", { text: "AI 增强（可选）" });
+    // === AI 设置 ===
+    containerEl.createEl("h3", { text: "AI 增强设置" });
 
     new Setting(containerEl)
       .setName("AI API Key")
-      .setDesc("用于 AI 辅助生成题目的 API 密钥")
+      .setDesc("用于 AI 功能的 API 密钥（支持 OpenAI 兼容接口）")
       .addText((text) =>
         text
           .setPlaceholder("sk-...")
@@ -96,6 +100,51 @@ export class RandomQuizSettingTab extends PluginSettingTab {
             this.settings.aiModel = value;
             await this.saveFn();
           })
+      );
+
+    new Setting(containerEl)
+      .setName("自动搜索答案")
+      .setDesc("扫描时自动在 Vault 中搜索答案并补全")
+      .addToggle((toggle) =>
+        toggle.setValue(this.settings.aiAutoSearch).onChange(async (value) => {
+          this.settings.aiAutoSearch = value;
+          await this.saveFn();
+        })
+      );
+
+    new Setting(containerEl)
+      .setName("答案搜索范围")
+      .setDesc("AI 搜索答案的范围")
+      .addDropdown((dropdown) =>
+        dropdown
+          .addOption("document", "仅当前文档")
+          .addOption("folder", "当前文件夹")
+          .addOption("vault", "整个 Vault")
+          .setValue(this.settings.aiSearchScope)
+          .onChange(async (value: "document" | "folder" | "vault") => {
+            this.settings.aiSearchScope = value;
+            await this.saveFn();
+          })
+      );
+
+    new Setting(containerEl)
+      .setName("AI 识别题目")
+      .setDesc("用 AI 识别规则无法处理的纯文本段落")
+      .addToggle((toggle) =>
+        toggle.setValue(this.settings.aiDetectQuestions).onChange(async (value) => {
+          this.settings.aiDetectQuestions = value;
+          await this.saveFn();
+        })
+      );
+
+    new Setting(containerEl)
+      .setName("格式规范化")
+      .setDesc("AI 将题目和答案统一为规范格式（问句 + 清晰答案）")
+      .addToggle((toggle) =>
+        toggle.setValue(this.settings.normalizeFormat).onChange(async (value) => {
+          this.settings.normalizeFormat = value;
+          await this.saveFn();
+        })
       );
   }
 }
