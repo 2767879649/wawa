@@ -9,6 +9,7 @@ export interface RandomQuizSettings {
   aiSearchScope: "document" | "folder" | "vault";
   aiDetectQuestions: boolean;
   normalizeFormat: boolean;
+  outputFile: string;
 }
 
 export const DEFAULT_SETTINGS: RandomQuizSettings = {
@@ -22,6 +23,7 @@ export const DEFAULT_SETTINGS: RandomQuizSettings = {
   aiSearchScope: "folder",
   aiDetectQuestions: true,
   normalizeFormat: true,
+  outputFile: "learning学习/备考/题库.md",
 };
 
 export interface QuestionItem {

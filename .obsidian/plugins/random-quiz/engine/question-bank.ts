@@ -99,10 +99,41 @@ export class QuestionBank {
     }
   }
 
-  /** 添加题目到题库 */
-  async addItems(newItems: QuestionItem[]): Promise<void> {
+  /** 添加题目到题库，并写入指定文件 */
+  async addItems(newItems: QuestionItem[], settings: RandomQuizSettings): Promise<void> {
     this.items.push(...newItems);
     await this.saveToDisk(this.items);
+    if (settings.outputFile && newItems.length > 0) {
+      await this.appendToFile(newItems, settings.outputFile);
+    }
+  }
+
+  /** 将题目追加写入 vault 中的 Markdown 文件 */
+  async appendToFile(items: QuestionItem[], filePath: string): Promise<void> {
+    const timestamp = new Date().toISOString().split("T")[0];
+    let newContent = `\n## ${timestamp} 导入 (${items.length} 题)\n\n`;
+
+    for (const item of items) {
+      newContent += `### Q: ${item.question}\n`;
+      newContent += `A: ${item.answer}\n`;
+      if (item.answerSource === "ai-generated") {
+        newContent += `> AI 生成`;
+        if (item.relatedFiles && item.relatedFiles.length > 0) {
+          newContent += ` | 参考: ${item.relatedFiles.join(", ")}`;
+        }
+        newContent += `\n`;
+      }
+      newContent += `\n---\n\n`;
+    }
+
+    const exists = await this.plugin.app.vault.adapter.exists(filePath);
+    if (exists) {
+      const existing = await this.plugin.app.vault.adapter.read(filePath);
+      await this.plugin.app.vault.adapter.write(filePath, existing + newContent);
+    } else {
+      const header = `# 题库\n\n> 自动生成的复习题库 | 来源: ${new Date().toLocaleDateString("zh-CN")}\n\n---\n`;
+      await this.plugin.app.vault.create(filePath, header + newContent);
+    }
   }
 
   /** 获取随机题目 */

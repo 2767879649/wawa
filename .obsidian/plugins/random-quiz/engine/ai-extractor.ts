@@ -26,7 +26,8 @@ export async function generateQuestionsFromText(
 2. 为每个知识点生成一个问题和对应的答案
 3. 问题应该考察理解和记忆，不要过于简单
 4. 答案应准确、简洁
-5. 输出 JSON 数组格式：[{"question": "...", "answer": "..."}]
+5. 如果是选择题，答案中必须包含全部选项（A. B. C. D.），并用 **[✓]** 标记正确答案
+6. 输出 JSON 数组格式：[{"question": "...", "answer": "..."}]
 
 学习笔记内容：
 ---
@@ -58,7 +59,8 @@ export async function normalizeQAPairs(
 2. 答案：保持原意但格式清晰，中文使用全角标点，英文使用半角标点
 3. 去除噪声和无意义的空白
 4. 如果原始答案不完整，尽量根据上下文补全
-5. 输出 JSON 数组格式：输出格式与输入格式相同
+5. 如果是选择题，必须保留全部选项（A. B. C. D.），用 **[✓]** 标记正确答案
+6. 输出 JSON 数组格式：输出格式与输入格式相同
 
 原始题目列表：
 ${itemsJson}
@@ -91,20 +93,19 @@ export async function searchAndAnswer(
     .map((c) => `【来源：${c.file}】\n${c.content.substring(0, 1500)}`)
     .join("\n\n---\n\n");
 
-  const prompt = `你是一个学习助手。请根据以下参考资料，为这道题目生成准确、完整的答案。
+  const prompt = `你是学习助手，根据参考资料生成准确答案。
 
 题目：${question}
 
-原始答案（可能不完整）：${originalAnswer}
-
-参考资料：
+参考资料（按相关度排序）：
 ${contextText || "（无额外参考资料）"}
 
 要求：
-1. 答案准确、简洁、完整
-2. 优先使用参考资料中的内容
-3. 如果参考资料不足，基于已有知识补充
-4. 只输出答案文本，不需要 JSON 格式`;
+1. 严格基于参考资料回答，不要编造信息
+2. 如果参考资料充分，直接引用或概括原文
+3. 如果参考资料不充分，回答"参考资料中未找到相关内容"并尝试简要回答
+4. 答案简洁、准确，不超过200字
+5. 只输出答案文本`;
 
   try {
     const response = await fetch(settings.aiEndpoint, {
@@ -116,7 +117,7 @@ ${contextText || "（无额外参考资料）"}
       body: JSON.stringify({
         model: settings.aiModel,
         messages: [
-          { role: "system", content: "你是一个专业的学习助手，输出准确简洁的答案。" },
+          { role: "system", content: "你是学习助手，严格基于参考资料生成准确答案，不编造信息。" },
           { role: "user", content: prompt },
         ],
         temperature: 0.5,

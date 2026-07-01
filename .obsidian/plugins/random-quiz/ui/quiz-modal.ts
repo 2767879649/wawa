@@ -83,7 +83,14 @@ export class QuizModal extends Modal {
       answerContainer.createEl("div", { cls: "quiz-answer-label" }).createEl("strong", {
         text: "答案：",
       });
-      answerContainer.createEl("div", { cls: "quiz-answer", text: item.answer });
+      // 选择题选项渲染
+      if (isChoiceAnswer(item.answer)) {
+        answerContainer.createEl("div", { cls: "quiz-answer" }).appendChild(
+          renderChoiceAnswer(item.answer)
+        );
+      } else {
+        answerContainer.createEl("div", { cls: "quiz-answer", text: item.answer });
+      }
     }
 
     // 按钮区
@@ -115,4 +122,45 @@ export class QuizModal extends Modal {
     const { contentEl } = this;
     contentEl.empty();
   }
+}
+
+/** 判断答案是否包含选择题选项 */
+function isChoiceAnswer(answer: string): boolean {
+  return /[A-D][).、．]\s/.test(answer);
+}
+
+/** 渲染选择题选项，高亮正确答案 */
+function renderChoiceAnswer(answer: string): HTMLElement {
+  const container = document.createElement("div");
+  const lines = answer.split("\n");
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    const optionMatch = trimmed.match(/^([A-D])[).、．]\s*(.+)/);
+    if (optionMatch) {
+      const row = container.createEl("div", { cls: "quiz-option-row" });
+      const isCorrect = /\*\*\[✓\]\*\*/.test(trimmed);
+
+      row.createEl("span", {
+        cls: `quiz-option-label${isCorrect ? " quiz-option-correct" : ""}`,
+        text: optionMatch[1],
+      });
+
+      const text = optionMatch[2].replace(/\*\*\[✓\]\*\*/, "").trim();
+      const textEl = row.createEl("span", {
+        cls: `quiz-option-text${isCorrect ? " quiz-option-correct" : ""}`,
+        text,
+      });
+
+      if (isCorrect) {
+        textEl.createEl("span", { cls: "quiz-option-check", text: " ✓" });
+      }
+    } else {
+      container.createEl("div", { text: trimmed, cls: "quiz-answer-note" });
+    }
+  }
+
+  return container;
 }

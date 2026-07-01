@@ -16,7 +16,7 @@ export class AIOrganizer {
     this.settings = settings;
   }
 
-  /** 完整流水线：规则提取 → AI 检测 → 规范化 → AI 搜索答案 */
+  /** 完整流水线：规则提取 → AI 检测 → 去重 → 规范化 → AI 搜索答案 */
   async processDocument(file: TFile): Promise<QuestionItem[]> {
     const content = await this.plugin.app.vault.read(file);
 
@@ -27,27 +27,18 @@ export class AIOrganizer {
     if (this.settings.aiDetectQuestions && this.settings.aiApiKey) {
       const missedBlocks = this.findUnprocessedBlocks(content, items);
       if (missedBlocks.length > 0) {
-        const prompt = `请从以下段落中提取可以作为复习题目的知识点。每个知识点生成一个问题和答案。
-输出 JSON 数组：[{"question": "...", "answer": "..."}]
-
-段落内容：
-${missedBlocks.join("\n\n---\n\n")}
-
-只输出 JSON 数组。如果没有可提取的题目，输出空数组 []。`;
-
         const aiItems = await generateQuestionsFromText(
           missedBlocks.join("\n\n---\n\n"),
           file.path,
           this.settings
         );
-        items.push(...aiItems);
+        items = this.deduplicate([...items, ...aiItems]);
       }
     }
 
     // 第三步：格式规范化
     if (this.settings.normalizeFormat && this.settings.aiApiKey && items.length > 0) {
       items = await normalizeQAPairs(items, this.settings);
-      // 恢复 sourceFile 和 sectionIndex
       for (const item of items) {
         item.sourceFile = file.path;
       }
@@ -66,10 +57,17 @@ ${missedBlocks.join("\n\n---\n\n")}
     // 先用规则提取
     let items = extractQuestions(text, "imported-text");
 
-    // AI 检测
+    // AI 检测遗漏段落（而非全文重复提取）
     if (this.settings.aiDetectQuestions && this.settings.aiApiKey) {
-      const aiItems = await generateQuestionsFromText(text, "imported-text", this.settings);
-      items.push(...aiItems);
+      const missedBlocks = this.findUnprocessedBlocksInText(text, items);
+      if (missedBlocks.length > 0) {
+        const aiItems = await generateQuestionsFromText(
+          missedBlocks.join("\n\n---\n\n"),
+          "imported-text",
+          this.settings
+        );
+        items = this.deduplicate([...items, ...aiItems]);
+      }
     }
 
     // 规范化
@@ -78,6 +76,56 @@ ${missedBlocks.join("\n\n---\n\n")}
     }
 
     return items;
+  }
+
+  /** 去重：按题目文本相似度合并 */
+  private deduplicate(items: QuestionItem[]): QuestionItem[] {
+    const seen = new Map<string, QuestionItem>();
+    for (const item of items) {
+      const key = this.normalizeForDedup(item.question);
+      const existing = seen.get(key);
+      if (!existing || item.answer.length > existing.answer.length) {
+        seen.set(key, item);
+      }
+    }
+    return [...seen.values()];
+  }
+
+  /** 归一化题目文本用于去重比较 */
+  private normalizeForDedup(text: string): string {
+    return text
+      .replace(/[？?。，,！!、\s"'""''「」『』【】《》（）()]+/g, "")
+      .replace(/^(请简述|请解释|什么是|简述|解释|什么叫做|什么叫)/, "")
+      .toLowerCase()
+      .substring(0, 40);
+  }
+
+  /** 找到粘贴文本中规则未处理的块 */
+  private findUnprocessedBlocksInText(text: string, items: QuestionItem[]): string[] {
+    const lines = text.split("\n");
+    const blocks: string[] = [];
+    let currentBlock: string[] = [];
+
+    for (const line of lines) {
+      if (/^(#{1,6})\s/.test(line) || /^\s*[-*\d]+[.)]\s+/.test(line) || line.trim() === "---" || line.trim() === "") {
+        if (currentBlock.length > 0) {
+          const block = currentBlock.join("\n").trim();
+          if (block.length > 40 && !this.isAlreadyExtracted(block, items)) {
+            blocks.push(block);
+          }
+          currentBlock = [];
+        }
+      } else {
+        currentBlock.push(line);
+      }
+    }
+    if (currentBlock.length > 0) {
+      const block = currentBlock.join("\n").trim();
+      if (block.length > 40 && !this.isAlreadyExtracted(block, items)) {
+        blocks.push(block);
+      }
+    }
+    return blocks;
   }
 
   /** 找到规则提取未处理的文本块 */
@@ -147,55 +195,46 @@ ${missedBlocks.join("\n\n---\n\n")}
     const vaultFiles = this.plugin.app.vault.getMarkdownFiles();
 
     for (const item of items) {
-      // 跳过已有完整答案的题目（答案超过 50 字视为完整）
-      if (item.answer.length > 50) continue;
+      if (item.answer.length > 80) continue;
 
-      const contexts: { file: string; content: string }[] = [];
+      const contexts: { file: string; content: string; relevance: number }[] = [];
       const scope = this.settings.aiSearchScope;
 
-      // 从题目中提取关键词
-      const keywords = item.question
-        .replace(/[？?。，,！!、\s]+/g, " ")
-        .split(" ")
-        .filter((w) => w.length > 1)
-        .slice(0, 5);
+      // 提取有意义的搜索词（中文按字符切+常见词组合，英文按空格）
+      const searchTerms = this.extractSearchTerms(item.question);
 
       for (const file of vaultFiles) {
-        // 根据搜索范围过滤
         if (scope === "document" && file.path !== item.sourceFile) continue;
-        if (
-          scope === "folder" &&
-          file.path.split("/").slice(0, -1).join("/") !==
-            item.sourceFile.split("/").slice(0, -1).join("/")
-        )
-          continue;
+        const fileFolder = file.path.split("/").slice(0, -1).join("/");
+        const sourceFolder = item.sourceFile.split("/").slice(0, -1).join("/");
+        if (scope === "folder" && fileFolder !== sourceFolder) continue;
 
-        if (contexts.length >= 3) break; // 最多3个参考文件
+        if (contexts.length >= 5) break;
 
         try {
           const content = await this.plugin.app.vault.read(file);
-          // 检查是否包含关键词
-          const matchCount = keywords.filter((kw) => content.includes(kw)).length;
-          if (matchCount >= 2) {
-            // 提取相关段落
-            const relevantParagraphs = this.extractRelevantParagraphs(content, keywords);
-            if (relevantParagraphs) {
-              contexts.push({ file: file.path, content: relevantParagraphs });
+          const matchCount = searchTerms.filter((kw) => content.includes(kw)).length;
+          if (matchCount >= 1) {
+            const relevant = this.extractRelevantParagraphs(content, searchTerms);
+            if (relevant.length > 20) {
+              contexts.push({ file: file.path, content: relevant, relevance: matchCount });
             }
           }
-        } catch (e) {
-          // skip unreadable files
-        }
+        } catch (e) { /* skip */ }
       }
 
-      if (contexts.length > 0) {
+      // 按相关度排序，取 top 3
+      contexts.sort((a, b) => b.relevance - a.relevance);
+      const topContexts = contexts.slice(0, 3);
+
+      if (topContexts.length > 0) {
         const result = await searchAndAnswer(
           item.question,
           item.answer,
-          contexts,
+          topContexts.map(c => ({ file: c.file, content: c.content })),
           this.settings
         );
-        if (result) {
+        if (result && result.answer.length > item.answer.length) {
           item.answer = result.answer;
           item.answerSource = "ai-generated";
           item.relatedFiles = result.relatedFiles;
@@ -204,6 +243,41 @@ ${missedBlocks.join("\n\n---\n\n")}
     }
 
     return items;
+  }
+
+  /** 提取搜索词：中文用字符级 n-gram + 常见词组 */
+  private extractSearchTerms(question: string): string[] {
+    const cleaned = question.replace(/[？?。，,！!、\s"'""''「」『』【】《》（）()请简述解释什么是叫做什么叫]+/g, "");
+    const terms: string[] = [];
+
+    // 中文部分：2-3字组合
+    const chineseChars = cleaned.match(/[一-鿿]+/g);
+    if (chineseChars) {
+      for (const chunk of chineseChars) {
+        if (chunk.length >= 2) {
+          terms.push(chunk); // 整个中文词
+          // 2字组合
+          for (let i = 0; i < chunk.length - 1; i++) {
+            terms.push(chunk.substring(i, i + 2));
+          }
+          // 3字组合
+          for (let i = 0; i < chunk.length - 2; i++) {
+            terms.push(chunk.substring(i, i + 3));
+          }
+        } else {
+          terms.push(chunk);
+        }
+      }
+    }
+
+    // 英文部分
+    const englishWords = cleaned.match(/[a-zA-Z0-9]+/g);
+    if (englishWords) {
+      terms.push(...englishWords.filter(w => w.length > 1));
+    }
+
+    // 去重并限制数量
+    return [...new Set(terms)].slice(0, 12);
   }
 
   /** 从文件内容中提取与关键词相关的段落 */

@@ -88,9 +88,15 @@ function extractFromSection(
 
     if (listItems.length > 0) {
       const question = generateQuestionFromHeading(section.heading);
-      const answer = listItems.join("\n");
-      if (answer.trim()) {
+      if (isMultipleChoice(listItems)) {
+        // 选择题：保留全部选项，标记正确答案
+        const answer = formatMultipleChoiceAnswer(listItems);
         questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
+      } else {
+        const answer = listItems.join("\n");
+        if (answer.trim()) {
+          questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
+        }
       }
     } else if (boldItems.length > 0) {
       const question = generateQuestionFromHeading(section.heading);
@@ -100,7 +106,12 @@ function extractFromSection(
       }
     } else {
       const bodyText = cleanBody(section.body);
-      if (bodyText.trim().length > 10) {
+      // 检查正文中是否嵌入了选择题选项
+      const inlineMc = extractInlineMultipleChoice(section.body);
+      if (inlineMc) {
+        const question = generateQuestionFromHeading(section.heading);
+        questions.push(createItem(question, inlineMc, sourceFile, sectionIndex, "extracted"));
+      } else if (bodyText.trim().length > 10) {
         const question = generateQuestionFromHeading(section.heading);
         questions.push(createItem(question, bodyText, sourceFile, sectionIndex, "extracted"));
       }
@@ -111,6 +122,22 @@ function extractFromSection(
   // 无标题节
   const listItems = extractListItems(section.body);
   const boldItems = extractBoldSegments(section.body);
+
+  // 检查列表项是否为选择题格式
+  if (isMultipleChoice(listItems)) {
+    const question = generateQuestionFromHeading(section.heading || "以下题目");
+    const answer = formatMultipleChoiceAnswer(listItems);
+    questions.push(createItem(question, answer, sourceFile, sectionIndex, "extracted"));
+    return questions;
+  }
+
+  // 检查正文内嵌选择题
+  const inlineMc = extractInlineMultipleChoice(section.body);
+  if (inlineMc) {
+    const question = generateQuestionFromHeading(section.heading || "以下题目");
+    questions.push(createItem(question, inlineMc, sourceFile, sectionIndex, "extracted"));
+    return questions;
+  }
 
   for (const item of listItems) {
     const parts = splitListItem(item);
@@ -283,6 +310,49 @@ function cleanBody(body: string[]): string {
     .join("\n")
     .replace(/[#*>]/g, "")
     .trim();
+}
+
+/** 判断列表项是否为选择题选项（A. B. C. D. 格式） */
+function isMultipleChoice(items: string[]): boolean {
+  if (items.length < 2) return false;
+  const optionPattern = /^[A-D][).、．]\s*/;
+  const matchCount = items.filter((item) => optionPattern.test(item)).length;
+  return matchCount >= 2 && matchCount >= items.length * 0.5;
+}
+
+/** 格式化选择题答案：保留全部选项，首个匹配的为正确答案 */
+function formatMultipleChoiceAnswer(items: string[]): string {
+  const options = items.map((item) => {
+    const cleaned = item.replace(/^[A-D][).、．]\s*/, "").trim();
+    const label = item.match(/^([A-D])[).、．]/)?.[1] || "";
+    return { label, text: cleaned };
+  });
+
+  // 假设第一个选项为正确答案（常见模式，或按约定标记 * 或 ✓ 识别）
+  const correctIdx = options.findIndex((o) =>
+    /\*$|✓$|（正确）|（答案）/.test(o.text)
+  );
+  const answerLabel = correctIdx >= 0 ? options[correctIdx].label : options[0]?.label || "?";
+
+  const lines = ["答案：全部选项如下"];
+  for (const opt of options) {
+    const marker = opt.label === answerLabel ? " **[✓]**" : "";
+    lines.push(`${opt.label}. ${opt.text}${marker}`);
+  }
+  return lines.join("\n");
+}
+
+/** 从正文中提取内嵌选择题选项（如 "A.xxx B.xxx C.xxx"） */
+function extractInlineMultipleChoice(body: string[]): string | null {
+  const fullText = body.join(" ");
+  // 匹配 A.xxx B.xxx C.xxx D.xxx 内联格式
+  const match = fullText.match(/([A-D][).、．]\s*[^\s]+(?:\s+[A-D][).、．]\s*[^\s]+){2,})/);
+  if (match) {
+    const options = match[1].split(/\s+(?=[A-D][).、．])/);
+    const formatted = options.map((opt) => opt.trim()).join("\n");
+    return "答案：全部选项如下\n" + formatted;
+  }
+  return null;
 }
 
 /** 公开的基础清理函数，供 AI 模块调用 */

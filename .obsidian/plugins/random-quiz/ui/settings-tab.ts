@@ -47,6 +47,19 @@ export class RandomQuizSettingTab extends PluginSettingTab {
       );
 
     new Setting(containerEl)
+      .setName("题库输出文件")
+      .setDesc("导入题目时同步写入的 Markdown 文件路径")
+      .addText((text) =>
+        text
+          .setPlaceholder("learning学习/备考/题库.md")
+          .setValue(this.settings.outputFile)
+          .onChange(async (value) => {
+            this.settings.outputFile = value;
+            await this.saveFn();
+          })
+      );
+
+    new Setting(containerEl)
       .setName("每轮题目数")
       .setDesc("每次随机抽取的题目数量")
       .addSlider((slider) =>

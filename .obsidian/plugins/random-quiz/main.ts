@@ -29,7 +29,7 @@ export default class RandomQuizPlugin extends Plugin {
       name: "导入题目",
       callback: () => {
         new ImportModal(this.app, this, this.settings, async (items) => {
-          await this.questionBank.addItems(items);
+          await this.questionBank.addItems(items, this.settings);
         }).open();
       },
     });
@@ -79,7 +79,7 @@ export default class RandomQuizPlugin extends Plugin {
         new Notice("正在搜索并补全答案...");
         const organizer = new AIOrganizer(this, this.settings);
         const items = await organizer.processDocument(file);
-        await this.questionBank.addItems(items);
+        await this.questionBank.addItems(items, this.settings);
         new Notice(`AI 补全完成，共处理 ${items.length} 道题目`);
       },
     });
@@ -109,7 +109,7 @@ export default class RandomQuizPlugin extends Plugin {
         const items = await generateQuestionsFromText(selection, sourcePath, this.settings);
 
         if (items.length > 0) {
-          await this.questionBank.addItems(items);
+          await this.questionBank.addItems(items, this.settings);
           new Notice(`已添加 ${items.length} 道题目到题库`);
         }
       },
