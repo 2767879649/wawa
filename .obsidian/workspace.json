@@ -296,8 +296,7 @@
                   "title": "模型API"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical",
@@ -312,9 +311,9 @@
   },
   "active": "a3f6f8147ca84e68",
   "lastOpenFiles": [
-    "learning学习/备考/嵌入式.md",
-    "learning学习/模型API.md",
     "嵌入式.md",
+    "learning学习/模型API.md",
+    "learning学习/备考/嵌入式.md",
     "智能.md",
     "learning学习/备考",
     "考试.md",
