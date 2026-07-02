@@ -208,3 +208,35 @@
   border-radius: 3px;
   font-weight: 500;
 }
+
+/* 笔记区域（答案下方，可展开） */
+.exam-note {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-top: 1px dashed #d0d0d0;
+  font-size: 0.9em;
+}
+
+.exam-note summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: #888;
+}
+
+.exam-note summary:hover {
+  color: #555;
+}
+
+.exam-note-input {
+  width: 100%;
+  min-height: 4em;
+  margin-top: 6px;
+  padding: 8px;
+  font-size: 0.95em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  color: #333;
+  resize: vertical;
+  font-family: inherit;
+}
