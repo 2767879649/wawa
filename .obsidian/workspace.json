@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/zigbee/选择题.md",
-                "mode": "source",
+                "file": "learning学习/备考/试卷/2026-07-02-2004-练习.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "选择题"
+              "title": "2026-07-02-2004-练习"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -285,12 +285,13 @@
       "question-extractor:抽题组卷": false
     }
   },
-  "active": "37fe3b49bd9abd3a",
+  "active": "bdaf523965ab71a1",
   "lastOpenFiles": [
-    "learning学习/备考/试卷/2026-07-02-1952-练习.md",
-    "learning学习/备考/zigbee/选择题.md",
-    "learning学习/备考/zigbee/大题.md",
     "learning学习/备考/zigbee/填空题.md",
+    "learning学习/备考/试卷/2026-07-02-2004-练习.md",
+    "learning学习/备考/zigbee/选择题.md",
+    "learning学习/备考/试卷/2026-07-02-1952-练习.md",
+    "learning学习/备考/zigbee/大题.md",
     "learning学习/备考/试卷/2026-07-02-1933-练习.md",
     "learning学习/备考/试卷/2026-07-02-1609-练习.md",
     "learning学习/备考/zigbee/抽题记录.md",
@@ -312,7 +313,6 @@
     "learning学习/备考/试卷/2026-07-02-1458-练习.md",
     "learning学习/备考/试卷/2026-07-02-1446-练习.md",
     "learning学习/备考/试卷/2026-07-02-1434-练习.md",
-    "learning学习/备考/试卷/2026-07-02-1431-练习.md",
     "learning学习/备考/试卷",
     "learning学习/备考/zigbee",
     "未命名 1.canvas",
