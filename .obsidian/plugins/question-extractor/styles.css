@@ -137,15 +137,74 @@
   word-break: break-all;
 }
 
-/* 试卷生成后的选项样式 */
-.exam-choices {
-  margin-left: 20px;
+/* ========== 试卷卡片样式（独立于 Obsidian 主题） ========== */
+.exam-card {
+  border: 2px solid #4a90d9;
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin-bottom: 16px;
+  background: #fafbfc;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
-.exam-answer-block {
-  background: var(--background-secondary);
-  border-left: 3px solid var(--interactive-accent);
-  padding: 8px 12px;
-  margin: 8px 0;
+.exam-num {
+  display: inline-block;
+  min-width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background: #4a90d9;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.exam-stem {
+  font-size: 1.05em;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.exam-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.exam-opt {
+  font-family: var(--font-monospace);
+  font-size: 0.95em;
+  color: #333;
+}
+
+.exam-answer {
+  margin-top: 14px;
+  padding: 10px 14px;
+  background: #eaf4ea;
+  border-left: 3px solid #4caf50;
   border-radius: 4px;
+}
+
+.exam-answer summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #388e3c;
+  font-size: 0.95em;
+}
+
+.exam-answer summary:hover {
+  color: #2e7d32;
+}
+
+/* 填空题高亮（独立于主题） */
+.exam-blank {
+  background: #fff3cd;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 500;
 }
