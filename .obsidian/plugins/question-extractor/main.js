@@ -263,7 +263,7 @@ ${u}
 `).trim(),n}function A1(e){let t=U1(e),n=E1(e),r=yc(e,"\u9009\u62E9\u9898"),i=n.join(`
 `);return{block:`${r}
 ${i}
-%%answer: ${t}%%
+- answer: ${t}
 - source: 
 - tags: 
 - note: 
