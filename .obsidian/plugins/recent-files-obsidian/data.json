@@ -9,6 +9,10 @@
       "path": "learning学习/备考/zigbee/填空题.md"
     },
     {
+      "basename": "重点",
+      "path": "learning学习/备考/zigbee/重点.md"
+    },
+    {
       "basename": "选择题",
       "path": "learning学习/备考/zigbee/选择题.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "嵌入式",
       "path": "learning学习/备考/嵌入式.md"
-    },
-    {
-      "basename": "重点",
-      "path": "learning学习/备考/zigbee/重点.md"
     },
     {
       "basename": "claude基础使用",
