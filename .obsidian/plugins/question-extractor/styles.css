@@ -140,9 +140,9 @@
 /* ========== 试卷卡片样式（独立于 Obsidian 主题） ========== */
 .exam-card {
   border: 2px solid #4a90d9;
-  border-radius: 10px;
-  padding: 18px 22px;
-  margin-bottom: 16px;
+  border-radius: 10px 10px 4px 4px;
+  padding: 18px 22px 10px 22px;
+  margin-bottom: 0;
   background: #fafbfc;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
@@ -209,14 +209,16 @@
   font-weight: 500;
 }
 
-/* 笔记引用块（卡片下方的 Markdown 引用块，可在实时预览下直接编辑） */
-.exam-note-block {
-  margin-top: -8px;
-  margin-bottom: 20px;
-  border-left: 3px solid #4a90d9;
-  border-radius: 0 0 6px 6px;
-  padding: 6px 14px;
-  background: #f5f7fa;
-  font-size: 0.9em;
-  color: #555;
+/* 笔记折叠块 — 卡片紧跟 Obsidian callout，视觉上连为一体 */
+/* 卡片底部用负 margin 拉近 callout */
+.exam-card + .callout,
+.callout[data-callout="note"] {
+  margin-top: -2px !important;
+  margin-bottom: 18px;
+}
+
+/* 扩大点击区域，让折叠体验更好 */
+.callout[data-callout="note"] .callout-title {
+  cursor: pointer;
+  user-select: none;
 }
