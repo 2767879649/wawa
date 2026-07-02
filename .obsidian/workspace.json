@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/zigbee/选择题.md",
+                "file": "learning学习/备考/试卷/2026-07-02-1609-练习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "选择题"
+              "title": "2026-07-02-1609-练习"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/试卷/2026-07-02-1553-练习.md",
+                "file": "learning学习/备考/zigbee/选择题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-02-1553-练习"
+              "title": "选择题"
             }
           }
         ],
@@ -273,17 +273,19 @@
   },
   "active": "37fe3b49bd9abd3a",
   "lastOpenFiles": [
-    "learning学习/备考/试卷/2026-07-02-1553-练习.md",
-    "learning学习/备考/zigbee/重点.md",
-    "learning学习/备考/试卷/2026-07-02-1552-练习.md",
     "learning学习/备考/zigbee/选择题.md",
-    "learning学习/备考/试卷/2026-07-02-1551-练习.md",
+    "learning学习/备考/试卷/2026-07-02-1609-练习.md",
+    "learning学习/备考/zigbee/填空题.md",
     "learning学习/备考/zigbee/大题.md",
+    "learning学习/备考/zigbee/抽题记录.md",
+    "learning学习/备考/zigbee/重点.md",
+    "learning学习/备考/试卷/2026-07-02-1603-练习.md",
+    "learning学习/备考/试卷/2026-07-02-1553-练习.md",
+    "learning学习/备考/试卷/2026-07-02-1552-练习.md",
+    "learning学习/备考/试卷/2026-07-02-1551-练习.md",
     "learning学习/claude/claude基础使用.md",
     "learning学习/备考/试卷/2026-07-02-1519-练习.md",
-    "learning学习/备考/zigbee/填空题.md",
     "templates/tech-note.md",
-    "learning学习/备考/zigbee/抽题记录.md",
     "learning学习/Dify使用.md",
     "learning学习/备考/试卷/2026-07-02-1506-练习.md",
     "learning学习/备考/试卷/2026-07-02-1505-练习.md",
@@ -297,8 +299,6 @@
     "learning学习/备考/试卷/2026-07-02-1420-练习.md",
     "learning学习/备考/试卷/2026-07-02-1401-练习.md",
     "learning学习/备考/嵌入式.md",
-    "learning学习/备考/试卷/2026-07-02-1322-练习.md",
-    "learning学习/模型API.md",
     "learning学习/备考/试卷",
     "learning学习/备考/zigbee",
     "未命名 1.canvas",

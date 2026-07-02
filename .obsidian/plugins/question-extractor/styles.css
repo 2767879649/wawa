@@ -190,12 +190,12 @@
   font-weight: 500;
 }
 
-/* ========== 卡片后的可编辑 callout — 视觉融为一体 ========== */
-/* 答案 callout */
-.callout[data-callout="info"] {
+/* ========== 卡片后的可编辑 callout — 仅作用于紧跟 .exam-card 的 callout ========== */
+/* 答案 callout：紧跟卡牌 */
+.exam-card + .callout[data-callout="info"] {
   margin-top: 0;
   margin-bottom: 0;
-  border-radius: 0 0 0 0;
+  border-radius: 0;
   border-left: 2px solid #4a90d9;
   border-right: 2px solid #4a90d9;
   border-bottom: 2px solid #4a90d9;
@@ -203,8 +203,9 @@
   background: #f0f5fb;
 }
 
-/* 笔记 callout（紧跟答案 callout） */
-.callout[data-callout="note"] {
+/* 笔记 callout：紧跟答案 callout 或直接紧跟卡牌 */
+.callout[data-callout="info"] + .callout[data-callout="note"],
+.exam-card + .callout[data-callout="note"] {
   margin-top: 0;
   margin-bottom: 18px;
   border-radius: 0 0 6px 6px;
@@ -216,8 +217,9 @@
 }
 
 /* 扩大点击区域 */
-.callout[data-callout="info"] .callout-title,
-.callout[data-callout="note"] .callout-title {
+.exam-card + .callout[data-callout="info"] .callout-title,
+.callout[data-callout="info"] + .callout[data-callout="note"] .callout-title,
+.exam-card + .callout[data-callout="note"] .callout-title {
   cursor: pointer;
   user-select: none;
 }
