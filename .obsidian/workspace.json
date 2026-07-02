@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/claude/claude基础使用.md",
-                "mode": "preview",
+                "file": "learning学习/备考/试卷/2026-07-02-2053-练习.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude基础使用"
+              "title": "2026-07-02-2053-练习"
             }
           }
         ],
@@ -315,11 +315,12 @@
   },
   "active": "f0eabe65ee188078",
   "lastOpenFiles": [
+    "learning学习/claude/claude基础使用.md",
+    "learning学习/备考/试卷/2026-07-02-2053-练习.md",
     "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/试卷/2026-07-02-2043-练习.md",
     "learning学习/备考/试卷/2026-07-02-2045-练习.md",
     "learning学习/备考/zigbee/大题.md",
-    "learning学习/claude/claude基础使用.md",
     "learning学习/备考/试卷/2026-07-02-2032-练习.md",
     "learning学习/备考/试卷/2026-07-02-2019-练习.md",
     "learning学习/备考/zigbee/填空题.md",
@@ -340,7 +341,6 @@
     "learning学习/备考/试卷/2026-07-02-1506-练习.md",
     "learning学习/备考/试卷/2026-07-02-1505-练习.md",
     "learning学习/备考/试卷/2026-07-02-1503-练习.md",
-    "learning学习/备考/试卷/2026-07-02-1500-练习.md",
     "learning学习/备考/试卷",
     "learning学习/备考/zigbee",
     "未命名 1.canvas",
