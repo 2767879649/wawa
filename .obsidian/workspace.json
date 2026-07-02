@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/zigbee/选择题.md",
+                "file": "learning学习/备考/zigbee/大题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "选择题"
+              "title": "大题"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -271,12 +271,12 @@
       "question-extractor:抽题组卷": false
     }
   },
-  "active": "37fe3b49bd9abd3a",
+  "active": "67f1402a60d76ba0",
   "lastOpenFiles": [
-    "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/试卷/2026-07-02-1609-练习.md",
-    "learning学习/备考/zigbee/填空题.md",
     "learning学习/备考/zigbee/大题.md",
+    "learning学习/备考/zigbee/填空题.md",
+    "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/zigbee/抽题记录.md",
     "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/试卷/2026-07-02-1603-练习.md",
