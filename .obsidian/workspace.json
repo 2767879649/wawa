@@ -11,14 +11,10 @@
             "id": "4e16eacde0ae5371",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/备考/题库/选择题.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "选择题"
+              "title": "新标签页"
             }
           },
           {
@@ -27,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/模型API.md",
+                "file": "learning学习/备考/试卷/2026-07-02-1322-练习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "模型API"
+              "title": "2026-07-02-1322-练习"
             }
           },
           {
@@ -273,15 +269,19 @@
   },
   "active": "a3f6f8147ca84e68",
   "lastOpenFiles": [
+    "learning学习/备考/试卷/2026-07-02-1322-练习.md",
     "learning学习/备考/嵌入式.md",
+    "learning学习/备考/zigbee/选择题.md",
+    "learning学习/备考/zigbee/填空题.md",
+    "learning学习/备考/zigbee/抽题记录.md",
+    "learning学习/claude/claude基础使用.md",
+    "learning学习/模型API.md",
+    "learning学习/备考/试卷",
     "learning学习/备考/题库/选择题.md",
     "learning学习/备考/题库/抽题记录.md",
     "learning学习/备考/zigbee.md",
-    "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/zigbee",
-    "learning学习/claude/claude基础使用.md",
     "未命名 1.canvas",
-    "learning学习/模型API.md",
     "learning学习/备考/题库/试卷/2026-07-01-2244-练习.md",
     "learning学习/Git基础使用.md",
     "learning学习/备考/题库/试卷",
@@ -305,12 +305,8 @@
     "learning学习/claude/笔记文件/技能.md",
     "learning学习/claude/笔记文件/基础知识.md",
     "learning学习/claude/笔记文件/注意事项.md",
-    "learning学习/claude/笔记文件/网页上线前检查.md",
     "learning学习/claude/笔记文件",
     "learning学习/claude/实验案例/index.html",
-    "learning学习/claude/实验案例",
-    "projects项目文档/个人网站.md",
-    "README.md",
     "assets/Pasted image 20260620142937.png",
     "未命名 3.canvas",
     "未命名 2.canvas",
