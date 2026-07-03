@@ -5,12 +5,12 @@
       "path": "learning学习/备考/嵌入式/大题.md"
     },
     {
-      "basename": "填空题",
-      "path": "learning学习/备考/嵌入式/填空题.md"
-    },
-    {
       "basename": "重点",
       "path": "learning学习/备考/嵌入式/重点.md"
+    },
+    {
+      "basename": "填空题",
+      "path": "learning学习/备考/嵌入式/填空题.md"
     },
     {
       "basename": "选择题",

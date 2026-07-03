@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -288,9 +287,9 @@
   },
   "active": "840bbe888fd8b746",
   "lastOpenFiles": [
+    "learning学习/备考/嵌入式/重点.md",
     "learning学习/备考/嵌入式/填空题.md",
     "learning学习/备考/嵌入式/大题.md",
-    "learning学习/备考/嵌入式/重点.md",
     "learning学习/备考/嵌入式/选择题.md",
     "嵌入式.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",

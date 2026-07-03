@@ -5,7 +5,8 @@
     "replacement": "const p={'【':'【$0】','（':'（$0）','《':'《$0》','「':'「$0」','『':'『$0』','“':'“$0”','”':'“$0”','‘':'‘$0’','’':'‘$0’','《':'《$0》'}; return p[leftMatches[0]];",
     "options": "rF",
     "priority": 10,
-    "description": "输入全角括号/引号时自动补全配对"
+    "description": "输入全角括号/引号时自动补全配对",
+    "enabled": false
   },
   {
     "id": "builtin-autopair-jump",
@@ -30,7 +31,8 @@
     "trigger": "··",
     "replacement": "`$0`",
     "priority": 10,
-    "description": "连续中文间隔号 ·· 转行内代码"
+    "description": "连续中文间隔号 ·· 转行内代码",
+    "enabled": false
   },
   {
     "id": "builtin-conv-codeblock",
@@ -39,7 +41,8 @@
     "replacement": "[[1]]```$0\n[[1]]```",
     "options": "r",
     "priority": 10,
-    "description": "行内代码中继续输入 · 升级为代码块"
+    "description": "行内代码中继续输入 · 升级为代码块",
+    "enabled": false
   },
   {
     "id": "builtin-conv-formula",
@@ -75,7 +78,8 @@
     "replacement": "const p={'（':['）','($0)'],'《':['》','<$0']};\nconst m={'。':'.$0','！':'!$0','；':';$0','，':',$0','：':':$0','？':'?$0','》':'>$0','｜':'|$0','（':'($0)','《':'<$0'};\nconst c=leftMatches[1],r=rightMatches[0]||'',e=p[c]; \nreturn e&&e[0]===r?e[1]:m[c];",
     "options": "rF",
     "priority": 3,
-    "description": "连续输入两个相同全角标点转对应半角"
+    "description": "连续输入两个相同全角标点转对应半角",
+    "enabled": false
   },
   {
     "id": "builtin-del-inline-formula",
