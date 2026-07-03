@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/试卷/2026-07-03-2139-练习.md",
+                "file": "learning学习/备考/试卷/2026-07-03-2147-练习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-03-2139-练习"
+              "title": "2026-07-03-2147-练习"
             }
           }
         ],
@@ -287,8 +287,9 @@
   },
   "active": "1ab4c8c0b7c4c5b3",
   "lastOpenFiles": [
-    "learning学习/备考/试卷/2026-07-03-2135-练习.md",
     "learning学习/备考/试卷/2026-07-03-2139-练习.md",
+    "learning学习/备考/试卷/2026-07-03-2147-练习.md",
+    "learning学习/备考/试卷/2026-07-03-2135-练习.md",
     "learning学习/备考/试卷/2026-07-03-2116-练习.md",
     "learning学习/备考/zigbee/大题.md",
     "learning学习/备考/试卷/2026-07-03-2107-练习.md",
@@ -315,7 +316,6 @@
     "嵌入式.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e_向下统一硬件驱动接口_向上统一应用访问接口_中间核心层调度.md",
-    "learning学习/模型API.md",
     "learning学习/备考/嵌入式",
     "learning学习/备考/试卷",
     "learning学习/备考/zigbee",
