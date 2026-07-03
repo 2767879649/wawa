@@ -1,1 +1,6 @@
-{}
+{
+  "showViewHeader": false,
+  "showRibbon": true,
+  "textFontFamily": "",
+  "interfaceFontFamily": "Agency FB"
+}
