@@ -1,13 +1,8 @@
 {
   "lastVersion": "4.0.8",
-  "aestheticStyle": "default",
-  "positionStyle": "fixed",
+  "aestheticStyle": "custom",
+  "positionStyle": "top",
   "menuCommands": [
-    {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    },
     {
       "id": "editing-toolbar:editor-undo",
       "name": "Undo Edit",
@@ -396,11 +391,6 @@
   ],
   "followingCommands": [
     {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    },
-    {
       "id": "editing-toolbar:editor-undo",
       "name": "Undo Edit",
       "icon": "undo-glyph"
@@ -788,11 +778,6 @@
   ],
   "topCommands": [
     {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    },
-    {
       "id": "editing-toolbar:editor-undo",
       "name": "Undo Edit",
       "icon": "undo-glyph"
@@ -1178,30 +1163,18 @@
       "icon": "exit-fullscreen"
     }
   ],
-  "fixedCommands": [
-    {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    }
-  ],
-  "mobileCommands": [
-    {
-      "id": "editing-toolbar:ai-tools",
-      "name": "AI Tools",
-      "icon": "lucide-sparkles"
-    }
-  ],
+  "fixedCommands": [],
+  "mobileCommands": [],
   "enableMultipleConfig": true,
-  "enableTopToolbar": false,
+  "enableTopToolbar": true,
   "enableFollowingToolbar": true,
   "enableFixedToolbar": false,
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
-  "cMenuNumRows": 12,
-  "cMenuWidth": 610,
+  "cMenuNumRows": 8,
+  "cMenuWidth": 32,
   "cMenuFontColor": "#c00000",
   "cMenuBackgroundColor": "#d3f8b6",
   "autohide": false,
@@ -1230,16 +1203,16 @@
       "aestheticStyle": "default"
     },
     "following": {
-      "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
-      "toolbarIconColor": "var(--text-normal)",
+      "toolbarBackgroundColor": "#F5F8FA",
+      "toolbarIconColor": "#4A5568",
       "toolbarIconSize": 18,
-      "aestheticStyle": "default"
+      "aestheticStyle": "custom"
     },
     "fixed": {
-      "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
+      "toolbarBackgroundColor": "#6FA7C3",
       "toolbarIconColor": "var(--text-normal)",
       "toolbarIconSize": 18,
-      "aestheticStyle": "default"
+      "aestheticStyle": "custom"
     },
     "mobile": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
@@ -1248,12 +1221,12 @@
       "aestheticStyle": "default"
     }
   },
-  "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
-  "toolbarIconColor": "var(--text-normal)",
+  "toolbarBackgroundColor": "#F5F8FA",
+  "toolbarIconColor": "#4A5568",
   "toolbarIconSize": 18,
   "useCurrentLineForRegex": false,
   "ai": {
-    "enabled": true,
+    "enabled": false,
     "consentAccepted": true,
     "onboardingShown": true,
     "providerMode": "pkmer-first",
