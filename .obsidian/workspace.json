@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/备考/嵌入式/大题.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -285,11 +285,11 @@
       "question-extractor:抽题组卷": false
     }
   },
-  "active": "840bbe888fd8b746",
+  "active": "74b0413a9d10e9cc",
   "lastOpenFiles": [
+    "learning学习/备考/嵌入式/大题.md",
     "learning学习/备考/嵌入式/重点.md",
     "learning学习/备考/嵌入式/填空题.md",
-    "learning学习/备考/嵌入式/大题.md",
     "learning学习/备考/嵌入式/选择题.md",
     "嵌入式.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",

@@ -97,7 +97,8 @@
     "replacement": "",
     "options": "d",
     "priority": 30,
-    "description": "删除高亮 ==...== 配对"
+    "description": "删除高亮 ==...== 配对",
+    "enabled": true
   },
   {
     "id": "builtin-del-block-formula",

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "trigger": " ",
+    "trigger_right": "__",
+    "replacement": "",
+    "priority": 100,
+    "enabled": false,
+    "id": "user-1783074277057-qvxm"
+  }
+]
