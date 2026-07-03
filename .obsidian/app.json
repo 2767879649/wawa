@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
   "autoPairMarkdown": false,
-  "livePreview": true
+  "livePreview": true,
+  "smartIndentList": true
 }

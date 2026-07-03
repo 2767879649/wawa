@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/嵌入式/重点.md",
+                "file": "learning学习/备考/嵌入式/选择题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "重点"
+              "title": "选择题"
             }
           }
         ]
@@ -244,8 +244,8 @@
   },
   "active": "8fce9bdf72c518ac",
   "lastOpenFiles": [
-    "learning学习/备考/嵌入式/选择题.md",
     "learning学习/备考/嵌入式/重点.md",
+    "learning学习/备考/嵌入式/选择题.md",
     "嵌入式.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e_向下统一硬件驱动接口_向上统一应用访问接口_中间核心层调度.md",
