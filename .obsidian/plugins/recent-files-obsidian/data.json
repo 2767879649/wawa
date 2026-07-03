@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "模型API",
+      "path": "learning学习/模型API.md"
+    },
+    {
+      "basename": "Dify使用",
+      "path": "learning学习/Dify使用.md"
+    },
+    {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
+      "basename": "需要学习",
+      "path": "learning学习/需要学习.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
       "basename": "嵌入式",
       "path": "嵌入式.md"
     },
@@ -15,10 +35,6 @@
     {
       "basename": "嵌入式",
       "path": "learning学习/备考/嵌入式.md"
-    },
-    {
-      "basename": "模型API",
-      "path": "learning学习/模型API.md"
     },
     {
       "basename": "2026-07-03-1426-练习",
@@ -69,14 +85,6 @@
       "path": "learning学习/备考/zigbee/填空题.md"
     },
     {
-      "basename": "需要学习",
-      "path": "learning学习/需要学习.md"
-    },
-    {
-      "basename": "Dify使用",
-      "path": "learning学习/Dify使用.md"
-    },
-    {
       "basename": "claude基础使用",
       "path": "learning学习/claude/claude基础使用.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "未命名 1",
       "path": "未命名 1.canvas"
-    },
-    {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
     },
     {
       "basename": "2026-06-23",

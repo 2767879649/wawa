@@ -5,5 +5,6 @@
   "obsidian-local-rest-api",
   "realclaudian",
   "obsidian-git",
-  "question-extractor"
+  "question-extractor",
+  "floating-toc"
 ]
