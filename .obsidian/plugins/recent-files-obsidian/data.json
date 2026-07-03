@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "嵌入式",
+      "path": "嵌入式.md"
+    },
+    {
+      "basename": "填空题",
+      "path": "learning学习/备考/嵌入式/填空题.md"
+    },
+    {
+      "basename": "选择题",
+      "path": "learning学习/备考/嵌入式/选择题.md"
+    },
+    {
+      "basename": "嵌入式",
+      "path": "learning学习/备考/嵌入式.md"
+    },
+    {
       "basename": "模型API",
       "path": "learning学习/模型API.md"
     },
@@ -13,20 +29,12 @@
       "path": "learning学习/备考/试卷/2026-07-03-1424-练习.md"
     },
     {
-      "basename": "选择题",
-      "path": "learning学习/备考/嵌入式/选择题.md"
-    },
-    {
       "basename": "2026-07-03-1423-练习",
       "path": "learning学习/备考/试卷/2026-07-03-1423-练习.md"
     },
     {
       "basename": "2026-07-03-1425-练习",
       "path": "learning学习/备考/试卷/2026-07-03-1425-练习.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
     },
     {
       "basename": "智能",
@@ -71,10 +79,6 @@
     {
       "basename": "claude基础使用",
       "path": "learning学习/claude/claude基础使用.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "learning学习/备考/嵌入式.md"
     },
     {
       "basename": "tech-note",
