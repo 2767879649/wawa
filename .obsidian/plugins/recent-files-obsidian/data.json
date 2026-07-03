@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "模型API",
+      "path": "learning学习/模型API.md"
+    },
+    {
       "basename": "嵌入式",
       "path": "嵌入式.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "tech-note",
       "path": "templates/tech-note.md"
-    },
-    {
-      "basename": "模型API",
-      "path": "learning学习/模型API.md"
     },
     {
       "basename": "未命名 1",
