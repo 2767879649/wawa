@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -285,12 +285,12 @@
       "question-extractor:抽题组卷": false
     }
   },
-  "active": "74b0413a9d10e9cc",
+  "active": "c93e10ea8735b598",
   "lastOpenFiles": [
-    "learning学习/备考/嵌入式/大题.md",
-    "learning学习/备考/嵌入式/重点.md",
-    "learning学习/备考/嵌入式/填空题.md",
     "learning学习/备考/嵌入式/选择题.md",
+    "learning学习/备考/嵌入式/重点.md",
+    "learning学习/备考/嵌入式/大题.md",
+    "learning学习/备考/嵌入式/填空题.md",
     "嵌入式.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e_向下统一硬件驱动接口_向上统一应用访问接口_中间核心层调度.md",
