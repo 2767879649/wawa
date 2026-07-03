@@ -11,17 +11,42 @@
             "id": "c93e10ea8735b598",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名 2.canvas",
-                "viewState": {
-                  "x": 301.8004940708476,
-                  "y": 92.9999963045121,
-                  "zoom": 0
-                }
+                "file": "learning学习/备考/zigbee/大题.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名 2"
+              "icon": "lucide-file",
+              "title": "大题"
+            }
+          },
+          {
+            "id": "ac99517accaa32b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ZStack协议栈.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ZStack协议栈"
+            }
+          },
+          {
+            "id": "00dd9ddd095a0964",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PHY 物理层.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PHY 物理层"
             }
           }
         ]
@@ -91,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -248,8 +272,15 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
+    "zigbee.canvas",
+    "ZStack协议栈.md",
+    "README.md",
+    "PHY 物理层.md",
+    "未命名.base",
+    "未命名.md",
+    "考试.md",
+    "未命名.canvas",
     "learning学习/备考/zigbee/填空题.md",
-    "未命名 2.canvas",
     "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/zigbee/大题.md",
     "learning学习/备考/嵌入式/填空题.md",
@@ -264,18 +295,12 @@
     "learning学习/Dify使用.md",
     "learning学习/Git基础使用.md",
     "learning学习/需要学习.md",
-    "未命名.md",
     "learning学习/备考/嵌入式.md",
     "learning学习/备考/试卷/2026-07-03-1424-练习.md",
     "learning学习/备考/试卷/2026-07-03-1423-练习.md",
     "learning学习/备考/试卷/2026-07-03-1425-练习.md",
     "learning学习/备考/嵌入式/抽题记录.md",
     "learning学习/备考/嵌入式",
-    "智能.md",
-    "未命名.canvas",
-    "考试.md",
-    "learning学习/备考/zigbee/抽题记录.md",
-    "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/试卷",
     "learning学习/备考/zigbee",
     "未命名 1.canvas",
@@ -284,7 +309,6 @@
     "learning学习/备考/题库",
     "learning学习/备考",
     "未命名",
-    "未命名.base",
     "learning学习/claude/笔记文件",
     "assets/Pasted image 20260620142937.png",
     "未命名 3.canvas",
