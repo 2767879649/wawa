@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8fce9bdf72c518ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/备考/嵌入式/选择题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "选择题"
-            }
-          },
-          {
-            "id": "74b0413a9d10e9cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/备考/嵌入式/重点.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "重点"
-            }
-          },
-          {
-            "id": "840bbe888fd8b746",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/备考/嵌入式/大题.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "大题"
-            }
-          },
-          {
             "id": "c93e10ea8735b598",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/嵌入式/填空题.md",
+                "file": "learning学习/备考/zigbee/大题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "填空题"
+              "title": "大题"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -287,10 +244,11 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
+    "learning学习/备考/zigbee/选择题.md",
+    "learning学习/备考/嵌入式/填空题.md",
     "learning学习/备考/嵌入式/选择题.md",
     "learning学习/备考/嵌入式/重点.md",
     "learning学习/备考/嵌入式/大题.md",
-    "learning学习/备考/嵌入式/填空题.md",
     "嵌入式.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e_向下统一硬件驱动接口_向上统一应用访问接口_中间核心层调度.md",
@@ -312,7 +270,6 @@
     "learning学习/备考/zigbee/大题.md",
     "learning学习/备考/zigbee/抽题记录.md",
     "learning学习/备考/zigbee/重点.md",
-    "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/zigbee/填空题.md",
     "learning学习/备考/试卷/2026-07-02-2053-练习.md",
     "learning学习/备考/试卷",
