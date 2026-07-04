@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/试卷/2026-07-04-0926-练习.md",
+                "file": "learning学习/备考/嵌入式/重点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-04-0926-练习"
+              "title": "重点"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -272,22 +271,22 @@
       "question-extractor:抽题组卷": false
     }
   },
-  "active": "a53f52f5da2eb73f",
+  "active": "6b6a2a283405a93e",
   "lastOpenFiles": [
-    "learning学习/备考/嵌入式/重点.md",
+    "learning学习/备考/试卷/2026-07-04-0926-练习.md",
+    "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/试卷/2026-07-04-1236-练习.md",
+    "learning学习/备考/嵌入式/重点.md",
     "learning学习/备考/嵌入式/填空题.md",
     "learning学习/备考/嵌入式.md",
     "考试.md",
     "learning学习/备考/zigbee/大题.md",
-    "learning学习/备考/试卷/2026-07-04-0926-练习.md",
     "learning学习/备考/zigbee/填空题.md",
     "learning学习/备考/试卷/2026-07-03-2147-练习.md",
     "learning学习/备考/试卷/2026-07-03-2139-练习.md",
     "learning学习/备考/试卷/2026-07-03-2135-练习.md",
     "learning学习/备考/试卷/2026-07-03-2116-练习.md",
     "learning学习/备考/试卷/2026-07-03-2107-练习.md",
-    "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/试卷/2026-07-03-2044-练习.md",
     "learning学习/备考/试卷/2026-07-03-1425-练习.md",
     "learning学习/备考/试卷/2026-07-03-1423-练习.md",
