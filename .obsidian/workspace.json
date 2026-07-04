@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/嵌入式/重点.md",
+                "file": "learning学习/模型API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "重点"
+              "title": "模型API"
             }
           }
         ],
@@ -273,13 +273,13 @@
   },
   "active": "6b6a2a283405a93e",
   "lastOpenFiles": [
+    "learning学习/备考/嵌入式/重点.md",
     "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md",
     "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md",
     "templates/notes/b9b68adb-f3ef-4834-82e4-ec19c4db0b23.md",
     "learning学习/备考/试卷/2026-07-04-0926-练习.md",
     "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/试卷/2026-07-04-1236-练习.md",
-    "learning学习/备考/嵌入式/重点.md",
     "learning学习/备考/嵌入式/填空题.md",
     "learning学习/备考/嵌入式.md",
     "考试.md",
