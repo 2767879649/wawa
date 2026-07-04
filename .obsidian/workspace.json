@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/模型API.md",
+                "file": "2026-07-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "模型API"
+              "title": "2026-07-05"
             }
           }
         ],
@@ -205,16 +205,6 @@
             }
           },
           {
-            "id": "965f9024bd8f723a",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "1747a4006c8bde39",
             "type": "leaf",
             "state": {
@@ -247,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -273,6 +263,8 @@
   },
   "active": "6b6a2a283405a93e",
   "lastOpenFiles": [
+    "learning学习/模型API.md",
+    "2026-07-05.md",
     "learning学习/备考/嵌入式/重点.md",
     "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md",
     "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md",
@@ -298,8 +290,6 @@
     "learning学习/备考/试卷/2026-07-03-2029-练习.md",
     "zigbee.canvas",
     "ZStack协议栈.md",
-    "README.md",
-    "PHY 物理层.md",
     "未命名.base",
     "未命名.canvas",
     "learning学习/备考/嵌入式",
