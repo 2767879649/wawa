@@ -28,5 +28,13 @@
       ],
       "key": "Tab"
     }
+  ],
+  "quickadd:reloadQuickAdd": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
   ]
 }

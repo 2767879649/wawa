@@ -5,6 +5,18 @@
       "path": "2026-07-05.md"
     },
     {
+      "basename": "嵌入式",
+      "path": "嵌入式.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.base"
+    },
+    {
+      "basename": "README",
+      "path": "projects项目文档/README.md"
+    },
+    {
       "basename": "模型API",
       "path": "learning学习/模型API.md"
     },
@@ -31,10 +43,6 @@
     {
       "basename": "嵌入式",
       "path": "learning学习/备考/嵌入式.md"
-    },
-    {
-      "basename": "考试",
-      "path": "考试.md"
     },
     {
       "basename": "大题",
@@ -69,40 +77,12 @@
       "path": "learning学习/备考/试卷/2026-07-03-2044-练习.md"
     },
     {
-      "basename": "zigbee",
-      "path": "zigbee.canvas"
-    },
-    {
-      "basename": "PHY 物理层",
-      "path": "PHY 物理层.md"
-    },
-    {
-      "basename": "ZStack协议栈",
-      "path": "ZStack协议栈.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.base"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
       "basename": "选择题",
       "path": "learning学习/备考/嵌入式/选择题.md"
     },
     {
       "basename": "大题",
       "path": "learning学习/备考/嵌入式/大题.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
     },
     {
       "basename": "Dify使用",
@@ -115,10 +95,6 @@
     {
       "basename": "需要学习",
       "path": "learning学习/需要学习.md"
-    },
-    {
-      "basename": "智能",
-      "path": "智能.md"
     },
     {
       "basename": "抽题记录",
@@ -135,18 +111,6 @@
     {
       "basename": "tech-note",
       "path": "templates/tech-note.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "未命名 1.canvas"
-    },
-    {
-      "basename": "2026-06-23",
-      "path": "2026-06-23.md"
-    },
-    {
-      "basename": "()",
-      "path": "().md"
     },
     {
       "basename": "个人主页",
