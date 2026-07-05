@@ -51,11 +51,16 @@
   },
   {
     "trigger": "**",
-    "trigger_right": "*",
-    "replacement": "**$0**",
+    "replacement": "*$0**",
     "priority": 100,
-    "description": "**配对",
+    "enabled": false,
+    "id": "user-1783264173986-wm1i"
+  },
+  {
+    "trigger": "**",
+    "replacement": "*$0**",
+    "priority": 100,
     "enabled": true,
-    "id": "user-1783263855953-aant"
+    "id": "user-1783264350722-gugs"
   }
 ]

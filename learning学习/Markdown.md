@@ -69,13 +69,12 @@ int zhegsadf
 
 # 分割线：
 ---
-ahhah
-
+****
 ---
 
 # 链接：
-[百度](baidu.com "1 撒地方解开了")
-[优酷][id]
+[百度](http://www.baiducom "1 撒地方解开了")
+[优酷] [id]("这个")
 
 
 # ULR：
@@ -93,7 +92,8 @@ http://www.baiducom
 
 # 粗体：
 **说的很好**
-**
+*爱上邓丽君*
+
 # 高亮：
 ==zhehsiyigweasdfdafs
 adfdsa==
