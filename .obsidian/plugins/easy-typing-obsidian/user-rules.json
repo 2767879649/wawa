@@ -40,5 +40,22 @@
     "description": "删除<u>配对",
     "enabled": true,
     "id": "user-1783261731490-b2ai"
+  },
+  {
+    "trigger": "==",
+    "replacement": "==$0==",
+    "priority": 100,
+    "description": "==配对",
+    "enabled": true,
+    "id": "user-1783263573379-hy79"
+  },
+  {
+    "trigger": "**",
+    "trigger_right": "*",
+    "replacement": "**$0**",
+    "priority": 100,
+    "description": "**配对",
+    "enabled": true,
+    "id": "user-1783263855953-aant"
   }
 ]
