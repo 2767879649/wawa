@@ -17,8 +17,8 @@
   },
   {
     "trigger": "（",
-    "replacement": "($0;)",
-    "priority": 30,
+    "replacement": "($0)",
+    "priority": 9,
     "description": "自动补全（）",
     "enabled": true,
     "id": "user-1783260795298-38s4"
@@ -62,5 +62,13 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1783264350722-gugs"
+  },
+  {
+    "trigger": "。。",
+    "replacement": ".",
+    "priority": 100,
+    "description": "。。变为.",
+    "enabled": true,
+    "id": "user-1783265159794-mky6"
   }
 ]

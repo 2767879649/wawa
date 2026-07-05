@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/Markdown.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -311,8 +311,9 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
-    "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md",
+    "s.md",
     "learning学习/Markdown.md",
+    "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md",
     "learning学习/Obsitian同步.md",
     "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
     "bai.com.md",
@@ -348,7 +349,6 @@
     "2026-06-23.md",
     "().md",
     "learning学习/备考/嵌入式/重点.md",
-    "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md",
     "未命名.canvas",
     "assets/Pasted image 20260620142937.png",
     "未命名 3.canvas",
