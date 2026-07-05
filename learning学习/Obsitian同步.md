@@ -8,7 +8,11 @@
   fns --help       # 查看帮助
 
 ## 服务地址
+电脑本地连接
 http://localhost:9000
+ipad手机连接
+http://192.168.5.8:9000（本地网络地址）
+外网连接（ngrok）
 https://plexiglas-confound-crust.ngrok-free.dev
 ## ngrok内网穿透
   1. ~~配置 ngrok auth token~~
