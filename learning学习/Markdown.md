@@ -28,7 +28,7 @@
 
 # 任务项：
  - [ ] dsfja1
- - [ ] sdfj1
+ - [x] sdfj1
  - [ ] asdf
      - [ ] asdfjl
  - [ ] sdfjhh1
