@@ -1,0 +1,2 @@
+2026-07-05T13:49:44.222+0800	ERROR	GetOrCreateDB failed	{"key": "user_folder_1", "error": "file is not a database (26)"}
+2026-07-05T13:49:44.224+0800	[31mERROR[0m	cmd/run.go:79	api service start err	{"error": "upgrade.Execute: dbUtils.ExposeAutoMigrate: database connection is nil for model Folder (uid=1, dbKey=user_folder_1)"}
