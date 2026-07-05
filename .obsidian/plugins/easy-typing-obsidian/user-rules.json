@@ -1,9 +1,16 @@
 [
   {
     "trigger": "【",
-    "replacement": "[]",
+    "replacement": "[$0]",
     "priority": 100,
     "enabled": true,
     "id": "user-1783250989336-r27c"
+  },
+  {
+    "trigger": "……",
+    "replacement": "^",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1783251482704-qqwq"
   }
 ]
