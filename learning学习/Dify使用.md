@@ -3,7 +3,7 @@ tags:
   - Dify
   - Docker
 ---
-
+[[Docker]]
 **使用**
 1. 打开Docker鲸鱼软件
 2. 在C:\Users\27678\awa\awa\blackma\dify-main\dify-main\docker终端使用docker compose up -d运行环境

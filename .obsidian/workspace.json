@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/zigbee/选择题.md",
+                "file": "learning学习/Docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "选择题"
+              "title": "Docker"
             }
           }
         ]
@@ -105,17 +105,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md",
+                "file": "learning学习/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "61839154-d074-4b07-986f-a8c9508fb850_1 的反向链接列表"
+              "title": "Docker 的反向链接列表"
             }
           },
           {
@@ -214,10 +214,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "learning学习/备考/zigbee/选择题.md"
+                "file": "learning学习/Docker.md"
               },
               "icon": "lucide-info",
-              "title": "选择题的笔记属性"
+              "title": "Docker的笔记属性"
             }
           },
           {
@@ -230,12 +230,12 @@
               "title": "同步日志"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 404.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,10 +255,12 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "dff6e116cd277f4c",
+  "active": "c93e10ea8735b598",
   "lastOpenFiles": [
-    "learning学习/模型API.md",
     "learning学习/Dify使用.md",
+    "learning学习/Docker.md",
+    "learning学习/备考/zigbee/选择题.md",
+    "learning学习/模型API.md",
     "fast/storage/vault/u_1/file/f_1356/file.dat",
     "fast/storage/vault/u_1/file/f_1356",
     "fast/storage/vault/u_1/file/f_1355/file.dat",
@@ -275,7 +277,6 @@
     "2026-07-05.md",
     "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/zigbee/大题.md",
-    "learning学习/备考/zigbee/选择题.md",
     "learning学习/备考/试卷/2026-07-04-1236-练习.md",
     "projects项目文档/README.md",
     "ZStack协议栈.md",
