@@ -29,9 +29,24 @@
      - [ ] asdfjl
  - [ ] sdfjhh1
 
-- [ ] sdfj
+- [ ] dfj
 
+- [ ]
+ 
 asdf 
+-asdf1
+
+代码块：
+```c
+int main()
+#include 
+```
+
+数学公式：
+$$
+sdfjlk=2\sqrt(s)
+$$
 
 
-
+表格：
+| 姓名 | 年龄 | 成绩| |

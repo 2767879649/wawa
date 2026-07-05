@@ -15,7 +15,7 @@
               "state": {
                 "file": "learning学习/Markdown.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -258,9 +259,9 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
-    "learning学习/Obsitian同步.md",
-    "learning学习/Markdown.md",
     "learning学习/Git基础使用.md",
+    "learning学习/Markdown.md",
+    "learning学习/Obsitian同步.md",
     "fast/storage/vault/u_1/file/f_1973/file.dat",
     "fast/storage/vault/u_1/file/f_1971/file.dat",
     "fast/storage/vault/u_1/file/f_1963/file.dat",
