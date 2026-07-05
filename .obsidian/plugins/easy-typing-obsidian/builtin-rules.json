@@ -32,7 +32,7 @@
     "replacement": "`$0`",
     "priority": 10,
     "description": "连续中文间隔号 ·· 转行内代码",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": "builtin-conv-codeblock",
