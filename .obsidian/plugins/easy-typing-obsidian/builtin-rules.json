@@ -82,13 +82,14 @@
     "enabled": false
   },
   {
-    "id": "builtin-del-inline-formula",
     "trigger": "$",
     "trigger_right": "$",
     "replacement": "",
     "options": "d",
     "priority": 30,
-    "description": "删除行内公式 $...$ 配对"
+    "description": "删除行内公式 $...$ 配对",
+    "enabled": true,
+    "id": "builtin-del-inline-formula"
   },
   {
     "id": "builtin-del-highlight",

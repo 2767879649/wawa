@@ -98,5 +98,17 @@ ahhahsdf
 
 http://www.baiducom
 
-基金爱的色放
-死啊
+
+下划线：
+<u>sjdfl</u>
+
+行内代码:
+`printf()`
+
+表情:
+:smile:,
+
+$0=x2$
+
+H^2^
+

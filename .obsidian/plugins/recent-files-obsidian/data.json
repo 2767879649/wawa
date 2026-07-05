@@ -5,6 +5,18 @@
       "path": "learning学习/Markdown.md"
     },
     {
+      "basename": "2026-07-05-8分钟让你快速掌握Markdown",
+      "path": "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md"
+    },
+    {
+      "basename": "Obsitian同步",
+      "path": "learning学习/Obsitian同步.md"
+    },
+    {
+      "basename": "2026-06-21-三分钟搞懂Docker",
+      "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
+    },
+    {
       "basename": "bai.com",
       "path": "bai.com.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
-    },
-    {
-      "basename": "Obsitian同步",
-      "path": "learning学习/Obsitian同步.md"
     },
     {
       "basename": "Dify使用",
@@ -163,10 +171,6 @@
     {
       "basename": "learning-note",
       "path": "templates/learning-note.md"
-    },
-    {
-      "basename": "2026-06-21-三分钟搞懂Docker",
-      "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
     },
     {
       "basename": "2026-06-20-python-async",

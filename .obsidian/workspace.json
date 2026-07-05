@@ -6,6 +6,7 @@
       {
         "id": "f64f1ac1717cc3e2",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "c93e10ea8735b598",
@@ -50,6 +51,28 @@
               },
               "icon": "lucide-file",
               "title": "bai.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e17275e1df1334bb",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "1a3baf7368c2c6de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-07-05-8分钟让你快速掌握Markdown"
             }
           }
         ]
@@ -119,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -288,13 +312,15 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
-    "bai.com.md",
+    "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md",
     "learning学习/Markdown.md",
+    "learning学习/Obsitian同步.md",
+    "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
+    "bai.com.md",
     "嵌入式.md",
     "2026-07-05.md",
     "未命名.base",
     "learning学习/Git基础使用.md",
-    "learning学习/Obsitian同步.md",
     "fast/storage/vault/u_1/file/f_1973/file.dat",
     "fast/storage/vault/u_1/file/f_1971/file.dat",
     "fast/storage/vault/u_1/file/f_1963/file.dat",
@@ -324,7 +350,6 @@
     "().md",
     "learning学习/备考/嵌入式/重点.md",
     "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md",
-    "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md",
     "未命名.canvas",
     "assets/Pasted image 20260620142937.png",
     "未命名 3.canvas",

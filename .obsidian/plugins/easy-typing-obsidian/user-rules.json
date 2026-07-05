@@ -2,22 +2,43 @@
   {
     "trigger": "【",
     "replacement": "[$0]",
-    "priority": 100,
+    "priority": 30,
+    "description": "中文输入[]转英文补全",
     "enabled": true,
     "id": "user-1783250989336-r27c"
   },
   {
     "trigger": "……",
     "replacement": "^",
-    "priority": 100,
+    "priority": 30,
+    "description": "中文输入^转英文",
     "enabled": true,
     "id": "user-1783251482704-qqwq"
   },
   {
     "trigger": "（",
     "replacement": "($0;)",
-    "priority": 100,
+    "priority": 30,
+    "description": "自动补全（）",
     "enabled": true,
     "id": "user-1783260795298-38s4"
+  },
+  {
+    "trigger": "<u",
+    "replacement": "<u>$0</u>",
+    "priority": 30,
+    "description": "自动补全<u>",
+    "enabled": true,
+    "id": "user-1783261616049-gwwv"
+  },
+  {
+    "trigger": "<u>",
+    "trigger_right": "</u>",
+    "replacement": "",
+    "options": "d",
+    "priority": 30,
+    "description": "删除<u>配对",
+    "enabled": true,
+    "id": "user-1783261731490-b2ai"
   }
 ]
