@@ -34,7 +34,7 @@
         "enabled": false,
         "direction": "below"
       },
-      "prepend": false,
+      "prepend": true,
       "task": false,
       "openFile": false,
       "fileOpening": {
