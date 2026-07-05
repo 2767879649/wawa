@@ -5221,3 +5221,12 @@ BuildTime: 2026-07-03T04:39:11+0000
 2026-07-05T13:35:31.731+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
 [GIN] 2026/07/05 - 13:35:31 | 200 |   1.78ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_t=1783229731757&_r=mtbahs"
 [GIN] 2026/07/05 - 13:35:31 | 200 |   3.91ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783229731757&_r=74l4cg"
+2026-07-05T13:35:32.082+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+2026-07-05T13:35:32.123+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+2026-07-05T13:35:32.517+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+2026-07-05T13:35:32.605+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+2026-07-05T13:35:32.635+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+2026-07-05T13:35:32.717+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 1fd5c0f1-43a9-4b0b-bdd8-78d2d876dec1", "traceId": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+2026-07-05T13:35:32.718+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 1fd5c0f1-43a9-4b0b-bdd8-78d2d876dec1", "traceId": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+2026-07-05T13:35:33.082+0800	ERROR	WS User Leave	{"uid": "1", "traceID": "b8e170d4-e7a9-4db6-bf3c-5e610c1909b3", "error": "gws: connection closed, code=1000, reason=Cleanup"}
+[GIN] 2026/07/05 - 13:35:35 | 200 | 162.427µs |      172.20.0.1 | GET      "/api/support?page=1&pageSize=10&sortBy=amount_3m&sortOrder=desc&lang=zh-cn&_t=1783229735286&_r=ombwex"

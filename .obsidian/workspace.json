@@ -217,28 +217,19 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/Deepseek.md"
+                "file": "learning学习/Dify使用.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
-          },
-          {
-            "id": "40e48a1b0249c142",
-            "type": "leaf",
-            "state": {
-              "type": "fns-sync-log-view",
-              "state": {},
-              "icon": "arrow-down-up",
-              "title": "同步日志"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 404.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -258,19 +249,19 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "40e48a1b0249c142",
+  "active": "a53f52f5da2eb73f",
   "lastOpenFiles": [
-    "fast/storage/vault/u_1/file/f_1975/file.dat",
-    "fast/storage/vault/u_1/file/f_1975",
-    "fast/storage/vault/u_1/file/f_1974/file.dat",
-    "fast/storage/vault/u_1/file/f_1974",
-    "fast/storage/temp/e8a607ff-d6e8-464b-ba44-aff6b2c1d767",
-    "fast/storage/temp/da683d5a-3806-4cd0-9c47-2509f1bc73c1",
-    "fast/storage/temp/5a7c490f-0302-40e5-aa11-a07be1d1a0ec",
-    "fast/storage/database/db_user_sync_log_1.sqlite3-shm",
-    "fast/storage/database/db_user_sync_log_1.sqlite3-wal",
-    "fast/storage/temp/fbc105b0-edf0-4477-9ca2-c4295f7cbc06",
-    "fast/storage/database/db_user_file_1.sqlite3-shm",
+    "fast/storage/logs/c_20260705134254.log",
+    "fast/storage/logs/c_20260705134252.log",
+    "fast/storage/logs/c_20260705134251.log",
+    "fast/storage/logs/c_20260705134250.log",
+    "fast/storage/logs/c_20260705134248.log",
+    "fast/storage/logs/c_20260705134132.log",
+    "fast/storage/logs/c_20260705134031.log",
+    "fast/storage/logs/c_20260705133931.log",
+    "fast/storage/logs/c_20260705133830.log",
+    "fast/storage/logs/c_20260705133739.log",
+    "fast/storage/logs/c_20260705133713.log",
     "learning学习/Git基础使用.md",
     "learning学习/Dify使用.md",
     "learning学习/需要学习.md",

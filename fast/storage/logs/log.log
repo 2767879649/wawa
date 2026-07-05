@@ -4705,3 +4705,39 @@
 {"level":"error","ts":1783229522.9774978,"msg":"FileHandler.List","error":"数据库查询失败: database disk image is malformed (11)","traceId":"1783229522971250502-0883a49a"}
 {"level":"error","ts":1783229539.248244,"msg":"GitSyncHandler.Validate","error":"Git 验证失败: private network access not allowed for repository URL","traceId":"1783229539238467100-777f57ab"}
 {"level":"error","ts":1783229544.2250683,"msg":"GitSyncHandler.Validate","error":"Git 验证失败: private network access not allowed for repository URL","traceId":"1783229544219299191-ff93239c"}
+{"level":"error","ts":1783229592.9625978,"msg":"GitSyncHandler.Validate","error":"Git 验证失败: Get \"https://mirror.ghproxy.com/https://github.com/2767879649/wawa.git/info/refs?service=git-upload-pack\": EOF","traceId":"1783229592534384011-64caae1d"}
+{"level":"error","ts":1783229594.7908816,"msg":"GitSyncHandler.Validate","error":"Git 验证失败: Get \"https://mirror.ghproxy.com/https://github.com/2767879649/wawa.git/info/refs?service=git-upload-pack\": EOF","traceId":"1783229594299360131-b49d8c3a"}
+{"level":"error","ts":1783229596.0488274,"msg":"GitSyncHandler.Validate","error":"Git 验证失败: Get \"https://mirror.ghproxy.com/https://github.com/2767879649/wawa.git/info/refs?service=git-upload-pack\": EOF","traceId":"1783229595542849235-f1886187"}
+{"level":"error","ts":1783229621.9543245,"msg":"GitSyncHandler.Validate","error":"Git 验证失败: Get \"https://mirror.ghproxy.com/https://github.com/2767879649/wawa.git/info/refs?service=git-upload-pack\": EOF","traceId":"1783229621365231915-2a5765e7"}
+{"level":"error","ts":1783229730.8922532,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"数据库查询失败: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229731.249187,"msg":"websocket_router.file.FileDelete.Delete","error":"record not found","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229731.5613654,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"数据库查询失败: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229731.599765,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"数据库查询失败: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229731.7311811,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"数据库查询失败: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229732.0829606,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"Database query failed: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229732.123777,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"Database query failed: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229732.5170429,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"Database query failed: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229732.6053274,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"Database query failed: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229732.6354532,"msg":"websocket_router.file.FileUploadChunkBinary.UploadComplete","error":"Database query failed: database disk image is malformed (779)","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229732.7178383,"msg":"websocket_router.file.FileUploadChunkBinary","error":"session not found: 1fd5c0f1-43a9-4b0b-bdd8-78d2d876dec1","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229732.718639,"msg":"websocket_router.file.FileUploadChunkBinary","error":"session not found: 1fd5c0f1-43a9-4b0b-bdd8-78d2d876dec1","traceId":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3"}
+{"level":"error","ts":1783229733.0821345,"msg":"WS User Leave","uid":"1","traceID":"b8e170d4-e7a9-4db6-bf3c-5e610c1909b3","error":"gws: connection closed, code=1000, reason=Cleanup"}
+{"level":"error","ts":1783229804.023568,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229804.7000656,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229805.375023,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229806.2413852,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229807.4916334,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229809.5973883,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229813.3141887,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229820.1814241,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229833.4475803,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229859.530842,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229911.199813,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783229971.7103016,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783230032.1519332,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783230092.630699,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783230169.4803014,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783230171.1034112,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783230172.1673832,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783230173.2603066,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
+{"level":"error","ts":1783230174.7017226,"msg":"GetOrCreateDB failed","key":"user_folder_1","error":"file is not a database (26)"}
