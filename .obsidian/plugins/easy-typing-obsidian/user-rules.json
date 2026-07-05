@@ -12,5 +12,12 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1783251482704-qqwq"
+  },
+  {
+    "trigger": "（",
+    "replacement": "($0;)",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1783260795298-38s4"
   }
 ]

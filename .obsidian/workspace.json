@@ -21,6 +21,36 @@
               "icon": "lucide-file",
               "title": "Markdown"
             }
+          },
+          {
+            "id": "b01bab1d2b960a18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bai.com.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "bai.com"
+            }
+          },
+          {
+            "id": "09a7ec3776ffbbf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bai.com.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "bai.com"
+            }
           }
         ]
       }
@@ -258,8 +288,12 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
-    "learning学习/Git基础使用.md",
+    "bai.com.md",
     "learning学习/Markdown.md",
+    "嵌入式.md",
+    "2026-07-05.md",
+    "未命名.base",
+    "learning学习/Git基础使用.md",
     "learning学习/Obsitian同步.md",
     "fast/storage/vault/u_1/file/f_1973/file.dat",
     "fast/storage/vault/u_1/file/f_1971/file.dat",
@@ -270,14 +304,11 @@
     "fast/storage/vault/u_1/file/f_1971",
     "fast/storage/vault/u_1/file/f_1975/file.dat",
     "fast/storage/vault/u_1/file/f_1972/file.dat",
-    "fast/storage/vault/u_1/file/f_1963",
     "learning学习/Dify使用.md",
     "learning学习/Docker.md",
     "learning学习/备考/zigbee/选择题.md",
     "learning学习/模型API.md",
     "learning学习/需要学习.md",
-    "嵌入式.md",
-    "2026-07-05.md",
     "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/zigbee/大题.md",
     "learning学习/备考/试卷/2026-07-04-1236-练习.md",
@@ -294,8 +325,6 @@
     "learning学习/备考/嵌入式/重点.md",
     "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md",
     "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md",
-    "templates/notes/b9b68adb-f3ef-4834-82e4-ec19c4db0b23.md",
-    "learning学习/备考/试卷/2026-07-04-0926-练习.md",
     "未命名.canvas",
     "assets/Pasted image 20260620142937.png",
     "未命名 3.canvas",

@@ -5,6 +5,22 @@
       "path": "learning学习/Markdown.md"
     },
     {
+      "basename": "bai.com",
+      "path": "bai.com.md"
+    },
+    {
+      "basename": "嵌入式",
+      "path": "嵌入式.md"
+    },
+    {
+      "basename": "2026-07-05",
+      "path": "2026-07-05.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.base"
+    },
+    {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
     },
@@ -27,18 +43,6 @@
     {
       "basename": "需要学习",
       "path": "learning学习/需要学习.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
-    },
-    {
-      "basename": "2026-07-05",
-      "path": "2026-07-05.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.base"
     },
     {
       "basename": "重点",
