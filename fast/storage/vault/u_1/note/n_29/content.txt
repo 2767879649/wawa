@@ -1,0 +1,266 @@
+---
+type: 大题
+---
+
+## 1
+(简答题, 5分) 简述自旋锁和信号量的区别及各自的适用场景。
+
+(1)自旋锁：获取不到锁时忙等待<mark>循环检测</mark>，不释放CPU，适用于临界区极短的场景。只能在原子上下文<mark>中断处理、软中断</mark>中使用，不能睡眠；
+(2)信号量：获取不到锁时进程进入睡眠状态，释放CPU，适用于临界区较长的场景。可以在进程上下文使用，允许睡眠。中断处理函数中不能使用信号量，但可以使用自旋锁。
+- answer: (1)自旋锁：获取不到锁时忙等待(循环检测)，不释放CPU，适用于临界区极短的场景。只能在原子上下文(中断处理、软中断)中使用，不能睡眠；
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 2
+(简答题, 5分) 简述等待队列的作用及使用方法。
+
+等待队列用于实现进程的阻塞和唤醒，常用于驱动中的阻塞IO操作。使用方法：(1)定义等待队列头：DECLARE_WAIT_QUEUE_HEAD<mark>wq</mark>；(2)条件不满足时让进程睡眠：wait_event_interruptible(wq, condition)；(3)条件满足时唤醒进程：wake_up_interruptible<mark>&wq</mark>。使用时需注意条件变量的保护。
+- answer: 等待队列用于实现进程的阻塞和唤醒，常用于驱动中的阻塞IO操作。使用方法：(1)定义等待队列头：DECLARE_WAIT_QUEUE_HEAD(wq)；(2)条件不满足时让进程睡眠：wait_event_interruptible(wq, condition)；(3)条件满足时唤醒进程：wake_up_interruptible(&wq)。使用时需注意条件变量的保护。
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 3
+(简答题, 5分) 简述内核线程的创建方法，以及kthread_should_stop函数的作用。
+
+(1)创建内核线程：使用kthread_create()创建线程，返回struct task_struct*，线程创建后处于未运行状态；使用wake_up_process()启动线程；也可以使用kthread_run()宏一次性完成创建和启动；
+(2)kthread_should_stop()：在线程函数中调用，检查是否有停止请求，有则返回真，线程应退出循环。停止线程使用kthread_stop()。
+- answer: (1)创建内核线程：使用kthread_create()创建线程，返回struct task_struct*，线程创建后处于未运行状态；使用wake_up_process()启动线程；也可以使用kthread_run()宏一次性完成创建和启动；
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 1
+
+## 4
+(简答题, 5分) 解释Linux内核中中断处理为什么要分为顶半部和底半部，并说明底半部的常见实现方式。
+
+中断顶半部要求执行速度快、响应及时，但很多中断处理需要完成耗时操作。分为两部分的原因：(1)顶半部处理紧急、不可延迟的操作<mark>如清除中断标志</mark>；(2)底半部处理可延迟的耗时操作，此时中断已重新使能。底半部实现方式包括：软中断<mark>softirq</mark>、微线程<mark>tasklet</mark>、工作队列<mark>workqueue</mark>。
+- answer: 中断顶半部要求执行速度快、响应及时，但很多中断处理需要完成耗时操作。分为两部分的原因：(1)顶半部处理紧急、不可延迟的操作(如清除中断标志)；(2)底半部处理可延迟的耗时操作，此时中断已重新使能。底半部实现方式包括：软中断(softirq)、微线程(tasklet)、工作队列(workqueue)。
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 5
+(程序题, 10分) 阅读下面的中断处理程序片段，回答问题。
+
+c
+static irqreturn_t key_irqhandler(int irq, void *dev_id)
+{
+    disable_irq_nosync<mark>irq_num</mark>;
+    queue_work(key_workqueue, &key_work);
+    return IRQ_HANDLED;
+}
+(1) disable_irq_nosync与disable_irq有什么区别？<mark>3分</mark>
+
+disable_irq等待当前中断处理完成后才返回；disable_irq_nosync立即返回，不会等待。后者在中断处理函数中调用不会造成死锁。
+
+(2) 为什么要在中断处理函数中将实际工作交给工作队列？<mark>3分</mark>
+
+中断顶半部需要快速执行，但实际工作需要处理耗时操作<mark>如数据解析、唤醒进程</mark>。将工作交给工作队列可以在进程上下文中执行，允许睡眠和调度，不影响中断响应速度。
+
+(3) IRQ_HANDLED返回值代表什么含义？<mark>4分</mark>
+
+IRQ_HANDLED表示中断已被成功处理，通知内核无需再调用其他共享中断处理函数。
+- answer: disable_irq等待当前中断处理完成后才返回；disable_irq_nosync立即返回，不会等待。后者在中断处理函数中调用不会造成死锁。
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 6
+(程序题, 10分) 编写满足下述功能的内核定时器的驱动模块代码<mark>只需写出关键代码，不需要完整的Makefile</mark>。
+
+在模块加载时初始化并启动定时器，定时时间为1秒
+
+定时器处理函数中打印"Timer handler called"
+
+每次定时器到期后重新启动定时器<mark>周期性定时</mark>
+
+模块卸载时删除定时器
+
+c
+#include <linux/module.h>
+#include <linux/timer.h>
+#include <linux/kernel.h>
+
+static struct timer_list my_timer;
+
+static void timer_callback(struct timer_list *t)
+{
+    printk(KERN_INFO "Timer handler called\n");
+    mod_timer(&my_timer, jiffies + HZ);
+}
+
+static int __init my_init<mark>void</mark>
+{
+    timer_setup(&my_timer, timer_callback, 0);
+    mod_timer(&my_timer, jiffies + HZ);
+    printk(KERN_INFO "Timer module loaded, timer started\n");
+    return 0;
+}
+
+static void __exit my_exit<mark>void</mark>
+{
+    del_timer<mark>&my_timer</mark>;
+    printk(KERN_INFO "Timer module unloaded, timer deleted\n");
+}
+
+module_init<mark>my_init</mark>;
+module_exit<mark>my_exit</mark>;
+MODULE_LICENSE<mark>"GPL"</mark>;
+- answer: c
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 7
+(简答题, 5分) 简述input子系统的作用，以及驱动中如何使用input子系统上报按键事件。
+
+input子系统为输入设备提供统一的驱动框架，规范上报输入信息的方式。使用步骤：(1)分配并注册input设备：input_allocate_device()和input_register_device()；(2)设置支持的事件类型和按键：set_bit(EV_KEY, input_dev->evbit)和set_bit(KEY_A, input_dev->keybit)；(3)在中断处理函数中上报按键：input_report_key(input_dev, key_code, value)和input_sync<mark>input_dev</mark>。
+- answer: input子系统为输入设备提供统一的驱动框架，规范上报输入信息的方式。使用步骤：(1)分配并注册input设备：input_allocate_device()和input_register_device()；(2)设置支持的事件类型和按键：set_bit(EV_KEY, input_dev->evbit)和set_bit(KEY_A, input_dev->keybit)；(3)在中断处理函数中上报按键：input_report_key(input_dev, key_code, value)和input_sync(input_dev)。
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 8
+(简答题, 5分) 简述杂项设备的特点及其与普通字符设备的区别。
+
+杂项设备是字符设备的一种简化形式。主要特点：(1)主设备号固定为10；(2)注册和使用更简单，无需手动创建设备节点；(3)适合简单功能的小型设备驱动。与普通字符设备的区别：(1)注册函数更简单(misc_register vs register_chrdev)；(2)无需手动调用device_create创建节点；(3)次设备号可动态分配；(4)代码量更少。
+- answer: 杂项设备是字符设备的一种简化形式。主要特点：(1)主设备号固定为10；(2)注册和使用更简单，无需手动创建设备节点；(3)适合简单功能的小型设备驱动。与普通字符设备的区别：(1)注册函数更简单(misc_register vs register_chrdev)；(2)无需手动调用device_create创建节点；(3)次设备号可动态分配；(4)代码量更少。
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 9
+(简答题, 5分) 简述cdev和杂项设备注册方式的区别。
+
+(1)cdev方式：需要手动分配设备号<mark>或动态申请</mark>、初始化cdev、cdev_add添加、手动创建类和设备节点；代码量较大，但灵活性强，适合复杂设备驱动。
+(2)杂项设备方式：只需填充miscdevice结构体，调用misc_register即可完成注册和设备节点创建；代码简洁，但主设备号固定为10，适合简单设备驱动。
+- answer: (1)cdev方式：需要手动分配设备号(或动态申请)、初始化cdev、cdev_add添加、手动创建类和设备节点；代码量较大，但灵活性强，适合复杂设备驱动。
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 10
+(简答题, 5分) 说明platform总线的作用，以及platform_device和platform_driver的匹配过程。
+
+platform总线是一种虚拟总线，用于管理那些不挂接在物理总线上的设备<mark>如按键、LED、LCD等</mark>。匹配过程：(1)platform_driver注册时，内核会将driver与现有device进行匹配；(2)匹配依据是name字段，即driver和device的name相同；(3)匹配成功后调用driver的probe函数；(4)probe函数中可获取device资源并进行初始化。
+- answer: platform总线是一种虚拟总线，用于管理那些不挂接在物理总线上的设备(如按键、LED、LCD等)。匹配过程：(1)platform_driver注册时，内核会将driver与现有device进行匹配；(2)匹配依据是name字段，即driver和device的name相同；(3)匹配成功后调用driver的probe函数；(4)probe函数中可获取device资源并进行初始化。
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+
+## 11
+(程序题, 10分) 编写一个杂项设备注册程序，要求：
+
+定义struct miscdevice结构体，使用动态次设备号
+
+在模块加载函数中调用misc_register注册设备
+
+在模块卸载函数中调用misc_deregister注销设备
+
+在驱动加载与卸载时输出当前文件所在的函数名与所在行的行号
+
+c
+#include <linux/module.h>
+#include <linux/fs.h>
+#include <linux/miscdevice.h>
+
+#define DEVICE_NAME "my_misc"
+
+static struct file_operations demo_fops = {
+    .owner = THIS_MODULE,
+};
+
+static struct miscdevice demo_misc = {
+    .minor = MISC_DYNAMIC_MINOR,
+    .name = DEVICE_NAME,
+    .fops = &demo_fops,
+};
+
+static int __init demo_init<mark>void</mark>
+{
+    int ret = misc_register<mark>&demo_misc</mark>;
+    if <mark>ret</mark> {
+        printk(KERN_ERR "Failed to register misc device\n");
+        return ret;
+    }
+    printk(KERN_INFO "%s() - line %d: Misc device registered\n",
+           __FUNCTION__, __LINE__);
+    return 0;
+}
+
+static void __exit demo_exit<mark>void</mark>
+{
+    misc_deregister<mark>&demo_misc</mark>;
+    printk(KERN_INFO "%s() - line %d: Misc device unregistered\n",
+           __FUNCTION__, __LINE__);
+}
+
+module_init<mark>demo_init</mark>;
+module_exit<mark>demo_exit</mark>;
+MODULE_LICENSE<mark>"GPL"</mark>;
+- answer: c
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 1
+
+## 12
+(程序题, 10分) 编写一个input子系统按键驱动框架代码，要求：
+
+分配并注册一个input设备
+
+设置设备支持EV_KEY事件和KEY_A按键
+
+实现按键上报函数<mark>骨架即可</mark>
+
+包含设备的注销和释放
+
+#include <linux/module.h>
+#include <linux/input.h>
+//声明头文件
+static struct input_dev *my_input;  //定义 input 设备结构体
+//案件上报函数骨架
+static void report_key(int code, int value)
+{
+    input_report_key(my_input, code, value);
+    input_sync(my_input);
+}
+
+static int  __init my_init（void）
+{
+    my_input = input_allocate_device();//标准分配函数
+	//设置按键事件
+    set_bit(EV_KEY, my_input->evbit);
+    set_bit(EV_SYN, my_input->evbit);
+    set_bit(KEY_A, my_input->keybit);
+    return 0;
+}
+
+static void __exit my_exit<mark>void</mark>
+{
+    input_unregister_device<mark>my_input</mark>;
+    printk(KERN_INFO "Input device unregistered\n");
+}
+
+module_init（my_init）;
+module_exit（my_exit）;
+
+MODULE_LICENSE<mark>"GPL"</mark>;
+- answer: c
+- source: 
+- tags: 
+- note: 
+- wrong: 0

@@ -1,0 +1,21 @@
+c
+#include <linux/module.h>
+#include <linux/init.h>
+#include <linux/input.h>
+//头文件
+// 分配
+key_input_dev = input_allocate_device();
+// 设置事件能力
+set_bit(EV_KEY, key_input_dev->evbit);
+set_bit(KEY_A, key_input_dev->keybit);
+// 注册
+input_register_device(key_input_dev);
+//案件上报骨架函数
+static void key_report_event(int press)
+{
+    input_report_key(key_input_dev, KEY_A, press);
+    input_sync(key_input_dev);
+}
+//注释与释放
+input_unregister_device(key_input_dev); // 先注销
+input_free_device(key_input_dev);       // 再释放内存

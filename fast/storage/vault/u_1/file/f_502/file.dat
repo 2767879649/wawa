@@ -1,0 +1,283 @@
+---
+type: 试卷
+date: 2026-07-03 21:16
+---
+
+# 练习试卷 - 2026-07-03 21:16
+
+> 请完成以下题目。点击 ✅答案 查看参考答案，在 📝笔记 中记录要点。
+
+## 选择题
+
+<div class="exam-card">
+<p class="exam-num">1</p>
+<p class="exam-stem">(单选题)ZigBee的物理层工作在哪个频段?( )</p>
+<div class="exam-options">
+  <div class="exam-opt">A. 2.4GHz</div>
+  <div class="exam-opt">B. 800MHz</div>
+  <div class="exam-opt">C. 5GHz</div>
+  <div class="exam-opt">D. 900MHz</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-12
+> A. 2.4GHz
+> [!note]- 📝 笔记 ^qid-choice-12
+>
+
+<div class="exam-card">
+<p class="exam-num">2</p>
+<p class="exam-stem">(单选题)CC2530 的 ADC 支持的最大分辨率是多少位？</p>
+<div class="exam-options">
+  <div class="exam-opt">A. 14 位</div>
+  <div class="exam-opt">B. 16 位</div>
+  <div class="exam-opt">C. 8 位</div>
+  <div class="exam-opt">D. 12 位</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-29
+> D. 12 位
+> [!note]- 📝 笔记 ^qid-choice-29
+>
+
+<div class="exam-card">
+<p class="exam-num">3</p>
+<p class="exam-stem">(单选题)ZigBee 技术基于以下哪个协议标准？</p>
+<div class="exam-options">
+  <div class="exam-opt">A. IEEE 802.11</div>
+  <div class="exam-opt">B. IEEE 802.3</div>
+  <div class="exam-opt">C. IEEE 802.15.4</div>
+  <div class="exam-opt">D. IEEE 802.1</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-2
+> C. IEEE 802.15.4
+> [!note]- 📝 笔记 ^qid-choice-2
+>
+
+<div class="exam-card">
+<p class="exam-num">4</p>
+<p class="exam-stem">(单选题)CC2530 射频模块的 RF 内核不包括以下哪个部分( )</p>
+<div class="exam-options">
+  <div class="exam-opt">A. 定时器 3</div>
+  <div class="exam-opt">B. 调制器</div>
+  <div class="exam-opt">C. 帧过滤和源匹配</div>
+  <div class="exam-opt">D. 无线电控制状态模块(FSM)</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-32
+> A. 定时器 3
+> [!note]- 📝 笔记 ^qid-choice-32
+>
+
+<div class="exam-card">
+<p class="exam-num">5</p>
+<p class="exam-stem">(单选题)ZigBee的MAC层采用哪种机制来访问信道?( )</p>
+<div class="exam-options">
+  <div class="exam-opt">A. FDMA</div>
+  <div class="exam-opt">B. CSMA/CA</div>
+  <div class="exam-opt">C. TDMA</div>
+  <div class="exam-opt">D. CDMA</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-13
+> B. CSMA/CA
+> [!note]- 📝 笔记 ^qid-choice-13
+>
+
+<div class="exam-card">
+<p class="exam-num">6</p>
+<p class="exam-stem">(单选题)以下哪款芯片是 TI 公司收购 Chipcon 后推出的代表性产品？</p>
+<div class="exam-options">
+  <div class="exam-opt">A. CC2420</div>
+  <div class="exam-opt">B. CC2530</div>
+  <div class="exam-opt">C. MC13224</div>
+  <div class="exam-opt">D. CC2430</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-6
+> B. CC2530
+> [!note]- 📝 笔记 ^qid-choice-6
+>
+
+<div class="exam-card">
+<p class="exam-num">7</p>
+<p class="exam-stem">(单选题)在中国，ZigBee 使用的频段是( )。</p>
+<div class="exam-options">
+  <div class="exam-opt">A. 5 GHz</div>
+  <div class="exam-opt">B. 2.4 GHz</div>
+  <div class="exam-opt">C. 868 MHz</div>
+  <div class="exam-opt">D. 915 MHz</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-1
+> B. 2.4 GHz
+> [!note]- 📝 笔记 ^qid-choice-1
+>
+
+<div class="exam-card">
+<p class="exam-num">8</p>
+<p class="exam-stem">(单选题) 在 ZStack 中，以下哪个函数用于读取父节点的网络地址( )。</p>
+<div class="exam-options">
+  <div class="exam-opt">A. NLME_GetExtAddr()</div>
+  <div class="exam-opt">B. NLME_GetShortAddr()</div>
+  <div class="exam-opt">C. NLME_GetCoordShortAddr()</div>
+  <div class="exam-opt">D. NLME_GetCoordExtAddr()</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-37
+> C. NLME_GetCoordShortAddr()
+> [!note]- 📝 笔记 ^qid-choice-37
+>
+
+<div class="exam-card">
+<p class="exam-num">9</p>
+<p class="exam-stem">(单选题)ZigBee应用层的簇(Cluster)通过什么来表示?( )</p>
+<div class="exam-options">
+  <div class="exam-opt">A. 簇标识(Cluster ID)</div>
+  <div class="exam-opt">B. 簇名称</div>
+  <div class="exam-opt">C. 簇描述符</div>
+  <div class="exam-opt">D. 簇编号</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-21
+> A. 簇标识(Cluster ID)
+> [!note]- 📝 笔记 ^qid-choice-21
+>
+
+<div class="exam-card">
+<p class="exam-num">10</p>
+<p class="exam-stem">(单选题)用于修改 ZigBee 芯片物理地址的软件是( )。</p>
+<div class="exam-options">
+  <div class="exam-opt">A. IAR Embedded Workbench</div>
+  <div class="exam-opt">B. Zigbee Sniffer</div>
+  <div class="exam-opt">C. SmartRF Flash Programmer</div>
+  <div class="exam-opt">D. Altium Designer</div>
+</div>
+</div>
+> [!info]- ✅ 答案 ^qid-choice-8
+> C. SmartRF Flash Programmer
+> [!note]- 📝 笔记 ^qid-choice-8
+>
+
+## 填空题
+
+<div class="exam-card">
+<p class="exam-num">11</p>
+<p class="exam-stem"><span class="exam-blank">判断题</span>ZigBee 联盟成立于 2001 年 8 月。( )</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-8
+> 对
+> [!note]- 📝 笔记 ^qid-fill-8
+>
+
+<div class="exam-card">
+<p class="exam-num">12</p>
+<p class="exam-stem"><span class="exam-blank">判断题</span>睡眠定时器在 pm3 模式下仍然可以运行。  
+a. 对  
+b. 错</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-25
+> b
+> [!note]- 📝 笔记 ^qid-fill-25
+> pm3 模式下所有振荡器关闭。
+
+<div class="exam-card">
+<p class="exam-num">13</p>
+<p class="exam-stem"><span class="exam-blank">判断题</span>dma 传输完成后会自动清除中断标志位。  
+a. 对  
+b. 错</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-24
+> b
+> [!note]- 📝 笔记 ^qid-fill-24
+> 需手动清除 DMAIRQ
+
+<div class="exam-card">
+<p class="exam-num">14</p>
+<p class="exam-stem"><span class="exam-blank">填空题</span> ZStack 协议栈中，用于设备加入网络的函数是 ____。</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-39
+> ZDOInitDevice()
+> [!note]- 📝 笔记 ^qid-fill-39
+>
+
+<div class="exam-card">
+<p class="exam-num">15</p>
+<p class="exam-stem"><span class="exam-blank">判断题</span> ZStack 协议栈中的 OSAL 层提供了任务管理、时间管理等服务。( )
+
+A. 对
+B. 错</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-43
+> A
+> [!note]- 📝 笔记 ^qid-fill-43
+>
+
+<div class="exam-card">
+<p class="exam-num">16</p>
+<p class="exam-stem"><span class="exam-blank">填空题</span>cc2530 的存储器空间 xdata 的寻址范围是 ____。</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-18
+> 0x0000-0xFFFF(64kb)
+> [!note]- 📝 笔记 ^qid-fill-18
+>
+
+<div class="exam-card">
+<p class="exam-num">17</p>
+<p class="exam-stem"><span class="exam-blank">填空题</span> 在 ZStack 中，协调器的网络地址固定为____。</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-37
+> 0x0000
+> [!note]- 📝 笔记 ^qid-fill-37
+>
+
+<div class="exam-card">
+<p class="exam-num">18</p>
+<p class="exam-stem"><span class="exam-blank">判断题</span>cc2530 的所有 i/o 端口均支持 20ma 驱动能力。  
+a. 对  
+b. 错</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-22
+> b
+> [!note]- 📝 笔记 ^qid-fill-22
+> 仅 p1.0 和 p1.1 支持
+
+<div class="exam-card">
+<p class="exam-num">19</p>
+<p class="exam-stem"><span class="exam-blank">填空题</span> ZStack 协议栈中，____层负责提供 APSDE-SAP 和 APSME-SAP 两个接口。</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-36
+> APS应用支持子
+> [!note]- 📝 笔记 ^qid-fill-36
+>
+
+<div class="exam-card">
+<p class="exam-num">20</p>
+<p class="exam-stem"><span class="exam-blank">填空题</span>RF 内核的中断屏蔽寄存器包括____、____、____。</p>
+</div>
+> [!info]- ✅ 答案 ^qid-fill-26
+> RFIRQM0、RFIRQM1、RFERRM
+> [!note]- 📝 笔记 ^qid-fill-26
+>
+
+## 大题
+
+<div class="exam-card">
+<p class="exam-num">21</p>
+<p class="exam-stem">&lt;mark&gt;简答题&lt;/mark&gt;说明 ADC 单端输入和差分输入的区别。</p>
+</div>
+> [!info]- ✅ 答案 ^qid-essay-9
+> 单端输入测量单个引脚对地电压，通道为 AIN0-AIN7；差分输入测量两个引脚电压差，通道为 AIN0-1、AIN2-3 等。
+> [!note]- 📝 笔记 ^qid-essay-9
+>
+
+<div class="exam-card">
+<p class="exam-num">22</p>
+<p class="exam-stem">&lt;mark&gt;简答题&lt;/mark&gt;以下代码的功能是什么?  
+P0SEL &amp;= ~0x30;  
+P0DIR |= 0x30;</p>
+</div>
+> [!info]- ✅ 答案 ^qid-essay-5
+> 将 P0.4 和 P0.5 设置为通用输出引脚。
+> [!note]- 📝 笔记 ^qid-essay-5
+>
