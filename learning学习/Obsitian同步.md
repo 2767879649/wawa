@@ -7,6 +7,9 @@
   fns version      # 查看版本
   fns --help       # 查看帮助
 
+## 服务地址
+http://localhost:9000
+https://plexiglas-confound-crust.ngrok-free.dev
 ## ngrok内网穿透
   1. ~~配置 ngrok auth token~~
   ~~去 https://ngrok.com 注册免费账号，然后在 dashboard 复制你的 authtoken，执行：~~
