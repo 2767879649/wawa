@@ -1,0 +1,490 @@
+---
+type: 填空题
+---
+
+## 1
+<mark>填空题</mark>ZigBee 从睡眠状态转入工作状态仅需____ms。
+正确答案：15
+- answer:15
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 4
+
+## 2
+<mark>填空题</mark>中国使用的 ZigBee 频段具有____个信道。
+正确答案：16
+- answer:16
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 2
+
+## 3
+<mark>填空题</mark>TI 公司的半开源协议栈是____。
+正确答案：ZStack
+- answer:ZStack
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 4
+<mark>填空题</mark>ZigBee 的三大技术特点是低功耗、低成本和____。
+正确答案：低速率
+- answer:低速率
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 6
+
+## 5
+<mark>填空题</mark>ZigBee 硬件平台设计中，协调器、路由器和终端节点通过____连接。
+- answer: 无线自组织网络
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 6
+<mark>判断题</mark>Freakz 协议栈适合工业级应用。( )
+
+- answer: 错
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 2
+
+## 7
+<mark>判断题</mark>ZigBee 的传输距离固定为 10-100 米，无法扩展。( )
+
+- answer: 错
+- source: 
+- tags: 
+- note: wiFi
+- wrong: 0
+- tried: 4
+
+## 8
+<mark>判断题</mark>ZigBee 联盟成立于 2001 年 8 月。( )
+
+- answer: 对
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 4
+
+## 9
+<mark>判断题</mark>ZigBee 1.0 与 ZigBee 1.1 版本是兼容的。( )
+正确答案：错
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 4
+
+## 10
+<mark>判断题</mark>CC2530 芯片内嵌了 32 位 ARM7 核。( )
+正确答案：错
+- source: 
+- tags: 
+- note: CC2530 内嵌的是增强型 8051 微控制器内核（8位）
+- wrong: 0
+- tried: 8
+
+## 11
+<mark>判断题</mark>PAN协调器在ZigBee网络中可以有多个。( )  
+A. 对  
+B. 错
+- answer: B
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 12
+<mark>判断题</mark>ZigBee网状网络中，设备只能与父节点或子节点通信。( )  
+A. 对  
+B. 错
+- answer: B
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 13
+<mark>判断题</mark>物理层的PLME-SAP接口负责数据服务和管理服务的传输。( )  
+A. 对  
+B. 错
+- answer: A
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 2
+
+## 14
+<mark>判断题</mark>ZigBee应用层中，绑定操作需要通过手动配置目的地址和端点号。( )  
+A. 对  
+B. 错
+- answer: B
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 15
+<mark>判断题</mark>MAC层的CSMA/CA机制支持两种信道预约方式:RTS/CTS和随机退避。( )  
+A. 对  
+B. 错
+- answer: B
+- source: 
+- tags: 
+- note: **题目说法错误**。MAC 层的 CSMA/CA 机制支持**随机退避**，但**不支持 RTS/CTS** 信道预约方式。RTS/CTS 是 WiFi（IEEE 802.11）的机制，而非 Zigbee（IEEE 802.15.4）的机制。
+- wrong: 0
+- tried: 5
+
+## 16
+<mark>填空题</mark>分析以下中断函数的功能:  
+#pragma vector = urx0____vector  
+____interrupt void uart0____isr<mark>void</mark> {  
+    urx0if = 0;  
+    temp = u0dbuf;  
+}  
+
+(1) 处理  
+(2) usart0  
+(3) 接收中断，读取接收缓冲区的数据并清除中断标志。
+- answer: (1) 处理
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 17
+<mark>填空题</mark>cc2530 的 DMA 控制器共有 ____个独立通道。
+- answer: 5
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 18
+<mark>填空题</mark>cc2530 的存储器空间 xdata 的寻址范围是 ____。
+- answer: 0x0000-0xFFFF(64kb)
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 19
+<mark>填空题</mark>中断服务程序入口地址通过关键字 ____定义。
+- answer: #pragma vector
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 20
+<mark>填空题</mark>ADC 的单端输入通道范围是 ____到 ____。  
+
+- answer: AIN0 到 AIN7
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 6
+
+## 21
+<mark>判断题</mark>定时器3和定时器4均为8位定时器。  
+a. 对  
+b. 错
+- answer: a
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 1
+
+## 22
+<mark>判断题</mark>cc2530 的所有 i/o 端口均支持 20ma 驱动能力。  
+a. 对  
+b. 错  
+
+- answer: b
+- source: 
+- tags: 
+- note: 仅 p1.0 和 p1.1 支持
+- wrong: 0
+- tried: 7
+
+## 23
+<mark>判断题</mark>cc2530 的 usart 支持全双工通信模式。  
+a. 对  
+b. 错
+- answer: a
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 4
+
+## 24
+<mark>判断题</mark>dma 传输完成后会自动清除中断标志位。  
+a. 对  
+b. 错  
+
+- answer: b
+- source: 
+- tags: 
+- note: 需手动清除 DMAIRQ
+- wrong: 0
+- tried: 5
+
+## 25
+<mark>判断题</mark>睡眠定时器在 pm3 模式下仍然可以运行。  
+a. 对  
+b. 错  
+- answer: b
+- source: 
+- tags: 
+- note: pm3 模式下所有振荡器关闭。
+- wrong: 0
+- tried: 5
+
+## 26
+<mark>填空题</mark>RF 内核的中断屏蔽寄存器包括____、____、____。
+- answer: RFIRQM0、RFIRQM1、RFERRM
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 27
+<mark>填空题</mark>IEEE802.15.4 标准的数字高频调制采用____技术。
+- answer: 2.4G 直接序列扩频技术
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 28
+<mark>填空题</mark>CC2530 中，每个中断服务程序的入口地址称为____。
+- answer: 中断向量
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 1
+
+## 29
+<mark>填空题</mark>在 CC2530 中，可以通过读取____或____来确定 RXFIFO 中的字节数。
+- answer: RFD 寄存器、RXFIFOCNT 寄存器
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 30
+<mark>填空题</mark>在 CC2530 中，当帧处理寄存器 FRMCTRL0.AUTOCRC=1 时，硬件会自动____并附加到发送帧。  
+- answer: 检查一个 CRC-16
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 31
+<mark>判断题</mark>CC2530 的 RF 内核可以自动执行 CSMA/CA 机制。( )  
+A. 对  
+B. 错
+- answer: A
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 6
+
+## 32
+<mark>判断题</mark>CC2530 的无线接收模式中，帧过滤功能只能接收目标明确的数据帧。( )  
+A. 对  
+B. 错
+- answer: B
+- source: 
+- tags: 
+- note: 接受广播帧
+- wrong: 0
+- tried: 3
+
+## 33
+<mark>判断题</mark>IEEE802.15.4 的调制方式具有抗干扰能力强、对其他电台干扰小等优点。( )  
+A. 对  
+B. 错
+- answer: A
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 34
+<mark>判断题</mark>在 CC2530 中，发送数据时，帧尾域的帧校验序列必须手动写入 TXFIFO。( )  
+A. 对  
+B. 错
+- answer: B
+- source: 
+- tags: 
+- note: 帧校验序列（FCS）**是否必须手动写入TXFIFO，取决于FRMCTRL0.AUTOCRC寄存器的设置**。可以是自动的
+- wrong: 0
+- tried: 2
+
+## 35
+<mark>判断题</mark>在 CC2530 中，TXFIFO 和 RXFIFO 的大小都是 128 字节。( )  
+A. 对  
+B. 错
+- answer: A
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 36
+<mark>填空题</mark> ZStack 协议栈中，____层负责提供 APSDE-SAP 和 APSME-SAP 两个接口。
+- answer: APS应用支持子
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 37
+<mark>填空题</mark> 在 ZStack 中，协调器的网络地址固定为____。
+- answer: 0x0000
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 4
+
+## 38
+<mark>填空题</mark> ZStack 协议栈的三个协议栈模板分别是 Zigbee 协议栈模板、____和特定网络模板。
+- answer: ZigbeePRO协议栈模板
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 39
+<mark>填空题</mark> ZStack 协议栈中，用于设备加入网络的函数是 ____。
+- answer: ZDOInitDevice()
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 40
+<mark>填空题</mark> ZStack 协议栈中，用于设备绑定的函数是____。
+- answer: ZDP_EndDeviceBindReq()
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 4
+
+## 41
+<mark>填空题</mark> ZStack 协议栈中，每个设备都有两个地址，分别是____和____。
+- answer: 64位IEEE地址，16位网络地址
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 4
+
+## 42
+<mark>填空题</mark> ZStack 协议栈中，16 位网络地址也被称为____。
+- answer: 短地址
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 43
+<mark>判断题</mark> ZStack 协议栈中的 OSAL 层提供了任务管理、时间管理等服务。( )
+
+A. 对
+B. 错
+- answer: A
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 3
+
+## 44
+<mark>判断题</mark> ZStack 协议栈中的 AF 层提供应用支持子层 APS 到应用层的接口。( )
+
+A. 对
+B. 错
+- answer: B
+- source: 
+- tags: 
+- note: ZDO层
+- wrong: 0
+- tried: 2
+
+## 45
+<mark>判断题</mark> ZStack 协议栈中的 ZDO 层提供设备管理功能，包括网络建立和应用端点的绑定等。( )
+
+A. 对
+B. 错
+- answer: A（对）
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 5
+
+## 46
+<mark>判断题</mark> ZStack 协议栈中的 HAL 层提供了硬件相关的配置和驱动函数。( )
+
+A. 对
+B. 错
+- answer: A（对）
+- source: 
+- tags: 
+- note: HAL层 硬件抽象层
+- wrong: 0
+- tried: 4
+
+## 47
+<mark>判断题</mark> ZStack 协议栈中的 NWK 层负责网络的路由查找及维护等功能。( )
+
+A. 对
+B. 错
+- answer: A
+- source: 
+- tags: 
+- note: 
+- wrong: 0
+- tried: 6

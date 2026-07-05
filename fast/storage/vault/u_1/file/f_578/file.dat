@@ -1,0 +1,29 @@
+信号量属于睡眠锁，获取失败进程休眠；
+disableirq禁止中断，requestirq申请中断。
+
+## 
+#include
+#include
+#include
+static void timerhandler(unsigned long arg)
+{ printk("Timer handler called\n");
+// 重新设置超时时间，实现周期性定时
+modtimer(&mytimer, jiffies + TIMERPERIOD); }
+static int init timerdrvinit(void)
+{
+// 新式API初始化定时器，绑定处理函数与参数 timersetup(&mytimer, timerhandler, 0);
+// 设置首次超时时刻并启动定时器
+modtimer(&mytimer, jiffies + TIMERPERIOD);
+printk("Timer module loaded, timer started(1s period)\n"); return 0; }
+static void _exit timerdrvexit(void)
+{ // deltimersync同步删除，等待正在执行的定时器回调完成再返回，避免竞态崩溃
+deltimersync(&mytimer);
+printk("Timer module unloaded, timer deleted\n"); }
+moduleinit(timerdrvinit); moduleexit(timerdrvexit); MODULELICENSE("GPL"); MODULEDESCRIPTION("1s periodic kernel timer demo");
+#define TIMERPERIOD(1 HZ)
+TIMEPERIOD(1HZ)
+
+
+向下统一硬件驱动接口
+向上统一应用访问接口
+中间核心层调度

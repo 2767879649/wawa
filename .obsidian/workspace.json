@@ -27,13 +27,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/备考/zigbee/重点.md",
+                "file": "learning学习/Dify使用.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "重点"
+              "title": "Dify使用"
             }
           }
         ],
@@ -222,14 +222,23 @@
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
+          },
+          {
+            "id": "40e48a1b0249c142",
+            "type": "leaf",
+            "state": {
+              "type": "fns-sync-log-view",
+              "state": {},
+              "icon": "arrow-down-up",
+              "title": "同步日志"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 404.5,
-    "collapsed": true
+    "width": 404.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,25 +258,28 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "a53f52f5da2eb73f",
+  "active": "40e48a1b0249c142",
   "lastOpenFiles": [
-    "fast/storage/temp/9784c7f5-860f-42b0-b860-adb82081ddea",
-    "fast/storage/vault/u_1/file/f_44/file.dat",
-    "fast/storage/vault/u_1/file/f_44",
-    "fast/storage/temp/a0ece5fb-0cc1-4ca3-afb4-fa848c5bc777",
-    "fast/storage/vault/u_1/file/f_43/file.dat",
-    "fast/storage/vault/u_1/file/f_43",
-    "fast/storage/temp/f63c4e1e-2b0d-442d-b19f-b20f9726bc18",
-    "fast/storage/vault/u_1/file/f_42/file.dat",
-    "fast/storage/vault/u_1/file/f_42",
-    "fast/storage/vault/u_1/file/f_41/file.dat",
-    "fast/storage/vault/u_1/file/f_41",
+    "fast/storage/database/db_user_setting_1.sqlite3-shm",
+    "fast/storage/database/db_user_setting_1.sqlite3-wal",
+    "fast/storage/vault/u_1/file/f_1973/file.dat",
+    "fast/storage/vault/u_1/file/f_1973",
+    "fast/storage/vault/u_1/file/f_1972/file.dat",
+    "fast/storage/vault/u_1/file/f_1972",
+    "fast/storage/vault/u_1/file/f_1971/file.dat",
+    "fast/storage/vault/u_1/file/f_1971",
+    "fast/storage/vault/u_1/file/f_1970/file.dat",
+    "fast/storage/vault/u_1/file/f_1970",
+    "fast/storage/vault/u_1/file/f_1969/file.dat",
+    "learning学习/Git基础使用.md",
+    "learning学习/Dify使用.md",
+    "learning学习/需要学习.md",
+    "嵌入式.md",
+    "2026-07-05.md",
+    "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/zigbee/大题.md",
     "learning学习/备考/zigbee/选择题.md",
-    "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/试卷/2026-07-04-1236-练习.md",
-    "2026-07-05.md",
-    "嵌入式.md",
     "projects项目文档/README.md",
     "ZStack协议栈.md",
     "zigbee.canvas",
@@ -286,9 +298,6 @@
     "learning学习/备考/试卷/2026-07-04-0926-练习.md",
     "learning学习/备考/嵌入式/填空题.md",
     "learning学习/备考/嵌入式.md",
-    "learning学习/备考/zigbee/填空题.md",
-    "learning学习/备考/试卷/2026-07-03-2147-练习.md",
-    "learning学习/备考/试卷/2026-07-03-2139-练习.md",
     "未命名.canvas",
     "assets/Pasted image 20260620142937.png",
     "未命名 3.canvas",
