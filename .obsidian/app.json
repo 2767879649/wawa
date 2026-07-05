@@ -7,7 +7,7 @@
   "livePreview": true,
   "smartIndentList": true,
   "autoPairBrackets": true,
-  "defaultViewMode": "source",
+  "defaultViewMode": "preview",
   "useTab": false,
   "vimMode": false
 }
