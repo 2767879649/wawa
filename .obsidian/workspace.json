@@ -207,14 +207,35 @@
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
+          },
+          {
+            "id": "3b858b962b8dad5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "learning学习/备考/zigbee/选择题.md"
+              },
+              "icon": "lucide-info",
+              "title": "选择题的笔记属性"
+            }
+          },
+          {
+            "id": "dff6e116cd277f4c",
+            "type": "leaf",
+            "state": {
+              "type": "fns-sync-log-view",
+              "state": {},
+              "icon": "arrow-down-up",
+              "title": "同步日志"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 404.5,
-    "collapsed": true
+    "width": 404.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,7 +255,7 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "228bfa193061227f",
+  "active": "dff6e116cd277f4c",
   "lastOpenFiles": [
     "learning学习/模型API.md",
     "learning学习/Dify使用.md",

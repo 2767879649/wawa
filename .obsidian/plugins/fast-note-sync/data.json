@@ -8,7 +8,7 @@
   "syncExcludeExtensions": "",
   "syncExcludeWhitelist": "",
   "pdfSyncEnabled": true,
-  "cloudPreviewEnabled": false,
+  "cloudPreviewEnabled": true,
   "cloudPreviewTypeRestricted": true,
   "cloudPreviewRemoteUrl": "",
   "cloudPreviewAutoDeleteLocal": false,

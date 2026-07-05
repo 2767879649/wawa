@@ -1,7 +1,7 @@
 {
   "lastVersion": "4.0.8",
   "aestheticStyle": "default",
-  "positionStyle": "top",
+  "positionStyle": "following",
   "menuCommands": [
     {
       "id": "editing-toolbar:editor-undo",
@@ -1206,7 +1206,7 @@
       "toolbarBackgroundColor": "#F5F8FA",
       "toolbarIconColor": "#364868",
       "toolbarIconSize": 18,
-      "aestheticStyle": "custom"
+      "aestheticStyle": "default"
     },
     "fixed": {
       "toolbarBackgroundColor": "#6FA7C3",
@@ -1221,8 +1221,8 @@
       "aestheticStyle": "default"
     }
   },
-  "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
-  "toolbarIconColor": "var(--text-normal)",
+  "toolbarBackgroundColor": "#F5F8FA",
+  "toolbarIconColor": "#364868",
   "toolbarIconSize": 18,
   "useCurrentLineForRegex": false,
   "ai": {
