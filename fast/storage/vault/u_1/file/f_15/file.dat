@@ -4248,3 +4248,857 @@ BuildTime: 2026-07-03T04:39:11+0000
 2026-07-05T13:18:39.374+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 51ec04b6-56a0-451c-879c-a1da51448c1f", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
 2026-07-05T13:18:39.374+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ed502d9c-e071-4783-b18b-8d9448984124", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
 2026-07-05T13:18:39.376+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:39.828+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:39.930+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:40.386+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 236a5fa3-05e6-4c7f-a93c-0e4af394b4f5", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:40.434+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 93072cd8-7ba8-47ea-84c1-568d21abdb7a", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+[GIN] 2026/07/05 - 13:18:45 | 200 |   5.12ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783228725139&_r=jvox2j"
+2026-07-05T13:18:45.586+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 5522377d-6eae-4ab6-862e-76a2ecafe353", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.620+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 5522377d-6eae-4ab6-862e-76a2ecafe353", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.621+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: eaa68177-f441-4a6b-84d3-d0bcc0d3b188", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.623+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.625+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.681+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 28a30e01-a1e1-433e-9300-2a7759982d05", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.682+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 950cbc16-3e2a-4d6f-bc1f-96636dd2a128", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.687+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.689+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.700+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.756+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: a511cb34-bb12-424b-acd2-b66f20e4d6f3", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.759+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: add2fb88-4b22-4786-91ef-028d4d9cea86", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.765+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.765+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.765+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.770+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.772+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.773+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.776+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.777+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.828+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 4e5190f9-9bfe-4338-a590-a474aeee1298", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.830+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d3cbff42-c4b2-40db-9b6a-20df576e5cd9", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.831+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.884+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: f9366118-0d53-44fc-b1e8-f2dfaa6a2347", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.887+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.889+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 9072a57d-8978-4a79-9adf-3f88ea6a54e5", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.891+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.893+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.895+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.896+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b436ba52-df85-4f7d-bc53-e89a83bf07b4", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.904+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 13070d22-abad-4698-b4f4-9c8484cb6804", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.908+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.910+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.911+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:45.984+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 571c6662-e0a3-4485-a82f-ba73a6836e8d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.026+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 34d84863-ca1d-4aae-85e7-c0b4339c0614", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.027+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 69b256b4-cb1f-4c17-987c-b477606daff7", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.029+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: cfdcf36a-7f70-4c16-b2c8-7145773bc2c6", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.050+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ad0f6aef-8753-40ea-9b14-9efce9971c57", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.102+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: a87d2bf6-43c1-4851-9710-6c50c0972a99", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.104+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 42306156-8675-4da5-9161-e7e9637db0ed", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.104+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 5d53b3fd-b80a-447c-bb6e-046f6024d611", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.169+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.170+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.170+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ef0a6320-ce77-454f-90a4-f0907972b719", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.172+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ece2412b-2bf3-486b-b347-7d5799612469", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.174+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.175+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.176+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d03f4968-7186-46a2-a625-f8c227675929", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.176+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b79d8a9b-da27-4379-803c-d5d86b5bdf26", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.178+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.234+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 3021734b-f899-4baf-a7f1-00de5b5833aa", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.246+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.289+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 5cf86d21-3189-4aff-b588-972aea412edd", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.297+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.300+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.313+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.313+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.313+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.315+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 8e5cef46-8244-476e-9e4d-5be41ade2bc5", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.317+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0f03c1ac-9f16-4d0f-92bf-42c56bb66989", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.321+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.323+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.325+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 7012f445-d8b1-450f-9e84-d2a3d1786e93", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.325+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.400+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d3da4581-ad40-4bbb-8927-6f3f1484520d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.405+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.449+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: debf7783-9787-4abc-b00e-3876839bbce9", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.451+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.452+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.453+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.454+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.468+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 630f6bf4-01fe-4e13-a008-bc10adfd4c7e", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.471+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.471+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.475+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.475+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.476+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.477+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.524+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 43c0d666-9c75-4815-ae25-ace5a7bf0ae6", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.609+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 1e987013-6df7-4c5e-9eb0-80fd9dc0ec64", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.613+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.617+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.618+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.618+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.640+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.645+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.648+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.649+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.731+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.737+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.739+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.744+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.746+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 5522377d-6eae-4ab6-862e-76a2ecafe353", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.789+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b99996a0-7e00-47de-924e-fdfc2c37f9ea", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.804+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.827+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.833+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.888+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b99996a0-7e00-47de-924e-fdfc2c37f9ea", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.914+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b99996a0-7e00-47de-924e-fdfc2c37f9ea", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.920+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.921+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:46.952+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b99996a0-7e00-47de-924e-fdfc2c37f9ea", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.017+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b99996a0-7e00-47de-924e-fdfc2c37f9ea", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.020+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.043+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b99996a0-7e00-47de-924e-fdfc2c37f9ea", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.064+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b99996a0-7e00-47de-924e-fdfc2c37f9ea", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.067+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.068+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.072+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.072+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.087+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.153+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.270+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.274+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.376+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.424+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.429+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.447+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:47.453+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:48.001+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:48.145+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:48.440+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:48.670+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:48.912+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:49.086+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:49.178+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.019+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.041+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.415+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.415+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.415+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.415+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.418+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.424+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.426+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.426+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.427+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.429+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.430+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.869+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:50.916+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:51.032+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:51.449+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:51.452+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:51.513+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:51.514+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:51.565+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:51.664+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.016+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.065+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.120+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.204+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.314+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.317+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.377+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.378+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.421+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.422+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.423+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.424+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.527+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.529+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.530+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.531+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.596+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.866+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.929+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.984+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:52.986+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.085+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.180+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.397+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.398+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.404+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.457+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.509+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.510+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.592+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.612+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.681+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.812+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.857+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.876+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.961+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:53.980+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.049+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.052+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.160+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.293+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.354+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.429+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.464+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.548+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.548+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.558+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.625+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.636+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.708+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.708+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.772+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.772+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.836+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.837+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.900+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.912+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:54.980+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.025+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.027+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.028+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.316+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.393+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.407+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+[GIN] 2026/07/05 - 13:18:55 | 200 |   3.53ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783228735479&_r=mfzveh"
+2026-07-05T13:18:55.561+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.617+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.618+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.619+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.666+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.667+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.667+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.669+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.672+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.733+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.734+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.775+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.776+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.777+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.790+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.823+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.824+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.824+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.836+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.892+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.965+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:55.965+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.117+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.118+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.162+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.208+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.209+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.209+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.281+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.281+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.283+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+[GIN] 2026/07/05 - 13:18:56 | 200 |   1.89ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_t=1783228736330&_r=z8bu53"
+2026-07-05T13:18:56.340+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+[GIN] 2026/07/05 - 13:18:56 | 200 |   5.84ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783228736330&_r=oggmsz"
+2026-07-05T13:18:56.341+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.409+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.409+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.493+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.493+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.494+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.549+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.550+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.550+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.724+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 502a35c7-43ec-4c3e-967d-b3a986ad1a17", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.736+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 502a35c7-43ec-4c3e-967d-b3a986ad1a17", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.772+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 502a35c7-43ec-4c3e-967d-b3a986ad1a17", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.811+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 502a35c7-43ec-4c3e-967d-b3a986ad1a17", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.832+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 502a35c7-43ec-4c3e-967d-b3a986ad1a17", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.843+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.916+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.917+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.917+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.977+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.978+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:56.980+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.025+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.026+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.027+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.089+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.089+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.161+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.161+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.162+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.213+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.215+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.269+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.270+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.271+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.405+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.405+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 0e3c4081-bbf7-44ad-9d4f-360029e3ab6d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.412+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.464+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ca1c6924-2a35-4a56-9cbf-ba4c61a72943", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:57.826+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:58.808+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.084+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.311+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.380+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.463+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.467+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.486+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.626+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.657+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.666+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.741+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.765+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.784+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.868+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.886+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:18:59.902+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.015+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 1b7b677c-ae78-4890-8161-2d5781ba41a6", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.015+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 1b7b677c-ae78-4890-8161-2d5781ba41a6", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.093+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.182+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.302+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d15b1368-77e4-466c-abf6-990aabeae850", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.302+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d15b1368-77e4-466c-abf6-990aabeae850", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.377+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6bee0729-c831-4d9a-8873-7a4638496fc0", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.378+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6bee0729-c831-4d9a-8873-7a4638496fc0", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.380+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6bee0729-c831-4d9a-8873-7a4638496fc0", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.455+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6bee0729-c831-4d9a-8873-7a4638496fc0", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.456+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6bee0729-c831-4d9a-8873-7a4638496fc0", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.526+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 8cc437b4-b06b-4e80-a46b-4eb2c43812fb", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.526+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 8cc437b4-b06b-4e80-a46b-4eb2c43812fb", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.582+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6387d6e6-27ee-4ba6-bf23-1cc1a0456bc7", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:00.583+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6387d6e6-27ee-4ba6-bf23-1cc1a0456bc7", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:01.740+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:02.064+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:02.145+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:02.173+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:03.348+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:03.453+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:03.525+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:03.706+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:03.868+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:03.940+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:04.352+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:04.503+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:05.359+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 7681b877-1af8-4ba1-aaaa-fb8deae0f5e7", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:05.359+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 7681b877-1af8-4ba1-aaaa-fb8deae0f5e7", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:05.427+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 97c1e76a-2985-4e13-87e9-01712d4b97a3", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:05.427+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 97c1e76a-2985-4e13-87e9-01712d4b97a3", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:05.498+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 8e1ff70c-d5bb-4f9a-af8b-3a26649206f5", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:05.499+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 8e1ff70c-d5bb-4f9a-af8b-3a26649206f5", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:05.709+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:05.860+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:07.161+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:08.256+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:08.839+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 422002bf-a2ff-4594-99b9-4367fa6b26c6", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:08.899+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 422002bf-a2ff-4594-99b9-4367fa6b26c6", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.130+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: c42d8e50-e0af-48b5-a6ab-4f22e8f7f140", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.133+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: c42d8e50-e0af-48b5-a6ab-4f22e8f7f140", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.138+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.270+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.371+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.425+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.537+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.555+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.748+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.925+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:09.940+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:10.024+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:10.145+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:10.169+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:10.247+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:10.302+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:10.387+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:10.574+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:12.029+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:12.095+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:12.117+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:12.795+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:12.904+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:12.923+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:13.007+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:13.132+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:13.354+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 3218ae4f-0f81-4c2e-8cdd-b9ef3f0a8daf", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:13.356+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 3218ae4f-0f81-4c2e-8cdd-b9ef3f0a8daf", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:13.356+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 65373813-9837-4a7e-bb8e-8060d17259fb", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:13.423+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 65373813-9837-4a7e-bb8e-8060d17259fb", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:13.646+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:14.263+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:14.283+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:14.679+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:14.771+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:16.385+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 310453ec-d673-45d3-a1eb-d45cc3c04249", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:16.392+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 310453ec-d673-45d3-a1eb-d45cc3c04249", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:16.495+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6a606556-e376-4005-b3b9-e4b71b15081d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:16.496+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 6a606556-e376-4005-b3b9-e4b71b15081d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:16.780+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:17.397+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:17.565+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:17.635+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:17.783+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:17.783+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:17.830+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:17.952+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.057+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.239+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.273+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.316+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.423+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.546+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.551+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.576+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:18.605+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:19.851+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:19.897+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: a0147562-921b-4250-bfca-76d4bf88deb5", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:19.915+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:19.917+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: a0147562-921b-4250-bfca-76d4bf88deb5", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:20.018+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 3ed9e150-9207-48b8-8f74-fac990fc2aee", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:20.018+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 3ed9e150-9207-48b8-8f74-fac990fc2aee", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:20.128+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:20.770+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:20.895+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:21.036+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:21.119+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:21.346+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:21.474+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:21.925+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:21.936+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:22.428+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:22.650+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 22dd512a-3a22-4344-a77b-fa32c6a91fbf", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:22.651+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 22dd512a-3a22-4344-a77b-fa32c6a91fbf", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:22.731+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 1049796f-a917-4b2f-8c70-5abe9d895855", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:22.731+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 1049796f-a917-4b2f-8c70-5abe9d895855", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:24.491+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.190+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.283+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.395+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.412+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.512+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.533+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.546+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.621+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.764+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.934+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:25.956+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.090+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ac2f6d88-23e7-4d24-9566-ae81d56812a9", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.091+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ac2f6d88-23e7-4d24-9566-ae81d56812a9", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.121+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.155+0800	ERROR	websocket_router.folder.FolderSync.ListByUpdatedTimestamp	{"error": "Folder list get failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.235+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.256+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.270+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.359+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.442+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d068dd39-9681-4d3b-87b2-f50a72a36740", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:26.442+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d068dd39-9681-4d3b-87b2-f50a72a36740", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:27.631+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:27.655+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:27.752+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:28.325+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:28.928+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:29.013+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:29.146+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:29.227+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:29.450+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:29.772+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.193+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.203+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.332+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b269eeb0-0f92-44e7-a94c-2e1b595f6d63", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.332+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: b269eeb0-0f92-44e7-a94c-2e1b595f6d63", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.436+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d760aa12-ef30-49ea-a49f-a114ba4dd583", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.437+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d760aa12-ef30-49ea-a49f-a114ba4dd583", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.717+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 518eab23-69cf-4ba4-9afc-07c696fbff6b", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.718+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 518eab23-69cf-4ba4-9afc-07c696fbff6b", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:30.880+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:32.199+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:33.121+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 8766733e-5e6c-45b0-85cd-2822c8a25b83", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:33.168+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 8766733e-5e6c-45b0-85cd-2822c8a25b83", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:33.652+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.179+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.232+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.299+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.436+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: be558989-0fbd-431c-8a42-9b2ec60d7525", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.436+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: be558989-0fbd-431c-8a42-9b2ec60d7525", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.461+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.553+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.658+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.682+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.827+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:34.853+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.019+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.061+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.105+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.202+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.205+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.224+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.330+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.351+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:35.508+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:36.198+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:36.446+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 5c96cd70-5a4f-452b-9705-ddb9fcc0d1e2", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:36.505+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 5c96cd70-5a4f-452b-9705-ddb9fcc0d1e2", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:36.849+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:37.556+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:37.869+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 35210410-4699-42e6-9181-a17f3f439c4c", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:37.869+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 35210410-4699-42e6-9181-a17f3f439c4c", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:38.005+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:38.059+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:38.213+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:38.311+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:38.432+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:38.802+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:39.065+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:39.079+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:39.716+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: e677ad6a-25c3-4958-b495-58acd1fb0448", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:39.716+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: e677ad6a-25c3-4958-b495-58acd1fb0448", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:41.003+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: fc0475ea-7571-40c4-a4f4-035fc66e6bfa", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:41.049+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: fc0475ea-7571-40c4-a4f4-035fc66e6bfa", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:42.366+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:42.503+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:42.519+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:42.541+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:42.973+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.018+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.102+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.107+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.284+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 2fdb6815-150e-4e6b-b947-40816892cacb", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.285+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 2fdb6815-150e-4e6b-b947-40816892cacb", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.288+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.402+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.504+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.612+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.716+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.773+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.820+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.897+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.978+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:43.982+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:44.246+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:46.184+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:47.106+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:47.384+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:47.491+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:47.604+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 00f12fda-b8fe-4e9c-ba86-4a5b7fbdd59a", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:47.605+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 00f12fda-b8fe-4e9c-ba86-4a5b7fbdd59a", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:47.642+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:47.786+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:47.900+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:48.120+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:48.410+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:48.645+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:48.697+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:49.546+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 591dc618-99c1-4502-86ad-a3672c143dd8", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:49.592+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 591dc618-99c1-4502-86ad-a3672c143dd8", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+[GIN] 2026/07/05 - 13:19:50 | 200 |   9.35ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783228790708&_r=lr4a8x"
+2026-07-05T13:19:51.457+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 7db53db2-9fe2-4677-bbdd-9599a8a9202d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:51.507+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 7db53db2-9fe2-4677-bbdd-9599a8a9202d", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+[GIN] 2026/07/05 - 13:19:52 | 200 |   5.34ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_t=1783228792760&_r=tv5yxs"
+[GIN] 2026/07/05 - 13:19:52 | 200 |   7.77ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783228792759&_r=oafl3h"
+2026-07-05T13:19:53.553+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:53.663+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:53.996+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:54.005+0800	ERROR	websocket_router.folder.FolderModify.UpdateOrCreate	{"error": "Folder modify or create failed: file is not a database (26)", "traceId": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0"}
+2026-07-05T13:19:54.132+0800	ERROR	WS User Leave	{"uid": "1", "traceID": "0c1f7ef5-6bab-4ed1-8ed2-5676a197b5c0", "error": "gws: connection closed, code=1000, reason=Cleanup"}
+[GIN] 2026/07/05 - 13:20:07 | 200 |   2.69ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228807926_i1ztg61j4og&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |   5.02ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228808291_3mmogpnh9j5&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |   8.14ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&isRecycle=1&_=1783228808290_p1c27r7h08l&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |   6.19ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_=1783228808864_mt6yi9h0e4&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |   4.97ms |      172.20.0.1 | GET      "/api/folders?vault=knowledge&_=1783228808865_tihzmqulkca&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |   5.68ms |      172.20.0.1 | GET      "/api/folder/files?vault=knowledge&page=1&pageSize=99999&sortBy=mtime&sortOrder=desc&_=1783228808865_qc4li23ob3f&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |   7.98ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228808866_q2lh219k2r&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |  11.52ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228808866_20g0heyag34&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |  37.04ms |      172.20.0.1 | GET      "/api/folder/notes?vault=knowledge&page=1&pageSize=99999&sortBy=mtime&sortOrder=desc&_=1783228808865_l6zd3bs1h7&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |  11.92ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_=1783228808932_vsoyozsuhhk&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |  12.61ms |      172.20.0.1 | GET      "/api/folders?vault=knowledge&_=1783228808933_pani7a0awj&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |   11.9ms |      172.20.0.1 | GET      "/api/folder/files?vault=knowledge&page=1&pageSize=99999&sortBy=mtime&sortOrder=desc&_=1783228808933_769yu4sqwbl&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |   22.5ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228808933_tsjr6ayoh8o&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:08 | 200 |  46.56ms |      172.20.0.1 | GET      "/api/folder/notes?vault=knowledge&page=1&pageSize=99999&sortBy=mtime&sortOrder=desc&_=1783228808933_depjb66rwhs&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:09 | 200 |  170.1ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&_=1783228809669_lppfu2bwqe8&lang=zh-CN"
+2026-07-05T13:20:09.953+0800	ERROR	FileHandler.List	{"error": "数据库查询失败: database disk image is malformed (11)", "traceId": "1783228809946024459-492205dc"}
+[GIN] 2026/07/05 - 13:20:09 | 200 |   8.94ms |      172.20.0.1 | GET      "/api/files?vault=knowledge&page=1&pageSize=10&_=1783228809940_xq0lze7g8rq&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:11 | 200 | 160.41ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&_=1783228811758_dsw2qgome0u&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:17 | 200 |   6.27ms |      172.20.0.1 | GET      "/api/folders?vault=knowledge&_=1783228817220_9e3asdl8uka&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:17 | 200 |  11.96ms |      172.20.0.1 | GET      "/api/folder/files?vault=knowledge&page=1&pageSize=99999&sortBy=mtime&sortOrder=desc&_=1783228817221_5tnaboinsym&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:17 | 200 |  42.83ms |      172.20.0.1 | GET      "/api/folder/notes?vault=knowledge&page=1&pageSize=99999&sortBy=mtime&sortOrder=desc&_=1783228817221_2coi1j2qfw&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:23 | 200 |   5.67ms |      172.20.0.1 | GET      "/api/folder/files?vault=knowledge&page=1&pageSize=99999&sortBy=mtime&sortOrder=desc&_=1783228823625_ll3jgr0e92&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:23 | 200 |   7.39ms |      172.20.0.1 | GET      "/api/folders?vault=knowledge&_=1783228823625_unes1e2o8h&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:23 | 200 |   6.64ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&keyword=fat&_=1783228823636_lqns1jhh3gb&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:23 | 200 |  40.51ms |      172.20.0.1 | GET      "/api/folder/notes?vault=knowledge&page=1&pageSize=99999&sortBy=mtime&sortOrder=desc&_=1783228823625_5feqc0frcr7&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:24 | 200 |   6.66ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&keyword=fa&_=1783228824078_9ub2ffbidcr&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:24 | 200 |   7.32ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&keyword=fas&_=1783228824954_4lysoizu666&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:25 | 200 |   8.71ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&keyword=fast&_=1783228825638_27hqnjjjgjh&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:28 | 200 |   5.39ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228828632_2wrgdo1qfdn&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:28 | 200 |   7.05ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228828680_851c1ekxho3&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:28 | 200 |  49.14ms |      172.20.0.1 | GET      "/api/settings?vault=knowledge&page=1&pageSize=20&_=1783228828679_tw3kx4o1qh&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:29 | 200 |   7.13ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228829592_8b73wyggcu2&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:29 | 200 |  10.73ms |      172.20.0.1 | GET      "/api/sync-logs?page=1&pageSize=20&vault=knowledge&_=1783228829593_k6enwpbx8ih&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:41 | 200 |   5.06ms |      172.20.0.1 | GET      "/api/sync-logs?page=1&pageSize=20&vault=knowledge&_=1783228841769_agwbpdvu3jo&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:42 | 200 |   5.34ms |      172.20.0.1 | GET      "/api/sync-logs?page=1&pageSize=20&_=1783228842309_h6i3tzs0bgv&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:42 | 200 |   7.02ms |      172.20.0.1 | GET      "/api/sync-logs?page=1&pageSize=20&vault=knowledge&_=1783228842325_9tj3kvn5fub&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:44 | 200 |   4.27ms |      172.20.0.1 | GET      "/api/admin/config?_=1783228844335_y6lfyrmfl8h&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:44 | 200 |      2ms |      172.20.0.1 | GET      "/api/admin/config/cloudflare?_=1783228844336_azijesv2se4&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:44 | 200 |   1.44ms |      172.20.0.1 | GET      "/api/admin/config/user_database?_=1783228844336_r2g4b5g68lb&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:44 | 200 | 876.867µs |      172.20.0.1 | GET      "/api/version?_=1783228844407_5m9ofvfnema&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:44 | 200 |   9.76ms |      172.20.0.1 | GET      "/api/admin/users/list?page=1&pageSize=3&_=1783228844408_ze9cjkghnd&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:44 | 200 | 127.95ms |      172.20.0.1 | GET      "/api/version/probe?_=1783228844409_kqxy2f1f74&lang=zh-CN"
+[GIN] 2026/07/05 - 13:20:45 | 200 |    1.04s |      172.20.0.1 | GET      "/api/admin/systeminfo?_=1783228844409_r3o06jyi8y&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:15 | 200 |   1.41ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_=1783228875707_fivy29n3abj&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:15 | 200 | 490.484µs |      172.20.0.1 | GET      "/api/support?page=1&pageSize=15&lang=zh-CN&sortBy=amount_3m&sortOrder=desc&_=1783228875708_efgpz9dz3nt&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:17 | 200 |   4.75ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228876998_9y09d2ug10j&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:17 | 200 |   9.79ms |      172.20.0.1 | GET      "/api/tokens?_=1783228876998_5z2uiq8tnyd&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 |   6.06ms |      172.20.0.1 | GET      "/api/git-sync/configs?_=1783228878437_qlttes0jb6&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 |   6.59ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228878437_wyu35aadun&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 |  17.45ms |      172.20.0.1 | GET      "/api/git-sync/histories?page=1&pageSize=10&_=1783228878438_ltiixca9wxi&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 |   4.49ms |      172.20.0.1 | GET      "/api/admin/config?_=1783228878860_0iv0u2y3nalc&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 |   4.73ms |      172.20.0.1 | GET      "/api/admin/config/cloudflare?_=1783228878860_phsv48tgwcc&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 |   3.57ms |      172.20.0.1 | GET      "/api/admin/config/user_database?_=1783228878860_tlem9bnrvce&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 | 370.874µs |      172.20.0.1 | GET      "/api/version?_=1783228878899_gkj903h5gyo&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 |  13.99ms |      172.20.0.1 | GET      "/api/admin/users/list?page=1&pageSize=3&_=1783228878899_f9n0a2yvur&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:18 | 200 |  93.98ms |      172.20.0.1 | GET      "/api/version/probe?_=1783228878899_2d9hv9mfl5i&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:19 | 200 |       1s |      172.20.0.1 | GET      "/api/admin/systeminfo?_=1783228878899_t6nz7x194pi&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:40 | 200 |   3.34ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_=1783228900520_icjnzn6lyqp&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:40 | 200 | 279.484µs |      172.20.0.1 | GET      "/api/support?page=1&pageSize=15&lang=zh-CN&sortBy=amount_3m&sortOrder=desc&_=1783228900521_s3tgqed0es&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:42 | 200 |   4.13ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228902444_trkswij4bxc&lang=zh-CN"
+[GIN] 2026/07/05 - 13:21:42 | 200 |   6.35ms |      172.20.0.1 | GET      "/api/tokens?_=1783228902443_c72aup2smjg&lang=zh-CN"
+[GIN] 2026/07/05 - 13:22:28 | 200 |   2.22ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228948105_l7og0r4vow&lang=zh-CN"
+[GIN] 2026/07/05 - 13:22:52 | 200 |   3.65ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783228972719_48do7ytvnd8&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:20 | 200 |   2.49ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229000257_2u66geipg5b&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:31 | 200 |   4.62ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229011277_vdsjfyhxe0h&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:33 | 200 |  10.54ms |      172.20.0.1 | GET      "/api/settings?vault=knowledge&page=1&pageSize=20&_=1783229013496_0pzluhnv476&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:33 | 200 |   4.81ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229013497_2nw697e4s8o&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:33 | 200 |   5.94ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229013498_zu8dyi9lnu&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:34 | 200 |   5.14ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229014680_y30eifqv4el&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:34 | 200 |   6.63ms |      172.20.0.1 | GET      "/api/sync-logs?page=1&pageSize=20&vault=knowledge&_=1783229014680_61asyr0g8ff&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:41 | 200 |   4.87ms |      172.20.0.1 | GET      "/api/storage/enabled_types?_=1783229021288_vj1ioxe8shd&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:41 | 200 |   6.85ms |      172.20.0.1 | GET      "/api/backup/configs?_=1783229021289_16amh7f9il8&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:41 | 200 |  57.02ms |      172.20.0.1 | GET      "/api/storage?limit=100&_=1783229021289_of0ww1nw1w&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:44 | 200 |   5.22ms |      172.20.0.1 | GET      "/api/git-sync/configs?_=1783229024141_fnubt0q3z8c&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:44 | 200 |   4.18ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229024141_at1h2g68ph&lang=zh-CN"
+[GIN] 2026/07/05 - 13:23:44 | 200 |   5.04ms |      172.20.0.1 | GET      "/api/git-sync/histories?page=1&pageSize=10&_=1783229024141_o1yh5tfuce9&lang=zh-CN"
+[GIN] 2026/07/05 - 13:24:25 | 200 | 448.608µs |      172.20.0.1 | GET      "/api/health?_t=1783229065429&_r=c5484n"
+[GIN] 2026/07/05 - 13:24:25 | 200 |   6.69ms |      172.20.0.1 | GET      "/api/user/sync?lang=zh-cn&count=9&client=ObsidianPlugin&clientName=Win&clientVersion=2.2.0&protocol=protobuf&_t=1783229065473&_r=jwtlc8"
+2026-07-05T13:24:25.920+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:26.022+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:26.249+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:26.465+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:26.481+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:27.423+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 4a08059d-ece2-47c3-840b-73522a4a6dce", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:27.425+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 3a66b2d0-bba8-4bdb-931c-f0ca538b820c", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+[GIN] 2026/07/05 - 13:24:27 | 200 |   4.54ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783229067790&_r=wwonbq"
+2026-07-05T13:24:27.929+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:27.996+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:28.029+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:28.247+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:28.285+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:28.371+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:28.999+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+[GIN] 2026/07/05 - 13:24:29 | 200 |   2.19ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_t=1783229069028&_r=xu5rf3"
+[GIN] 2026/07/05 - 13:24:29 | 200 |   4.81ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783229069027&_r=3i17vz"
+2026-07-05T13:24:29.195+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:29.214+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:29.513+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:29.603+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:29.702+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:30.284+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:30.440+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: cf960ac9-0793-45f7-a583-979e93175368", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:30.463+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:30.466+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: cf960ac9-0793-45f7-a583-979e93175368", "traceId": "c24312a5-3839-45e3-835c-670c6d5f987b"}
+2026-07-05T13:24:30.714+0800	ERROR	WS User Leave	{"uid": "1", "traceID": "c24312a5-3839-45e3-835c-670c6d5f987b", "error": "gws: connection closed, code=1000, reason=Cleanup"}
+2026-07-05T13:24:42.097+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229082085637451-f98b8a1b"}
+[GIN] 2026/07/05 - 13:24:42 | 200 |  13.11ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229082081_rok15vdj04&lang=zh-CN"
+2026-07-05T13:24:43.788+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229083764571017-3ca1f50f"}
+[GIN] 2026/07/05 - 13:24:43 | 200 |  25.31ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229083759_eq7furq3d7&lang=zh-CN"
+2026-07-05T13:25:04.077+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229104070644123-90da2dce"}
+[GIN] 2026/07/05 - 13:25:04 | 200 |   7.74ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229104064_f1jbxo9ggfj&lang=zh-CN"
+2026-07-05T13:25:09.216+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229109207175382-8b279dc4"}
+[GIN] 2026/07/05 - 13:25:09 | 200 |  10.55ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229109202_3ecd2l9p1ja&lang=zh-CN"
+2026-07-05T13:25:18.526+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229118503844038-7ef257d4"}
+[GIN] 2026/07/05 - 13:25:18 | 200 |  23.34ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229118498_xzmxkkm4fi&lang=zh-CN"
+[GIN] 2026/07/05 - 13:25:25 | 200 |   6.83ms |      172.20.0.1 | GET      "/api/git-sync/histories?page=1&pageSize=10&_=1783229125161_lg2xtmi71h&lang=zh-CN"
+2026-07-05T13:25:31.547+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229131530440422-b2e7fb0d"}
+[GIN] 2026/07/05 - 13:25:31 | 200 |  17.76ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229131525_6yko6ckuqhc&lang=zh-CN"
+2026-07-05T13:25:46.584+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: repository URL must specify protocol (e.g., https/ssh)", "traceId": "1783229146581836573-21b20ae6"}
+[GIN] 2026/07/05 - 13:25:46 | 200 |   3.57ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229146576_7b8nww6izy7&lang=zh-CN"
+2026-07-05T13:25:52.781+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: repository URL must specify protocol (e.g., https/ssh)", "traceId": "1783229152778174117-4af028ca"}
+[GIN] 2026/07/05 - 13:25:52 | 200 |   4.57ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229152772_4i36cl4qmyr&lang=zh-CN"
+2026-07-05T13:26:17.247+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229177241260341-11e82fa7"}
+[GIN] 2026/07/05 - 13:26:17 | 200 |   6.96ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229177236_jaramhuvc4s&lang=zh-CN"
+2026-07-05T13:26:18.856+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229178848517348-8fa304ae"}
+[GIN] 2026/07/05 - 13:26:18 | 200 |   8.69ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229178844_q0pwd75exc&lang=zh-CN"
+2026-07-05T13:26:25.489+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229185465901121-79db7f69"}
+[GIN] 2026/07/05 - 13:26:25 | 200 |  24.53ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229185459_ofsdpscwk3&lang=zh-CN"
+2026-07-05T13:27:16.014+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229236004858421-a4a636fa"}
+[GIN] 2026/07/05 - 13:27:16 | 200 |  10.84ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229235995_rqizn30wbkd&lang=zh-CN"
+[GIN] 2026/07/05 - 13:27:22 | 200 |   7.81ms |      172.20.0.1 | GET      "/api/tokens?_=1783229242468_ujl1n8fvsh&lang=zh-CN"
+[GIN] 2026/07/05 - 13:27:22 | 200 |   3.07ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229242469_syus7s9ifw&lang=zh-CN"
+[GIN] 2026/07/05 - 13:27:31 | 200 | 125.795µs |      172.20.0.1 | GET      "/api/health?_t=1783229251369&_r=fd9nge"
+[GIN] 2026/07/05 - 13:27:31 | 200 |  13.13ms |      172.20.0.1 | GET      "/api/user/sync?lang=zh-cn&count=10&client=ObsidianPlugin&clientName=Win&clientVersion=2.2.0&protocol=protobuf&_t=1783229251495&_r=zw232u"
+2026-07-05T13:27:32.040+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:32.298+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:32.391+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:32.765+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:33.458+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 18a6d1c4-7492-46cf-90f0-bc237a52ecd8", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:33.460+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 18a6d1c4-7492-46cf-90f0-bc237a52ecd8", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:33.595+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:33.955+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:34.254+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:34.594+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:34.919+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 596c93bf-632a-4d4b-8246-7cfdc9740972", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:34.919+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 596c93bf-632a-4d4b-8246-7cfdc9740972", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:35.178+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:35.327+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d45f7f93-7b2b-4f95-8758-dc612a0720fa", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:35.327+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: d45f7f93-7b2b-4f95-8758-dc612a0720fa", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:35.449+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+[GIN] 2026/07/05 - 13:27:35 | 200 |   1.65ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_t=1783229255585&_r=h4ne4x"
+[GIN] 2026/07/05 - 13:27:35 | 200 |   3.23ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783229255584&_r=dvbs2h"
+2026-07-05T13:27:35.703+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:36.412+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:36.547+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:36.629+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:36.728+0800	ERROR	websocket_router.folder.FolderSync.ListByUpdatedTimestamp	{"error": "Folder list get failed: file is not a database (26)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:36.866+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:37.347+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:37.494+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:37.677+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:38.029+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:38.052+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:38.610+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:38.693+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:38.719+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:38.865+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:38.887+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+[GIN] 2026/07/05 - 13:27:39 | 200 | 597.513µs |      172.20.0.1 | GET      "/api/support?page=1&pageSize=10&sortBy=amount_3m&sortOrder=desc&lang=zh-cn&_t=1783229259313&_r=stk4e6"
+2026-07-05T13:27:39.405+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:40.162+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:40.351+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:40.514+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 91690987-3dd9-4d8e-a1a7-0853238bbb96", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:40.565+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 91690987-3dd9-4d8e-a1a7-0853238bbb96", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:40.631+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 31445bd8-92ac-42b6-9521-83194ddb4f25", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:40.682+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 31445bd8-92ac-42b6-9521-83194ddb4f25", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:40.861+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:41.319+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:41.515+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:41.809+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:41.898+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 929903a8-ecda-4d03-95b6-68ed3f46e3db", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:41.900+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 929903a8-ecda-4d03-95b6-68ed3f46e3db", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:42.121+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:42.321+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:42.353+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:42.499+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:42.523+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:43.433+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:43.436+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 28d8a92c-4ff4-43e8-8a42-9a11cf3b338e", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:43.495+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 28d8a92c-4ff4-43e8-8a42-9a11cf3b338e", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:43.695+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 28d8a92c-4ff4-43e8-8a42-9a11cf3b338e", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:43.695+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: 28d8a92c-4ff4-43e8-8a42-9a11cf3b338e", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:43.823+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ce37d3a9-0f1a-4b18-af70-935f171b96a2", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:43.851+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:43.853+0800	ERROR	websocket_router.file.FileUploadChunkBinary	{"error": "session not found: ce37d3a9-0f1a-4b18-af70-935f171b96a2", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:44.170+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:44.609+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:44.810+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:45.058+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:45.092+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+[GIN] 2026/07/05 - 13:27:45 | 200 |   4.29ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_t=1783229265116&_r=eek0nf"
+[GIN] 2026/07/05 - 13:27:45 | 200 |    7.7ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_t=1783229265115&_r=f2vbji"
+2026-07-05T13:27:45.430+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:45.699+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: database disk image is malformed (779)", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:45.760+0800	ERROR	WS User Leave	{"uid": "1", "traceID": "85e97507-3d29-404a-800e-02cb192876d7", "error": "gws: connection closed, code=1000, reason=Cleanup"}
+2026-07-05T13:27:45.760+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: context canceled", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+2026-07-05T13:27:45.768+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "Database query failed: context canceled", "traceId": "85e97507-3d29-404a-800e-02cb192876d7"}
+[GIN] 2026/07/05 - 13:27:49 | 200 |   7.47ms |      172.20.0.1 | GET      "/api/tokens?_=1783229269780_7gx3n1j809&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:03 | 200 |   2.89ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229283102_kae5vs2s0n&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:03 | 200 |   6.63ms |      172.20.0.1 | GET      "/api/sync-logs?page=1&pageSize=20&vault=knowledge&_=1783229283103_9iiy2olyiu&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:04 | 200 |   4.29ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229284417_vv40zd0z7im&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:04 | 200 |  10.42ms |      172.20.0.1 | GET      "/api/settings?vault=knowledge&page=1&pageSize=20&_=1783229284416_8lujth9duj8&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:04 | 200 |   3.06ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229284418_zoz92lky5hb&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:05 | 200 |   2.73ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229285310_mgttzh9b9&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:05 | 200 |   7.29ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&isRecycle=1&_=1783229285309_3qzfb52z1jh&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:05 | 200 |   2.49ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229285311_3zh5nm71d2c&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:05 | 200 |   6.32ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229285360_0itscvli07jg&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:05 | 200 |   9.57ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&isRecycle=1&_=1783229285360_tbvgl2tjndj&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:06 | 200 |   4.25ms |      172.20.0.1 | GET      "/api/storage/enabled_types?_=1783229286163_nndw1tyybk&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:06 | 200 |   2.49ms |      172.20.0.1 | GET      "/api/backup/configs?_=1783229286163_t7xtvjxuien&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:06 | 200 |   5.78ms |      172.20.0.1 | GET      "/api/storage?limit=100&_=1783229286163_l4x00zgpvto&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:06 | 200 |    4.7ms |      172.20.0.1 | GET      "/api/git-sync/configs?_=1783229286883_9usg808l5ka&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:06 | 200 |   2.77ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229286883_u780jrd9h4g&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:06 | 200 |   4.97ms |      172.20.0.1 | GET      "/api/git-sync/histories?page=1&pageSize=10&_=1783229286883_4tx5phmhfen&lang=zh-CN"
+2026-07-05T13:28:14.470+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229294447170884-0112b3fb"}
+[GIN] 2026/07/05 - 13:28:14 | 200 |  24.29ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229294441_28e71zg4zq8&lang=zh-CN"
+2026-07-05T13:28:18.337+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229298329578996-fb7d61f4"}
+[GIN] 2026/07/05 - 13:28:18 | 200 |   8.46ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229298323_2o9xvict2st&lang=zh-CN"
+2026-07-05T13:28:18.998+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229298944766844-16b8918c"}
+[GIN] 2026/07/05 - 13:28:18 | 200 |  54.96ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229298939_pxgkvx65i3p&lang=zh-CN"
+2026-07-05T13:28:21.436+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229301389174136-5e86040a"}
+[GIN] 2026/07/05 - 13:28:21 | 200 |  48.41ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229301383_j1ky9ehqd4o&lang=zh-CN"
+2026-07-05T13:28:22.910+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229302867167454-e6c73aa2"}
+[GIN] 2026/07/05 - 13:28:22 | 200 |   44.7ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229302861_zbmcbva36k&lang=zh-CN"
+2026-07-05T13:28:27.304+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229307256940831-b0b914c9"}
+[GIN] 2026/07/05 - 13:28:27 | 200 |  48.72ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229307250_cpfmviwtg&lang=zh-CN"
+2026-07-05T13:28:27.879+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229307833475484-20a73638"}
+[GIN] 2026/07/05 - 13:28:27 | 200 |   47.3ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229307826_7anw02fqscp&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:28 | 200 |   4.94ms |      172.20.0.1 | GET      "/api/git-sync/configs?_=1783229308784_p57tdxtkubr&lang=zh-CN"
+[GIN] 2026/07/05 - 13:28:28 | 200 |   5.93ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229308784_rgqp4huv5ff&lang=zh-CN"
+2026-07-05T13:28:30.116+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229310072773187-a5625b85"}
+[GIN] 2026/07/05 - 13:28:30 | 200 |  45.06ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229310068_pfz7sfehhsk&lang=zh-CN"
+2026-07-05T13:28:30.608+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229310563902099-76c3c7c4"}
+[GIN] 2026/07/05 - 13:28:30 | 200 |  46.56ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229310559_jh0tidc1b1s&lang=zh-CN"
+2026-07-05T13:28:31.539+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229311532504969-57d653a5"}
+[GIN] 2026/07/05 - 13:28:31 | 200 |   8.76ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229311528_aroqdue45b6&lang=zh-CN"
+2026-07-05T13:28:34.960+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229314950657369-9c5d9232"}
+[GIN] 2026/07/05 - 13:28:34 | 200 |  10.96ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229314945_3v1wetfdcjw&lang=zh-CN"
+2026-07-05T13:30:15.113+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229415108004061-f569c8e1"}
+[GIN] 2026/07/05 - 13:30:15 | 200 |   6.34ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229415099_voqlhiljnm&lang=zh-CN"
+2026-07-05T13:30:15.978+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229415970866978-8efab07c"}
+[GIN] 2026/07/05 - 13:30:15 | 200 |   8.23ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229415965_d6wd05rmnq&lang=zh-CN"
+2026-07-05T13:30:27.695+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229427689110869-8aae7cd8"}
+[GIN] 2026/07/05 - 13:30:27 | 200 |   7.63ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229427682_r49566e7yg&lang=zh-CN"
+2026-07-05T13:30:32.870+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229432863804398-27488a26"}
+[GIN] 2026/07/05 - 13:30:32 | 200 |    8.3ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229432859_froe2w5zmqu&lang=zh-CN"
+2026-07-05T13:30:33.528+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229433478210299-0563e5d2"}
+[GIN] 2026/07/05 - 13:30:33 | 200 |  51.43ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229433473_2hlrwftaqkj&lang=zh-CN"
+2026-07-05T13:30:34.311+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229434304341163-c5ad11a4"}
+[GIN] 2026/07/05 - 13:30:34 | 200 |   7.86ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229434299_t2yjeru9e1n&lang=zh-CN"
+2026-07-05T13:30:36.242+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229436236270543-88cdb5f2"}
+[GIN] 2026/07/05 - 13:30:36 | 200 |   7.49ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229436232_i7lv6a74b9&lang=zh-CN"
+[GIN] 2026/07/05 - 13:30:47 | 200 | 94.791µs |      172.20.0.1 | GET      "/api/webgui/config?_=1783229447178_5ero0onfri&lang=zh-CN"
+[GIN] 2026/07/05 - 13:30:47 | 200 |   3.98ms |      172.20.0.1 | GET      "/api/user/info?_=1783229447177_r2z4pwvygq&lang=zh-CN"
+[GIN] 2026/07/05 - 13:30:47 | 200 |   4.63ms |      172.20.0.1 | GET      "/api/admin/check?_=1783229447178_ju6vuiwqm7f&lang=zh-CN"
+[GIN] 2026/07/05 - 13:30:47 | 200 |   5.91ms |      172.20.0.1 | GET      "/api/git-sync/configs?_=1783229447577_8kvybx9e0m8&lang=zh-CN"
+[GIN] 2026/07/05 - 13:30:47 | 200 |  14.47ms |      172.20.0.1 | GET      "/api/git-sync/histories?page=1&pageSize=10&_=1783229447577_6x8hbqjvxqe&lang=zh-CN"
+[GIN] 2026/07/05 - 13:30:47 | 200 |   19.2ms |      172.20.0.1 | GET      "/api/admin/config?_=1783229447579_pefq1ypl4rc&lang=zh-CN"
+[GIN] 2026/07/05 - 13:30:47 | 200 |  42.65ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229447577_hyvszji0w4v&lang=zh-CN"
+2026-07-05T13:30:52.439+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229452431601205-edfd425f"}
+[GIN] 2026/07/05 - 13:30:52 | 200 |   9.12ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229452425_prxqcexdn2k&lang=zh-CN"
+2026-07-05T13:30:53.992+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229453932490213-cc399b8f"}
+[GIN] 2026/07/05 - 13:30:53 | 200 |  60.94ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229453918_hqvrosf65ks&lang=zh-CN"
+2026-07-05T13:30:54.404+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229454360732522-559ba619"}
+[GIN] 2026/07/05 - 13:30:54 | 200 |  44.77ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229454354_fd6ho366fq&lang=zh-CN"
+2026-07-05T13:31:07.578+0800	ERROR	GitSyncHandler.Validate	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229467572940110-c91204e1"}
+[GIN] 2026/07/05 - 13:31:07 | 200 |    6.5ms |      172.20.0.1 | POST     "/api/git-sync/validate?_=1783229467566_lrsi167dmpn&lang=zh-CN"
+2026-07-05T13:31:08.465+0800	ERROR	GitSyncHandler.UpdateConfig	{"error": "Git 验证失败: private network access not allowed for repository URL", "traceId": "1783229468401481436-4933eb54"}
+[GIN] 2026/07/05 - 13:31:08 | 200 |  64.69ms |      172.20.0.1 | POST     "/api/git-sync/config?_=1783229468398_ao6al529qwl&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:13 | 200 |   4.14ms |      172.20.0.1 | GET      "/api/user/info?_=1783229473389_ejvxjcyen2d&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:25 | 200 | 162.529µs |      172.20.0.1 | GET      "/api/version?_=1783229485456_mn19o32ut2&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:25 | 200 | 225.663µs |      172.20.0.1 | GET      "/api/support?page=1&pageSize=15&lang=zh-CN&sortBy=amount_3m&sortOrder=desc&_=1783229485457_hywbhgshoyo&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:25 | 200 |   1.62ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_=1783229485457_n9762n8cdcj&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:28 | 200 |   3.54ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_=1783229488626_5tlqq059ak5&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:29 | 200 | 174.722µs |      172.20.0.1 | GET      "/api/support?page=1&pageSize=15&lang=zh-CN&sortBy=amount_3m&sortOrder=desc&_=1783229489980_evf53831f1&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:31 | 200 |   4.42ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229491952_y9xm666tdu&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:31 | 200 |   5.15ms |      172.20.0.1 | GET      "/api/tokens?_=1783229491951_y83zckosqcb&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:32 | 200 | 325.152µs |      172.20.0.1 | GET      "/api/version?_=1783229492802_xe8mjmtqoo&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:32 | 200 | 198.498µs |      172.20.0.1 | GET      "/api/support?page=1&pageSize=15&lang=zh-CN&sortBy=amount_3m&sortOrder=desc&_=1783229492802_yhv58697fet&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:32 | 200 |    2.9ms |      172.20.0.1 | GET      "/api/admin/ws_clients?_=1783229492802_qj6hyw4zj9r&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:38 | 200 |   3.71ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229498877_bml41aogn7&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:38 | 200 |   6.95ms |      172.20.0.1 | GET      "/api/tokens?_=1783229498877_femzovj08cb&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:41 | 200 |   4.51ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229501756_udo693r0r9&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:42 | 200 |  13.06ms |      172.20.0.1 | GET      "/api/vault?limit=100&_=1783229502093_c8wvj2jt44f&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:42 | 200 |  41.97ms |      172.20.0.1 | GET      "/api/notes/share-paths?vault=knowledge&_=1783229502093_fcpvt145gng&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:42 | 200 | 192.09ms |      172.20.0.1 | GET      "/api/notes?vault=knowledge&page=1&pageSize=10&_=1783229502093_xsdd4yyej3l&lang=zh-CN"
+[GIN] 2026/07/05 - 13:31:43 | 200 | 124.877µs |      172.20.0.1 | GET      "/api/health?_t=1783229503313&_r=8d466f"
+[GIN] 2026/07/05 - 13:31:43 | 200 |   4.95ms |      172.20.0.1 | GET      "/api/user/sync?lang=zh-cn&count=11&client=ObsidianPlugin&clientName=Win&clientVersion=2.2.0&protocol=protobuf&_t=1783229503437&_r=o24t0l"
+2026-07-05T13:31:44.169+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "f25f519a-8060-4b9f-88ce-668d25f278b3"}
+2026-07-05T13:31:44.295+0800	ERROR	websocket_router.file.FileUploadChunkBinary.UploadComplete	{"error": "数据库查询失败: database disk image is malformed (779)", "traceId": "f25f519a-8060-4b9f-88ce-668d25f278b3"}
+2026-07-05T13:31:44.649+0800	ERROR	websocket_router.file.FileDelete.Delete	{"error": "record not found", "traceId": "f25f519a-8060-4b9f-88ce-668d25f278b3"}
