@@ -226,8 +226,8 @@
             "state": {
               "type": "fns-sync-log-view",
               "state": {},
-              "icon": "arrow-down-up",
-              "title": "同步日志"
+              "icon": "lucide-ghost",
+              "title": "fns-sync-log-view"
             }
           }
         ]
