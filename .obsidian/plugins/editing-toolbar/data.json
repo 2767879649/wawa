@@ -1,7 +1,7 @@
 {
   "lastVersion": "4.0.8",
   "aestheticStyle": "default",
-  "positionStyle": "following",
+  "positionStyle": "top",
   "menuCommands": [
     {
       "id": "editing-toolbar:editor-undo",
@@ -1221,8 +1221,8 @@
       "aestheticStyle": "default"
     }
   },
-  "toolbarBackgroundColor": "#F5F8FA",
-  "toolbarIconColor": "#364868",
+  "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
+  "toolbarIconColor": "var(--text-normal)",
   "toolbarIconSize": 18,
   "useCurrentLineForRegex": false,
   "ai": {

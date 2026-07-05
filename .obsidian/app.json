@@ -3,8 +3,10 @@
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
-  "autoPairMarkdown": false,
-  "livePreview": true,
-  "smartIndentList": false,
-  "autoPairBrackets": false
+  "autoPairMarkdown": true,
+  "livePreview": false,
+  "smartIndentList": true,
+  "autoPairBrackets": true,
+  "defaultViewMode": "source",
+  "useTab": false
 }

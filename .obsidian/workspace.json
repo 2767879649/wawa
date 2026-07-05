@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/Obsitian同步.md",
+                "file": "learning学习/Markdown.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Obsitian同步"
+              "title": "Markdown"
             }
           }
         ]
@@ -226,11 +226,12 @@
             "state": {
               "type": "fns-sync-log-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "fns-sync-log-view"
+              "icon": "arrow-down-up",
+              "title": "同步日志"
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -257,8 +258,9 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
-    "learning学习/Git基础使用.md",
     "learning学习/Obsitian同步.md",
+    "learning学习/Markdown.md",
+    "learning学习/Git基础使用.md",
     "fast/storage/vault/u_1/file/f_1973/file.dat",
     "fast/storage/vault/u_1/file/f_1971/file.dat",
     "fast/storage/vault/u_1/file/f_1963/file.dat",
