@@ -6,7 +6,7 @@
     "options": "rF",
     "priority": 10,
     "description": "输入全角括号/引号时自动补全配对",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": "builtin-autopair-jump",

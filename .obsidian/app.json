@@ -8,5 +8,6 @@
   "smartIndentList": true,
   "autoPairBrackets": true,
   "defaultViewMode": "source",
-  "useTab": false
+  "useTab": false,
+  "vimMode": false
 }
