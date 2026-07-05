@@ -6,7 +6,7 @@
  <mark style="background:#d3f8b6">平板手机连接需要网络配置防火墙入站规则</mark>
 
 
-## ngrok外网穿透
+## ngrok内网穿透
   1. 配置 ngrok auth token
   去 https://ngrok.com 注册免费账号，然后在 dashboard 复制你的 authtoken，执行：
   ngrok config add-authtoken <你的token>
