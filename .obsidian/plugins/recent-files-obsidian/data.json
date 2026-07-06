@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "projects项目文档/未命名.md"
+      "basename": "Markdown",
+      "path": "learning学习/Markdown.md"
     },
     {
-      "basename": "README",
-      "path": "projects项目文档/README.md"
+      "basename": "虚拟机基础使用",
+      "path": "learning学习/虚拟机基础使用.md"
+    },
+    {
+      "basename": "baidu.com",
+      "path": "baidu.com.md"
+    },
+    {
+      "basename": "1",
+      "path": "templates/notes/1.md"
     },
     {
       "basename": "个人网站",
       "path": "projects项目文档/个人网站.md"
     },
     {
-      "basename": "1",
-      "path": "templates/notes/1.md"
+      "basename": "bai.com",
+      "path": "bai.com.md"
+    },
+    {
+      "basename": "README",
+      "path": "projects项目文档/README.md"
     },
     {
       "basename": "61839154-d074-4b07-986f-a8c9508fb850_1",
@@ -49,10 +61,6 @@
       "path": "notes笔记/tech/2026-06-20-python-async.md"
     },
     {
-      "basename": "Markdown",
-      "path": "learning学习/Markdown.md"
-    },
-    {
       "basename": "s",
       "path": "s.md"
     },
@@ -67,10 +75,6 @@
     {
       "basename": "2026-06-21-三分钟搞懂Docker",
       "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
-    },
-    {
-      "basename": "bai.com",
-      "path": "bai.com.md"
     },
     {
       "basename": "嵌入式",
@@ -195,10 +199,6 @@
     {
       "basename": "技能",
       "path": "learning学习/claude/笔记文件/技能.md"
-    },
-    {
-      "basename": "基础知识",
-      "path": "learning学习/claude/笔记文件/基础知识.md"
     }
   ],
   "omittedPaths": [],
