@@ -279,8 +279,8 @@
             "state": {
               "type": "fns-sync-log-view",
               "state": {},
-              "icon": "arrow-down-up",
-              "title": "同步日志"
+              "icon": "lucide-ghost",
+              "title": "fns-sync-log-view"
             }
           }
         ],
@@ -311,6 +311,7 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
+    "未命名.canvas",
     "未命名 1.base",
     "s.md",
     "learning学习/Markdown.md",
@@ -330,7 +331,6 @@
     "fast/storage/vault/u_1/file/f_1973",
     "fast/storage/vault/u_1/file/f_1971",
     "fast/storage/vault/u_1/file/f_1975/file.dat",
-    "fast/storage/vault/u_1/file/f_1972/file.dat",
     "learning学习/Dify使用.md",
     "learning学习/Docker.md",
     "learning学习/备考/zigbee/选择题.md",
@@ -349,7 +349,6 @@
     "考试.md",
     "2026-06-23.md",
     "().md",
-    "未命名.canvas",
     "assets/Pasted image 20260620142937.png",
     "未命名 3.canvas",
     "Pasted image 20260620142943.png"
