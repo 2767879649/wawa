@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/notes/1.md",
+                "file": "projects项目文档/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "README"
             }
           },
           {
@@ -273,8 +273,10 @@
   },
   "active": "c93e10ea8735b598",
   "lastOpenFiles": [
-    "templates/notes/f92b8883-b55e-4c41-b345-d9fb7f668ae3.md",
+    "projects项目文档/个人网站.md",
+    "projects项目文档/未命名.md",
     "templates/notes/1.md",
+    "templates/notes/f92b8883-b55e-4c41-b345-d9fb7f668ae3.md",
     "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md",
     "templates/notes/b9b68adb-f3ef-4834-82e4-ec19c4db0b23.md",
     "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md",
@@ -308,8 +310,6 @@
     "learning学习/备考/zigbee/选择题.md",
     "learning学习/模型API.md",
     "learning学习/需要学习.md",
-    "learning学习/备考/zigbee/重点.md",
-    "learning学习/备考/zigbee/大题.md",
     "zigbee.canvas",
     "未命名 1.canvas",
     "assets/Pasted image 20260620142937.png",
