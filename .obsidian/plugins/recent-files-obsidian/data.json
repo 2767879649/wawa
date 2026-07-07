@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Markdown",
-      "path": "learning学习/Markdown.md"
-    },
-    {
       "basename": "虚拟机基础使用",
       "path": "learning学习/虚拟机基础使用.md"
     },
     {
-      "basename": "baidu.com",
-      "path": "baidu.com.md"
+      "basename": "内容说明",
+      "path": "projects项目文档/人脸识别系统/内容说明.md"
     },
     {
-      "basename": "1",
-      "path": "templates/notes/1.md"
+      "basename": "C++",
+      "path": "learning学习/编程语言/C++.md"
+    },
+    {
+      "basename": "C++",
+      "path": "templates/notes/C++.md"
+    },
+    {
+      "basename": "8e47dc9b-1a31-4764-94e5-912351662f0e",
+      "path": "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "learning学习/Docker.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "learning学习/Markdown.md"
+    },
+    {
+      "basename": "2026-07-03-2107-练习",
+      "path": "learning学习/备考/试卷/2026-07-03-2107-练习.md"
+    },
+    {
+      "basename": "2026-07-03-2044-练习",
+      "path": "learning学习/备考/试卷/2026-07-03-2044-练习.md"
+    },
+    {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
+      "basename": "Dify使用",
+      "path": "learning学习/Dify使用.md"
+    },
+    {
+      "basename": "需要学习",
+      "path": "learning学习/需要学习.md"
+    },
+    {
+      "basename": "baidu.com",
+      "path": "baidu.com.md"
     },
     {
       "basename": "个人网站",
@@ -53,10 +89,6 @@
       "path": "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md"
     },
     {
-      "basename": "8e47dc9b-1a31-4764-94e5-912351662f0e",
-      "path": "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md"
-    },
-    {
       "basename": "2026-06-20-python-async",
       "path": "notes笔记/tech/2026-06-20-python-async.md"
     },
@@ -89,24 +121,8 @@
       "path": "未命名.base"
     },
     {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
-    },
-    {
-      "basename": "Dify使用",
-      "path": "learning学习/Dify使用.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "learning学习/Docker.md"
-    },
-    {
       "basename": "选择题",
       "path": "learning学习/备考/zigbee/选择题.md"
-    },
-    {
-      "basename": "需要学习",
-      "path": "learning学习/需要学习.md"
     },
     {
       "basename": "重点",
@@ -157,14 +173,6 @@
       "path": "learning学习/备考/试卷/2026-07-03-2116-练习.md"
     },
     {
-      "basename": "2026-07-03-2107-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2107-练习.md"
-    },
-    {
-      "basename": "2026-07-03-2044-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2044-练习.md"
-    },
-    {
       "basename": "选择题",
       "path": "learning学习/备考/嵌入式/选择题.md"
     },
@@ -187,18 +195,6 @@
     {
       "basename": "个人主页",
       "path": "learning学习/claude/实验案例/个人主页.md"
-    },
-    {
-      "basename": "心情日记",
-      "path": "learning学习/claude/实验案例/心情日记.md"
-    },
-    {
-      "basename": "个人日报",
-      "path": "learning学习/claude/实验案例/个人日报.md"
-    },
-    {
-      "basename": "技能",
-      "path": "learning学习/claude/笔记文件/技能.md"
     }
   ],
   "omittedPaths": [],

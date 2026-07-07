@@ -2,5 +2,14 @@
   "showViewHeader": false,
   "showRibbon": true,
   "textFontFamily": "",
-  "interfaceFontFamily": "Arial"
+  "interfaceFontFamily": "Arial",
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "extended-colorschemes",
+    "custom-rainbow-colors",
+    "minimal-cards",
+    "Extended-colorschemes"
+  ],
+  "theme": "obsidian"
 }

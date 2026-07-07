@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783417333371-mnswumieq",
+  "providerId": "claude",
+  "title": "Summarize and supplement C++ VM notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783417333371,
+  "updatedAt": 1783418388634,
+  "lastResponseAt": 1783418194343,
+  "sessionId": "da9fd3f2-b850-4b87-a418-55d049a2a40c",
+  "providerState": {
+    "providerSessionId": "da9fd3f2-b850-4b87-a418-55d049a2a40c"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2148,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33664,
+    "contextWindow": 200000,
+    "contextTokens": 35812,
+    "percentage": 18,
+    "contextWindowIsAuthoritative": true
+  }
+}

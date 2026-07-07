@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "f64f1ac1717cc3e2",
+        "id": "cdc562cc34303fb7",
         "type": "tabs",
         "children": [
           {
-            "id": "c93e10ea8735b598",
+            "id": "ba3751087e71c080",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/Markdown.md",
+                "file": "learning学习/虚拟机基础使用.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Markdown"
+              "title": "虚拟机基础使用"
+            }
+          },
+          {
+            "id": "1827c510fe81e06a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects项目文档/人脸识别系统/内容说明.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "内容说明"
             }
           }
         ]
@@ -34,6 +49,7 @@
       {
         "id": "58587c2031b39a43",
         "type": "tabs",
+        "dimension": 71.98879551820728,
         "children": [
           {
             "id": "228bfa193061227f",
@@ -54,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"title\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,6 +102,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "28d484dbd5f8fb9c",
+        "type": "tabs",
+        "dimension": 28.011204481792717,
+        "children": [
+          {
+            "id": "2d6908ce8d92546c",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "learning学习/虚拟机基础使用.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/Obsitian同步.md",
+                "file": "learning学习/Markdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +150,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Obsitian同步 的反向链接列表"
+              "title": "Markdown 的反向链接列表"
             }
           },
           {
@@ -124,12 +159,36 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/Deepseek.md",
+                "file": "learning学习/虚拟机基础使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Deepseek 的出链列表"
+              "title": "虚拟机基础使用 的出链列表"
+            }
+          },
+          {
+            "id": "1747a4006c8bde39",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "53988ae39bb19d80",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           },
           {
@@ -148,45 +207,6 @@
             }
           },
           {
-            "id": "53988ae39bb19d80",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "92898b51f2d7ed1b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "learning学习/Deepseek.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Deepseek 的大纲"
-            }
-          },
-          {
-            "id": "1747a4006c8bde39",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
             "id": "8c896c08850700de",
             "type": "leaf",
             "state": {
@@ -197,27 +217,15 @@
             }
           },
           {
-            "id": "2d6908ce8d92546c",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "learning学习/备考/zigbee/选择题.md"
-              },
-              "icon": "lucide-file-signature",
-              "title": "脚注"
-            }
-          },
-          {
             "id": "3b858b962b8dad5a",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "learning学习/Obsitian同步.md"
+                "file": "learning学习/Markdown.md"
               },
               "icon": "lucide-info",
-              "title": "Obsitian同步的笔记属性"
+              "title": "Markdown的笔记属性"
             }
           },
           {
@@ -229,13 +237,28 @@
               "icon": "lucide-ghost",
               "title": "fns-sync-log-view"
             }
+          },
+          {
+            "id": "fc68c23c78d2fdc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "learning学习/Markdown.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Markdown 的大纲"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 404.5,
+    "width": 293,
     "collapsed": true
   },
   "left-ribbon": {
@@ -256,12 +279,23 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "c93e10ea8735b598",
+  "active": "ba3751087e71c080",
   "lastOpenFiles": [
+    "projects项目文档/人脸识别系统/内容说明.md",
     "learning学习/虚拟机基础使用.md",
-    "baidu.com.md",
-    "learning学习/Markdown.md",
+    "learning学习/编程语言/C++.md",
+    "templates/notes/C++.md",
     "templates/notes/1.md",
+    "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",
+    "learning学习/Docker.md",
+    "learning学习/编程语言",
+    "learning学习/Markdown.md",
+    "learning学习/备考/试卷/2026-07-03-2107-练习.md",
+    "learning学习/备考/试卷/2026-07-03-2044-练习.md",
+    "learning学习/Git基础使用.md",
+    "learning学习/Dify使用.md",
+    "learning学习/需要学习.md",
+    "baidu.com.md",
     "projects项目文档/个人网站.md",
     "bai.com.md",
     "projects项目文档/README.md",
@@ -274,27 +308,16 @@
     "templates/notes/d41f89ca-7f07-46b2-91cf-37baccdd965c.md",
     "templates/notes/e74ae9fe-6b1f-494e-800f-b041c6b08de3_1221.md",
     "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md",
-    "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",
     "notes笔记/tech/2026-06-20-python-async.md",
     "未命名.canvas",
     "未命名 1.base",
-    "s.md",
-    "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md",
-    "learning学习/Obsitian同步.md",
-    "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
-    "嵌入式.md",
-    "2026-07-05.md",
     "未命名.base",
-    "learning学习/Git基础使用.md",
     "fast/storage/vault/u_1/file/f_1973/file.dat",
     "fast/storage/vault/u_1/file/f_1971/file.dat",
     "fast/storage/vault/u_1/file/f_1963/file.dat",
     "fast/storage/vault/u_1/file/f_1356/file.dat",
     "fast/storage/vault/u_1/file/f_1355/file.dat",
     "fast/storage/vault/u_1/file/f_1973",
-    "fast/storage/vault/u_1/file/f_1971",
-    "learning学习/Dify使用.md",
-    "learning学习/Docker.md",
     "zigbee.canvas",
     "未命名 1.canvas",
     "assets/Pasted image 20260620142937.png",
