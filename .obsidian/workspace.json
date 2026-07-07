@@ -37,7 +37,8 @@
               "title": "内容说明"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +115,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/虚拟机基础使用.md"
+                "file": "projects项目文档/人脸识别系统/内容说明.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -279,10 +280,10 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "ba3751087e71c080",
+  "active": "1827c510fe81e06a",
   "lastOpenFiles": [
-    "projects项目文档/人脸识别系统/内容说明.md",
     "learning学习/虚拟机基础使用.md",
+    "projects项目文档/人脸识别系统/内容说明.md",
     "learning学习/编程语言/C++.md",
     "templates/notes/C++.md",
     "templates/notes/1.md",
