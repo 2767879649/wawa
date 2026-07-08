@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "案例模板",
+      "path": "learning学习/嵌入式/Qt/案例模板.md"
+    },
+    {
+      "basename": "基础使用",
+      "path": "learning学习/嵌入式/Qt/基础使用.md"
+    },
+    {
+      "basename": "网页上线前检查",
+      "path": "learning学习/claude/笔记文件/网页上线前检查.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "learning学习/Markdown.md"
+    },
+    {
       "basename": "2026-07-09",
       "path": "2026-07-09.md"
     },
@@ -13,20 +29,8 @@
       "path": "learning学习/claude/笔记文件/技能.md"
     },
     {
-      "basename": "网页上线前检查",
-      "path": "learning学习/claude/笔记文件/网页上线前检查.md"
-    },
-    {
       "basename": "需要学习",
       "path": "learning学习/需要学习.md"
-    },
-    {
-      "basename": "基础使用",
-      "path": "learning学习/嵌入式/Qt/基础使用.md"
-    },
-    {
-      "basename": "案例模板",
-      "path": "learning学习/嵌入式/Qt/案例模板.md"
     },
     {
       "basename": "基础知识",
@@ -63,10 +67,6 @@
     {
       "basename": "8e47dc9b-1a31-4764-94e5-912351662f0e",
       "path": "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "learning学习/Markdown.md"
     },
     {
       "basename": "2026-07-03-2107-练习",

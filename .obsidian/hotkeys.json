@@ -36,5 +36,14 @@
       ],
       "key": "Q"
     }
+  ],
+  "markdown:add-metadata-property": [
+    {
+      "modifiers": [
+        "Mod",
+        "Meta"
+      ],
+      "key": "="
+    }
   ]
 }
