@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "基础使用",
+      "path": "learning学习/嵌入式/Qt/基础使用.md"
+    },
+    {
+      "basename": "案例模板",
+      "path": "learning学习/嵌入式/Qt/案例模板.md"
+    },
+    {
       "basename": "内容说明",
       "path": "projects项目文档/人脸识别系统/内容说明.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "tech-note",
       "path": "templates/tech-note.md"
-    },
-    {
-      "basename": "个人主页",
-      "path": "learning学习/claude/实验案例/个人主页.md"
     }
   ],
   "omittedPaths": [],

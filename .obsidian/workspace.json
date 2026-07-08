@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects项目文档/人脸识别系统/内容说明.md",
+                "file": "learning学习/嵌入式/Qt/基础使用.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "内容说明"
+              "title": "基础使用"
             }
           }
         ],
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"title\"]",
+                "query": "tag:#include",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "title": "Recent files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "28d484dbd5f8fb9c",
@@ -115,7 +116,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "projects项目文档/人脸识别系统/内容说明.md"
+                "file": "learning学习/嵌入式/Qt/基础使用.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -280,10 +281,14 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "1827c510fe81e06a",
+  "active": "4ba88e00c618e109",
   "lastOpenFiles": [
-    "learning学习/虚拟机基础使用.md",
+    "learning学习/嵌入式/Qt/案例模板.md",
+    "learning学习/嵌入式/Qt/基础使用.md",
     "projects项目文档/人脸识别系统/内容说明.md",
+    "learning学习/嵌入式/Qt",
+    "learning学习/嵌入式",
+    "learning学习/虚拟机基础使用.md",
     "learning学习/编程语言/C++.md",
     "templates/notes/C++.md",
     "templates/notes/1.md",
@@ -308,8 +313,6 @@
     "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md",
     "templates/notes/d41f89ca-7f07-46b2-91cf-37baccdd965c.md",
     "templates/notes/e74ae9fe-6b1f-494e-800f-b041c6b08de3_1221.md",
-    "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md",
-    "notes笔记/tech/2026-06-20-python-async.md",
     "未命名.canvas",
     "未命名 1.base",
     "未命名.base",
@@ -317,8 +320,6 @@
     "fast/storage/vault/u_1/file/f_1971/file.dat",
     "fast/storage/vault/u_1/file/f_1963/file.dat",
     "fast/storage/vault/u_1/file/f_1356/file.dat",
-    "fast/storage/vault/u_1/file/f_1355/file.dat",
-    "fast/storage/vault/u_1/file/f_1973",
     "zigbee.canvas",
     "未命名 1.canvas",
     "assets/Pasted image 20260620142937.png",
