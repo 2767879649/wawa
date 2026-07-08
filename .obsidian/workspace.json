@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "cdc562cc34303fb7",
+        "id": "eea1658de2156948",
         "type": "tabs",
         "children": [
           {
-            "id": "ba3751087e71c080",
+            "id": "2d8efa9758fb037b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/虚拟机基础使用.md",
+                "file": "2026-07-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "虚拟机基础使用"
-            }
-          },
-          {
-            "id": "1827c510fe81e06a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/Dify使用.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Dify使用"
+              "title": "2026-07-09"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"updated\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +99,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/Dify使用.md"
+                "file": "2026-07-09.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -255,7 +239,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -279,13 +263,20 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "228bfa193061227f",
+  "active": "2d8efa9758fb037b",
   "lastOpenFiles": [
-    "learning学习/Docker.md",
+    "嵌入式.md",
+    "learning学习/claude/笔记文件/技能.md",
+    "learning学习/claude/笔记文件/网页上线前检查.md",
     "learning学习/需要学习.md",
-    "learning学习/虚拟机基础使用.md",
     "learning学习/嵌入式/Qt/基础使用.md",
     "learning学习/嵌入式/Qt/案例模板.md",
+    "2026-07-09.md",
+    "learning学习/claude/笔记文件/基础知识.md",
+    "learning学习/虚拟机基础使用.md",
+    "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md",
+    "learning学习/Dify使用.md",
+    "learning学习/Docker.md",
     "projects项目文档/人脸识别系统/内容说明.md",
     "learning学习/嵌入式/Qt",
     "learning学习/嵌入式",
@@ -298,19 +289,12 @@
     "learning学习/备考/试卷/2026-07-03-2107-练习.md",
     "learning学习/备考/试卷/2026-07-03-2044-练习.md",
     "learning学习/Git基础使用.md",
-    "learning学习/Dify使用.md",
     "baidu.com.md",
     "projects项目文档/个人网站.md",
     "bai.com.md",
     "projects项目文档/README.md",
     "projects项目文档/人脸识别系统",
     "projects项目文档/未命名.md",
-    "templates/notes/f92b8883-b55e-4c41-b345-d9fb7f668ae3.md",
-    "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md",
-    "templates/notes/b9b68adb-f3ef-4834-82e4-ec19c4db0b23.md",
-    "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md",
-    "templates/notes/d41f89ca-7f07-46b2-91cf-37baccdd965c.md",
-    "templates/notes/e74ae9fe-6b1f-494e-800f-b041c6b08de3_1221.md",
     "未命名.canvas",
     "未命名 1.base",
     "未命名.base",

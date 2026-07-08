@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Dify使用",
-      "path": "learning学习/Dify使用.md"
+      "basename": "2026-07-09",
+      "path": "2026-07-09.md"
     },
     {
-      "basename": "Docker",
-      "path": "learning学习/Docker.md"
+      "basename": "嵌入式",
+      "path": "嵌入式.md"
+    },
+    {
+      "basename": "技能",
+      "path": "learning学习/claude/笔记文件/技能.md"
+    },
+    {
+      "basename": "网页上线前检查",
+      "path": "learning学习/claude/笔记文件/网页上线前检查.md"
     },
     {
       "basename": "需要学习",
       "path": "learning学习/需要学习.md"
-    },
-    {
-      "basename": "虚拟机基础使用",
-      "path": "learning学习/虚拟机基础使用.md"
     },
     {
       "basename": "基础使用",
@@ -23,6 +27,26 @@
     {
       "basename": "案例模板",
       "path": "learning学习/嵌入式/Qt/案例模板.md"
+    },
+    {
+      "basename": "基础知识",
+      "path": "learning学习/claude/笔记文件/基础知识.md"
+    },
+    {
+      "basename": "虚拟机基础使用",
+      "path": "learning学习/虚拟机基础使用.md"
+    },
+    {
+      "basename": "2026-07-05-8分钟让你快速掌握Markdown",
+      "path": "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md"
+    },
+    {
+      "basename": "Dify使用",
+      "path": "learning学习/Dify使用.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "learning学习/Docker.md"
     },
     {
       "basename": "内容说明",
@@ -105,20 +129,12 @@
       "path": "s.md"
     },
     {
-      "basename": "2026-07-05-8分钟让你快速掌握Markdown",
-      "path": "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md"
-    },
-    {
       "basename": "Obsitian同步",
       "path": "learning学习/Obsitian同步.md"
     },
     {
       "basename": "2026-06-21-三分钟搞懂Docker",
       "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
     },
     {
       "basename": "2026-07-05",
@@ -183,22 +199,6 @@
     {
       "basename": "选择题",
       "path": "learning学习/备考/嵌入式/选择题.md"
-    },
-    {
-      "basename": "大题",
-      "path": "learning学习/备考/嵌入式/大题.md"
-    },
-    {
-      "basename": "抽题记录",
-      "path": "learning学习/备考/zigbee/抽题记录.md"
-    },
-    {
-      "basename": "claude基础使用",
-      "path": "learning学习/claude/claude基础使用.md"
-    },
-    {
-      "basename": "tech-note",
-      "path": "templates/tech-note.md"
     }
   ],
   "omittedPaths": [],
