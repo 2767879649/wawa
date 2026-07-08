@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -281,7 +281,7 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "4ba88e00c618e109",
+  "active": "1827c510fe81e06a",
   "lastOpenFiles": [
     "learning学习/嵌入式/Qt/案例模板.md",
     "learning学习/嵌入式/Qt/基础使用.md",
