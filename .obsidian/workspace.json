@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/Qt/基础使用.md",
+                "file": "learning学习/Dify使用.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基础使用"
+              "title": "Dify使用"
             }
           }
         ],
@@ -102,8 +102,7 @@
               "title": "Recent files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "28d484dbd5f8fb9c",
@@ -116,7 +115,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/Qt/基础使用.md"
+                "file": "learning学习/Dify使用.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -256,12 +255,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 293,
-    "collapsed": true
+    "width": 293
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -281,26 +279,26 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "1827c510fe81e06a",
+  "active": "228bfa193061227f",
   "lastOpenFiles": [
-    "learning学习/嵌入式/Qt/案例模板.md",
+    "learning学习/Docker.md",
+    "learning学习/需要学习.md",
+    "learning学习/虚拟机基础使用.md",
     "learning学习/嵌入式/Qt/基础使用.md",
+    "learning学习/嵌入式/Qt/案例模板.md",
     "projects项目文档/人脸识别系统/内容说明.md",
     "learning学习/嵌入式/Qt",
     "learning学习/嵌入式",
-    "learning学习/虚拟机基础使用.md",
     "learning学习/编程语言/C++.md",
     "templates/notes/C++.md",
     "templates/notes/1.md",
     "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md",
-    "learning学习/Docker.md",
     "learning学习/编程语言",
     "learning学习/Markdown.md",
     "learning学习/备考/试卷/2026-07-03-2107-练习.md",
     "learning学习/备考/试卷/2026-07-03-2044-练习.md",
     "learning学习/Git基础使用.md",
     "learning学习/Dify使用.md",
-    "learning学习/需要学习.md",
     "baidu.com.md",
     "projects项目文档/个人网站.md",
     "bai.com.md",
