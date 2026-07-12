@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/Obsitian同步.md",
-                "mode": "preview",
+                "file": "learning学习/嵌入式/STM32/基础方向.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Obsitian同步"
+              "title": "基础方向"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/Obsitian同步.md"
+                "file": "learning学习/嵌入式/STM32/基础方向.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -243,7 +243,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293
+    "width": 293,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,6 +266,9 @@
   },
   "active": "2d8efa9758fb037b",
   "lastOpenFiles": [
+    "learning学习/Obsitian同步.md",
+    "learning学习/嵌入式/STM32/基础方向.md",
+    "learning学习/嵌入式/STM32",
     "learning学习/嵌入式/Qt/案例模板.md",
     "learning学习/嵌入式/Qt/基础使用.md",
     "learning学习/claude/笔记文件/网页上线前检查.md",
@@ -292,16 +296,13 @@
     "baidu.com.md",
     "projects项目文档/个人网站.md",
     "bai.com.md",
-    "projects项目文档/README.md",
     "projects项目文档/人脸识别系统",
-    "projects项目文档/未命名.md",
     "未命名.canvas",
     "未命名 1.base",
     "未命名.base",
     "fast/storage/vault/u_1/file/f_1973/file.dat",
     "fast/storage/vault/u_1/file/f_1971/file.dat",
     "fast/storage/vault/u_1/file/f_1963/file.dat",
-    "fast/storage/vault/u_1/file/f_1356/file.dat",
     "zigbee.canvas",
     "未命名 1.canvas",
     "assets/Pasted image 20260620142937.png",

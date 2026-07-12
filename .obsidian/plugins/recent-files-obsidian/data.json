@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基础方向",
+      "path": "learning学习/嵌入式/STM32/基础方向.md"
+    },
+    {
       "basename": "Obsitian同步",
       "path": "learning学习/Obsitian同步.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2026-07-03-2116-练习",
       "path": "learning学习/备考/试卷/2026-07-03-2116-练习.md"
-    },
-    {
-      "basename": "选择题",
-      "path": "learning学习/备考/嵌入式/选择题.md"
     }
   ],
   "omittedPaths": [],
