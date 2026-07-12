@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "00-知识库索引",
+      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/00-知识库索引.md"
+    },
+    {
+      "basename": "00-系统架构概览",
+      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/01-系统架构概览/00-系统架构概览.md"
+    },
+    {
+      "basename": "09-完整项目源码解析",
+      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md"
+    },
+    {
+      "basename": "01-开发环境搭建",
+      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md"
+    },
+    {
+      "basename": "baidu.com",
+      "path": "baidu.com.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "案例模板",
       "path": "learning学习/嵌入式/Qt/案例模板.md"
     },
@@ -89,20 +113,12 @@
       "path": "learning学习/Git基础使用.md"
     },
     {
-      "basename": "baidu.com",
-      "path": "baidu.com.md"
-    },
-    {
       "basename": "个人网站",
       "path": "projects项目文档/个人网站.md"
     },
     {
       "basename": "bai.com",
       "path": "bai.com.md"
-    },
-    {
-      "basename": "README",
-      "path": "projects项目文档/README.md"
     },
     {
       "basename": "61839154-d074-4b07-986f-a8c9508fb850_1",
@@ -183,22 +199,6 @@
     {
       "basename": "填空题",
       "path": "learning学习/备考/zigbee/填空题.md"
-    },
-    {
-      "basename": "2026-07-03-2147-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2147-练习.md"
-    },
-    {
-      "basename": "2026-07-03-2139-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2139-练习.md"
-    },
-    {
-      "basename": "2026-07-03-2135-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2135-练习.md"
-    },
-    {
-      "basename": "2026-07-03-2116-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2116-练习.md"
     }
   ],
   "omittedPaths": [],
