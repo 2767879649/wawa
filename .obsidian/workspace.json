@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础方向.md",
+                "file": "learning学习/嵌入式/Qt/案例模板.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基础方向"
+              "title": "案例模板"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础方向.md"
+                "file": "learning学习/嵌入式/Qt/案例模板.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -264,10 +264,12 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "2d8efa9758fb037b",
+  "active": "228bfa193061227f",
   "lastOpenFiles": [
-    "learning学习/Obsitian同步.md",
+    "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）",
+    "learning学习/嵌入式/新建文件夹",
     "learning学习/嵌入式/STM32/基础方向.md",
+    "learning学习/Obsitian同步.md",
     "learning学习/嵌入式/STM32",
     "learning学习/嵌入式/Qt/案例模板.md",
     "learning学习/嵌入式/Qt/基础使用.md",
@@ -295,14 +297,12 @@
     "learning学习/Git基础使用.md",
     "baidu.com.md",
     "projects项目文档/个人网站.md",
-    "bai.com.md",
     "projects项目文档/人脸识别系统",
     "未命名.canvas",
     "未命名 1.base",
     "未命名.base",
     "fast/storage/vault/u_1/file/f_1973/file.dat",
     "fast/storage/vault/u_1/file/f_1971/file.dat",
-    "fast/storage/vault/u_1/file/f_1963/file.dat",
     "zigbee.canvas",
     "未命名 1.canvas",
     "assets/Pasted image 20260620142937.png",
