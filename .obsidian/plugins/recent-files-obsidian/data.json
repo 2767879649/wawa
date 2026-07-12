@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基础使用",
+      "path": "learning学习/嵌入式/Qt/基础使用.md"
+    },
+    {
       "basename": "00-知识库索引",
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/00-知识库索引.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Obsitian同步",
       "path": "learning学习/Obsitian同步.md"
-    },
-    {
-      "basename": "基础使用",
-      "path": "learning学习/嵌入式/Qt/基础使用.md"
     },
     {
       "basename": "网页上线前检查",
