@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/总结内容.md",
+                "file": "learning学习/嵌入式/STM32/基础方向.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "总结内容"
+              "title": "基础方向"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/总结内容.md"
+                "file": "learning学习/嵌入式/STM32/基础方向.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -266,8 +266,8 @@
   },
   "active": "2d8efa9758fb037b",
   "lastOpenFiles": [
-    "2026-07-09.md",
     "learning学习/总结内容.md",
+    "2026-07-09.md",
     "嵌入式.md",
     "bai.com.md",
     "baidu.com.md",
