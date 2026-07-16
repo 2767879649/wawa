@@ -118,6 +118,7 @@
       {
         "id": "65b828eb56e7e1bb",
         "type": "tabs",
+        "dimension": 39.35897435897436,
         "children": [
           {
             "id": "85b5773b0c5a7688",
@@ -207,10 +208,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "learning学习/Markdown.md"
+                "file": "learning学习/嵌入式/STM32/基础方向.md"
               },
               "icon": "lucide-info",
-              "title": "Markdown的笔记属性"
+              "title": "基础方向的笔记属性"
             }
           },
           {
@@ -219,23 +220,31 @@
             "state": {
               "type": "fns-sync-log-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "fns-sync-log-view"
+              "icon": "arrow-down-up",
+              "title": "同步日志"
             }
-          },
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "15da4709f32b7c27",
+        "type": "tabs",
+        "dimension": 60.641025641025635,
+        "children": [
           {
             "id": "fc68c23c78d2fdc4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning学习/Markdown.md",
+                "file": "learning学习/嵌入式/STM32/基础方向.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Markdown 的大纲"
+              "title": "基础方向 的大纲"
             }
           }
         ]

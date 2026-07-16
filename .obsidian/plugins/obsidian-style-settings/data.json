@@ -13,7 +13,7 @@
   "anuppuccin-theme-settings@@anp-toggle-scrollbars": false,
   "anuppuccin-theme-settings@@anp-hide-status-bar": false,
   "anuppuccin-theme-settings@@anp-tooltip-toggle": false,
-  "anuppuccin-theme-settings@@anp-status-bar-select": "anp-floating-status-bar",
+  "anuppuccin-theme-settings@@anp-status-bar-select": "none",
   "anuppuccin-theme-settings@@anp-layout-select": "anp-card-layout",
   "anuppuccin-theme-settings@@anp-bg-fix": false,
   "anuppuccin-theme-settings@@anp-hide-borders": false,
@@ -36,7 +36,8 @@
   "anuppuccin-theme-settings@@anp-card-layout-padding": 5,
   "anuppuccin-theme-settings@@anp-card-header-left-padding": 10,
   "anuppuccin-theme-settings@@anp-card-radius": 20,
-  "floating-toc-styles@@floating-toc-position": 0,
-  "floating-toc-styles@@indicator-bar-position": 0,
-  "floating-toc-styles@@floating-toc-line-width": 10
+  "floating-toc-styles@@indicator-bar-position": -0.3,
+  "floating-toc-styles@@floating-toc-line-width": 10,
+  "floating-toc-styles@@floating-toc-line-height": 1.5,
+  "floating-toc-styles@@floating-toc-position": 0
 }

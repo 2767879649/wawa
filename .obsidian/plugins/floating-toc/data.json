@@ -1,7 +1,7 @@
 {
   "ignoreHeaders": "",
   "ignoreTopHeader": false,
-  "positionStyle": "right",
+  "positionStyle": "left",
   "isLoadOnMobile": true,
   "isLeft": true,
   "isDefaultPin": false,
