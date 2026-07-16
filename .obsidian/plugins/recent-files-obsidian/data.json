@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "claude基础使用",
+      "path": "learning学习/claude/claude基础使用.md"
+    },
+    {
       "basename": "基础方向",
       "path": "learning学习/嵌入式/STM32/基础方向.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "填空题",
       "path": "learning学习/备考/嵌入式/填空题.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "learning学习/备考/嵌入式.md"
     }
   ],
   "omittedPaths": [],
