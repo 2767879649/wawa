@@ -5,8 +5,20 @@
       "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/子文件/PWM.md"
+    },
+    {
+      "basename": "定时器",
+      "path": "learning学习/嵌入式/STM32/子文件/定时器.md"
+    },
+    {
       "basename": "中断事件",
       "path": "learning学习/嵌入式/STM32/子文件/中断事件.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
     },
     {
       "basename": "AFIO",
@@ -23,10 +35,6 @@
     {
       "basename": "建立一个新工程",
       "path": "learning学习/嵌入式/STM32/子文件/建立一个新工程.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
     },
     {
       "basename": "建立一个工程",
@@ -191,14 +199,6 @@
     {
       "basename": "2026-06-21-三分钟搞懂Docker",
       "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
-    },
-    {
-      "basename": "2026-07-05",
-      "path": "2026-07-05.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.base"
     }
   ],
   "omittedPaths": [],
