@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/STM32/记录基础/基础函数.md"
+    },
+    {
       "basename": "基础开始",
       "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
       "basename": "ba1d10e0-4278-4b07-af53-4cf6f4e5ceda",
       "path": "templates/notes/ba1d10e0-4278-4b07-af53-4cf6f4e5ceda.md"
+    },
+    {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
+      "basename": "中断事件",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
     },
     {
       "basename": "重点",
@@ -29,10 +41,6 @@
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md"
     },
     {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
       "basename": "2026-07-17",
       "path": "2026-07-17.md"
     },
@@ -53,10 +61,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
     },
     {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/STM32/记录基础/基础函数.md"
-    },
-    {
       "basename": "直流电机（小风扇）",
       "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "建立一个新工程",
       "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
-    },
-    {
-      "basename": "中断事件",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
     },
     {
       "basename": "AFIO",
