@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "舵机",
+      "path": "learning学习/嵌入式/STM32/子文件/舵机.md"
+    },
+    {
       "basename": "基础开始",
       "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2026-06-20-python-async",
       "path": "notes笔记/tech/2026-06-20-python-async.md"
-    },
-    {
-      "basename": "s",
-      "path": "s.md"
     }
   ],
   "omittedPaths": [],
