@@ -1,5 +1,8 @@
 
 ## GPIO 输出
+
+![[STM32F103C8T6引脚定义 1.png]]
+
 ### 接口设置
 ```
 RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);//输入输出使用需要开启时钟

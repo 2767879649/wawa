@@ -5,6 +5,22 @@
       "path": "learning学习/嵌入式/STM32/子文件/PWM.md"
     },
     {
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
+    },
+    {
+      "basename": "直流电机（小风扇）",
+      "path": "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md"
+    },
+    {
+      "basename": "LECO显示屏",
+      "path": "learning学习/嵌入式/STM32/子文件/LECO显示屏.md"
+    },
+    {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/子文件/定时器.md"
     },
@@ -21,10 +37,6 @@
       "path": "learning学习/嵌入式/STM32/子文件/建立一个新工程.md"
     },
     {
-      "basename": "直流电机（小风扇）",
-      "path": "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md"
-    },
-    {
       "basename": "中断事件",
       "path": "learning学习/嵌入式/STM32/子文件/中断事件.md"
     },
@@ -33,20 +45,8 @@
       "path": "learning学习/嵌入式/STM32/子文件/AFIO.md"
     },
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
-    },
-    {
-      "basename": "LECO显示屏",
-      "path": "learning学习/嵌入式/STM32/子文件/LECO显示屏.md"
-    },
-    {
       "basename": "LED使用",
       "path": "learning学习/嵌入式/STM32/子文件/LED使用.md"
-    },
-    {
-      "basename": "基础开始",
-      "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
       "basename": "建立一个工程",
@@ -187,18 +187,6 @@
     {
       "basename": "c1c27abb-c03a-4f88-83b5-c2e93f903012",
       "path": "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md"
-    },
-    {
-      "basename": "d41f89ca-7f07-46b2-91cf-37baccdd965c",
-      "path": "templates/notes/d41f89ca-7f07-46b2-91cf-37baccdd965c.md"
-    },
-    {
-      "basename": "e74ae9fe-6b1f-494e-800f-b041c6b08de3_1221",
-      "path": "templates/notes/e74ae9fe-6b1f-494e-800f-b041c6b08de3_1221.md"
-    },
-    {
-      "basename": "e6996f38-29a2-416d-bccd-220c5f2bef2d",
-      "path": "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md"
     }
   ],
   "omittedPaths": [],
