@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/PWM.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/基础函数.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
@@ -114,7 +114,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/PWM.md"
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/PWM.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/PWM.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/PWM.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -296,25 +296,25 @@
   },
   "active": "31ddaf24409dce70",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/基础函数.md",
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
+    "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/基础开始.md",
-    "learning学习/嵌入式/STM32/子文件/GPIO端口.md",
     "STM32F103C8T6引脚定义 1.png",
-    "learning学习/嵌入式/STM32/子文件/PWM.md",
     "assets/未命名.canvas",
     "assets/Pasted image 20260620142937.png",
     "STM32F103C8T6引脚定义.png",
-    "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
-    "learning学习/嵌入式/STM32/子文件/LECO显示屏.md",
-    "learning学习/嵌入式/STM32/子文件/定时器.md",
-    "learning学习/嵌入式/STM32/子文件/舵机.md",
-    "learning学习/嵌入式/STM32/子文件/基础函数.md",
-    "learning学习/嵌入式/STM32/子文件/建立一个新工程.md",
-    "learning学习/嵌入式/STM32/子文件/中断事件.md",
-    "learning学习/嵌入式/STM32/子文件/AFIO.md",
-    "learning学习/嵌入式/STM32/子文件/LED使用.md",
+    "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
+    "learning学习/嵌入式/STM32/记录基础/定时器.md",
+    "learning学习/嵌入式/STM32/记录基础/舵机.md",
+    "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件.md",
+    "learning学习/嵌入式/STM32/记录基础/AFIO.md",
+    "learning学习/嵌入式/STM32/记录基础/LED使用.md",
     "建立一个工程.md",
     "learning学习/claude/claude基础使用.md",
-    "learning学习/嵌入式/STM32/子文件",
+    "learning学习/嵌入式/STM32/记录基础",
     "learning学习/Docker.md",
     "learning学习/总结内容.md",
     "2026-07-09.md",

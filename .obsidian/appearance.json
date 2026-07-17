@@ -3,7 +3,7 @@
   "showRibbon": true,
   "textFontFamily": "",
   "interfaceFontFamily": "Arial",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Zen",
   "accentColor": "",
   "enabledCssSnippets": [
     "extended-colorschemes",
@@ -11,5 +11,5 @@
     "minimal-cards",
     "Extended-colorschemes"
   ],
-  "theme": "obsidian"
+  "theme": "moonstone"
 }
