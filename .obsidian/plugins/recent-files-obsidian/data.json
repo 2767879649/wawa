@@ -5,40 +5,40 @@
       "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
-      "basename": "建立一个新工程",
-      "path": "learning学习/嵌入式/STM32/子文件/建立一个新工程.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/STM32/子文件/基础函数.md"
-    },
-    {
-      "basename": "AFIO",
-      "path": "learning学习/嵌入式/STM32/子文件/AFIO.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/子文件/PWM.md"
-    },
-    {
-      "basename": "定时器",
-      "path": "learning学习/嵌入式/STM32/子文件/定时器.md"
-    },
-    {
-      "basename": "中断事件",
-      "path": "learning学习/嵌入式/STM32/子文件/中断事件.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
-    },
-    {
       "basename": "LECO显示屏",
       "path": "learning学习/嵌入式/STM32/子文件/LECO显示屏.md"
     },
     {
       "basename": "LED使用",
       "path": "learning学习/嵌入式/STM32/子文件/LED使用.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
+    },
+    {
+      "basename": "AFIO",
+      "path": "learning学习/嵌入式/STM32/子文件/AFIO.md"
+    },
+    {
+      "basename": "中断事件",
+      "path": "learning学习/嵌入式/STM32/子文件/中断事件.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/STM32/子文件/基础函数.md"
+    },
+    {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/子文件/PWM.md"
+    },
+    {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/子文件/建立一个新工程.md"
+    },
+    {
+      "basename": "定时器",
+      "path": "learning学习/嵌入式/STM32/子文件/定时器.md"
     },
     {
       "basename": "建立一个工程",

@@ -1,9 +1,6 @@
 
-OC 输出比较
-PWM 脉冲宽度调制
-CNT（Counter Register，计数器寄存器）：当前计数值。
-CCR（Capture/Compare Register，捕获/比较寄存器）：预设阈值
 
+# PWM
 ## 输出比较模式
 
 | 模式                 | 描述                                                                                     |
