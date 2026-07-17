@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "直流电机（小风扇）",
+      "path": "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md"
+    },
+    {
       "basename": "舵机",
       "path": "learning学习/嵌入式/STM32/子文件/舵机.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "e6996f38-29a2-416d-bccd-220c5f2bef2d",
       "path": "templates/notes/e6996f38-29a2-416d-bccd-220c5f2bef2d.md"
-    },
-    {
-      "basename": "2026-06-20-python-async",
-      "path": "notes笔记/tech/2026-06-20-python-async.md"
     }
   ],
   "omittedPaths": [],
