@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
+                "file": "learning学习/嵌入式/STM32/子文件/定时器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "直流电机（小风扇）"
+              "title": "定时器"
             }
           },
           {
@@ -114,7 +114,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md"
+                "file": "learning学习/嵌入式/STM32/子文件/定时器.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
+                "file": "learning学习/嵌入式/STM32/子文件/定时器.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "直流电机（小风扇） 的大纲"
+              "title": "定时器 的大纲"
             }
           }
         ]
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
+                "file": "learning学习/嵌入式/STM32/子文件/定时器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +251,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "直流电机（小风扇） 的反向链接列表"
+              "title": "定时器 的反向链接列表"
             }
           },
           {
@@ -260,12 +260,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
+                "file": "learning学习/嵌入式/STM32/子文件/定时器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "直流电机（小风扇） 的出链列表"
+              "title": "定时器 的出链列表"
             }
           }
         ],
@@ -296,9 +296,9 @@
   },
   "active": "31ddaf24409dce70",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/子文件/舵机.md",
-    "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
     "learning学习/嵌入式/STM32/基础开始.md",
+    "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
+    "learning学习/嵌入式/STM32/子文件/舵机.md",
     "learning学习/嵌入式/STM32/子文件/LECO显示屏.md",
     "learning学习/嵌入式/STM32/子文件/LED使用.md",
     "learning学习/嵌入式/STM32/子文件/GPIO端口.md",
