@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "基础方向",
-      "path": "learning学习/嵌入式/STM32/基础方向.md"
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
+    },
+    {
+      "basename": "LED使用",
+      "path": "learning学习/嵌入式/STM32/子文件/LED使用.md"
+    },
+    {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/子文件/建立一个新工程.md"
     },
     {
       "basename": "claude基础使用",
@@ -187,18 +199,6 @@
     {
       "basename": "2026-07-04-1236-练习",
       "path": "learning学习/备考/试卷/2026-07-04-1236-练习.md"
-    },
-    {
-      "basename": "重点",
-      "path": "learning学习/备考/嵌入式/重点.md"
-    },
-    {
-      "basename": "2026-07-04-0926-练习",
-      "path": "learning学习/备考/试卷/2026-07-04-0926-练习.md"
-    },
-    {
-      "basename": "填空题",
-      "path": "learning学习/备考/嵌入式/填空题.md"
     }
   ],
   "omittedPaths": [],
