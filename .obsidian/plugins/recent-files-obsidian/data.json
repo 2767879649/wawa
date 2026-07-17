@@ -5,6 +5,18 @@
       "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/子文件/建立一个新工程.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/STM32/子文件/基础函数.md"
+    },
+    {
+      "basename": "AFIO",
+      "path": "learning学习/嵌入式/STM32/子文件/AFIO.md"
+    },
+    {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/子文件/PWM.md"
     },
@@ -21,20 +33,12 @@
       "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
     },
     {
-      "basename": "AFIO",
-      "path": "learning学习/嵌入式/STM32/子文件/AFIO.md"
-    },
-    {
       "basename": "LECO显示屏",
       "path": "learning学习/嵌入式/STM32/子文件/LECO显示屏.md"
     },
     {
       "basename": "LED使用",
       "path": "learning学习/嵌入式/STM32/子文件/LED使用.md"
-    },
-    {
-      "basename": "建立一个新工程",
-      "path": "learning学习/嵌入式/STM32/子文件/建立一个新工程.md"
     },
     {
       "basename": "建立一个工程",
@@ -195,10 +199,6 @@
     {
       "basename": "s",
       "path": "s.md"
-    },
-    {
-      "basename": "2026-06-21-三分钟搞懂Docker",
-      "path": "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md"
     }
   ],
   "omittedPaths": [],

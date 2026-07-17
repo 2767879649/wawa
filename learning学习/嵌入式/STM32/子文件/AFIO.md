@@ -1,6 +1,8 @@
-## AFIO
+# AFIO
 - 主要用于引脚复用功能的选择和重定义
 - 再 STM 32 中，AFIO 主要完成两个任务：复用功能引脚重映射，中断引脚选择
+
+## 中断引脚选择
 1. `GPIO_EXTILineConfig(GPIO_PortSourceGPIOB,GPIO_PinSource14)` //配置 AFIO 选择端口
 2. ```
    EXTI_InitTypeDef EXTI_InitStructure;
@@ -24,3 +26,13 @@
     
         //NVIC配置
    ```
+## 端口重映射
+1. 开启 AFIO 时钟
+2. 查看你想用的端口有无其他复用，有的话取消复用
+3. 设置复用
+```
+RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO,ENABLE);//开启AFIO时钟
+GPIO_PinRemapConfig(,ENABLE);//取消端口复用
+GPIO_PinRemapConfig(GPIO_PartialRemap1_TIM2,ENABLE);//将端口复用上
+
+```
