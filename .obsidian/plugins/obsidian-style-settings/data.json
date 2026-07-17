@@ -40,13 +40,16 @@
   "floating-toc-styles@@floating-toc-line-height": 1.5,
   "floating-toc-styles@@floating-toc-position": 0,
   "floating-toc-styles@@indicator-bar-position": 0,
-  "zen@@alt-heading-off": true,
-  "zen@@win-window-opacity": 0.35,
   "zen@@heading-bottom-line-off": false,
   "zen@@text-justify": false,
+  "zen@@window-font-size": 15,
+  "zen@@win-window-brightness": 0.9,
+  "zen@@win-window-opacity": 0.15,
+  "zen@@alt-heading-off": true,
   "zen@@editor-width": 800,
   "zen@@text-paragraph-gap": 3.4,
-  "zen@@editor-brightness": 1.65,
-  "zen@@win-window-brightness": 0.9,
-  "zen@@window-brightness": 0.79
+  "zen@@text-line-height": 36,
+  "zen@@editor-brightness": 1,
+  "zen@@window-brightness": 1.05,
+  "zen@@close-left-vault-profile": false
 }

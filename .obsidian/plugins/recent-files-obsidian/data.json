@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "ba1d10e0-4278-4b07-af53-4cf6f4e5ceda",
+      "path": "templates/notes/ba1d10e0-4278-4b07-af53-4cf6f4e5ceda.md"
+    },
+    {
+      "basename": "重点",
+      "path": "learning学习/备考/zigbee/重点.md"
+    },
+    {
+      "basename": "2026-07-03-2044-练习",
+      "path": "learning学习/备考/试卷/2026-07-03-2044-练习.md"
+    },
+    {
+      "basename": "大题",
+      "path": "learning学习/备考/zigbee/大题.md"
+    },
+    {
+      "basename": "learning-note",
+      "path": "templates/learning-note.md"
+    },
+    {
+      "basename": "09-完整项目源码解析",
+      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md"
     },
     {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
-      "basename": "基础开始",
-      "path": "learning学习/嵌入式/STM32/基础开始.md"
+      "basename": "2026-07-17",
+      "path": "2026-07-17.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "未命名 1.canvas"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "STM32F103C8T6引脚定义 1",
+      "path": "STM32F103C8T6引脚定义 1.png"
     },
     {
       "basename": "LECO显示屏",
@@ -93,10 +129,6 @@
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/01-系统架构概览/00-系统架构概览.md"
     },
     {
-      "basename": "09-完整项目源码解析",
-      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md"
-    },
-    {
       "basename": "01-开发环境搭建",
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md"
     },
@@ -165,28 +197,8 @@
       "path": "learning学习/备考/试卷/2026-07-03-2107-练习.md"
     },
     {
-      "basename": "2026-07-03-2044-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2044-练习.md"
-    },
-    {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
-    },
-    {
-      "basename": "个人网站",
-      "path": "projects项目文档/个人网站.md"
-    },
-    {
-      "basename": "61839154-d074-4b07-986f-a8c9508fb850_1",
-      "path": "templates/notes/61839154-d074-4b07-986f-a8c9508fb850_1.md"
-    },
-    {
-      "basename": "b9b68adb-f3ef-4834-82e4-ec19c4db0b23",
-      "path": "templates/notes/b9b68adb-f3ef-4834-82e4-ec19c4db0b23.md"
-    },
-    {
-      "basename": "c1c27abb-c03a-4f88-83b5-c2e93f903012",
-      "path": "templates/notes/c1c27abb-c03a-4f88-83b5-c2e93f903012.md"
     }
   ],
   "omittedPaths": [],
