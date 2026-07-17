@@ -4,12 +4,12 @@
   "textFontFamily": "",
   "interfaceFontFamily": "Arial",
   "cssTheme": "Zen",
-  "accentColor": "",
+  "accentColor": "#cf4f4f",
   "enabledCssSnippets": [
     "extended-colorschemes",
     "custom-rainbow-colors",
     "minimal-cards",
     "Extended-colorschemes"
   ],
-  "theme": "moonstone"
+  "theme": "obsidian"
 }

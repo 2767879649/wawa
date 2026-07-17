@@ -41,9 +41,12 @@
   "floating-toc-styles@@floating-toc-position": 0,
   "floating-toc-styles@@indicator-bar-position": 0,
   "zen@@alt-heading-off": true,
+  "zen@@win-window-opacity": 0.35,
+  "zen@@heading-bottom-line-off": false,
+  "zen@@text-justify": false,
   "zen@@editor-width": 800,
-  "zen@@win-translucent-off": true,
+  "zen@@text-paragraph-gap": 3.4,
+  "zen@@editor-brightness": 1.65,
   "zen@@win-window-brightness": 0.9,
-  "zen@@win-window-opacity": 0.15,
-  "zen@@win-bg-image-url": "\"C:\\Users\\27678\\Desktop\\387e39685651e3187a8c2022446dc910.png\""
+  "zen@@window-brightness": 0.79
 }
