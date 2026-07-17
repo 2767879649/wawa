@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/定时器.md",
+                "file": "learning学习/嵌入式/STM32/子文件/PWM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "定时器"
+              "title": "PWM"
             }
           },
           {
@@ -114,7 +114,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/定时器.md"
+                "file": "learning学习/嵌入式/STM32/子文件/PWM.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/定时器.md",
+                "file": "learning学习/嵌入式/STM32/子文件/PWM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "定时器 的大纲"
+              "title": "PWM 的大纲"
             }
           }
         ]
@@ -241,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/定时器.md",
+                "file": "learning学习/嵌入式/STM32/子文件/PWM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +251,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "定时器 的反向链接列表"
+              "title": "PWM 的反向链接列表"
             }
           },
           {
@@ -260,12 +260,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/嵌入式/STM32/子文件/定时器.md",
+                "file": "learning学习/嵌入式/STM32/子文件/PWM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "定时器 的出链列表"
+              "title": "PWM 的出链列表"
             }
           }
         ],
@@ -296,18 +296,18 @@
   },
   "active": "31ddaf24409dce70",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/基础开始.md",
-    "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
+    "learning学习/嵌入式/STM32/子文件/定时器.md",
     "learning学习/嵌入式/STM32/子文件/舵机.md",
+    "learning学习/嵌入式/STM32/子文件/基础函数.md",
+    "learning学习/嵌入式/STM32/子文件/建立一个新工程.md",
+    "learning学习/嵌入式/STM32/子文件/直流电机（小风扇）.md",
+    "learning学习/嵌入式/STM32/子文件/中断事件.md",
+    "learning学习/嵌入式/STM32/子文件/AFIO.md",
+    "learning学习/嵌入式/STM32/子文件/GPIO端口.md",
     "learning学习/嵌入式/STM32/子文件/LECO显示屏.md",
     "learning学习/嵌入式/STM32/子文件/LED使用.md",
-    "learning学习/嵌入式/STM32/子文件/GPIO端口.md",
-    "learning学习/嵌入式/STM32/子文件/AFIO.md",
-    "learning学习/嵌入式/STM32/子文件/中断事件.md",
-    "learning学习/嵌入式/STM32/子文件/基础函数.md",
+    "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/子文件/PWM.md",
-    "learning学习/嵌入式/STM32/子文件/建立一个新工程.md",
-    "learning学习/嵌入式/STM32/子文件/定时器.md",
     "建立一个工程.md",
     "learning学习/claude/claude基础使用.md",
     "learning学习/嵌入式/STM32/子文件",
