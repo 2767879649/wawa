@@ -8,22 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2d8efa9758fb037b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/claude/claude基础使用.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "claude基础使用"
-            }
-          },
-          {
-            "id": "09aa208c1df68834",
+            "id": "31ddaf24409dce70",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,9 +21,23 @@
               "icon": "lucide-file",
               "title": "基础开始"
             }
+          },
+          {
+            "id": "0c199368ad872036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning学习/嵌入式/STM32/子文件/AFIO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "AFIO"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,14 +287,18 @@
       "fast-note-sync:FNS菜单": false
     }
   },
-  "active": "09aa208c1df68834",
+  "active": "31ddaf24409dce70",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/子文件/GPIO端口.md",
+    "learning学习/嵌入式/STM32/子文件/中断事件.md",
     "learning学习/嵌入式/STM32/基础开始.md",
+    "learning学习/嵌入式/STM32/子文件/AFIO.md",
+    "learning学习/嵌入式/STM32/子文件/LECO显示屏.md",
     "learning学习/嵌入式/STM32/子文件/LED使用.md",
     "learning学习/嵌入式/STM32/子文件/建立一个新工程.md",
-    "learning学习/嵌入式/STM32/子文件",
+    "learning学习/嵌入式/STM32/子文件/GPIO端口.md",
+    "建立一个工程.md",
     "learning学习/claude/claude基础使用.md",
+    "learning学习/嵌入式/STM32/子文件",
     "learning学习/Docker.md",
     "learning学习/总结内容.md",
     "2026-07-09.md",
@@ -316,16 +319,12 @@
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/06-人脸识别/05-人脸识别-LBPH算法.md",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/05-人脸检测/04-人脸检测-Haar级联分类器.md",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/04-OpenCV核心知识/03-OpenCV核心知识.md",
-    "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/03-Qt核心知识/02-Qt核心知识.md",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/03-Qt核心知识/02-Qt核心知识.md.tmp.40048.0444724a27d2",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md.tmp.40048.5b19442ef361",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/01-系统架构概览/00-系统架构概览.md.tmp.40048.1d49c4f5e0f2",
-    "README.md",
-    "learning学习/嵌入式/Qt/案例模板.md",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/09-ARM嵌入式部署",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/08-串口通信与门控",
-    "learning学习/Obsitian同步.md",
     "未命名.canvas",
     "zigbee.canvas",
     "未命名 1.canvas",

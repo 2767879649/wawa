@@ -5,8 +5,16 @@
       "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
+      "basename": "中断事件",
+      "path": "learning学习/嵌入式/STM32/子文件/中断事件.md"
+    },
+    {
+      "basename": "AFIO",
+      "path": "learning学习/嵌入式/STM32/子文件/AFIO.md"
+    },
+    {
+      "basename": "LECO显示屏",
+      "path": "learning学习/嵌入式/STM32/子文件/LECO显示屏.md"
     },
     {
       "basename": "LED使用",
@@ -15,6 +23,14 @@
     {
       "basename": "建立一个新工程",
       "path": "learning学习/嵌入式/STM32/子文件/建立一个新工程.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/子文件/GPIO端口.md"
+    },
+    {
+      "basename": "建立一个工程",
+      "path": "建立一个工程.md"
     },
     {
       "basename": "claude基础使用",
@@ -183,22 +199,6 @@
     {
       "basename": "未命名",
       "path": "未命名.base"
-    },
-    {
-      "basename": "选择题",
-      "path": "learning学习/备考/zigbee/选择题.md"
-    },
-    {
-      "basename": "重点",
-      "path": "learning学习/备考/zigbee/重点.md"
-    },
-    {
-      "basename": "大题",
-      "path": "learning学习/备考/zigbee/大题.md"
-    },
-    {
-      "basename": "2026-07-04-1236-练习",
-      "path": "learning学习/备考/试卷/2026-07-04-1236-练习.md"
     }
   ],
   "omittedPaths": [],
