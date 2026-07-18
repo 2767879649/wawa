@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "LECO显示屏",
+      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "按键",
       "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
-    },
-    {
-      "basename": "基础开始",
-      "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
       "basename": "LED",
@@ -87,10 +91,6 @@
     {
       "basename": "STM32F103C8T6引脚定义 1",
       "path": "STM32F103C8T6引脚定义 1.png"
-    },
-    {
-      "basename": "LECO显示屏",
-      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
     },
     {
       "basename": "直流电机（小风扇）",
