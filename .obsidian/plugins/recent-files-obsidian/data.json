@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "基础开始 1",
-      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
-    },
-    {
       "basename": "EXTI外部中断",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "基础开始 1",
+      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
     },
     {
       "basename": "中断事件",
@@ -49,20 +57,12 @@
       "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
     },
     {
-      "basename": "基础开始",
-      "path": "learning学习/嵌入式/STM32/基础开始.md"
-    },
-    {
       "basename": "LECO显示屏",
       "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
     },
     {
       "basename": "LED",
       "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "按键",
