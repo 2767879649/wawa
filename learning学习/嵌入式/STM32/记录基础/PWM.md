@@ -19,7 +19,7 @@
 
 ## 参数计算
 - **PWM频率**：
-        Freq=CK_PSC/(PSC+1)/(ARR+1)Freq    //CK_PSC 为内核时钟频率 72MHz
+        Freq=CK_PSC/(PSC+1)/(ARR+1)    //CK_PSC 为内核时钟频率 72MHz，PSC
 - **PWM占空比**：
         Duty=CCR/ARR+1    
 - **PWM分辨率**：

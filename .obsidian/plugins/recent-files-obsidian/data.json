@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/STM32/记录基础/基础函数.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "基础开始",
@@ -11,10 +19,6 @@
     {
       "basename": "ba1d10e0-4278-4b07-af53-4cf6f4e5ceda",
       "path": "templates/notes/ba1d10e0-4278-4b07-af53-4cf6f4e5ceda.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "中断事件",
@@ -47,10 +51,6 @@
     {
       "basename": "未命名 1",
       "path": "未命名 1.canvas"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "STM32F103C8T6引脚定义 1",
@@ -195,10 +195,6 @@
     {
       "basename": "2026-07-03-2107-练习",
       "path": "learning学习/备考/试卷/2026-07-03-2107-练习.md"
-    },
-    {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
     }
   ],
   "omittedPaths": [],
