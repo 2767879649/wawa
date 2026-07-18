@@ -50,6 +50,6 @@
   "zen@@window-brightness": 1.06,
   "zen@@window-font-size": 15,
   "zen@@editor-width": 1220,
-  "zen@@text-paragraph-gap": 2.9,
-  "zen@@text-line-height": 24
+  "zen@@text-line-height": 20,
+  "zen@@text-paragraph-gap": 2.4
 }
