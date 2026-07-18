@@ -31,9 +31,21 @@
               "icon": "lucide-file",
               "title": "基础开始"
             }
+          },
+          {
+            "id": "70efcd095424e7c4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-18 16.22.40.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始.md",
+                "file": "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "基础开始 的反向链接列表"
+              "title": "Drawing 2026-07-18 16.22.40.excalidraw 的反向链接列表"
             }
           },
           {
@@ -129,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始.md",
+                "file": "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "基础开始 的出链列表"
+              "title": "Drawing 2026-07-18 16.22.40.excalidraw 的出链列表"
             }
           },
           {
@@ -143,7 +155,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始.md"
+                "file": "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -257,13 +269,15 @@
       "random-note:开始漫游笔记": false,
       "question-extractor:导入题目": false,
       "question-extractor:抽题组卷": false,
-      "fast-note-sync:FNS菜单": false
+      "fast-note-sync:FNS菜单": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f9b48d7850bcc974",
+  "active": "70efcd095424e7c4",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/STM32/基础开始.md",
+    "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md",
+    "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/STM32/记录基础/LED.md",
@@ -295,7 +309,6 @@
     "assets/Pasted image 20260620142937.png",
     "STM32F103C8T6引脚定义.png",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
-    "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/00-知识库索引.md.tmp.40048.d0ef361c7d91",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md.tmp.40048.2a05bf94a0f8",
