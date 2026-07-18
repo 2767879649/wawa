@@ -45,7 +45,7 @@
   "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
-  "desktopUIMode": "tray",
+  "desktopUIMode": "compact",
   "tabletUIMode": "compact",
   "phoneUIMode": "mobile",
   "iframeMatchExcalidrawTheme": true,

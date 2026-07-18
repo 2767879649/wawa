@@ -18,7 +18,7 @@
             }
           },
           {
-            "id": "f9b48d7850bcc974",
+            "id": "4e7262b899d7aa24",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -185,6 +186,16 @@
             }
           },
           {
+            "id": "8c896c08850700de",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
             "id": "dbacba43b8ad0c9f",
             "type": "leaf",
             "state": {
@@ -197,16 +208,6 @@
               },
               "icon": "lucide-tags",
               "title": "标签"
-            }
-          },
-          {
-            "id": "8c896c08850700de",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           },
           {
@@ -227,12 +228,27 @@
             "state": {
               "type": "fns-sync-log-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "fns-sync-log-view"
+              "icon": "arrow-down-up",
+              "title": "同步日志"
+            }
+          },
+          {
+            "id": "dc3f72bfa813a609",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "基础开始 1 的大纲"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -243,25 +259,26 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "obsidian-git:Open Git source control": false,
-      "canvas:新建白板": false,
+      "obsidian-git:Open Git source control": true,
+      "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
       "bases:新建数据库": false,
       "realclaudian:Open Claudian": false,
       "omnisearch:Omnisearch": false,
       "random-note:开始漫游笔记": false,
-      "question-extractor:导入题目": false,
-      "question-extractor:抽题组卷": false,
       "fast-note-sync:FNS菜单": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "85b5773b0c5a7688",
+  "active": "4e7262b899d7aa24",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/PWM.md",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "learning学习/编程语言/C++.md",
     "learning学习/嵌入式/STM32/基础开始 1.md",
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件.md",
     "STM32F103C8T6引脚定义 1.png",
     "learning学习/嵌入式/STM32/记录基础/定时器.md",
@@ -288,7 +305,6 @@
     "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/试卷/2026-07-03-2044-练习.md",
     "learning学习/备考/zigbee/大题.md",
-    "templates/learning-note.md",
     "未命名 1.canvas",
     "assets/未命名.canvas",
     "assets/Pasted image 20260620142937.png",
@@ -303,7 +319,6 @@
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析",
     "未命名.canvas",
     "zigbee.canvas",
-    "未命名 3.canvas",
     "Pasted image 20260620142943.png"
   ]
 }

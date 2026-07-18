@@ -10,5 +10,6 @@
   "defaultViewMode": "preview",
   "useTab": false,
   "vimMode": false,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "readableLineLength": true
 }
