@@ -1,34 +1,41 @@
 
 #### 成功点亮一盏灯
 ```
-int main(void)
+#include "stm32f10x.h"                  // Device header
+void Led_Init()
 {
-    RCC->APB2ENR = 0x00000010;
-    GPIOC->CRH=0x00300000;
-    GPIOC->ODR=0x00002000;
-    while(1)
-    {
         
-    }
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);
+    GPIO_InitTypeDef LED_Struct;
+    LED_Struct.GPIO_Mode=GPIO_Mode_Out_PP;
+    LED_Struct.GPIO_Pin=GPIO_Pin_4;
+    LED_Struct.GPIO_Speed=GPIO_Speed_50MHz;
+    GPIO_Init(GPIOA,&LED_Struct);
+    GPIO_SetBits(GPIOA,GPIO_Pin_4);
+    
 }
 
-```
-```
-#include "stm32f10x.h"
-int main(void)
+void Led_on()
 {
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC,ENABLE);//使用库函数
-    GPIO_InitTypeDef GPIO_InitStructure;
-    GPIO_InitStructure.GPIO_Mode=GPIO_Mode_Out_PP;
-    GPIO_InitStructure.GPIO_Pin=GPIO_Pin_13 ;
-    GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;
-    GPIO_Init(GPIOC,&GPIO_InitStructure);
-    GPIO_SetBits(GPIOC,GPIO_Pin_13);
-    //GPIO_ResetBits(GPIOC,GPIO_Pin_13);//配置之端口
-    while(1)
+    GPIO_ResetBits(GPIOA,GPIO_Pin_4);
+}
+void Led_off()
+{
+    GPIO_SetBits(GPIOA,GPIO_Pin_4);
+}
+void Led_turn()
+{
+    if(GPIO_ReadOutputDataBit(GPIOA, GPIO_Pin_4) == 0)
     {
-        
+        GPIO_SetBits(GPIOA, GPIO_Pin_4);    
     }
+
+    else
+        {
+    GPIO_ResetBits(GPIOA,GPIO_Pin_4);
+    }
+    
+        
 }
 
 ```
