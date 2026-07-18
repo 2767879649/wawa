@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "LED使用",
-      "path": "learning学习/嵌入式/STM32/记录基础/LED使用.md"
-    },
-    {
       "basename": "基础开始",
       "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "宏定义",
+      "path": "learning学习/嵌入式/STM32/记录基础/宏定义.md"
+    },
+    {
+      "basename": "LED使用",
+      "path": "learning学习/嵌入式/STM32/记录基础/LED使用.md"
     },
     {
       "basename": "建立一个新工程",
@@ -195,10 +199,6 @@
     {
       "basename": "C++",
       "path": "templates/notes/C++.md"
-    },
-    {
-      "basename": "8e47dc9b-1a31-4764-94e5-912351662f0e",
-      "path": "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md"
     }
   ],
   "omittedPaths": [],
