@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
+    },
+    {
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
       "basename": "2026-07-17",
       "path": "2026-07-17.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "基础开始",
-      "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
       "basename": "ba1d10e0-4278-4b07-af53-4cf6f4e5ceda",
@@ -83,10 +87,6 @@
     {
       "basename": "舵机",
       "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
-    },
-    {
-      "basename": "建立一个新工程",
-      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
     },
     {
       "basename": "AFIO",
