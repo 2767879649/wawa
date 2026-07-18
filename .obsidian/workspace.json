@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "嵌入式"
             }
+          },
+          {
+            "id": "7c1f477a2324aa5e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "基础开始 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "嵌入式.md",
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "嵌入式 的反向链接列表"
+              "title": "基础开始 1 的反向链接列表"
             }
           },
           {
@@ -142,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -264,12 +276,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d54e9d02fc407cab",
+  "active": "7c1f477a2324aa5e",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件.md",
+    "嵌入式.md",
+    "Pasted image 20260718181308.png",
     "Pasted image 20260718181003.png",
     "未命名.base",
-    "learning学习/嵌入式/STM32/记录基础/中断事件.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断.md",
     "learning学习/嵌入式/STM32/基础开始 1.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器中断.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件",
