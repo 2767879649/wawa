@@ -18,9 +18,10 @@
 
 
 ## 参数计算
-- **PWM频率**：
-        Freq=CK_PSC/(PSC+1)/(ARR+1)    //CK_PSC 为内核时钟频率 72MHz，PSC
-- **PWM占空比**：
+- [[定时器]]
+- <font color="#245bdb">PWM频率：</font>
+        Freq=CK_PSC/(PSC+1)/(ARR+1)    //CK_PSC 为总线时钟频率 72MHz，PSC 预分频器，ARR自动重装值
+- <font color="#245bdb">PWM占空比：</font>
         Duty=CCR/ARR+1    
-- **PWM分辨率**：
+- <font color="#245bdb">PWM分辨率：</font>
         Reso=1 /(ARR+1)​

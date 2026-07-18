@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-07-17",
+      "path": "2026-07-17.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.base"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "1",
+      "path": "1.canvas"
+    },
+    {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
+      "basename": "定时器",
+      "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
     },
     {
       "basename": "基础函数",
@@ -45,10 +65,6 @@
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md"
     },
     {
-      "basename": "2026-07-17",
-      "path": "2026-07-17.md"
-    },
-    {
       "basename": "未命名 1",
       "path": "未命名 1.canvas"
     },
@@ -63,10 +79,6 @@
     {
       "basename": "直流电机（小风扇）",
       "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
-    },
-    {
-      "basename": "定时器",
-      "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
     },
     {
       "basename": "舵机",
@@ -133,10 +145,6 @@
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "案例模板",
       "path": "learning学习/嵌入式/Qt/案例模板.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "8e47dc9b-1a31-4764-94e5-912351662f0e",
       "path": "templates/notes/8e47dc9b-1a31-4764-94e5-912351662f0e.md"
-    },
-    {
-      "basename": "2026-07-03-2107-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2107-练习.md"
     }
   ],
   "omittedPaths": [],

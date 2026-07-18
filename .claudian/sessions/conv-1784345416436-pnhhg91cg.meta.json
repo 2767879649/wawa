@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784345416436-pnhhg91cg",
+  "providerId": "claude",
+  "title": "Explain STM32 timer frequency formula",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784345416436,
+  "updatedAt": 1784345454909,
+  "lastResponseAt": 1784345454909,
+  "sessionId": "f9ec9257-bfa7-487e-a6bb-de3ee761ec99",
+  "providerState": {
+    "providerSessionId": "f9ec9257-bfa7-487e-a6bb-de3ee761ec99"
+  },
+  "currentNote": "learning学习/嵌入式/STM32/记录基础/PWM.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 609,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 25856,
+    "contextWindow": 200000,
+    "contextTokens": 26465,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
+}
