@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsitian同步",
+      "path": "learning学习/Obsitian同步.md"
+    },
+    {
+      "basename": "嵌入式",
+      "path": "嵌入式.md"
+    },
+    {
       "basename": "EXTI外部中断",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "中断事件",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
     },
     {
       "basename": "未命名",
@@ -179,10 +183,6 @@
     {
       "basename": "案例模板",
       "path": "learning学习/嵌入式/Qt/案例模板.md"
-    },
-    {
-      "basename": "Obsitian同步",
-      "path": "learning学习/Obsitian同步.md"
     },
     {
       "basename": "网页上线前检查",
