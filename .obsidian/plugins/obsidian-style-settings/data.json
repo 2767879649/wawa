@@ -40,7 +40,7 @@
   "floating-toc-styles@@floating-toc-line-height": 1.5,
   "floating-toc-styles@@floating-toc-position": 0,
   "floating-toc-styles@@indicator-bar-position": 0,
-  "zen@@heading-bottom-line-off": false,
+  "zen@@heading-bottom-line-off": true,
   "zen@@text-justify": false,
   "zen@@win-window-brightness": 0.9,
   "zen@@win-window-opacity": 0.15,

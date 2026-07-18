@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "EXTI外部中断",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断.md"
+    },
+    {
+      "basename": "中断事件",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
+    },
+    {
       "basename": "基础开始 1",
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
+    },
+    {
+      "basename": "定时器中断",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器中断.md"
     },
     {
       "basename": "未命名 3",
@@ -19,10 +31,6 @@
     {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
-      "basename": "中断事件",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
     },
     {
       "basename": "STM32F103C8T6引脚定义 1",
@@ -191,14 +199,6 @@
     {
       "basename": "需要学习",
       "path": "learning学习/需要学习.md"
-    },
-    {
-      "basename": "基础知识",
-      "path": "learning学习/claude/笔记文件/基础知识.md"
-    },
-    {
-      "basename": "虚拟机基础使用",
-      "path": "learning学习/虚拟机基础使用.md"
     }
   ],
   "omittedPaths": [],
