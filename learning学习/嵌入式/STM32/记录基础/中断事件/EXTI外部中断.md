@@ -2,7 +2,8 @@
 
 - 每次进入中断会将中断标志位置 1，所以进入中断后要清除中断标志位
 - 中断函数不需要声明，也不需要使用，可以自动执行
-
+> 中断函数名字不能更改，本身就存在，你只是在设置中断触发后的事件
+- 
 
 ## EXTI 外部中断
 GPIO[^1] -> AFIO[^2] -> EXIT[^3] -> NVIC[^4]
@@ -60,7 +61,21 @@ void CountSensor_Init(void)
 ```
 
 
-
+### EXTI 函数配置
+```、
+void EXTI15_10_IRQHandler(void)    //函数名不可更改
+{
+    if(EXTI_GetITStatus(EXTI_Line14)==SET)  //判断是否有外部中断14号线触发的中断
+    {
+        if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_14)==0)    //再次判断引脚电平，以避免抖动
+        {
+        
+        }
+        EXTI_ClearITPendingBit(EXTI_Line14);//清空中断标志位
+        
+    }
+}
+```
 
 
 [^1]: 1.开启时钟
