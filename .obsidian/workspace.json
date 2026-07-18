@@ -31,6 +31,24 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "85ff5ef98db6e9d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35cbc0afe6c16bf6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "STM32F103C8T6引脚定义 1.png"
+              },
+              "icon": "lucide-image",
+              "title": "STM32F103C8T6引脚定义 1"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
+                "file": "STM32F103C8T6引脚定义 1.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "基础开始 1 的反向链接列表"
+              "title": "STM32F103C8T6引脚定义 1 的反向链接列表"
             }
           },
           {
@@ -126,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
+                "file": "STM32F103C8T6引脚定义 1.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "基础开始 1 的出链列表"
+              "title": "STM32F103C8T6引脚定义 1 的出链列表"
             }
           },
           {
@@ -140,7 +158,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始 1.md"
+                "file": "STM32F103C8T6引脚定义 1.png"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -258,16 +276,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f9b48d7850bcc974",
+  "active": "35cbc0afe6c16bf6",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/基础开始 1.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件.md",
+    "learning学习/嵌入式/STM32/记录基础/定时器.md",
+    "STM32F103C8T6引脚定义 1.png",
+    "learning学习/嵌入式/STM32/基础开始.md",
+    "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/LED.md",
     "Excalidraw/cropped_Drawing 2026-07-17 21.26.11.excalidraw.md",
     "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md",
-    "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
@@ -281,16 +301,13 @@
     "Excalidraw/Drawing 2026-07-18 00.57.50.excalidraw.md",
     "Excalidraw/Drawing 2026-07-18 00.48.48.excalidraw.md",
     "Excalidraw/Drawing 2026-07-17 21.26.11.excalidraw.md",
-    "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "Excalidraw",
     "templates/notes/ba1d10e0-4278-4b07-af53-4cf6f4e5ceda.md",
     "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/试卷/2026-07-03-2044-练习.md",
     "learning学习/备考/zigbee/大题.md",
     "templates/learning-note.md",
-    "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md",
     "未命名 1.canvas",
-    "STM32F103C8T6引脚定义 1.png",
     "assets/未命名.canvas",
     "assets/Pasted image 20260620142937.png",
     "STM32F103C8T6引脚定义.png",
