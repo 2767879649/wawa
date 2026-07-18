@@ -23,10 +23,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-18 16.38.02.excalidraw.md"
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-18 16.38.02.excalidraw"
+              "title": "基础开始 1"
             }
           }
         ],
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-18 16.38.02.excalidraw.md",
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Drawing 2026-07-18 16.38.02.excalidraw 的反向链接列表"
+              "title": "基础开始 1 的反向链接列表"
             }
           },
           {
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-18 16.38.02.excalidraw.md",
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Drawing 2026-07-18 16.38.02.excalidraw 的出链列表"
+              "title": "基础开始 1 的出链列表"
             }
           },
           {
@@ -140,7 +140,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-18 16.38.02.excalidraw.md"
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -260,11 +260,13 @@
   },
   "active": "f9b48d7850bcc974",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/基础开始.md",
+    "learning学习/嵌入式/STM32/基础开始 1.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件.md",
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/LED.md",
-    "Excalidraw/Drawing 2026-07-18 16.38.02.excalidraw.md",
     "Excalidraw/cropped_Drawing 2026-07-17 21.26.11.excalidraw.md",
     "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md",
-    "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
@@ -275,7 +277,6 @@
     "未命名.base",
     "README.md",
     "1.canvas",
-    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "Excalidraw/Drawing 2026-07-18 01.33.10.excalidraw.md",
     "Excalidraw/Drawing 2026-07-18 00.57.50.excalidraw.md",
     "Excalidraw/Drawing 2026-07-18 00.48.48.excalidraw.md",
@@ -283,7 +284,6 @@
     "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "Excalidraw",
     "templates/notes/ba1d10e0-4278-4b07-af53-4cf6f4e5ceda.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件.md",
     "learning学习/备考/zigbee/重点.md",
     "learning学习/备考/试卷/2026-07-03-2044-练习.md",
     "learning学习/备考/zigbee/大题.md",

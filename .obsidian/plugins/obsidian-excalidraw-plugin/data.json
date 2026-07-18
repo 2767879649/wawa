@@ -1069,6 +1069,12 @@
         "Mod"
       ],
       "key": "G"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "e"
     }
   ],
   "showSplashscreen": true,

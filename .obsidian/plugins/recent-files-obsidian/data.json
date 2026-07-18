@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2026-07-18 16.38.02.excalidraw",
-      "path": "Excalidraw/Drawing 2026-07-18 16.38.02.excalidraw.md"
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "基础开始 1",
+      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
+    },
+    {
+      "basename": "中断事件",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
+    },
+    {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "LED",
       "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
-    },
-    {
-      "basename": "基础开始",
-      "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
       "basename": "LECO显示屏",
@@ -53,20 +61,12 @@
       "path": "1.canvas"
     },
     {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
     },
     {
       "basename": "ba1d10e0-4278-4b07-af53-4cf6f4e5ceda",
       "path": "templates/notes/ba1d10e0-4278-4b07-af53-4cf6f4e5ceda.md"
-    },
-    {
-      "basename": "中断事件",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
     },
     {
       "basename": "重点",
