@@ -1175,7 +1175,7 @@
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 8,
   "cMenuWidth": 32,
-  "cMenuFontColor": "#c00000",
+  "cMenuFontColor": "#245bdb",
   "cMenuBackgroundColor": "#fff88f",
   "autohide": false,
   "Iscentered": false,
@@ -1194,7 +1194,9 @@
   "verticalPosition": 0,
   "formatBrushes": {},
   "customCommands": [],
-  "viewTypeSettings": {},
+  "viewTypeSettings": {
+    "excalidraw": false
+  },
   "appearanceByStyle": {
     "top": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",

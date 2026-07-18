@@ -51,5 +51,6 @@
   "zen@@window-font-size": 15,
   "zen@@editor-width": 1220,
   "zen@@text-line-height": 20,
-  "zen@@text-paragraph-gap": 2.4
+  "zen@@text-paragraph-gap": 2.4,
+  "zen@@win-translucent-off": false
 }

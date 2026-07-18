@@ -9,5 +9,6 @@
   "autoPairBrackets": true,
   "defaultViewMode": "preview",
   "useTab": false,
-  "vimMode": false
+  "vimMode": false,
+  "focusNewTab": true
 }

@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "STM32F103C8T6引脚定义 1",
-      "path": "STM32F103C8T6引脚定义 1.png"
-    },
-    {
       "basename": "基础开始 1",
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
     },
     {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
       "basename": "中断事件",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
+    },
+    {
+      "basename": "STM32F103C8T6引脚定义 1",
+      "path": "STM32F103C8T6引脚定义 1.png"
     },
     {
       "basename": "定时器",
@@ -23,10 +27,6 @@
     {
       "basename": "LECO显示屏",
       "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "LED",

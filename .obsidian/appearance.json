@@ -11,5 +11,6 @@
     "minimal-cards",
     "Extended-colorschemes"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "nativeMenus": false
 }

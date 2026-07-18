@@ -31,24 +31,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "85ff5ef98db6e9d5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "35cbc0afe6c16bf6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "STM32F103C8T6引脚定义 1.png"
-              },
-              "icon": "lucide-image",
-              "title": "STM32F103C8T6引脚定义 1"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STM32F103C8T6引脚定义 1.png",
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "STM32F103C8T6引脚定义 1 的反向链接列表"
+              "title": "基础开始 1 的反向链接列表"
             }
           },
           {
@@ -144,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STM32F103C8T6引脚定义 1.png",
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "STM32F103C8T6引脚定义 1 的出链列表"
+              "title": "基础开始 1 的出链列表"
             }
           },
           {
@@ -158,14 +140,13 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "STM32F103C8T6引脚定义 1.png"
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -234,10 +215,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础方向.md"
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md"
               },
               "icon": "lucide-info",
-              "title": "基础方向的笔记属性"
+              "title": "基础开始 1的笔记属性"
             }
           },
           {
@@ -250,7 +231,8 @@
               "title": "fns-sync-log-view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -276,15 +258,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "35cbc0afe6c16bf6",
+  "active": "85b5773b0c5a7688",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/基础开始 1.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件.md",
-    "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "STM32F103C8T6引脚定义 1.png",
+    "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
-    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/LED.md",
     "Excalidraw/cropped_Drawing 2026-07-17 21.26.11.excalidraw.md",
     "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md",
