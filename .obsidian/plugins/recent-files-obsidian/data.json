@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "建立一个新工程",
-      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
+      "basename": "LED使用",
+      "path": "learning学习/嵌入式/STM32/记录基础/LED使用.md"
     },
     {
       "basename": "基础开始",
       "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
     },
     {
       "basename": "2026-07-17",
@@ -91,10 +95,6 @@
     {
       "basename": "AFIO",
       "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
-    },
-    {
-      "basename": "LED使用",
-      "path": "learning学习/嵌入式/STM32/记录基础/LED使用.md"
     },
     {
       "basename": "建立一个工程",

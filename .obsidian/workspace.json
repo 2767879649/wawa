@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/LED使用.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "建立一个新工程"
+              "title": "LED使用"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/LED使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "建立一个新工程 的反向链接列表"
+              "title": "LED使用 的反向链接列表"
             }
           },
           {
@@ -118,12 +118,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/LED使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "建立一个新工程 的出链列表"
+              "title": "LED使用 的出链列表"
             }
           },
           {
@@ -132,7 +132,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
+                "file": "learning学习/嵌入式/STM32/记录基础/LED使用.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -253,6 +253,7 @@
   "active": "73a265ecf139282c",
   "lastOpenFiles": [
     "learning学习/嵌入式/STM32/基础开始.md",
+    "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
     "2026-07-17.md",
     "未命名.base",
     "README.md",
@@ -282,7 +283,6 @@
     "STM32F103C8T6引脚定义.png",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
-    "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
     "learning学习/嵌入式/STM32/记录基础/AFIO.md",
     "learning学习/嵌入式/STM32/记录基础/LED使用.md",
     "learning学习/嵌入式/STM32/记录基础",
