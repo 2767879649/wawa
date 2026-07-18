@@ -1,5 +1,5 @@
 
-#### 成功点亮一盏灯
+#### 成功点亮一盏灯  //蜂鸣器也是这个
 ```
 #include "stm32f10x.h"                  // Device header
 void Led_Init()
