@@ -5,12 +5,24 @@
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
     },
     {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
+      "basename": "LED",
+      "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
+    },
+    {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
     },
     {
       "basename": "EXTI",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
+    },
+    {
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
+    },
+    {
+      "basename": "嵌入式",
+      "path": "嵌入式.md"
     },
     {
       "basename": "AFIO",
@@ -63,18 +75,6 @@
     {
       "basename": "LECO显示屏",
       "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
-    },
-    {
-      "basename": "LED",
-      "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
-    },
-    {
-      "basename": "建立一个新工程",
-      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
-    },
-    {
-      "basename": "基础开始",
-      "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
       "basename": "Obsitian同步",
