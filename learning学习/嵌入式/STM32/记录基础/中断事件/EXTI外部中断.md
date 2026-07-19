@@ -43,6 +43,12 @@ void CountSensor_Init(void)
 ```
 
 ### NVIC 配置
+#### EXTI 线配置
+> EXTI 0_IRQn
+> EXTI1_IRQn
+> EXTI 9_10_IRQn
+> EXTI15_10_IRQn
+
 ```
 /*NVIC中断分组*/
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);                //配置NVIC为分组2
@@ -53,15 +59,21 @@ void CountSensor_Init(void)
     
     /*NVIC配置*/
     NVIC_InitTypeDef NVIC_InitStructure;                        //定义结构体变量
-    NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;        //选择配置NVIC的EXTI15_10线
+    NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;        //选择配置NVIC的EXTI线
     NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;                //指定NVIC线路使能
     NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;    //指定NVIC线路的抢占优先级为1
     NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;            //指定NVIC线路的响应优先级为1
-    NVIC_Init(&NVIC_InitStructure);                    
+    NVIC_Init(&NVIC_InitStructure);//NVIC初始化
+    
+    NVIC_Struct.NVIC_IRQChannel=EXTI1_IRQn;//选择配置NVIC的EXTI线
+    NVIC_Struct.NVIC_IRQChannelCmd=ENABLE;//指定NVIC线路使能
+    NVIC_Struct.NVIC_IRQChannelPreemptionPriority=1;//指定NVIC线路的抢占优先级为1
+    NVIC_Struct.NVIC_IRQChannelSubPriority=1;//指定NVIC线路的响应优先级为1
+    NVIC_Init(&NVIC_Struct);//NVIC初始化
 ```
 
 
-### EXTI 函数配置
+### 中断函数配置
 ```、
 void EXTI15_10_IRQHandler(void)    //函数名不可更改
 {
@@ -77,20 +89,6 @@ void EXTI15_10_IRQHandler(void)    //函数名不可更改
 }
 ```
 
-
-[^1]: 1.开启时钟
-    2.定义结构体配置端口
-    3.初始化
-
-[^2]: 1.开启时钟
-    2.选择映射端口
-
-[^3]: 1.定义结构体，配置中断端口
-    2.初始化
-
-[^4]: 1.选择中断分组
-    2.定义结构体，进行中断选择配置
-    3.初始化
 
 ## 旋钮编码器
 中断事件 0，判断 GPIO 1 开启，判断旋转
@@ -122,3 +120,24 @@ void EXTI1_IRQHandler(void)//中断事件1
 
 
 ```
+
+
+
+
+
+
+
+[^1]: 1.开启时钟
+    2.定义结构体配置端口
+    3.初始化
+
+[^2]: 1.开启时钟
+    2.选择映射端口
+
+[^3]: 1.定义结构体，配置中断端口
+    2.初始化
+
+[^4]: 1.选择中断分组
+    2.定义结构体，进行中断选择配置
+    3.初始化
+

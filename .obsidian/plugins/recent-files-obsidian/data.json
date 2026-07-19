@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "定时器中断",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器中断.md"
+    },
+    {
+      "basename": "EXTI外部中断",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断.md"
+    },
+    {
+      "basename": "按键",
+      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
+    },
+    {
       "basename": "Obsitian同步",
       "path": "learning学习/Obsitian同步.md"
     },
     {
       "basename": "嵌入式",
       "path": "嵌入式.md"
-    },
-    {
-      "basename": "EXTI外部中断",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断.md"
     },
     {
       "basename": "GPIO端口",
@@ -31,10 +39,6 @@
     {
       "basename": "未命名",
       "path": "未命名.base"
-    },
-    {
-      "basename": "定时器中断",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器中断.md"
     },
     {
       "basename": "未命名 3",
@@ -67,10 +71,6 @@
     {
       "basename": "LED",
       "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
-    },
-    {
-      "basename": "按键",
-      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
     },
     {
       "basename": "基础函数",
