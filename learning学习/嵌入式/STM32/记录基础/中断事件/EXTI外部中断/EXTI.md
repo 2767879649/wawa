@@ -10,6 +10,7 @@ GPIO[^1] -> AFIO[^2] -> EXIT[^3] -> NVIC[^4]
 ![[Pasted image 20260719183209.png|340]]
 AFIO ：选择中断引脚
 
+
 ### 外部中断配置()
 ```C
 void CountSensor_Init(void)

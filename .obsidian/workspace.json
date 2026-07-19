@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "基础开始 1 的反向链接列表"
+              "title": "旋钮编码器 的反向链接列表"
             }
           },
           {
@@ -308,8 +308,11 @@
   },
   "active": "0dc9dea5e5258e99",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/LED.md",
     "learning学习/嵌入式/STM32/基础开始 1.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
+    "learning学习/嵌入式/STM32/记录基础/基础函数.md",
+    "learning学习/嵌入式/STM32/记录基础/舵机.md",
+    "learning学习/嵌入式/STM32/记录基础/LED.md",
     "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
     "learning学习/嵌入式/STM32/基础开始.md",
@@ -322,11 +325,8 @@
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
-    "learning学习/嵌入式/STM32/记录基础/基础函数.md",
-    "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/宏定义.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
