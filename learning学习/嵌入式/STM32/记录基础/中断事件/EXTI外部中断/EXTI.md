@@ -7,8 +7,10 @@
 **案例：** [[旋钮编码器]]
 ## EXTI 外部中断
 GPIO[^1] -> AFIO[^2] -> EXIT[^3] -> NVIC[^4]
+![[Pasted image 20260719183209.png|340]]
+AFIO ：选择中断引脚
+
 ### 外部中断配置()
-使用 [[AFIO]] 选择中断端口
 ```C
 void CountSensor_Init(void)
 {
@@ -73,7 +75,7 @@ void CountSensor_Init(void)
 ```
 
 
-### 中断函数配置
+## 中断函数配置
 ```、
 void EXTI15_10_IRQHandler(void)    //函数名不可更改
 {

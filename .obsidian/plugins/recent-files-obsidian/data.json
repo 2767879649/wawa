@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "旋钮编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
+      "basename": "基础开始 1",
+      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
+    },
+    {
+      "basename": "嵌入式",
+      "path": "嵌入式.md"
     },
     {
       "basename": "EXTI",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
+    },
+    {
+      "basename": "AFIO",
+      "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
+    },
+    {
+      "basename": "直流电机（小风扇）",
+      "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
+    },
+    {
+      "basename": "Pasted image 20260719183209",
+      "path": "Pasted image 20260719183209.png"
+    },
+    {
+      "basename": "Pasted image 20260718181308",
+      "path": "Pasted image 20260718181308.png"
+    },
+    {
+      "basename": "旋钮编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
     },
     {
       "basename": "PWM",
@@ -21,10 +45,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
     },
     {
-      "basename": "直流电机（小风扇）",
-      "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
-    },
-    {
       "basename": "宏定义",
       "path": "learning学习/嵌入式/STM32/记录基础/宏定义.md"
     },
@@ -37,16 +57,8 @@
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
     },
     {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
-    },
-    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "AFIO",
-      "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
     },
     {
       "basename": "LECO显示屏",
@@ -59,10 +71,6 @@
     {
       "basename": "建立一个新工程",
       "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
-    },
-    {
-      "basename": "基础开始 1",
-      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
     },
     {
       "basename": "基础开始",
@@ -191,10 +199,6 @@
     {
       "basename": "技能",
       "path": "learning学习/claude/笔记文件/技能.md"
-    },
-    {
-      "basename": "需要学习",
-      "path": "learning学习/需要学习.md"
     }
   ],
   "omittedPaths": [],
