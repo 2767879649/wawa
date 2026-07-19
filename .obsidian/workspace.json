@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
+                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "旋钮编码器 的反向链接列表"
+              "title": "基础开始 1 的反向链接列表"
             }
           },
           {
@@ -306,23 +306,23 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0dc9dea5e5258e99",
+  "active": "228bfa193061227f",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/基础开始 1.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/LED.md",
     "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
-    "learning学习/嵌入式/STM32/基础开始.md",
     "嵌入式.md",
     "learning学习/嵌入式/STM32/记录基础/AFIO.md",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "Pasted image 20260719183209.png",
     "Pasted image 20260719183052.png",
     "Pasted image 20260718181308.png",
-    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
     "learning学习/嵌入式/STM32/记录基础/宏定义.md",
