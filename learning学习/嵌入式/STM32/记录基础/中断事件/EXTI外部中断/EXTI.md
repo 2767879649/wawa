@@ -3,13 +3,13 @@
 - 每次进入中断会将中断标志位置 1，所以进入中断后要清除中断标志位
 - 中断函数不需要声明，也不需要使用，可以自动执行
 > 中断函数名字不能更改，本身就存在，你只是在设置中断触发后的事件
-- 
 
+**案例：** [[旋钮编码器]]
 ## EXTI 外部中断
 GPIO[^1] -> AFIO[^2] -> EXIT[^3] -> NVIC[^4]
 ### 外部中断配置()
 使用 [[AFIO]] 选择中断端口
-```
+```C
 void CountSensor_Init(void)
 {
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);//开启GPIO时钟
@@ -90,36 +90,7 @@ void EXTI15_10_IRQHandler(void)    //函数名不可更改
 ```
 
 
-## 旋钮编码器
-中断事件 0，判断 GPIO 1 开启，判断旋转
-中断事件 1，判断 GPIO 0 开启，判断旋转
-```
-void EXTI0_IRQHandler(void)//中断事件0
-{
-    if(EXTI_GetITStatus(EXTI_Line0)==SET)//触发中断
-    {
-        if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0)//判断正转
-        {
-        Encoder_Count ++;
-        }
-        EXTI_ClearITPendingBit(EXTI_Line0);//清楚中断标志位
-    }
-}
-void EXTI1_IRQHandler(void)//中断事件1
-{
-    if(EXTI_GetITStatus(EXTI_Line1)==SET)
-    {
-        
-        if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_0)==0)//判断反转
-        {
-        Encoder_Count --;
-        }
-        EXTI_ClearITPendingBit(EXTI_Line1);
-    }
-}
 
-
-```
 
 
 

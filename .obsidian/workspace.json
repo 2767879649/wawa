@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "嵌入式"
+              "title": "旋钮编码器"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "直流电机（小风扇）"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "直流电机（小风扇） 的反向链接列表"
+              "title": "旋钮编码器 的反向链接列表"
             }
           },
           {
@@ -279,14 +278,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7c1f477a2324aa5e",
+  "active": "d54e9d02fc407cab",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-    "嵌入式.md",
-    "learning学习/嵌入式/STM32/记录基础/按键.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
+    "learning学习/嵌入式/STM32/记录基础/舵机.md",
+    "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
+    "learning学习/嵌入式/STM32/记录基础/宏定义.md",
+    "learning学习/嵌入式/STM32/记录基础/按键.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
+    "嵌入式.md",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/AFIO.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
@@ -295,7 +300,6 @@
     "learning学习/嵌入式/STM32/基础开始 1.md",
     "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器中断.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断.md",
     "learning学习/Obsitian同步.md",
     "Excalidraw/Drawing 2026-07-18 00.48.48.excalidraw.restored.md",
     "Excalidraw",
@@ -310,12 +314,8 @@
     "STM32F103C8T6引脚定义 1.png",
     "Excalidraw/cropped_Drawing 2026-07-17 21.26.11.excalidraw.md",
     "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md",
-    "learning学习/嵌入式/STM32/记录基础/宏定义.md",
     "2026-07-17.md",
-    "README.md",
     "1.canvas",
-    "Excalidraw/Drawing 2026-07-18 01.33.10.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-18 00.57.50.excalidraw.md",
     "未命名 1.canvas",
     "assets/未命名.canvas",
     "assets/Pasted image 20260620142937.png",
@@ -326,7 +326,6 @@
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/09-ARM嵌入式部署/08-ARM嵌入式部署.md.tmp.40048.f1e91be9340a",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/03-Qt核心知识/02-Qt核心知识.md.tmp.40048.0444724a27d2",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md.tmp.40048.5b19442ef361",
-    "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/01-系统架构概览/00-系统架构概览.md.tmp.40048.1d49c4f5e0f2",
     "未命名.canvas",
     "zigbee.canvas",
     "Pasted image 20260620142943.png"

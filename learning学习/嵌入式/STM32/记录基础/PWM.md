@@ -1,6 +1,7 @@
 
 # PWM
 *用数字信号模拟模拟信号*
+基于定时器进行的[[定时器]]
 ## 函数
 `TIM_SetCompare2(TIM2, Num);`  //改变 CCR 值
 
@@ -21,7 +22,7 @@ CCR OC 比较值
 | PWM模式1             | 向上计数：CNT<CCR时，REF置有效电平，CNT≥CCR时，REF置无效电平  <br>向下计数：CNT>CCR时，REF置无效电平，CNT≤CCR时，REF置有效电平 |
 | PWM模式2(与 PWM 1 相反) | 向上计数：CNT<CCR时，REF置无效电平，CNT≥CCR时，REF置有效电平  <br>向下计数：CNT>CCR时，REF置无效电平，CNT≤CCR时，REF置有效电平 |
 ## 模板
-```
+```c
 void PWM_Init()
 {
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2,ENABLE);        //开启TIM2的时钟
