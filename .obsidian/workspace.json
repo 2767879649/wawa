@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "PWM"
+              "title": "直流电机（小风扇）"
             }
           }
         ],
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "PWM 的反向链接列表"
+              "title": "直流电机（小风扇） 的反向链接列表"
             }
           },
           {
@@ -281,9 +281,9 @@
   },
   "active": "7c1f477a2324aa5e",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "嵌入式.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",

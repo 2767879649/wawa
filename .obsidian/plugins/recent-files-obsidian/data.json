@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "直流电机（小风扇）",
+      "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
+    },
+    {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "未命名 1",
       "path": "未命名 1.canvas"
-    },
-    {
-      "basename": "直流电机（小风扇）",
-      "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
     },
     {
       "basename": "舵机",
