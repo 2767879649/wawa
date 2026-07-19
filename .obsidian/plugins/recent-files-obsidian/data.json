@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "定时器中断",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器中断.md"
+      "basename": "定时器",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
+    },
+    {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
+      "basename": "AFIO",
+      "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
+    },
+    {
+      "basename": "LECO显示屏",
+      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "LED",
+      "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
+    },
+    {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
+    },
+    {
+      "basename": "基础开始 1",
+      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
+    },
+    {
+      "basename": "基础开始",
+      "path": "learning学习/嵌入式/STM32/基础开始.md"
     },
     {
       "basename": "EXTI外部中断",
@@ -21,22 +53,6 @@
       "path": "嵌入式.md"
     },
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "基础开始",
-      "path": "learning学习/嵌入式/STM32/基础开始.md"
-    },
-    {
-      "basename": "基础开始 1",
-      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
-    },
-    {
-      "basename": "中断事件",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件.md"
-    },
-    {
       "basename": "未命名",
       "path": "未命名.base"
     },
@@ -53,24 +69,8 @@
       "path": "learning学习/编程语言/C++.md"
     },
     {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
       "basename": "STM32F103C8T6引脚定义 1",
       "path": "STM32F103C8T6引脚定义 1.png"
-    },
-    {
-      "basename": "定时器",
-      "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
-    },
-    {
-      "basename": "LECO显示屏",
-      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
-    },
-    {
-      "basename": "LED",
-      "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
     },
     {
       "basename": "基础函数",
@@ -79,10 +79,6 @@
     {
       "basename": "宏定义",
       "path": "learning学习/嵌入式/STM32/记录基础/宏定义.md"
-    },
-    {
-      "basename": "建立一个新工程",
-      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
     },
     {
       "basename": "2026-07-17",
@@ -131,10 +127,6 @@
     {
       "basename": "舵机",
       "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
-    },
-    {
-      "basename": "AFIO",
-      "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
     },
     {
       "basename": "建立一个工程",
