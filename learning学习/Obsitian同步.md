@@ -1,6 +1,6 @@
 ## Fast Note sysnc同步
 ### 未配置路径，在cmd或PowerShell中使用
- 1. 使用<font color="#c00000">~/fast-note/fast-note-sync-service.exe run</font>打开插件所需服务
+ 1. 使用<font color="#c00000">~/fast-note/fans run</font>打开插件所需服务
  2. 进入<font color="#c00000">http://localhost:9000/</font>查看服务器
 ### 在git bash中使用
   fns run          # 启动服务
