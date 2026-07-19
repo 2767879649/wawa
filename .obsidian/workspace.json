@@ -26,12 +26,15 @@
             "id": "0dc9dea5e5258e99",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始 1.md"
+                "file": "learning学习/电脑快捷键.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "基础开始 1"
+              "icon": "lucide-file",
+              "title": "电脑快捷键"
             }
           },
           {
@@ -98,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"updated\"]",
+                "query": "电脑快捷键",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/基础开始 1.md",
+                "file": "learning学习/电脑快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "基础开始 1 的反向链接列表"
+              "title": "电脑快捷键 的反向链接列表"
             }
           },
           {
@@ -306,10 +309,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "228bfa193061227f",
+  "active": "0dc9dea5e5258e99",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/基础开始 1.md",
+    "learning学习/电脑快捷键.md",
+    "learning学习/未命名",
+    "learning学习/电脑快捷键",
+    "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
@@ -353,8 +359,6 @@
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/00-知识库索引.md.tmp.40048.d0ef361c7d91",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md.tmp.40048.2a05bf94a0f8",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/09-ARM嵌入式部署/08-ARM嵌入式部署.md.tmp.40048.f1e91be9340a",
-    "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/03-Qt核心知识/02-Qt核心知识.md.tmp.40048.0444724a27d2",
-    "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md.tmp.40048.5b19442ef361",
     "未命名.canvas",
     "zigbee.canvas",
     "Pasted image 20260620142943.png"
