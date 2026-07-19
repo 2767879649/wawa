@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "按键",
       "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "基础函数",

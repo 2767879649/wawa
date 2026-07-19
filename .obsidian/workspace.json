@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "定时器"
+              "title": "PWM"
             }
           }
         ],
@@ -50,7 +50,7 @@
       {
         "id": "58587c2031b39a43",
         "type": "tabs",
-        "dimension": 56.97674418604651,
+        "dimension": 57.105943152454785,
         "children": [
           {
             "id": "228bfa193061227f",
@@ -107,7 +107,7 @@
       {
         "id": "28d484dbd5f8fb9c",
         "type": "tabs",
-        "dimension": 43.02325581395349,
+        "dimension": 42.89405684754522,
         "children": [
           {
             "id": "85b5773b0c5a7688",
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "定时器 的反向链接列表"
+              "title": "PWM 的反向链接列表"
             }
           },
           {
@@ -158,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -282,8 +281,8 @@
   },
   "active": "7c1f477a2324aa5e",
   "lastOpenFiles": [
-    "嵌入式.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
+    "嵌入式.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
