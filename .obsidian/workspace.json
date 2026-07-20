@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "EXTI"
+              "title": "输入捕获"
             }
           }
         ],
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "EXTI 的反向链接列表"
+              "title": "输入捕获 的反向链接列表"
             }
           },
           {
@@ -281,11 +281,15 @@
   },
   "active": "64e3f558f6a72884",
   "lastOpenFiles": [
+    "Pasted image 20260720175003.png",
+    "Pasted image 20260720174914.png",
+    "Pasted image 20260720115432.png.md",
+    "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
+    "嵌入式.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
-    "嵌入式.md",
-    "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "STM32F10xxx参考手册（中文）.pdf",
     "Pasted image 20260720121436.png",
@@ -295,7 +299,6 @@
     "learning学习/未命名",
     "learning学习/电脑快捷键",
     "learning学习/嵌入式/STM32/基础开始.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/LED.md",
@@ -315,13 +318,11 @@
     "learning学习/Obsitian同步.md",
     "Excalidraw/Drawing 2026-07-18 00.48.48.excalidraw.restored.md",
     "Excalidraw",
-    "2026-07-18.md",
     "Pasted image 20260718181003.png",
     "未命名.base",
     "learning学习/嵌入式/STM32/记录基础/中断事件",
     "未命名 3.canvas",
     "未命名 2.canvas",
-    "learning学习/编程语言/C++.md",
     "STM32F103C8T6引脚定义 1.png",
     "1.canvas",
     "未命名 1.canvas",
@@ -332,7 +333,6 @@
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/00-知识库索引.md.tmp.40048.d0ef361c7d91",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md.tmp.40048.2a05bf94a0f8",
     "未命名.canvas",
-    "zigbee.canvas",
-    "Pasted image 20260620142943.png"
+    "zigbee.canvas"
   ]
 }
