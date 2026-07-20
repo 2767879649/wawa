@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
       "basename": "嵌入式",
       "path": "嵌入式.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "Pasted image 20260718181308",
       "path": "Pasted image 20260718181308.png"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "宏定义",
