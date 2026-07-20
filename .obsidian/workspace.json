@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/电脑快捷键.md",
+                "file": "嵌入式.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "电脑快捷键"
+              "title": "嵌入式"
             }
           },
           {
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/电脑快捷键.md",
+                "file": "嵌入式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "电脑快捷键 的反向链接列表"
+              "title": "嵌入式 的反向链接列表"
             }
           },
           {
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -312,8 +311,9 @@
   },
   "active": "0dc9dea5e5258e99",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/基础开始 1.md",
+    "Pasted image 20260720115432.png",
     "learning学习/电脑快捷键.md",
+    "learning学习/嵌入式/STM32/基础开始 1.md",
     "learning学习/未命名",
     "learning学习/电脑快捷键",
     "learning学习/嵌入式/STM32/基础开始.md",
@@ -350,7 +350,6 @@
     "learning学习/编程语言/C++.md",
     "STM32F103C8T6引脚定义 1.png",
     "Excalidraw/cropped_Drawing 2026-07-17 21.26.11.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-18 16.22.40.excalidraw.md",
     "1.canvas",
     "未命名 1.canvas",
     "assets/未命名.canvas",

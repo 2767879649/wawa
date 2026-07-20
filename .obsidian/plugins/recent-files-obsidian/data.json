@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "嵌入式",
+      "path": "嵌入式.md"
+    },
+    {
       "basename": "电脑快捷键",
       "path": "learning学习/电脑快捷键.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "EXTI",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
     },
     {
       "basename": "AFIO",
