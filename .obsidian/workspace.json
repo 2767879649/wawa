@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "电脑快捷键",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -280,7 +280,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f908121a881a864d",
+  "active": "4ba88e00c618e109",
   "lastOpenFiles": [
     "learning学习/电脑快捷键.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
