@@ -102,8 +102,7 @@
               "title": "Recent files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "28d484dbd5f8fb9c",
@@ -280,7 +279,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4ba88e00c618e109",
+  "active": "228bfa193061227f",
   "lastOpenFiles": [
     "learning学习/电脑快捷键.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
