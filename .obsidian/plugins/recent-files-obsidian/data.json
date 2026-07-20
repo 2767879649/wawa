@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "正交编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
+    },
+    {
       "basename": "旋钮编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "01-开发环境搭建",
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md"
-    },
-    {
-      "basename": "案例模板",
-      "path": "learning学习/嵌入式/Qt/案例模板.md"
     }
   ],
   "omittedPaths": [],
