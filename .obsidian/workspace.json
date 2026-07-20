@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
+                "file": "learning学习/电脑快捷键.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "正交编码器"
+              "title": "电脑快捷键"
             }
           },
           {
@@ -37,7 +37,8 @@
               "title": "定时器"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,8 @@
               "title": "Recent files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "28d484dbd5f8fb9c",
@@ -114,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "正交编码器 的反向链接列表"
+              "title": "定时器 的反向链接列表"
             }
           },
           {
@@ -278,10 +280,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "64e3f558f6a72884",
+  "active": "f908121a881a864d",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
+    "learning学习/电脑快捷键.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
+    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "Pasted image 20260720184215.png",
     "templates/notes/7bd6cd2c-0f55-490f-abb8-014a6532e9bc.md",
     "Pasted image 20260720183719.png",
@@ -297,7 +300,6 @@
     "STM32F10xxx参考手册（中文）.pdf",
     "Pasted image 20260720121436.png",
     "Pasted image 20260720115432.png",
-    "learning学习/电脑快捷键.md",
     "learning学习/嵌入式/STM32/基础开始 1.md",
     "learning学习/未命名",
     "learning学习/电脑快捷键",

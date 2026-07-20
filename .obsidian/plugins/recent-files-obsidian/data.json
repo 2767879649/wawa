@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "定时器",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
+    },
+    {
+      "basename": "电脑快捷键",
+      "path": "learning学习/电脑快捷键.md"
+    },
+    {
       "basename": "正交编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "输入捕获",
       "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
-    },
-    {
-      "basename": "定时器",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
     },
     {
       "basename": "Pasted image 20260720115432.png",
@@ -35,10 +39,6 @@
     {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
-      "basename": "电脑快捷键",
-      "path": "learning学习/电脑快捷键.md"
     },
     {
       "basename": "基础开始 1",
