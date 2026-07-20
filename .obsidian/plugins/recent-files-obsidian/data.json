@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+      "basename": "EXTI",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
+    },
+    {
+      "basename": "旋钮编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
+    },
+    {
+      "basename": "NVIC",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md"
     },
     {
       "basename": "嵌入式",
       "path": "嵌入式.md"
+    },
+    {
+      "basename": "输入捕获",
+      "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
+    },
+    {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "电脑快捷键",
@@ -15,10 +31,6 @@
     {
       "basename": "基础开始 1",
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
-    },
-    {
-      "basename": "旋钮编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
     },
     {
       "basename": "定时器",
@@ -39,10 +51,6 @@
     {
       "basename": "建立一个新工程",
       "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
-    },
-    {
-      "basename": "EXTI",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
     },
     {
       "basename": "AFIO",
@@ -191,14 +199,6 @@
     {
       "basename": "网页上线前检查",
       "path": "learning学习/claude/笔记文件/网页上线前检查.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "learning学习/Markdown.md"
-    },
-    {
-      "basename": "技能",
-      "path": "learning学习/claude/笔记文件/技能.md"
     }
   ],
   "omittedPaths": [],
