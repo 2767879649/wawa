@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/舵机.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "舵机 的反向链接列表"
+              "title": "PWM 的反向链接列表"
             }
           },
           {
@@ -309,11 +309,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f908121a881a864d",
+  "active": "a3609f3f3edb063f",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
-    "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/电脑快捷键.md",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "Pasted image 20260721155730.png",
