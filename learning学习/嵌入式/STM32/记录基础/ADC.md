@@ -21,10 +21,10 @@ void AD_Init(void)
     RCC_ADCCLKConfig(RCC_PCLK2_Div6);                        //设置预分频 72Mhz/6=12Mhz，ADC最高使用14Mhz   
     ADC_RegularChannelConfig(ADC1,ADC_Channel_0,1,ADC_SampleTime_55Cycles5);    //选择通道
     ADC_InitTypeDef ADC_Struct;                                //结构体
-    ADC_Struct.ADC_ContinuousConvMode=ENABLE;                //
-    ADC_Struct.ADC_DataAlign=ADC_DataAlign_Right;
-    ADC_Struct.ADC_ExternalTrigConv=ADC_ExternalTrigConv_None;
-    ADC_Struct.ADC_Mode=ADC_Mode_Independent;
+    ADC_Struct.ADC_ContinuousConvMode=DISNABLE;                //通道模式，单次还是连续
+    ADC_Struct.ADC_DataAlign=ADC_DataAlign_Right;            //数据右对齐
+    ADC_Struct.ADC_ExternalTrigConv=ADC_ExternalTrigConv_None;    //选择外部中断口
+    ADC_Struct.ADC_Mode=ADC_Mode_Independent;                //选择da'm
     ADC_Struct.ADC_NbrOfChannel=1;
     ADC_Struct.ADC_ScanConvMode=DISABLE;
     ADC_Init(ADC1,&ADC_Struct);//ADC初始化
