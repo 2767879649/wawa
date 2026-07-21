@@ -1,12 +1,15 @@
+# 
+ADC 是 12 位
 ADC 时钟最高 14 Mhz
+
 
 C 8 T 6 有两个 ADC
 ADC 1，ADC 2
 引脚查看 [[GPIO端口]]
-ADC 开启后需要进行校准
-![[Pasted image 20260721155730.png]]
+![[Pasted image 20260721155730.png|491]]
 # 函数
 GPIO->ADC[^1]
+ADC 开启后需要进行校准
 ## 初始化
 ```
 void AD_Init(void)
@@ -30,6 +33,8 @@ void AD_Init(void)
     ADC_Struct.ADC_ContinuousConvMode=DISABLE;                //不开启连续转换，失能，每转换一次规则组序列后停止
     ADC_Init(ADC1,&ADC_Struct);//ADC初始化
     ADC_Cmd(ADC1,ENABLE);//开启ADC
+    
+    
     //固定流程，内部有电路会自动执行校准
     ADC_ResetCalibration(ADC1);            
     while(ADC_GetResetCalibrationStatus(ADC1));
@@ -38,6 +43,17 @@ void AD_Init(void)
     
 }
 ```
+
+
+
+
+
+
+
+
+
+
+
 
 [^1]: 开启 ADC 时钟
   配置 ADC 频率
