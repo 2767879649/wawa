@@ -3,7 +3,7 @@
 *用数字信号模拟模拟信号*
 基于定时器进行的[[定时器]]
 ## 函数
-`TIM_SetCompare2(TIM2, Num);`  //改变 CCR 值
+`TIM_SetCompare1|2(TIM2, Num);`  //改变 CCR 值
 
 
 寄存器会对定时器进行捕获，有多个通道，请查看 [[GPIO端口]]

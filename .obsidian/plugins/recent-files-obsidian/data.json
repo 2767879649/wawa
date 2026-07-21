@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "ADC",
+      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
+    },
+    {
+      "basename": "定时器",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
+    },
+    {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "电脑快捷键",
       "path": "learning学习/电脑快捷键.md"
-    },
-    {
-      "basename": "ADC",
-      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
-    },
-    {
-      "basename": "定时器",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
     },
     {
       "basename": "正交编码器",
