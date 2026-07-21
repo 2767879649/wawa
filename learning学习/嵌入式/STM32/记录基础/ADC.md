@@ -37,6 +37,11 @@ void AD_Init(void)
     while(ADC_GetCalibrationStatus(ADC1));//ADC校准完成        
     
 }
-’```
+```
 
-[^1]: 
+[^1]: 开启 ADC 时钟
+  配置 ADC 频率
+  选择 ADC，选择通道
+  结构体初始化
+  开启 ADC
+  进行 ADC 校验
