@@ -59,7 +59,7 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/嵌入式/STM32/记录基础/ADC.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -327,11 +327,11 @@
   "active": "58f4486dd17c548b",
   "lastOpenFiles": [
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
+    "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "Pasted image 20260722132537.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "templates/notes/6a9bf159-d4f5-4e78-8684-4efc67dc57e0.md",
     "Pasted image 20260722114813.png",
-    "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "learning学习/嵌入式/STM32/未命名.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
