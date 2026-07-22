@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "串口通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/串口通信.md"
-    },
-    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "串口通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/串口通信.md"
     },
     {
       "basename": "ADC",
