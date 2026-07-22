@@ -50,6 +50,10 @@ void AD_Init(void)
     
 }
 ```
+### ADC+DMA
+[[DMA]]
+
+
 
 
 

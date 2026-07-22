@@ -1,7 +1,11 @@
 # DMA
+ ![[Pasted image 20260722114813.png|515]]![[Pasted image 20260722132537.png|457]]
+ *触发DMA条件*
+1. 传输计数器>0  
+2. 触发源有触发信号  
+3. DMA使能
+<u>更改DMA配置，需要先失能，更改后再使能</u>
 
-
-**![[Pasted image 20260722114813.png|427]]**![[Pasted image 20260722132537.png|470]]
 ## 初始化
 ```c
 void MyDMA_Init(uint32_t AddrA,uint32_t AddrB,uint32_t Size)
@@ -25,6 +29,7 @@ void MyDMA_Init(uint32_t AddrA,uint32_t AddrB,uint32_t Size)
 }
 ```
 ### ADC 多通道+DMA 循环转存
+[[ADC]] 
 ```c
 void AD_Init(void)
 {
@@ -56,20 +61,20 @@ void AD_Init(void)
     DMA_InitTypeDef DMA_InitStructure;                                            //定义结构体变量
     DMA_InitStructure.DMA_PeripheralBaseAddr = (uint32_t)&ADC1->DR;                //外设基地址，给定形参AddrA
     DMA_InitStructure.DMA_PeripheralDataSize = DMA_PeripheralDataSize_HalfWord;    //外设数据宽度，选择半字，对应16为的ADC数据寄存器
-    DMA_InitStructure.DMA_PeripheralInc = DMA_PeripheralInc_Disable;            //外设地址自增，选择失能，始终以ADC数据寄存器为源
+    DMA_InitStructure.DMA_PeripheralInc = DMA_PeripheralInc_Disable;            //外设地址自增
     DMA_InitStructure.DMA_MemoryBaseAddr = (uint32_t)AD_Value;                    //存储器基地址，给定存放AD转换结果的全局数组AD_Value
     DMA_InitStructure.DMA_MemoryDataSize = DMA_MemoryDataSize_HalfWord;            //存储器数据宽度，选择半字，与源数据宽度对应
-    DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;                        //存储器地址自增，选择使能，每次转运后，数组移到下一个位置
-    DMA_InitStructure.DMA_DIR = DMA_DIR_PeripheralSRC;                            //数据传输方向，选择由外设到存储器，ADC数据寄存器转到数组
+    DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;                        //存储器地址自增
+    DMA_InitStructure.DMA_DIR = DMA_DIR_PeripheralSRC;                            //数据传输方向
     DMA_InitStructure.DMA_BufferSize = 4;                                        //转运的数据大小（转运次数），与ADC通道数一致
     DMA_InitStructure.DMA_Mode = DMA_Mode_Circular;                                //模式，选择循环模式，与ADC的连续转换一致
-    DMA_InitStructure.DMA_M2M = DMA_M2M_Disable;                                //存储器到存储器，选择失能，数据由ADC外设触发转运到存储器
+    DMA_InitStructure.DMA_M2M = DMA_M2M_Disable;                                //选择软件触发，硬件触发
     DMA_InitStructure.DMA_Priority = DMA_Priority_Medium;                        //优先级，选择中等
     DMA_Init(DMA1_Channel1, &DMA_InitStructure);                                //将结构体变量交给DMA_Init，配置DMA1的通道1
     
     /*DMA和ADC使能*/
     DMA_Cmd(DMA1_Channel1, ENABLE);                            //DMA1的通道1使能
-    ADC_DMACmd(ADC1, ENABLE);                                //ADC1触发DMA1的信号使能
+    ADC_DMACmd(ADC1, ENABLE);                                //开启ADC1触发DMA1的信号使能
     ADC_Cmd(ADC1, ENABLE);                                    //ADC1使能
     
     /*ADC校准*/
