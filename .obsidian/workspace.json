@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/DMA.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/宏定义.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DMA"
+              "title": "宏定义"
             }
           },
           {
@@ -112,7 +112,7 @@
       {
         "id": "58587c2031b39a43",
         "type": "tabs",
-        "dimension": 57.105943152454785,
+        "dimension": 71.70542635658916,
         "children": [
           {
             "id": "228bfa193061227f",
@@ -169,7 +169,7 @@
       {
         "id": "28d484dbd5f8fb9c",
         "type": "tabs",
-        "dimension": 42.89405684754522,
+        "dimension": 28.294573643410853,
         "children": [
           {
             "id": "85b5773b0c5a7688",
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/DMA.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/宏定义.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "DMA 的反向链接列表"
+              "title": "宏定义 的反向链接列表"
             }
           },
           {
@@ -343,6 +343,9 @@
   },
   "active": "a3609f3f3edb063f",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/按键.md",
+    "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
+    "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "未命名 1.canvas",
@@ -359,12 +362,10 @@
     "Pasted image 20260721155730.png",
     "STM32F10xxx参考手册（中文） 1.pdf",
     "templates/notes/1df6da16-7510-4d1a-8cbc-51d429f394f3.md",
-    "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "Pasted image 20260720184215.png",
     "templates/notes/7bd6cd2c-0f55-490f-abb8-014a6532e9bc.md",
     "Pasted image 20260720183719.png",
-    "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "Pasted image 20260720175003.png",
     "Pasted image 20260720174914.png",
     "Pasted image 20260720115432.png.md",

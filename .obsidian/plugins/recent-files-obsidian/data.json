@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "DMA",
-      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
+      "basename": "宏定义",
+      "path": "learning学习/嵌入式/STM32/记录基础/宏定义.md"
+    },
+    {
+      "basename": "按键",
+      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
+    },
+    {
+      "basename": "输入捕获",
+      "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
+    },
+    {
+      "basename": "正交编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
     },
     {
       "basename": "ADC",
       "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
+    },
+    {
+      "basename": "DMA",
+      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
     },
     {
       "basename": "未命名 1",
@@ -37,16 +53,8 @@
       "path": "learning学习/电脑快捷键.md"
     },
     {
-      "basename": "正交编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
-    },
-    {
       "basename": "旋钮编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
-    },
-    {
-      "basename": "输入捕获",
-      "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
     },
     {
       "basename": "Pasted image 20260720115432.png",
@@ -95,14 +103,6 @@
     {
       "basename": "Pasted image 20260718181308",
       "path": "Pasted image 20260718181308.png"
-    },
-    {
-      "basename": "宏定义",
-      "path": "learning学习/嵌入式/STM32/记录基础/宏定义.md"
-    },
-    {
-      "basename": "按键",
-      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
     },
     {
       "basename": "LECO显示屏",
