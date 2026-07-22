@@ -53,6 +53,23 @@
             }
           },
           {
+            "id": "f8076e3061ae9a40",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名 1"
+            }
+          },
+          {
             "id": "58f4486dd17c548b",
             "type": "leaf",
             "state": {
@@ -326,8 +343,10 @@
   },
   "active": "a3609f3f3edb063f",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/ADC.md",
+    "未命名 1.canvas",
+    "STM32F103C8T6引脚定义 1.png",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
+    "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "Pasted image 20260722132537.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "templates/notes/6a9bf159-d4f5-4e78-8684-4efc67dc57e0.md",
@@ -364,7 +383,6 @@
     "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
     "learning学习/嵌入式/STM32/记录基础/AFIO.md",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
-    "Pasted image 20260719183209.png",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
     "Excalidraw",
     "未命名.base",
@@ -372,7 +390,6 @@
     "未命名 3.canvas",
     "未命名 2.canvas",
     "1.canvas",
-    "未命名 1.canvas",
     "assets/未命名.canvas",
     "learning学习/嵌入式/STM32/记录基础",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/00-知识库索引.md.tmp.40048.d0ef361c7d91",
