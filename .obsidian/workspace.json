@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/DMA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "GPIO端口 的反向链接列表"
+              "title": "DMA 的反向链接列表"
             }
           },
           {
@@ -309,8 +309,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0d45e2693bda3e0e",
+  "active": "a3609f3f3edb063f",
   "lastOpenFiles": [
+    "Pasted image 20260722132537.png",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "templates/notes/6a9bf159-d4f5-4e78-8684-4efc67dc57e0.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "Pasted image 20260722114813.png",
@@ -319,7 +321,6 @@
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/电脑快捷键.md",
     "Pasted image 20260721155730.png",
     "STM32F10xxx参考手册（中文） 1.pdf",
@@ -351,7 +352,6 @@
     "Pasted image 20260719183209.png",
     "Pasted image 20260719183052.png",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
-    "learning学习/嵌入式/STM32/记录基础/宏定义.md",
     "Excalidraw",
     "未命名.base",
     "learning学习/嵌入式/STM32/记录基础/中断事件",
