@@ -53,6 +53,21 @@
             }
           },
           {
+            "id": "58f4486dd17c548b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning学习/嵌入式/STM32/记录基础/ADC.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ADC"
+            }
+          },
+          {
             "id": "0d45e2693bda3e0e",
             "type": "leaf",
             "state": {
@@ -68,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/DMA.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/ADC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "DMA 的反向链接列表"
+              "title": "ADC 的反向链接列表"
             }
           },
           {
@@ -309,12 +324,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a3609f3f3edb063f",
+  "active": "58f4486dd17c548b",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "Pasted image 20260722132537.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "templates/notes/6a9bf159-d4f5-4e78-8684-4efc67dc57e0.md",
-    "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "Pasted image 20260722114813.png",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "learning学习/嵌入式/STM32/未命名.md",
@@ -350,7 +365,6 @@
     "learning学习/嵌入式/STM32/记录基础/AFIO.md",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "Pasted image 20260719183209.png",
-    "Pasted image 20260719183052.png",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
     "Excalidraw",
     "未命名.base",

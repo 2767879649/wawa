@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "ADC",
+      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
+    },
+    {
       "basename": "DMA",
       "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
     },
     {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "ADC",
-      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
     },
     {
       "basename": "定时器",
