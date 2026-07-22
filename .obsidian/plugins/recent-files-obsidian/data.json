@@ -1,16 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "宏定义",
-      "path": "learning学习/嵌入式/STM32/记录基础/宏定义.md"
+      "basename": "输入捕获",
+      "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
     },
     {
       "basename": "按键",
       "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
-    },
-    {
-      "basename": "输入捕获",
-      "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
     },
     {
       "basename": "正交编码器",

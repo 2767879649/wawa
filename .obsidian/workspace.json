@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/宏定义.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "宏定义"
+              "title": "输入捕获"
             }
           },
           {
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/宏定义.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "宏定义 的反向链接列表"
+              "title": "输入捕获 的反向链接列表"
             }
           },
           {
@@ -344,6 +344,7 @@
   "active": "a3609f3f3edb063f",
   "lastOpenFiles": [
     "learning学习/嵌入式/STM32/记录基础/按键.md",
+    "learning学习/嵌入式/STM32/记录基础/宏定义.md",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
@@ -383,7 +384,6 @@
     "learning学习/嵌入式/STM32/记录基础/LED.md",
     "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
     "learning学习/嵌入式/STM32/记录基础/AFIO.md",
-    "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
     "Excalidraw",
     "未命名.base",
