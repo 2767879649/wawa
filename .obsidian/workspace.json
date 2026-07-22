@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/ADC.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/DMA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ADC 的反向链接列表"
+              "title": "DMA 的反向链接列表"
             }
           },
           {
@@ -324,10 +324,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "58f4486dd17c548b",
+  "active": "a3609f3f3edb063f",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
+    "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "Pasted image 20260722132537.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "templates/notes/6a9bf159-d4f5-4e78-8684-4efc67dc57e0.md",
