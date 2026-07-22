@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/ADC.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/DMA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ADC"
+              "title": "DMA"
             }
           },
           {
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/ADC.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ADC 的反向链接列表"
+              "title": "GPIO端口 的反向链接列表"
             }
           },
           {
@@ -188,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -309,14 +310,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a3609f3f3edb063f",
+  "active": "0d45e2693bda3e0e",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/DMA.md",
+    "Pasted image 20260722114813.png",
+    "learning学习/嵌入式/STM32/记录基础/ADC.md",
+    "learning学习/嵌入式/STM32/未命名.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/电脑快捷键.md",
-    "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "Pasted image 20260721155730.png",
     "STM32F10xxx参考手册（中文） 1.pdf",
     "templates/notes/1df6da16-7510-4d1a-8cbc-51d429f394f3.md",
@@ -346,11 +350,8 @@
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "Pasted image 20260719183209.png",
     "Pasted image 20260719183052.png",
-    "Pasted image 20260718181308.png",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
     "learning学习/嵌入式/STM32/记录基础/宏定义.md",
-    "learning学习/嵌入式/STM32/记录基础/按键.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件.md",
     "Excalidraw",
     "未命名.base",
     "learning学习/嵌入式/STM32/记录基础/中断事件",

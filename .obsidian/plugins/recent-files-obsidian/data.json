@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "DMA",
+      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
+    },
+    {
       "basename": "ADC",
       "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "舵机",
       "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "电脑快捷键",
@@ -195,10 +199,6 @@
     {
       "basename": "00-知识库索引",
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/00-知识库索引.md"
-    },
-    {
-      "basename": "00-系统架构概览",
-      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/01-系统架构概览/00-系统架构概览.md"
     }
   ],
   "omittedPaths": [],
