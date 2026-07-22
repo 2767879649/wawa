@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "串口通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/串口通信.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "ADC",
+      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "未命名 1.canvas"
+    },
+    {
       "basename": "输入捕获",
       "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
     },
@@ -13,24 +29,12 @@
       "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
     },
     {
-      "basename": "ADC",
-      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
-    },
-    {
       "basename": "DMA",
       "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
     },
     {
-      "basename": "未命名 1",
-      "path": "未命名 1.canvas"
-    },
-    {
       "basename": "STM32F103C8T6引脚定义 1",
       "path": "STM32F103C8T6引脚定义 1.png"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "定时器",
