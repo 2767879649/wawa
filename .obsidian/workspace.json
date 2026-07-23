@@ -11,15 +11,12 @@
             "id": "c8893613af883ac0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf"
               },
-              "icon": "lucide-file",
-              "title": "I2C通信"
+              "icon": "lucide-file-text",
+              "title": "STM32F10xxx参考手册（中文）"
             }
           },
           {
@@ -114,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
+                "file": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "I2C通信 的反向链接列表"
+              "title": "STM32F10xxx参考手册（中文） 的反向链接列表"
             }
           },
           {
@@ -280,6 +277,7 @@
   },
   "active": "c8893613af883ac0",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "Pasted image 20260723173529.png",
     "learning学习/嵌入式/STM32/STM32入门教程.pdf",
     "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf",
@@ -288,7 +286,6 @@
     "learning学习/嵌入式/STM32/~$M32入门教程.pptx",
     "learning学习/嵌入式/STM32/基础开始 1.md",
     "learning学习/嵌入式/STM32/STM32入门教程 1.pptx",
-    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "learning学习/嵌入式/STM32/记录基础/STM32入门教程.pptx",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/通信",
@@ -318,7 +315,6 @@
     "STM32F10xxx参考手册（中文） 1.pdf",
     "templates/notes/1df6da16-7510-4d1a-8cbc-51d429f394f3.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
-    "Pasted image 20260720184215.png",
     "templates/notes/7bd6cd2c-0f55-490f-abb8-014a6532e9bc.md",
     "Pasted image 20260720115432.png.md",
     "嵌入式.md",
