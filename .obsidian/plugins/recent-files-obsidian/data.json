@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "I2C通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
+    },
+    {
       "basename": "STM32入门教程",
       "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "基础开始 1",
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
-    },
-    {
-      "basename": "I2C通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
     },
     {
       "basename": "串口通信",
