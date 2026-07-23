@@ -11,15 +11,12 @@
             "id": "c8893613af883ac0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf"
               },
-              "icon": "lucide-file",
-              "title": "I2C通信"
+              "icon": "lucide-file-text",
+              "title": "STM32F10xxx参考手册（中文）"
             }
           },
           {
@@ -114,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
+                "file": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "I2C通信 的反向链接列表"
+              "title": "STM32F10xxx参考手册（中文） 的反向链接列表"
             }
           },
           {
@@ -278,10 +275,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c8893613af883ac0",
+  "active": "228bfa193061227f",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
+    "learning学习/嵌入式/STM32/STM32入门教程 1.pptx",
+    "learning学习/嵌入式/STM32/STM32入门教程.pptx",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
+    "learning学习/嵌入式/STM32/记录基础/STM32入门教程.pptx",
+    "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/通信",
     "Pasted image 20260722211754.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
@@ -321,16 +321,13 @@
     "learning学习/电脑快捷键",
     "learning学习/嵌入式/STM32/基础开始.md",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
-    "learning学习/嵌入式/STM32/记录基础/LED.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断",
     "Excalidraw",
     "未命名.base",
-    "learning学习/嵌入式/STM32/记录基础/中断事件",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "1.canvas",
     "assets/未命名.canvas",
-    "learning学习/嵌入式/STM32/记录基础",
     "未命名.canvas",
     "zigbee.canvas"
   ]
