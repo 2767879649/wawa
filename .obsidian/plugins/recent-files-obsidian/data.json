@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "数据类型",
+      "path": "learning学习/嵌入式/STM32/数据类型.md"
+    },
+    {
       "basename": "MPU6050",
       "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "总结内容",
       "path": "learning学习/总结内容.md"
-    },
-    {
-      "basename": "， 2026-07-09",
-      "path": "， 2026-07-09.md"
     }
   ],
   "omittedPaths": [],
