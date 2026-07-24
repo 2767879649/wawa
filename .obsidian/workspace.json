@@ -64,7 +64,8 @@
               "title": "STM32F103C8T6引脚定义 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -306,10 +307,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c8893613af883ac0",
+  "active": "9d3e8413d2e8679d",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
+    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "STM32F103C8T6引脚定义 1.png",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
