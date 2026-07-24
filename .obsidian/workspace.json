@@ -64,8 +64,7 @@
               "title": "STM32F103C8T6引脚定义 1"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STM32F103C8T6引脚定义 1.png",
+                "file": "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "STM32F103C8T6引脚定义 1 的反向链接列表"
+              "title": "MPU6050 的反向链接列表"
             }
           },
           {
@@ -307,8 +306,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "de0ec5ffddcc783b",
+  "active": "c8893613af883ac0",
   "lastOpenFiles": [
+    "STM32F103C8T6引脚定义 1.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
@@ -335,7 +335,6 @@
     "learning学习/嵌入式/STM32/记录基础/宏定义.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
-    "STM32F103C8T6引脚定义 1.png",
     "Pasted image 20260722132537.png",
     "templates/notes/6a9bf159-d4f5-4e78-8684-4efc67dc57e0.md",
     "Pasted image 20260722114813.png",
@@ -355,7 +354,6 @@
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md",
     "learning学习/未命名",
     "learning学习/嵌入式/STM32/基础开始.md",
-    "learning学习/嵌入式/STM32/记录基础/基础函数.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "1.canvas",
