@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/数据类型.md",
+                "file": "learning学习/编程语言/C语言/数据类型.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/数据类型.md",
+                "file": "learning学习/编程语言/C语言/数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,8 +295,10 @@
   },
   "active": "c8893613af883ac0",
   "lastOpenFiles": [
+    "learning学习/编程语言/C++.md",
+    "learning学习/编程语言/C语言",
+    "learning学习/编程语言/C语言/数据类型.md",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
-    "learning学习/嵌入式/STM32/数据类型.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "Pasted image 20260724222115.png",
@@ -339,7 +341,6 @@
     "嵌入式.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md",
-    "learning学习/未命名",
     "learning学习/嵌入式/STM32/基础开始.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
