@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "I2C通信"
+              "title": "MPU6050"
             }
           },
           {
@@ -51,21 +51,8 @@
               "icon": "lucide-file",
               "title": "GPIO端口"
             }
-          },
-          {
-            "id": "de0ec5ffddcc783b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "STM32F103C8T6引脚定义 1.png"
-              },
-              "icon": "lucide-image",
-              "title": "STM32F103C8T6引脚定义 1"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -307,14 +294,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9d3e8413d2e8679d",
+  "active": "c8893613af883ac0",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
+    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "Pasted image 20260724222115.png",
     "Pasted image 20260724222101.png",
     "Pasted image 20260724221040.png",
-    "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
-    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "STM32F103C8T6引脚定义 1.png",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf",
@@ -339,7 +326,6 @@
     "learning学习/嵌入式/STM32/记录基础/宏定义.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
-    "Pasted image 20260722132537.png",
     "templates/notes/6a9bf159-d4f5-4e78-8684-4efc67dc57e0.md",
     "learning学习/嵌入式/STM32/未命名.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md",
