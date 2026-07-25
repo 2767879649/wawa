@@ -4,7 +4,7 @@
 - 设备的 SCL 和 SDA 均要配置成<font color="#9bbb59">开漏输出模式</font>
 - SCL 和 SDA 各添加一个上拉电阻，阻值一般为 4.7KΩ 左右
 ![[Pasted image 20260724221040.png|569]]
-![[Pasted image 20260725104823.png]]
+![[Pasted image 20260725104823.png|560]]
 
 高位先行
 ### 写操作
@@ -25,7 +25,7 @@
 [[MPU6050]]
 
 
-## 初始化函数
+## 软件初始化函数
 ```C
 void MyI2C_Init()
 {
@@ -110,5 +110,11 @@ uint8_t MyI2C_ReceiveAck(void)
         MyI2C_W_SCL(0);
         return AckBit;
 }//是否接收到应答
+
+```
+
+## 硬件初始化代码
+```
+
 
 ```
