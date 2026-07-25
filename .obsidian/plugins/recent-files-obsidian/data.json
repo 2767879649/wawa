@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "SPI通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
+      "basename": "I2C通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
+    },
+    {
+      "basename": "Pasted image 20260722195124",
+      "path": "Pasted image 20260722195124.png"
+    },
+    {
+      "basename": "Pasted image 20260724221040",
+      "path": "Pasted image 20260724221040.png"
+    },
+    {
+      "basename": "Pasted image 20260724222115",
+      "path": "Pasted image 20260724222115.png"
+    },
+    {
+      "basename": "Pasted image 20260725142521",
+      "path": "Pasted image 20260725142521.png"
+    },
+    {
+      "basename": "Pasted image 20260725144755",
+      "path": "Pasted image 20260725144755.png"
+    },
+    {
+      "basename": "STM32F10xxx参考手册（中文） 1",
+      "path": "STM32F10xxx参考手册（中文） 1.pdf"
     },
     {
       "basename": "学习日期",
       "path": "learning学习/学习日期.md"
+    },
+    {
+      "basename": "SPI通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
     },
     {
       "basename": "W25Q64",
@@ -19,10 +51,6 @@
     {
       "basename": "串口通信",
       "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
-    },
-    {
-      "basename": "I2C通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
     },
     {
       "basename": "STM32入门教程",
@@ -79,10 +107,6 @@
     {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "舵机",
@@ -175,30 +199,6 @@
     {
       "basename": "ba1d10e0-4278-4b07-af53-4cf6f4e5ceda",
       "path": "templates/notes/ba1d10e0-4278-4b07-af53-4cf6f4e5ceda.md"
-    },
-    {
-      "basename": "重点",
-      "path": "learning学习/备考/zigbee/重点.md"
-    },
-    {
-      "basename": "2026-07-03-2044-练习",
-      "path": "learning学习/备考/试卷/2026-07-03-2044-练习.md"
-    },
-    {
-      "basename": "大题",
-      "path": "learning学习/备考/zigbee/大题.md"
-    },
-    {
-      "basename": "learning-note",
-      "path": "templates/learning-note.md"
-    },
-    {
-      "basename": "09-完整项目源码解析",
-      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/10-完整项目源码解析/09-完整项目源码解析.md"
-    },
-    {
-      "basename": "建立一个工程",
-      "path": "建立一个工程.md"
     }
   ],
   "omittedPaths": [],

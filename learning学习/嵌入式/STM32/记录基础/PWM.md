@@ -33,6 +33,8 @@ CCR OC 比较值
 - <font color="#245bdb">PWM分辨率：</font>
         Reso=1 /(ARR+1)​
 
+![[image/Pasted image 20260725141859.png]]
+
 
 
 ## 模板
