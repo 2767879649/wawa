@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/未命名.md"
+    },
+    {
+      "basename": "W25Qxx",
+      "path": "learning学习/嵌入式/STM32/记录基础/W25Qxx.md"
+    },
+    {
       "basename": "I2C通信",
       "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "claude基础使用",
       "path": "learning学习/claude/claude基础使用.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "learning学习/Docker.md"
-    },
-    {
-      "basename": "总结内容",
-      "path": "learning学习/总结内容.md"
     }
   ],
   "omittedPaths": [],
