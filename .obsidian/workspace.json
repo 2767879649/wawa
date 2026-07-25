@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "MPU6050"
+              "title": "I2C通信"
             }
           },
           {
@@ -52,7 +52,8 @@
               "title": "GPIO端口"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "GPIO端口 的反向链接列表"
+              "title": "I2C通信 的反向链接列表"
             }
           },
           {
@@ -293,13 +294,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c8893613af883ac0",
+  "active": "9d3e8413d2e8679d",
   "lastOpenFiles": [
+    "Pasted image 20260725104823.png",
+    "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/编程语言/C++.md",
     "learning学习/编程语言/C语言/数据类型.md",
-    "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/编程语言/C语言",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "Pasted image 20260724222115.png",
     "Pasted image 20260724222101.png",
@@ -341,7 +343,6 @@
     "嵌入式.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md",
-    "learning学习/嵌入式/STM32/基础开始.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "1.canvas",
