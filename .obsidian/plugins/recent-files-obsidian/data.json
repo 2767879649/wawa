@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
       "basename": "C++",
       "path": "learning学习/编程语言/C++.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "MPU6050",
       "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "I2C通信",
