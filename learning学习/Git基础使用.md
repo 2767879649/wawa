@@ -3,7 +3,7 @@ tags:
   - Git
 ---
 
-![[Pasted image 20260620142943.png]]
+![[image/Pasted image 20260620142943.png]]
 **获取帮助**
 1. git --help 获取命令帮助
 2. git -h 获取命令简短帮助
