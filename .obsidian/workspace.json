@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GPIO端口"
+              "title": "W25Q64"
             }
           }
         ],
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "GPIO端口 的反向链接列表"
+              "title": "W25Q64 的反向链接列表"
             }
           },
           {
@@ -281,7 +281,10 @@
   },
   "active": "e49a1881beb582c7",
   "lastOpenFiles": [
+    "Pasted image 20260725142521.png",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
+    "Pasted image 20260725141859.png",
     "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "templates/notes/c5ed4a39-351f-4111-a4d8-5350428ee0f5.md",
@@ -292,7 +295,6 @@
     "Pasted image 20260725122327.png",
     "Pasted image 20260725104823.png",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/编程语言/C++.md",
     "learning学习/编程语言/C语言/数据类型.md",
     "learning学习/编程语言/C语言",
@@ -309,7 +311,6 @@
     "learning学习/嵌入式/STM32/STM32入门教程 1.pptx",
     "learning学习/嵌入式/STM32/记录基础/STM32入门教程.pptx",
     "learning学习/嵌入式/STM32/记录基础/通信",
-    "Pasted image 20260722211754.png",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "未命名 1.canvas",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
@@ -327,7 +328,6 @@
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "templates/notes/7bd6cd2c-0f55-490f-abb8-014a6532e9bc.md",
     "Pasted image 20260720115432.png.md",
-    "嵌入式.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "1.canvas",
