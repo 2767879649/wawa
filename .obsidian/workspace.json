@@ -38,6 +38,18 @@
             }
           },
           {
+            "id": "4b6c1ca9e61b2f5d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "STM32入门教程"
+            }
+          },
+          {
             "id": "e49a1881beb582c7",
             "type": "leaf",
             "state": {
@@ -296,13 +308,16 @@
   },
   "active": "9d3e8413d2e8679d",
   "lastOpenFiles": [
+    "Pasted image 20260725122430.png",
+    "learning学习/嵌入式/STM32/STM32入门教程.pdf",
+    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
+    "Pasted image 20260725122327.png",
     "Pasted image 20260725104823.png",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/编程语言/C++.md",
     "learning学习/编程语言/C语言/数据类型.md",
     "learning学习/编程语言/C语言",
-    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "Pasted image 20260724222115.png",
     "Pasted image 20260724222101.png",
     "Pasted image 20260724221040.png",
@@ -310,7 +325,6 @@
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf",
     "Pasted image 20260723173529.png",
-    "learning学习/嵌入式/STM32/STM32入门教程.pdf",
     "learning学习/嵌入式/STM32/STM32入门教程.pptx",
     "learning学习/嵌入式/STM32/~$STM32入门教程.pptx",
     "learning学习/嵌入式/STM32/~$M32入门教程.pptx",
@@ -321,8 +335,6 @@
     "Pasted image 20260722211754.png",
     "Pasted image 20260722200447.png",
     "Pasted image 20260722195124.png",
-    "Pasted image 20260722194417.png",
-    "Pasted image 20260722193825.png",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "未命名 1.canvas",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",

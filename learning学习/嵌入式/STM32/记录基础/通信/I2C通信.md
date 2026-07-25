@@ -4,7 +4,6 @@
 - 设备的 SCL 和 SDA 均要配置成<font color="#9bbb59">开漏输出模式</font>
 - SCL 和 SDA 各添加一个上拉电阻，阻值一般为 4.7KΩ 左右
 ![[Pasted image 20260724221040.png|569]]
-![[Pasted image 20260725104823.png|560]]
 
 高位先行
 ### 写操作
@@ -23,6 +22,9 @@
 
 ## 使用 I 2 C 通信的模块
 [[MPU6050]]
+
+
+# 软件
 
 
 ## 软件初始化函数
@@ -113,8 +115,97 @@ uint8_t MyI2C_ReceiveAck(void)
 
 ```
 
-## 硬件初始化代码
-```
 
+# 硬件
+信息传输需要判断标志位，使用硬件初始化
+![[Pasted image 20260725122430.png|452]]![[Pasted image 20260725122327.png|427]]
+## 硬件初始化代码
+```c
+void MPU6050_CheckTime(uint32_t I2C_EVENT)
+{
+    uint32_t timer=10000;
+    while(I2C_CheckEvent(I2C2,I2C_EVENT)!=SUCCESS)
+    {
+        timer--;
+        if(timer==0)
+        return;
+    }
+}//等待标志位函数
+void MPU6050_WriteReg(uint8_t RegAddress,uint8_t Data)
+{
+    I2C_GenerateSTART(I2C2,ENABLE);
+    MPU6050_CheckTime(I2C_EVENT_MASTER_MODE_SELECT);
+    
+    I2C_Send7bitAddress(I2C2,0xD0,I2C_Direction_Transmitter);
+    MPU6050_CheckTime(I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED);
+    
+    I2C_SendData(I2C2,RegAddress);
+    MPU6050_CheckTime(I2C_EVENT_MASTER_BYTE_TRANSMITTING);
+    
+    I2C_SendData(I2C2,Data);
+    MPU6050_CheckTime(I2C_EVENT_MASTER_BYTE_TRANSMITTED);
+    
+    I2C_GenerateSTOP(I2C2,ENABLE);
+    
+}//修改寄存器功能
+uint8_t MPU6050_ReadReg(uint8_t RegAddress)
+{
+    uint8_t Data;                
+    
+    I2C_GenerateSTART(I2C2,ENABLE);//开始位
+    MPU6050_CheckTime(I2C_EVENT_MASTER_MODE_SELECT);
+    
+    I2C_Send7bitAddress(I2C2,0xD0,I2C_Direction_Transmitter);//发送设备地址，为写模式
+    MPU6050_CheckTime(I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED);
+    
+    I2C_SendData(I2C2,RegAddress);//发送寄存器地址
+    MPU6050_CheckTime(I2C_EVENT_MASTER_BYTE_TRANSMITTED);
+    
+    I2C_GenerateSTART(I2C2,ENABLE);//重启开始位
+    MPU6050_CheckTime(I2C_EVENT_MASTER_MODE_SELECT);
+    
+    I2C_Send7bitAddress(I2C2,0xD0,I2C_Direction_Receiver);//发送设备地址，为读模式
+    MPU6050_CheckTime(I2C_EVENT_MASTER_RECEIVER_MODE_SELECTED);
+    
+    I2C_AcknowledgeConfig(I2C2,DISABLE);//发送最后一个字节前要把ack应答位置0，停止位置1；
+    I2C_GenerateSTOP(I2C2,ENABLE);
+    
+    MPU6050_CheckTime(I2C_EVENT_MASTER_BYTE_RECEIVED);
+    Data = I2C_ReceiveData(I2C2);
+    
+    
+    I2C_AcknowledgeConfig(I2C2,ENABLE);
+    //停止位
+    return Data;
+}//读取寄存器内容
+
+void MPU6050_Init()
+{
+//    MyI2C_Init();//软件初始化
+
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C2,ENABLE);//开启I2C2的时钟
+    RCC_APB1PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);//GPIO的时钟
+    GPIO_InitTypeDef GPIO_Struct;
+    GPIO_Struct.GPIO_Mode=GPIO_Mode_AF_OD;
+    GPIO_Struct.GPIO_Pin=GPIO_Pin_10|GPIO_Pin_11;
+    GPIO_Struct.GPIO_Speed=GPIO_Speed_50MHz;
+    GPIO_Init(GPIOB,&GPIO_Struct);//GPIO初始化
+    
+    I2C_InitTypeDef I2C_Struct;     //结构体 
+    I2C_Struct.I2C_Mode=I2C_Mode_I2C;    //模式，选择为I2C模式
+    I2C_Struct.I2C_Ack=I2C_Ack_Enable;   //应答位使能
+    I2C_Struct.I2C_AcknowledgedAddress=I2C_AcknowledgedAddress_7bit;       //应答地址，选择7位，从机模式下才有效
+    I2C_Struct.I2C_ClockSpeed=50000;           //时钟速度，选择为50KHz
+    I2C_Struct.I2C_DutyCycle=I2C_DutyCycle_16_9;        //时钟占空比，调节速度影响不大
+    I2C_Struct.I2C_OwnAddress1=0x00;    //自身地址，从机模式下才有效
+    I2C_Init(I2C2,&I2C_Struct);        //初始化
+    
+    MPU6050_WriteReg(MPU6050_PWR_MGMT_1, 0x01);        //电源管理寄存器1，取消睡眠模式，选择时钟源为X轴陀螺仪
+    MPU6050_WriteReg(MPU6050_PWR_MGMT_2, 0x00);        //电源管理寄存器2，保持默认值0，所有轴均不待机
+    MPU6050_WriteReg(MPU6050_SMPLRT_DIV, 0x09);        //采样率分频寄存器，配置采样率
+    MPU6050_WriteReg(MPU6050_CONFIG, 0x06);            //配置寄存器，配置DLPF
+    MPU6050_WriteReg(MPU6050_GYRO_CONFIG, 0x18);    //陀螺仪配置寄存器，选择满量程为±2000°/s
+    MPU6050_WriteReg(MPU6050_ACCEL_CONFIG, 0x18);
+}
 
 ```
