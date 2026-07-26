@@ -11,15 +11,12 @@
             "id": "9d3e8413d2e8679d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
               },
-              "icon": "lucide-file",
-              "title": "W25Q64"
+              "icon": "lucide-file-text",
+              "title": "STM32入门教程"
             }
           },
           {
@@ -35,33 +32,6 @@
               },
               "icon": "lucide-file",
               "title": "SPI通信"
-            }
-          },
-          {
-            "id": "c401cc148b32cce4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "learning学习/学习日期.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "学习日期"
-            }
-          },
-          {
-            "id": "e49a1881beb582c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "GPIO端口"
             }
           }
         ],
@@ -307,6 +277,9 @@
   },
   "active": "d5dfbb81450963bd",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/STM32入门教程.pdf",
+    "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md",
+    "Pasted image 20260726105010.png",
     "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
@@ -319,16 +292,13 @@
     "image/Pasted image 20260725122327.png",
     "image/Pasted image 20260725104823.png",
     "image/Pasted image 20260724222115.png",
-    "image/Pasted image 20260724222101.png",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "learning学习/嵌入式/STM32/记录基础/image",
     "STM32F10xxx参考手册（中文） 1.pdf",
     "learning学习/学习日期.md",
-    "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "templates/notes/c5ed4a39-351f-4111-a4d8-5350428ee0f5.md",
-    "learning学习/嵌入式/STM32/STM32入门教程.pdf",
     "learning学习/编程语言/C++.md",
     "learning学习/编程语言/C语言/数据类型.md",
     "learning学习/编程语言/C语言",
