@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "ADC",
+      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
+    },
+    {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
+      "basename": "MPU6050",
+      "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
+    },
+    {
+      "basename": "I2C通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
+    },
+    {
       "basename": "W25Q64",
       "path": "learning学习/嵌入式/STM32/记录基础/W25Q64.md"
     },
@@ -11,18 +27,6 @@
     {
       "basename": "STM32入门教程",
       "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
-    },
-    {
-      "basename": "MPU6050",
-      "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
-      "basename": "I2C通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
     },
     {
       "basename": "Pasted image 20260722195124",
@@ -67,10 +71,6 @@
     {
       "basename": "基础开始 1",
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
-    },
-    {
-      "basename": "ADC",
-      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
     },
     {
       "basename": "未命名 1",
