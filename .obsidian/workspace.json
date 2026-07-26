@@ -11,12 +11,15 @@
             "id": "9d3e8413d2e8679d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "STM32入门教程"
+              "icon": "lucide-file",
+              "title": "GPIO端口"
             }
           },
           {
@@ -49,8 +52,7 @@
               "title": "ADC"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/ADC.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ADC 的反向链接列表"
+              "title": "GPIO端口 的反向链接列表"
             }
           },
           {
@@ -290,14 +292,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5f6facb7338d4686",
+  "active": "9d3e8413d2e8679d",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/STM32入门教程.pdf",
+    "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
     "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md",
-    "learning学习/嵌入式/STM32/STM32入门教程.pdf",
     "Pasted image 20260726105010.png",
     "image/STM32F103C8T6引脚定义 1.png",
     "image/Pasted image 20260725144755.png",
@@ -324,7 +327,6 @@
     "learning学习/嵌入式/STM32/基础开始 1.md",
     "learning学习/嵌入式/STM32/STM32入门教程 1.pptx",
     "learning学习/嵌入式/STM32/记录基础/STM32入门教程.pptx",
-    "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "未命名 1.canvas",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",

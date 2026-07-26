@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "STM32入门教程",
+      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
+    },
+    {
       "basename": "ADC",
       "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
     },
@@ -25,10 +33,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
     },
     {
-      "basename": "STM32入门教程",
-      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
-    },
-    {
       "basename": "Pasted image 20260722195124",
       "path": "Pasted image 20260722195124.png"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "学习日期",
       "path": "learning学习/学习日期.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "串口通信",
