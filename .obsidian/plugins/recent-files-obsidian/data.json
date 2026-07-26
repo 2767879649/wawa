@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "SPI通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
+    },
+    {
+      "basename": "W25Q64",
+      "path": "learning学习/嵌入式/STM32/记录基础/W25Q64.md"
+    },
+    {
+      "basename": "MPU6050",
+      "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
+    },
+    {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
@@ -29,14 +41,6 @@
       "path": "learning学习/学习日期.md"
     },
     {
-      "basename": "SPI通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
-    },
-    {
-      "basename": "W25Q64",
-      "path": "learning学习/嵌入式/STM32/记录基础/W25Q64.md"
-    },
-    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "STM32入门教程",
       "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
-    },
-    {
-      "basename": "MPU6050",
-      "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
     },
     {
       "basename": "C++",
