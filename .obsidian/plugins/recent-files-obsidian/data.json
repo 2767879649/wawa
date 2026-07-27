@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "时间戳",
-      "path": "learning学习/嵌入式/STM32/记录基础/时间戳.md"
-    },
-    {
       "basename": "RTC",
       "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
+    },
+    {
+      "basename": "时间戳",
+      "path": "learning学习/嵌入式/STM32/记录基础/时间戳.md"
     },
     {
       "basename": "STM32入门教程",

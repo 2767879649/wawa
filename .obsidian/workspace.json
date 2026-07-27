@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/时间戳.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/RTC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "时间戳"
+              "title": "RTC"
             }
           },
           {
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/时间戳.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/RTC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "时间戳 的反向链接列表"
+              "title": "RTC 的反向链接列表"
             }
           },
           {
@@ -172,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 201.5069465637207,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -294,11 +295,11 @@
   },
   "active": "9d3e8413d2e8679d",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/时间戳.md",
     "learning学习/嵌入式/STM32/记录基础/RTC.md",
     "Pasted image 20260726164412 1.png",
     "Pasted image 20260726164412.png",
     "learning学习/嵌入式/STM32/STM32入门教程.pdf",
-    "learning学习/嵌入式/STM32/记录基础/时间戳.md",
     "Pasted image 20260726154456.png",
     "Pasted image 20260726154406.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
