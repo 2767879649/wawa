@@ -5,6 +5,10 @@
       "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
     },
     {
+      "basename": "BKP",
+      "path": "learning学习/嵌入式/STM32/记录基础/BKP.md"
+    },
+    {
       "basename": "时间戳",
       "path": "learning学习/嵌入式/STM32/记录基础/时间戳.md"
     },
