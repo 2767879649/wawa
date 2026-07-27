@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "RTC",
-      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
-    },
-    {
       "basename": "BKP",
       "path": "learning学习/嵌入式/STM32/记录基础/BKP.md"
     },
     {
-      "basename": "时间戳",
-      "path": "learning学习/嵌入式/STM32/记录基础/时间戳.md"
-    },
-    {
       "basename": "STM32入门教程",
       "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
+    },
+    {
+      "basename": "RTC",
+      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
+    },
+    {
+      "basename": "time.h 时间函数",
+      "path": "learning学习/编程语言/C语言/time.h 时间函数.md"
+    },
+    {
+      "basename": "SPI通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
+    },
+    {
+      "basename": "时间戳",
+      "path": "learning学习/嵌入式/STM32/记录基础/时间戳.md"
     },
     {
       "basename": "GPIO端口",
@@ -39,10 +47,6 @@
     {
       "basename": "W25Q64",
       "path": "learning学习/嵌入式/STM32/记录基础/W25Q64.md"
-    },
-    {
-      "basename": "SPI通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
     },
     {
       "basename": "Pasted image 20260722195124",
