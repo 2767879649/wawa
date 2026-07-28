@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/看门狗.md",
+                "file": "learning学习/嵌入式/PCB/基础元件.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "看门狗"
+              "title": "基础元件"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/看门狗.md",
+                "file": "learning学习/嵌入式/PCB/基础元件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "看门狗 的反向链接列表"
+              "title": "基础元件 的反向链接列表"
             }
           },
           {
@@ -262,13 +262,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "228bfa193061227f",
+  "active": "d15454d7347eb2c4",
   "lastOpenFiles": [
+    "Pasted image 20260728140738.png",
+    "learning学习/嵌入式/STM32/记录基础/看门狗.md",
+    "learning学习/嵌入式/PCB/基础元件.md",
     "learning学习/嵌入式/PCB",
     "Pasted image 20260728112311.png",
     "Pasted image 20260728110710.png",
     "Pasted image 20260728105942.png",
-    "learning学习/嵌入式/STM32/记录基础/看门狗.md",
     "learning学习/嵌入式/STM32/记录基础/BKP.md",
     "learning学习/嵌入式/STM32/记录基础/RTC.md",
     "learning学习/嵌入式/STM32/记录基础/PWR.md",
@@ -303,14 +305,12 @@
     "learning学习/嵌入式/STM32/STM32入门教程.pptx",
     "learning学习/嵌入式/STM32/~$STM32入门教程.pptx",
     "learning学习/嵌入式/STM32/~$M32入门教程.pptx",
-    "learning学习/嵌入式/STM32/STM32入门教程 1.pptx",
     "未命名 1.canvas",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/STM32/记录基础/宏定义.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
-    "templates/notes/6a9bf159-d4f5-4e78-8684-4efc67dc57e0.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "1.canvas",

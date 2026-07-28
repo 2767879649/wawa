@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基础元件",
+      "path": "learning学习/嵌入式/PCB/基础元件.md"
+    },
+    {
       "basename": "看门狗",
       "path": "learning学习/嵌入式/STM32/记录基础/看门狗.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1",
       "path": "1.canvas"
-    },
-    {
-      "basename": "ba1d10e0-4278-4b07-af53-4cf6f4e5ceda",
-      "path": "templates/notes/ba1d10e0-4278-4b07-af53-4cf6f4e5ceda.md"
     }
   ],
   "omittedPaths": [],
