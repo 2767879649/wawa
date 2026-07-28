@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "PWR",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
-    },
-    {
       "basename": "BKP",
       "path": "learning学习/嵌入式/STM32/记录基础/BKP.md"
+    },
+    {
+      "basename": "RTC",
+      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
+    },
+    {
+      "basename": "PWR",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
     },
     {
       "basename": "ADC",
@@ -27,10 +31,6 @@
     {
       "basename": "基础开始 1",
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
-    },
-    {
-      "basename": "RTC",
-      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
     },
     {
       "basename": "time.h 时间函数",
