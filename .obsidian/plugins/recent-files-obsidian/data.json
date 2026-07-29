@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RTC",
+      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "BKP",
       "path": "learning学习/嵌入式/STM32/记录基础/BKP.md"
-    },
-    {
-      "basename": "RTC",
-      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
     },
     {
       "basename": "PWR",
