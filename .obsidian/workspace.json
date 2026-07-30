@@ -37,8 +37,7 @@
               "title": "GPIO端口"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "GPIO端口 的反向链接列表"
+              "title": "串口通信 的反向链接列表"
             }
           },
           {
@@ -278,10 +277,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "780ca1d4bfb3f9e6",
+  "active": "7d9268d9c9c65098",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
