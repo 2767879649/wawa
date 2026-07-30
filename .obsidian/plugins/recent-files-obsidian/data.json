@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "串口通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "学习日期",
       "path": "learning学习/学习日期.md"
-    },
-    {
-      "basename": "串口通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
     {
       "basename": "C++",
