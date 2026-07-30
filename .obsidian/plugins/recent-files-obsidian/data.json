@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
+    },
+    {
+      "basename": "电脑快捷键",
+      "path": "learning学习/电脑快捷键.md"
+    },
+    {
       "basename": "RTC",
       "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
     },
@@ -125,10 +133,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
     },
     {
-      "basename": "电脑快捷键",
-      "path": "learning学习/电脑快捷键.md"
-    },
-    {
       "basename": "旋钮编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
     },
@@ -155,10 +159,6 @@
     {
       "basename": "LED",
       "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
-    },
-    {
-      "basename": "建立一个新工程",
-      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
     },
     {
       "basename": "AFIO",
