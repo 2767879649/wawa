@@ -52,6 +52,7 @@ void AD_Init(void)
     
 }
 ```
+### 获取A
 ### ADC+DMA
 [[DMA]]
 
