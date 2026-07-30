@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ADC",
+      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
+    },
+    {
       "basename": "建立一个新工程",
       "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "PWR",
       "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
-    },
-    {
-      "basename": "ADC",
-      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
     },
     {
       "basename": "SPI通信",
