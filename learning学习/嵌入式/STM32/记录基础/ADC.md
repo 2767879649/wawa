@@ -52,7 +52,20 @@ void AD_Init(void)
     
 }
 ```
-### 获取A
+### 获取 ADC 寄存器数据
+```c
+//ADC_Channel_0/1/2/3/4/5...
+uint16_t AD_Get(uint8_t ADC_Channel)//通道作为变量使用
+{
+    ADC_RegularChannelConfig(ADC1,ADC_Channel,1,ADC_SampleTime_55Cycles5);//分配ADC通道
+    ADC_SoftwareStartConvCmd(ADC1,ENABLE);//使能ADC数据寄存器
+  while(ADC_GetFlagStatus(ADC1,ADC_FLAG_EOC)==RESET);
+    return ADC_GetConversionValue(ADC1);//读取ADC值
+
+}
+
+    
+```
 ### ADC+DMA
 [[DMA]]
 
