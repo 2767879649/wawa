@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "数据类型",
+      "path": "learning学习/编程语言/C语言/数据类型.md"
+    },
+    {
       "basename": "串口通信",
       "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "C++",
       "path": "learning学习/编程语言/C++.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "learning学习/编程语言/C语言/数据类型.md"
     },
     {
       "basename": "未命名 1",
