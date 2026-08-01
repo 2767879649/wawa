@@ -5,12 +5,12 @@
       "path": "Excalidraw/PCB模块.md"
     },
     {
-      "basename": "常用模块",
-      "path": "learning学习/嵌入式/PCB/常用模块.md"
-    },
-    {
       "basename": "基础元件",
       "path": "learning学习/嵌入式/PCB/基础元件.md"
+    },
+    {
+      "basename": "常用模块",
+      "path": "learning学习/嵌入式/PCB/常用模块.md"
     },
     {
       "basename": "笔记",
