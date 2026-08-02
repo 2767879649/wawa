@@ -11,15 +11,12 @@
             "id": "7d9268d9c9c65098",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "learning学习/编程语言/C语言/笔记.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Excalidraw/PCB模块.md"
               },
-              "icon": "lucide-file",
-              "title": "笔记"
+              "icon": "excalidraw-icon",
+              "title": "PCB模块"
             }
           }
         ]
@@ -101,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/编程语言/C语言/笔记.md",
+                "file": "Excalidraw/PCB模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,9 +263,9 @@
   },
   "active": "7d9268d9c9c65098",
   "lastOpenFiles": [
+    "learning学习/编程语言/C语言/笔记.md",
     "Pasted image 20260802171104.png",
     "learning学习/编程语言/C语言/数据类型.md",
-    "learning学习/编程语言/C语言/笔记.md",
     "Excalidraw/PCB模块.md",
     "learning学习/嵌入式/PCB/基础元件.md",
     "Excalidraw/Drawing 2026-08-02 00.24.47.excalidraw.md",
@@ -302,7 +299,6 @@
     "learning学习/嵌入式/STM32/记录基础/~$STM32入门教程.pptx",
     "Pasted image 20260727142314.png",
     "learning学习/编程语言/C语言/time.h 时间函数.md",
-    "Pasted image 20260727141108.png",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
