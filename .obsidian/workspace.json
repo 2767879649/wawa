@@ -11,12 +11,15 @@
             "id": "7d9268d9c9c65098",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/PCB模块.md"
+                "file": "learning学习/编程语言/C语言/笔记.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "PCB模块"
+              "icon": "lucide-file",
+              "title": "笔记"
             }
           }
         ]
@@ -98,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/PCB模块.md",
+                "file": "learning学习/编程语言/C语言/笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,14 +266,14 @@
   },
   "active": "7d9268d9c9c65098",
   "lastOpenFiles": [
+    "learning学习/编程语言/C语言/数据类型.md",
+    "learning学习/编程语言/C语言/笔记.md",
     "Excalidraw/PCB模块.md",
     "learning学习/嵌入式/PCB/基础元件.md",
     "Excalidraw/Drawing 2026-08-02 00.24.47.excalidraw.md",
     "Excalidraw/Drawing 2026-08-02 00.12.19.excalidraw.md",
     "Excalidraw/Drawing 2026-08-02 00.15.30.excalidraw.md",
     "learning学习/嵌入式/PCB/常用模块.md",
-    "learning学习/编程语言/C语言/笔记.md",
-    "learning学习/编程语言/C语言/数据类型.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
