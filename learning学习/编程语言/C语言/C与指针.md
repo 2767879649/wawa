@@ -13,4 +13,4 @@ while
 for
 do
 switch：default 子句
-goto: `goto 语句标签`
+goto: `goto 语句标签` 运行跳转到标签位置
