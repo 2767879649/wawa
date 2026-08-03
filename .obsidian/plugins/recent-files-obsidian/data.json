@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "C与指针",
+      "path": "learning学习/编程语言/C语言/C与指针.md"
+    },
+    {
+      "basename": "笔记",
+      "path": "learning学习/编程语言/C语言/笔记.md"
+    },
+    {
       "basename": "电源模块",
       "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "基础元件",
       "path": "learning学习/嵌入式/PCB/基础元件.md"
-    },
-    {
-      "basename": "笔记",
-      "path": "learning学习/编程语言/C语言/笔记.md"
     },
     {
       "basename": "数据类型",
