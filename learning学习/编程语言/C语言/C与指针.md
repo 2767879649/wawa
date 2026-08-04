@@ -14,3 +14,5 @@ for
 do
 switch：default 子句
 goto: `goto 语句标签` 运行跳转到标签位置
+
+# 5.操作符和表达式
