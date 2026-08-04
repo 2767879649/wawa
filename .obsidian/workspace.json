@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "正交编码器"
+              "title": "PWM"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,8 +266,10 @@
   },
   "active": "7d9268d9c9c65098",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
+    "learning学习/嵌入式/STM32/记录基础/PWR.md",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
+    "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
@@ -289,11 +291,9 @@
     "Excalidraw/Drawing 2026-08-02 00.12.19.excalidraw.md",
     "Excalidraw/Drawing 2026-08-02 00.15.30.excalidraw.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "learning学习/电脑快捷键.md",
-    "learning学习/嵌入式/STM32/记录基础/RTC.md",
     "Pasted image 20260728160810.png",
     "Pasted image 20260728160543.png",
     "Pasted image 20260728140738.png",

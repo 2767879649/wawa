@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
+      "basename": "PWR",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
       "basename": "正交编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
     },
@@ -69,10 +81,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
       "basename": "DMA",
       "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
     },
@@ -97,10 +105,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/BKP.md"
     },
     {
-      "basename": "PWR",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
-    },
-    {
       "basename": "SPI通信",
       "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "time.h 时间函数",
       "path": "learning学习/编程语言/C语言/time.h 时间函数.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "MPU6050",
