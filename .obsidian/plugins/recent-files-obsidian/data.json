@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "旋钮编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
+    },
+    {
+      "basename": "STM32入门教程",
+      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
+    },
+    {
+      "basename": "正交编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
+    },
+    {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "PWR",
       "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
-    },
-    {
-      "basename": "正交编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
     },
     {
       "basename": "输入捕获",
@@ -109,10 +117,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
     },
     {
-      "basename": "STM32入门教程",
-      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
-    },
-    {
       "basename": "STM32F10xxx参考手册（中文）",
       "path": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf"
     },
@@ -167,10 +171,6 @@
     {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
-    },
-    {
-      "basename": "旋钮编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
     },
     {
       "basename": "Pasted image 20260720115432.png",
