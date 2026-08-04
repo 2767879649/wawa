@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "EXTI",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
+    },
+    {
       "basename": "旋钮编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
+    },
+    {
+      "basename": "NVIC",
+      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md"
     },
     {
       "basename": "STM32入门教程",
@@ -179,14 +187,6 @@
     {
       "basename": "嵌入式",
       "path": "嵌入式.md"
-    },
-    {
-      "basename": "EXTI",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
-    },
-    {
-      "basename": "NVIC",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md"
     },
     {
       "basename": "Obsitian同步",
