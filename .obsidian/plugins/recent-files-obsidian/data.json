@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "正交编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
+    },
+    {
+      "basename": "输入捕获",
+      "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
+    },
+    {
+      "basename": "按键",
+      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
+    },
+    {
+      "basename": "直流电机（小风扇）",
+      "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
+    },
+    {
+      "basename": "舵机",
+      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/STM32/记录基础/基础函数.md"
+    },
+    {
+      "basename": "AFIO",
+      "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
+    },
+    {
+      "basename": "LECO显示屏",
+      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
+    },
+    {
+      "basename": "建立一个新工程",
+      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
+    },
+    {
+      "basename": "LED",
+      "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
+    },
+    {
       "basename": "笔记",
       "path": "learning学习/编程语言/C语言/笔记.md"
     },
@@ -39,10 +79,6 @@
     {
       "basename": "ADC",
       "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
-    },
-    {
-      "basename": "建立一个新工程",
-      "path": "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md"
     },
     {
       "basename": "电脑快捷键",
@@ -129,24 +165,8 @@
       "path": "未命名 1.canvas"
     },
     {
-      "basename": "输入捕获",
-      "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
-    },
-    {
-      "basename": "按键",
-      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
-    },
-    {
-      "basename": "正交编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
-    },
-    {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
-    },
-    {
-      "basename": "舵机",
-      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
     },
     {
       "basename": "旋钮编码器",
@@ -167,26 +187,6 @@
     {
       "basename": "NVIC",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/STM32/记录基础/基础函数.md"
-    },
-    {
-      "basename": "LED",
-      "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
-    },
-    {
-      "basename": "AFIO",
-      "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
-    },
-    {
-      "basename": "直流电机（小风扇）",
-      "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
-    },
-    {
-      "basename": "LECO显示屏",
-      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
     },
     {
       "basename": "Obsitian同步",
