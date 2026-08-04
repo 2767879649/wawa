@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GPIO端口"
+              "title": "PWM"
             }
           }
         ],
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,13 +282,15 @@
   },
   "active": "85cc6be8436f096d",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
+    "learning学习/嵌入式/STM32/记录基础/DMA.md",
+    "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md",
     "learning学习/嵌入式/STM32/STM32入门教程.pdf",
-    "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
-    "learning学习/嵌入式/STM32/记录基础/PWM.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/PWR.md",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
@@ -309,8 +311,6 @@
     "Pasted image 20260802171104.png",
     "learning学习/编程语言/C语言/数据类型.md",
     "Excalidraw/Drawing 2026-08-02 00.24.47.excalidraw.md",
-    "Excalidraw/Drawing 2026-08-02 00.12.19.excalidraw.md",
-    "Excalidraw/Drawing 2026-08-02 00.15.30.excalidraw.md",
     "Pasted image 20260728160810.png",
     "Pasted image 20260728160543.png",
     "Pasted image 20260728140738.png",

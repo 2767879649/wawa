@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
+      "basename": "MPU6050",
+      "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
+    },
+    {
+      "basename": "DMA",
+      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
+    },
+    {
+      "basename": "正交编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -19,14 +35,6 @@
     {
       "basename": "STM32入门教程",
       "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
-    },
-    {
-      "basename": "正交编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "PWR",
@@ -97,10 +105,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
     {
-      "basename": "DMA",
-      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
-    },
-    {
       "basename": "ADC",
       "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
     },
@@ -135,10 +139,6 @@
     {
       "basename": "time.h 时间函数",
       "path": "learning学习/编程语言/C语言/time.h 时间函数.md"
-    },
-    {
-      "basename": "MPU6050",
-      "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
     },
     {
       "basename": "I2C通信",
