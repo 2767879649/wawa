@@ -5,12 +5,12 @@
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
-      "basename": "PWR",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
-    },
-    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "PWR",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
     },
     {
       "basename": "正交编码器",
