@@ -37,7 +37,8 @@
               "title": "GPIO端口"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,8 +280,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7d9268d9c9c65098",
+  "active": "85cc6be8436f096d",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md",
     "learning学习/嵌入式/STM32/STM32入门教程.pdf",
@@ -309,7 +311,6 @@
     "Excalidraw/Drawing 2026-08-02 00.24.47.excalidraw.md",
     "Excalidraw/Drawing 2026-08-02 00.12.19.excalidraw.md",
     "Excalidraw/Drawing 2026-08-02 00.15.30.excalidraw.md",
-    "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "Pasted image 20260728160810.png",
     "Pasted image 20260728160543.png",
     "Pasted image 20260728140738.png",

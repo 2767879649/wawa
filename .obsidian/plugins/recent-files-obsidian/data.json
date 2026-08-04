@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
       "basename": "EXTI",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "PWR",
