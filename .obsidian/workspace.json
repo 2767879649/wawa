@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/嵌入式/STM32/记录基础/舵机.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/舵机.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,10 +296,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "85cc6be8436f096d",
+  "active": "25468612e7374e5b",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
+    "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
