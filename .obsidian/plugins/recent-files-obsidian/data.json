@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "I2C通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
+    },
+    {
       "basename": "舵机",
       "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "time.h 时间函数",
       "path": "learning学习/编程语言/C语言/time.h 时间函数.md"
-    },
-    {
-      "basename": "I2C通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
     },
     {
       "basename": "W25Q64",
