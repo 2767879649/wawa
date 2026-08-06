@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "FreeRTOS",
+      "path": "learning学习/嵌入式/STM32/记录基础/FreeRTOS.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "learning学习/嵌入式/STM32/未命名 1.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "learning学习/嵌入式/STM32/记录基础/未命名.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "learning学习/嵌入式/STM32/未命名.md"
+    },
+    {
       "basename": "温湿度传感器",
       "path": "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
-    },
-    {
-      "basename": "Pasted image 20260720115432.png",
-      "path": "Pasted image 20260720115432.png.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "嵌入式.md"
-    },
-    {
-      "basename": "Obsitian同步",
-      "path": "learning学习/Obsitian同步.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.base"
     }
   ],
   "omittedPaths": [],
