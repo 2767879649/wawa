@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
       "basename": "I2C通信",
       "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "正交编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "EXTI",
