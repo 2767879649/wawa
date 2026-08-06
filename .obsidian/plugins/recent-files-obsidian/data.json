@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "笔记",
+      "path": "learning学习/编程语言/C语言/笔记.md"
+    },
+    {
+      "basename": "C与指针",
+      "path": "learning学习/编程语言/C语言/C与指针.md"
+    },
+    {
       "basename": "FreeRTOS",
       "path": "learning学习/嵌入式/STM32/记录基础/FreeRTOS.md"
     },
@@ -99,14 +107,6 @@
     {
       "basename": "LED",
       "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
-    },
-    {
-      "basename": "笔记",
-      "path": "learning学习/编程语言/C语言/笔记.md"
-    },
-    {
-      "basename": "C与指针",
-      "path": "learning学习/编程语言/C语言/C与指针.md"
     },
     {
       "basename": "电源模块",
