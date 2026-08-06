@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "温湿度传感器",
+      "path": "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "未命名",
       "path": "未命名.base"
-    },
-    {
-      "basename": "未命名 3",
-      "path": "未命名 3.canvas"
     }
   ],
   "omittedPaths": [],

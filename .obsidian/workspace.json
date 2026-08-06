@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-                "mode": "preview",
+                "file": "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GPIO端口"
+              "title": "温湿度传感器"
             }
           }
         ],
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,6 +312,9 @@
   },
   "active": "15b96bf7ba3e4d62",
   "lastOpenFiles": [
+    "Pasted image 20260806135623.png",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "Pasted image 20260805183138.png",
@@ -319,7 +322,6 @@
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md",
@@ -339,9 +341,7 @@
     "learning学习/嵌入式/PCB/PCB模块.md",
     "learning学习/嵌入式/PCB/常用模块",
     "learning学习/嵌入式/PCB/常用模块.md",
-    "learning学习/嵌入式/PCB/基础元件.md",
     "Pasted image 20260802171104.png",
-    "learning学习/编程语言/C语言/数据类型.md",
     "Pasted image 20260728160810.png",
     "Pasted image 20260728160543.png",
     "Pasted image 20260728140738.png",
