@@ -8,57 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7d9268d9c9c65098",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "EXTI"
-            }
-          },
-          {
-            "id": "85cc6be8436f096d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/PWM.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "PWM"
-            }
-          },
-          {
-            "id": "25468612e7374e5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "I2C通信"
-            }
-          },
-          {
             "id": "15b96bf7ba3e4d62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/基本知识.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -67,8 +22,7 @@
               "title": "基本知识"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/基本知识.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,8 +266,12 @@
   },
   "active": "15b96bf7ba3e4d62",
   "lastOpenFiles": [
-    "learning学习/编程语言/C语言/笔记.md",
+    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
+    "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
     "learning学习/嵌入式/STM32/记录基础/基本知识.md",
+    "learning学习/嵌入式/STM32/FreeRTOS",
+    "learning学习/编程语言/C语言/笔记.md",
     "learning学习/编程语言/C语言/C与指针.md",
     "learning学习/嵌入式/STM32/记录基础/FreeRTOS.md",
     "learning学习/嵌入式/STM32/未命名 1.md",
@@ -322,10 +280,8 @@
     "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md",
     "Pasted image 20260806135623.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "Pasted image 20260805183138.png",
-    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",
@@ -340,7 +296,6 @@
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/AFIO.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
-    "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
     "learning学习/嵌入式/PCB/常用模块",
     "Pasted image 20260802171104.png",
     "Pasted image 20260728160810.png",
@@ -357,7 +312,6 @@
     "STM32F10xxx参考手册（中文） 1.pdf",
     "learning学习/编程语言/C语言",
     "learning学习/嵌入式/STM32/STM32入门教程.pptx",
-    "learning学习/嵌入式/STM32/~$STM32入门教程.pptx",
     "未命名 1.canvas",
     "未命名 3.canvas",
     "未命名 2.canvas",

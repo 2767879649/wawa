@@ -2,6 +2,18 @@
   "recentFiles": [
     {
       "basename": "基本知识",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
+    },
+    {
+      "basename": "I2C通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
+    },
+    {
+      "basename": "PWM",
+      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
+    },
+    {
+      "basename": "基本知识",
       "path": "learning学习/嵌入式/STM32/记录基础/基本知识.md"
     },
     {
@@ -37,16 +49,8 @@
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
-      "basename": "I2C通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
-    },
-    {
       "basename": "舵机",
       "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
-    },
-    {
-      "basename": "PWM",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "MPU6050",
@@ -195,10 +199,6 @@
     {
       "basename": "C++",
       "path": "learning学习/编程语言/C++.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "未命名 1.canvas"
     }
   ],
   "omittedPaths": [],
