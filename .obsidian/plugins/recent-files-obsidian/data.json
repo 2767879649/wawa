@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基本知识",
+      "path": "learning学习/嵌入式/STM32/记录基础/基本知识.md"
+    },
+    {
       "basename": "笔记",
       "path": "learning学习/编程语言/C语言/笔记.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "未命名 1",
       "path": "未命名 1.canvas"
-    },
-    {
-      "basename": "定时器",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/定时器.md"
     }
   ],
   "omittedPaths": [],
