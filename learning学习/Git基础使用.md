@@ -55,7 +55,7 @@ git push -f origin master
 • 放弃合并：Esc → 输入:q!回车，执行 git merge --abort
 ---
 **完整工作流程（日常开发）**
-1. 第一次：git clone 地址
+1. 第一次：git clone 地址      //克隆准备看好的仓库
 2. 每次开发前先拉取最新代码：git pull
 3. 修改代码
 4. git add .

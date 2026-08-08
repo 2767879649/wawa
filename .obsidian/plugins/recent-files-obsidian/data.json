@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
+      "basename": "time.h 时间函数",
+      "path": "learning学习/编程语言/C语言/time.h 时间函数.md"
+    },
+    {
+      "basename": "重点",
+      "path": "learning学习/备考/zigbee/重点.md"
+    },
+    {
       "basename": "基本知识",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
     },
@@ -159,10 +171,6 @@
     {
       "basename": "基础开始 1",
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
-    },
-    {
-      "basename": "time.h 时间函数",
-      "path": "learning学习/编程语言/C语言/time.h 时间函数.md"
     },
     {
       "basename": "W25Q64",
