@@ -6,7 +6,7 @@ tags:
 ![[image/Pasted image 20260620142943.png]]
 **获取帮助**
 1. git --help 获取命令帮助
-2. git -h 获取命令简短帮助
+2. git -h 获取命令简短帮助(全是英文看不懂)
 ---
 **建立仓库**
 1. 新建本地仓库 git init  *执行后文件夹会生成隐藏的.git文件夹，代表变成Git仓库*
@@ -37,8 +37,8 @@ tags:
 4.  删除分支 git branch -D 分支名   
 5. 在主干中合并分支 git merge 分支名
 • master：主分支，存放稳定代码；
-• dev：开发分支，平时写代码用。
----
+
+## dev：开发分支，平时写代码用。
 **查看版本、回滚版本**
 1. 查看提交记录 git log
 2. 软回滚（修改的代码保留，撤销提交记录）git reset --soft 提交id
@@ -53,7 +53,9 @@ git push -f origin master
 3. 合并时进入vim编辑器：
 • 保存退出：Esc → 输入:wq回车
 • 放弃合并：Esc → 输入:q!回车，执行 git merge --abort
----
+
+
+
 **完整工作流程（日常开发）**
 1. 第一次：git clone 地址      //克隆准备看好的仓库
 2. 每次开发前先拉取最新代码：git pull
