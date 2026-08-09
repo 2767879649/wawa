@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "移植过程"
+              "title": "基本函数"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "GPIO端口"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,9 +279,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ba0728e8f97f12f2",
+  "active": "15b96bf7ba3e4d62",
   "lastOpenFiles": [
     "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "Pasted image 20260809165230.png",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "Pasted image 20260809144743.png",
@@ -303,7 +303,6 @@
     "learning学习/嵌入式/STM32/记录基础/未命名.md",
     "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md",
     "Pasted image 20260806135623.png",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "Pasted image 20260805183138.png",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",

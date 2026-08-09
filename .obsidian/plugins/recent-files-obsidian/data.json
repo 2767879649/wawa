@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+      "basename": "基本函数",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
     },
     {
       "basename": "移植过程",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md"
     },
     {
-      "basename": "基本函数",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "基本知识",
