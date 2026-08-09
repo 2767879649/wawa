@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "基本函数",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
+    },
+    {
+      "basename": "移植过程",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md"
+    },
+    {
+      "basename": "基本知识",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
+    },
+    {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "重点",
       "path": "learning学习/备考/zigbee/重点.md"
-    },
-    {
-      "basename": "基本知识",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
     },
     {
       "basename": "I2C通信",
@@ -191,14 +199,6 @@
     {
       "basename": "STM32F10xxx参考手册（中文） 1",
       "path": "STM32F10xxx参考手册（中文） 1.pdf"
-    },
-    {
-      "basename": "学习日期",
-      "path": "learning学习/学习日期.md"
-    },
-    {
-      "basename": "C++",
-      "path": "learning学习/编程语言/C++.md"
     }
   ],
   "omittedPaths": [],
