@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "claude基础使用",
+      "path": "learning学习/claude/claude基础使用.md"
+    },
+    {
+      "basename": "基础知识",
+      "path": "learning学习/claude/笔记文件/基础知识.md"
+    },
+    {
       "basename": "基本函数",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20260724221040",
       "path": "Pasted image 20260724221040.png"
-    },
-    {
-      "basename": "Pasted image 20260724222115",
-      "path": "Pasted image 20260724222115.png"
-    },
-    {
-      "basename": "STM32F10xxx参考手册（中文） 1",
-      "path": "STM32F10xxx参考手册（中文） 1.pdf"
     }
   ],
   "omittedPaths": [],
