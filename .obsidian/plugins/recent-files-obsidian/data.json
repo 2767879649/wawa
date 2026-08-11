@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ESP8266",
+      "path": "learning学习/嵌入式/STM32/记录基础/ESP8266.md"
+    },
+    {
       "basename": "串口通信",
       "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "基本函数",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
-    },
-    {
-      "basename": "AT指令",
-      "path": "learning学习/嵌入式/STM32/记录基础/AT指令.md"
     },
     {
       "basename": "移植过程",
