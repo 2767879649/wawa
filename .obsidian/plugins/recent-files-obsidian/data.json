@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "AT指令",
-      "path": "learning学习/嵌入式/STM32/记录基础/AT指令.md"
+      "basename": "串口通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
     {
       "basename": "GPIO端口",
@@ -11,6 +11,10 @@
     {
       "basename": "基本函数",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
+    },
+    {
+      "basename": "AT指令",
+      "path": "learning学习/嵌入式/STM32/记录基础/AT指令.md"
     },
     {
       "basename": "移植过程",
@@ -151,10 +155,6 @@
     {
       "basename": "数据类型",
       "path": "learning学习/编程语言/C语言/数据类型.md"
-    },
-    {
-      "basename": "串口通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
     {
       "basename": "ADC",
