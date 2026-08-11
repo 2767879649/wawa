@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AT指令",
+      "path": "learning学习/嵌入式/STM32/记录基础/AT指令.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
