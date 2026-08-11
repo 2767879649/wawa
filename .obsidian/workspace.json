@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -310,7 +311,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "228bfa193061227f",
+  "active": "ba0728e8f97f12f2",
   "lastOpenFiles": [
     "Pasted image 20260811151358.png",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
