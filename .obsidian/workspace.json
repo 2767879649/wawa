@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -296,10 +296,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ba0728e8f97f12f2",
+  "active": "35472df699870712",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
+    "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "Pasted image 20260811151358.png",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
