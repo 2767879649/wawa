@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
       "basename": "ESP8266",
       "path": "learning学习/嵌入式/STM32/记录基础/ESP8266.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "基本知识",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
-    },
-    {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
     },
     {
       "basename": "time.h 时间函数",
