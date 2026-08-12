@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/Git基础使用.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,13 +297,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ba0728e8f97f12f2",
+  "active": "35472df699870712",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
+    "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
+    "learning学习/Git基础使用.md",
+    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "Pasted image 20260811151358.png",
-    "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "Pasted image 20260811131725.png",
     "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
     "learning学习/嵌入式/STM32/记录基础/FreeRTOS.md",
@@ -313,7 +314,6 @@
     "Pasted image 20260809144743.png",
     "Pasted image 20260809144652.png",
     "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
-    "learning学习/Git基础使用.md",
     "learning学习/编程语言/C语言/time.h 时间函数.md",
     "learning学习/备考/zigbee/重点.md",
     "learning学习/嵌入式/STM32/未命名.md",
