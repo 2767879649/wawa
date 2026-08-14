@@ -58,7 +58,6 @@ void PWM_Init()
     Timer_Struct.TIM_Prescaler=36-1;              //PSC，预分频寄存器，关乎速度快慢
     Timer_Struct.TIM_RepetitionCounter=0;
     TIM_TimeBaseInit(TIM2, &Timer_Struct);             //时基单元初始化
-    TIM_Cmd(TIM2, ENABLE);              //开启TIM2时钟
     
     
 
@@ -69,6 +68,8 @@ void PWM_Init()
     OC_Struct.TIM_OutputState=TIM_OutputState_Enable;
     OC_Struct.TIM_Pulse=0;//CCR
     TIM_OC2Init(TIM2,&OC_Struct);                //OC初始化
-
+    
+ TIM_Cmd(TIM2, ENABLE);              //开启TIM2时钟
+```
 }
 ```
