@@ -9,6 +9,10 @@
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
+      "basename": "舵机",
+      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
+    },
+    {
       "basename": "开始",
       "path": "learning学习/无人机/开始.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "温湿度传感器",
       "path": "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md"
-    },
-    {
-      "basename": "舵机",
-      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
     },
     {
       "basename": "MPU6050",
