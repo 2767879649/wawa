@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "舵机",
+      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
+    },
+    {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
     },
     {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "舵机",
-      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
     },
     {
       "basename": "开始",
