@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "开始",
+      "path": "learning学习/无人机/开始.md"
+    },
+    {
       "basename": "笔记",
       "path": "learning学习/编程语言/C语言/笔记.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "C++",
       "path": "learning学习/编程语言/C++.md"
-    },
-    {
-      "basename": "开始",
-      "path": "learning学习/无人机/开始.md"
     },
     {
       "basename": "ESP8266",

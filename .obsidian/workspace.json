@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/编程语言/C语言/笔记.md",
+                "file": "learning学习/无人机/开始.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "笔记"
+              "title": "开始"
             }
           },
           {
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/编程语言/C语言/笔记.md",
+                "file": "learning学习/无人机/开始.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -281,6 +282,7 @@
   },
   "active": "67b2b5a068edb12c",
   "lastOpenFiles": [
+    "learning学习/编程语言/C语言/笔记.md",
     "learning学习/编程语言/C语言/C与指针.md",
     "learning学习/编程语言/C++.md",
     "learning学习/无人机/开始.md",
@@ -311,7 +313,6 @@
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/基本知识.md",
     "learning学习/嵌入式/STM32/FreeRTOS",
-    "learning学习/编程语言/C语言/笔记.md",
     "learning学习/嵌入式/STM32/记录基础/未命名.md",
     "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md",
     "Pasted image 20260806135623.png",
