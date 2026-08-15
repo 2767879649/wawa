@@ -4,71 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "affa730e1abba80d",
+        "id": "94202a7c4a190e4c",
         "type": "tabs",
         "children": [
           {
-            "id": "9d4c383977bd56db",
+            "id": "0b5c7c4438f2098d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "GPIO端口"
-            }
-          },
-          {
-            "id": "74650471465a4a85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "GPIO端口"
-            }
-          },
-          {
-            "id": "7c48a85b3decaa28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/舵机.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "舵机"
-            }
-          },
-          {
-            "id": "ba0728e8f97f12f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/Git基础使用.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Git基础使用"
+              "title": "基础函数"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -311,11 +265,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "74650471465a4a85",
+  "active": "0b5c7c4438f2098d",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/PWM.md",
+    "learning学习/嵌入式/HAL库/基础函数.md",
+    "learning学习/嵌入式/HAL库",
+    "learning学习/Git基础使用.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/无人机/开始.md",
     "learning学习/编程语言/C语言/笔记.md",
     "learning学习/编程语言/C语言/C与指针.md",
@@ -324,10 +281,8 @@
     "Pasted image 20260813151356.png",
     "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/无人机",
-    "learning学习/嵌入式/未命名",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
-    "learning学习/Git基础使用.md",
     "Pasted image 20260811151358.png",
     "Pasted image 20260811131725.png",
     "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
@@ -350,7 +305,6 @@
     "Pasted image 20260806135623.png",
     "Pasted image 20260805183138.png",
     "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
-    "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/STM32入门教程.pdf",
     "learning学习/嵌入式/PCB/常用模块",
     "Pasted image 20260802171104.png",

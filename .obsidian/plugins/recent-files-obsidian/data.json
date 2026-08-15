@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
+      "basename": "舵机",
+      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
-      "basename": "舵机",
-      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
     },
     {
       "basename": "开始",
@@ -39,10 +47,6 @@
     {
       "basename": "基本函数",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
-    },
-    {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
     },
     {
       "basename": "移植过程",
@@ -195,10 +199,6 @@
     {
       "basename": "基础开始 1",
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
-    },
-    {
-      "basename": "W25Q64",
-      "path": "learning学习/嵌入式/STM32/记录基础/W25Q64.md"
     }
   ],
   "omittedPaths": [],
