@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/按键.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "按键"
+              "title": "基础函数"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/按键.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,6 +266,7 @@
   },
   "active": "0b5c7c4438f2098d",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/HAL库",
     "learning学习/Git基础使用.md",
@@ -303,7 +304,6 @@
     "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md",
     "Pasted image 20260806135623.png",
     "Pasted image 20260805183138.png",
-    "learning学习/嵌入式/STM32/记录基础/MPU6050.md",
     "learning学习/嵌入式/STM32/STM32入门教程.pdf",
     "learning学习/嵌入式/PCB/常用模块",
     "Pasted image 20260802171104.png",
