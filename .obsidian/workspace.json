@@ -37,8 +37,7 @@
               "title": "GPIO端口"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,10 +279,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "dd7587cafbf7deae",
+  "active": "0b5c7c4438f2098d",
   "lastOpenFiles": [
-    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "Pasted image 20260815174429.png",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
