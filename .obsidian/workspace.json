@@ -301,6 +301,7 @@
   "active": "7559b8a39c97b6b5",
   "lastOpenFiles": [
     "learning学习/嵌入式/HAL库/基础函数.md",
+    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
@@ -311,7 +312,6 @@
     "learning学习/嵌入式/HAL库",
     "learning学习/Git基础使用.md",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
-    "learning学习/嵌入式/STM32/记录基础/PWM.md",
     "learning学习/无人机/开始.md",
     "learning学习/编程语言/C语言/笔记.md",
     "learning学习/编程语言/C语言/C与指针.md",
