@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "01-开发环境搭建",
+      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md"
+    },
+    {
+      "basename": "00-系统架构概览",
+      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/01-系统架构概览/00-系统架构概览.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "SPI通信",
       "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
-    },
-    {
-      "basename": "STM32F10xxx参考手册（中文）",
-      "path": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf"
-    },
-    {
-      "basename": "基础开始 1",
-      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
     }
   ],
   "omittedPaths": [],
