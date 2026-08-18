@@ -12,5 +12,7 @@
 | `OLED_ShowHexNum(3, 1, 0xAA55, 4);`     | 显示十六进制数字   |
 | `OLED_ShowBinNum(4, 1, 0xAA55, 16);`    | 显示二进制数字    |
 ## HAL 库函数
-`OLED_CLS();` //初始化屏幕
+`OLED_clear();` //初始化屏幕
 `OLED_FillFull()`；//全屏点亮
+`OLED_showstring()` //显示字符串
+`void OLED_ShowChinese_F16X16(uint8_t line, uint8_t offset, uint8_t n)` //显示汉字字模
