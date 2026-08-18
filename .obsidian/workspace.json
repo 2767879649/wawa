@@ -39,8 +39,7 @@
               "title": "DWT"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/DWT.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,10 +281,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c1c29e6f732b2601",
+  "active": "0cb2bdb9c5f5e375",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/DWT.md",
+    "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/建立一个新工程.md",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/正交编码器.md",

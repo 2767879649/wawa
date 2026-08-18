@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
       "basename": "DWT",
       "path": "learning学习/嵌入式/STM32/记录基础/DWT.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "00-系统架构概览",
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/01-系统架构概览/00-系统架构概览.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "PWM",
