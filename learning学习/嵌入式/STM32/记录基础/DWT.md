@@ -4,7 +4,7 @@ DWT_TickToMicrosecond()//将时间戳转换为微秒
 DWT_Delayus()
 DWT_Delayms()
 DWT_Delays()
-# 文件添加
+# 文件添加(HAL 库)
 DWT.h 文件
 ```c
 #ifndef __MY_DWT_H
