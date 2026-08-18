@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "电脑快捷键",
+      "path": "learning学习/电脑快捷键.md"
+    },
+    {
       "basename": "01-开发环境搭建",
       "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md"
     },
@@ -179,10 +183,6 @@
     {
       "basename": "数据类型",
       "path": "learning学习/编程语言/C语言/数据类型.md"
-    },
-    {
-      "basename": "电脑快捷键",
-      "path": "learning学习/电脑快捷键.md"
     },
     {
       "basename": "RTC",
