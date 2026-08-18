@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
       "basename": "电脑快捷键",
       "path": "learning学习/电脑快捷键.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "按键",
       "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
-    },
-    {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
     },
     {
       "basename": "舵机",
