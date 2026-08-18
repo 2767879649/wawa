@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "LECO显示屏",
+      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
+    },
+    {
       "basename": "ESP8266",
       "path": "learning学习/嵌入式/STM32/记录基础/ESP8266.md"
     },
@@ -183,10 +187,6 @@
     {
       "basename": "AFIO",
       "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
-    },
-    {
-      "basename": "LECO显示屏",
-      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
     },
     {
       "basename": "LED",

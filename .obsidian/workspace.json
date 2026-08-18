@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ESP8266"
+              "title": "LECO显示屏"
             }
           }
         ],
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,6 +284,7 @@
   },
   "active": "502e60f3f02dbedd",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/STM32/记录基础/DTH11温湿度传感器.md",
     "learning学习/嵌入式/STM32/记录基础/DWT.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
@@ -311,7 +312,6 @@
     "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/HAL库",
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
-    "learning学习/无人机/开始.md",
     "Pasted image 20260813155223.png",
     "Pasted image 20260813151356.png",
     "learning学习/无人机",

@@ -1,4 +1,4 @@
-## LECO 显示屏
+## OLED 显示屏
 4 行 16 列
 
 | 函数                                      | 作用         |
@@ -11,3 +11,4 @@
 | `OLED_ShowSignedNum(2, 7, -66, 2);`     | 显示有符号十进制数字 |
 | `OLED_ShowHexNum(3, 1, 0xAA55, 4);`     | 显示十六进制数字   |
 | `OLED_ShowBinNum(4, 1, 0xAA55, 16);`    | 显示二进制数字    |
+## HAL 库
