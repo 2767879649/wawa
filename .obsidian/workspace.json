@@ -38,9 +38,24 @@
               "icon": "lucide-file",
               "title": "LECO显示屏"
             }
+          },
+          {
+            "id": "35eb671baf0bbe11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "GPIO端口"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,8 +297,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "502e60f3f02dbedd",
+  "active": "35eb671baf0bbe11",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/STM32/记录基础/DTH11温湿度传感器.md",
     "learning学习/嵌入式/STM32/记录基础/DWT.md",
@@ -311,7 +327,6 @@
     "Pasted image 20260815174429.png",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/HAL库",
-    "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "Pasted image 20260813155223.png",
     "Pasted image 20260813151356.png",
     "learning学习/无人机",
