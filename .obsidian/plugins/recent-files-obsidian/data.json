@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PID算法学习",
+      "path": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "电源模块",
       "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
-    },
-    {
-      "basename": "PCB模块",
-      "path": "learning学习/嵌入式/PCB/PCB模块.md"
     }
   ],
   "omittedPaths": [],

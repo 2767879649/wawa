@@ -45,13 +45,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-                "mode": "preview",
+                "file": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GPIO端口"
+              "title": "PID算法学习"
             }
           }
         ],
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,6 +299,9 @@
   },
   "active": "35eb671baf0bbe11",
   "lastOpenFiles": [
+    "Pasted image 20260820204600.png",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/STM32/记录基础/DTH11温湿度传感器.md",
@@ -311,7 +314,6 @@
     "learning学习/嵌入式/STM32/记录基础/ADC.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/RTC.md",
     "learning学习/嵌入式/STM32/记录基础/BKP.md",
     "learning学习/嵌入式/STM32/记录基础/PWR.md",
@@ -323,9 +325,7 @@
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md",
     "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/01-系统架构概览/00-系统架构概览.md",
     "learning学习/嵌入式/STM32/记录基础/PWM.md",
-    "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "Pasted image 20260815174429.png",
-    "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/HAL库",
     "Pasted image 20260813155223.png",
     "Pasted image 20260813151356.png",
