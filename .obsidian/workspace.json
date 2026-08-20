@@ -54,8 +54,7 @@
               "title": "PID算法学习"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,11 +296,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "35eb671baf0bbe11",
+  "active": "0cb2bdb9c5f5e375",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
     "Pasted image 20260820204600.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-    "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/STM32/记录基础/DTH11温湿度传感器.md",
@@ -337,7 +336,6 @@
     "Pasted image 20260809144652.png",
     "learning学习/嵌入式/STM32/FreeRTOS",
     "Pasted image 20260806135623.png",
-    "Pasted image 20260805183138.png",
     "learning学习/嵌入式/STM32/STM32入门教程.pdf",
     "learning学习/嵌入式/PCB/常用模块",
     "learning学习/嵌入式/PCB",
