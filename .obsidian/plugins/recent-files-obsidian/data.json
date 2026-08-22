@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "基础元件",
+      "path": "learning学习/嵌入式/PCB/基础元件.md"
+    },
+    {
+      "basename": "PCB模块",
+      "path": "learning学习/嵌入式/PCB/PCB模块.md"
+    },
+    {
+      "basename": "电源模块",
+      "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/STM32/记录基础/基础函数.md"
-    },
-    {
-      "basename": "AFIO",
-      "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
-    },
-    {
-      "basename": "LED",
-      "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
-    },
-    {
-      "basename": "电源模块",
-      "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
     }
   ],
   "omittedPaths": [],
