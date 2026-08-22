@@ -84,8 +84,7 @@
               "title": "PID算法学习"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,10 +326,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d260320eeb2d954e",
+  "active": "0cb2bdb9c5f5e375",
   "lastOpenFiles": [
-    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/PCB/基础元件.md",
     "learning学习/嵌入式/PCB/PCB模块.md",
     "learning学习/嵌入式/PCB/常用模块/电源模块.md",
