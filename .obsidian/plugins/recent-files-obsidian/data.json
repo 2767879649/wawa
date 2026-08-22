@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "LECO显示屏",
+      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "PID算法学习",
       "path": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md"
-    },
-    {
-      "basename": "LECO显示屏",
-      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
     },
     {
       "basename": "ESP8266",
