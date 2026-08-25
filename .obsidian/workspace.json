@@ -10,6 +10,7 @@
           {
             "id": "0cb2bdb9c5f5e375",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,6 +19,7 @@
                 "source": false,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "基础函数"
             }
@@ -28,28 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基本知识"
-            }
-          },
-          {
-            "id": "45eb4bc255f53a6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "旋钮编码器"
+              "title": "基本函数"
             }
           },
           {
@@ -65,21 +52,6 @@
               },
               "icon": "lucide-file",
               "title": "GPIO端口"
-            }
-          },
-          {
-            "id": "35eb671baf0bbe11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "PID算法学习"
             }
           },
           {
@@ -177,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,6 +314,7 @@
   },
   "active": "a99c51abf80bc704",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
@@ -368,7 +341,6 @@
     "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
     "learning学习/嵌入式/STM32/记录基础/RTC.md",
     "learning学习/嵌入式/STM32/记录基础/BKP.md",
-    "learning学习/嵌入式/STM32/记录基础/PWR.md",
     "Pasted image 20260815174429.png",
     "learning学习/嵌入式/HAL库",
     "Pasted image 20260813155223.png",
