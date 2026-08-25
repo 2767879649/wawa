@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "基本函数",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
+    },
+    {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
       "basename": "按键",
       "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
     },
     {
       "basename": "舵机",
       "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
-    },
-    {
-      "basename": "基本函数",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
     },
     {
       "basename": "移植过程",
@@ -25,16 +33,8 @@
       "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
       "basename": "LECO显示屏",
       "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "旋钮编码器",
