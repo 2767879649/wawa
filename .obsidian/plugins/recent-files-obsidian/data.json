@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "基本函数",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
+    },
+    {
       "basename": "移植过程",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md"
     },
     {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
-    },
-    {
-      "basename": "基本函数",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
     },
     {
       "basename": "基础函数",
