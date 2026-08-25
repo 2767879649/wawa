@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "按键",
+      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
+    },
+    {
+      "basename": "舵机",
+      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
+    },
+    {
       "basename": "基本函数",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
     },
@@ -131,14 +139,6 @@
     {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
-      "basename": "按键",
-      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
-    },
-    {
-      "basename": "舵机",
-      "path": "learning学习/嵌入式/STM32/记录基础/舵机.md"
     },
     {
       "basename": "开始",
