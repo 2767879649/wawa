@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "信号量",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
+    },
+    {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "NVIC",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/NVIC.md"
-    },
-    {
-      "basename": "STM32入门教程",
-      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
     }
   ],
   "omittedPaths": [],
