@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
       "basename": "BKP",
       "path": "learning学习/嵌入式/STM32/记录基础/BKP.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "移植过程",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "GPIO端口",
