@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DMA",
+      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
+    },
+    {
       "basename": "信号量",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "ADC",
       "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
-    },
-    {
-      "basename": "DMA",
-      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
     },
     {
       "basename": "W25Q64",
