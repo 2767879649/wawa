@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "看门狗",
+      "path": "learning学习/嵌入式/STM32/记录基础/看门狗.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "PWR",
       "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
-    },
-    {
-      "basename": "看门狗",
-      "path": "learning学习/嵌入式/STM32/记录基础/看门狗.md"
     },
     {
       "basename": "温湿度传感器",
