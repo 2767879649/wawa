@@ -14,7 +14,7 @@ STM 32103 C 8 T 6 <font color="#9bbb59">只有 10 个 DR</font>
 
 ![[Pasted image 20260727142314.png|529]]
 ## 初始化代码
-```
+```c
 RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR,ENABLE);
 RCC_APB1PeriphClockCmd(RCC_APB1Periph_BKP,ENABLE);
 PWR_BackupAccessCmd(ENABLE);
