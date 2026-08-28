@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
-    },
-    {
-      "basename": "事件组",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
+      "basename": "基本知识",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
     },
     {
       "basename": "队列",
@@ -15,6 +11,14 @@
     {
       "basename": "信号量",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
+    },
+    {
+      "basename": "事件组",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "DMA",
@@ -51,10 +55,6 @@
     {
       "basename": "基本函数",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
-    },
-    {
-      "basename": "基本知识",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
     },
     {
       "basename": "移植过程",
