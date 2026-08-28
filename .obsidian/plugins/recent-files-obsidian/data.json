@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "DMA",
-      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
-    },
-    {
       "basename": "信号量",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
+    },
+    {
+      "basename": "队列",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
+    },
+    {
+      "basename": "DMA",
+      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
     },
     {
       "basename": "Git基础使用",
@@ -39,10 +43,6 @@
     {
       "basename": "time.h 时间函数",
       "path": "learning学习/编程语言/C语言/time.h 时间函数.md"
-    },
-    {
-      "basename": "队列",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
     },
     {
       "basename": "基本函数",

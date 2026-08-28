@@ -60,13 +60,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/DMA.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DMA"
+              "title": "信号量"
             }
           }
         ],
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/DMA.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,6 +314,8 @@
   },
   "active": "4984dce690412c33",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
+    "learning学习/嵌入式/STM32/记录基础/DMA.md",
     "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
     "learning学习/Git基础使用.md",
     "learning学习/嵌入式/STM32/记录基础/看门狗.md",
@@ -323,7 +325,6 @@
     "learning学习/编程语言/C语言/C与指针.md",
     "learning学习/编程语言/C语言/数据类型.md",
     "learning学习/编程语言/C语言/time.h 时间函数.md",
-    "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
     "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
@@ -341,7 +342,6 @@
     "templates/notes/2b05fe61-abeb-4ed5-9249-02bb1488a74b.md",
     "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
     "Pasted image 20260820204600.png",
-    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "Pasted image 20260815174429.png",
     "learning学习/嵌入式/HAL库",
     "Pasted image 20260813155223.png",
