@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "任务通知",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md"
+    },
+    {
       "basename": "信号量",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MPU6050",
       "path": "learning学习/嵌入式/STM32/记录基础/MPU6050.md"
-    },
-    {
-      "basename": "EXTI",
-      "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/EXTI.md"
     }
   ],
   "omittedPaths": [],

@@ -75,13 +75,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "信号量"
+              "title": "任务通知"
             }
           }
         ],
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,8 +329,9 @@
   },
   "active": "0510ff508413d2a7",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
+    "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
+    "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
     "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
@@ -355,7 +356,6 @@
     "learning学习/嵌入式/PCB/基础元件.md",
     "learning学习/嵌入式/PCB/PCB模块.md",
     "learning学习/嵌入式/PCB/常用模块/电源模块.md",
-    "templates/notes/2b05fe61-abeb-4ed5-9249-02bb1488a74b.md",
     "Pasted image 20260820204600.png",
     "Pasted image 20260815174429.png",
     "learning学习/嵌入式/HAL库",
