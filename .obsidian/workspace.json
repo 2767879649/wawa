@@ -60,13 +60,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "信号量"
+              "title": "队列"
             }
           }
         ],
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,9 +314,9 @@
   },
   "active": "4984dce690412c33",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
     "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
-    "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
     "learning学习/Git基础使用.md",
     "learning学习/嵌入式/STM32/记录基础/看门狗.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
