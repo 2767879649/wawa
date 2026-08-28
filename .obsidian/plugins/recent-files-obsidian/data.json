@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "基本知识",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
+      "basename": "信号量",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
     },
     {
       "basename": "队列",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
     },
     {
-      "basename": "信号量",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
+      "basename": "基本知识",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
     },
     {
       "basename": "事件组",
