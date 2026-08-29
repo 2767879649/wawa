@@ -75,13 +75,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基本函数"
+              "title": "基本知识"
             }
           }
         ],
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
