@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "基本函数",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
+    },
+    {
+      "basename": "事件组",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
+    },
+    {
+      "basename": "中断",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/中断.md"
+    },
+    {
+      "basename": "基础开始 1",
+      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
+    },
+    {
+      "basename": "STM32F10xxx参考手册（中文）",
+      "path": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf"
+    },
+    {
+      "basename": "STM32入门教程",
+      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
+    },
+    {
       "basename": "基本知识",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
     },
     {
       "basename": "移植过程",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md"
-    },
-    {
-      "basename": "基本函数",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
-    },
-    {
-      "basename": "中断",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/中断.md"
     },
     {
       "basename": "定时器",
@@ -35,10 +51,6 @@
     {
       "basename": "信号量",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
-    },
-    {
-      "basename": "事件组",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
     },
     {
       "basename": "基础函数",
@@ -187,18 +199,6 @@
     {
       "basename": "C++",
       "path": "learning学习/编程语言/C++.md"
-    },
-    {
-      "basename": "claude基础使用",
-      "path": "learning学习/claude/claude基础使用.md"
-    },
-    {
-      "basename": "基础知识",
-      "path": "learning学习/claude/笔记文件/基础知识.md"
-    },
-    {
-      "basename": "重点",
-      "path": "learning学习/备考/zigbee/重点.md"
     }
   ],
   "omittedPaths": [],
