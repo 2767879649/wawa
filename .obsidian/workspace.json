@@ -75,13 +75,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/按键.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "任务通知"
+              "title": "按键"
             }
           }
         ],
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/按键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -330,8 +329,8 @@
   },
   "active": "0510ff508413d2a7",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
     "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
+    "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
     "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
     "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "按键",
+      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
+    },
+    {
       "basename": "任务通知",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "按键",
-      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
     },
     {
       "basename": "舵机",
