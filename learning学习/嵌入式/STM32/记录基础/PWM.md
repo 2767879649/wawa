@@ -1,7 +1,7 @@
 
 # PWM
 *用数字信号模拟模拟信号*
-基于定时器进行的[[定时器]]
+基于定时器进行的[[learning学习/嵌入式/STM32/记录基础/定时器]]
 ## 函数
 `TIM_SetCompare1|2(TIM2, Num);`  //改变 CCR 值
 
@@ -25,7 +25,7 @@ CCR OC 比较值
 |                    |                                                                                        |
 
 ## 参数计算
-- [[定时器]]
+- [[learning学习/嵌入式/STM32/记录基础/定时器]]
 - <font color="#245bdb">PWM频率：</font>
         Freq=CK_PSC/(PSC+1)/(ARR+1)    //CK_PSC 为总线时钟频率 72MHz，PSC 预分频器，ARR自动重装值
 - <font color="#245bdb">PWM占空比：</font>
