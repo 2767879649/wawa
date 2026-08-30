@@ -84,8 +84,7 @@
               "title": "中断"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,8 +326,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4984dce690412c33",
+  "active": "0cb2bdb9c5f5e375",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "Pasted image 20260829180258.png",
     "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
     "learning学习/嵌入式/STM32/FreeRTOS/中断.md",
@@ -338,7 +338,6 @@
     "learning学习/嵌入式/STM32/STM32入门教程.pdf",
     "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
     "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
-    "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "learning学习/嵌入式/STM32/FreeRTOS/定时器.md",
     "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/记录基础/按键.md",
@@ -369,7 +368,6 @@
     "Pasted image 20260811131725.png",
     "Pasted image 20260809165230.png",
     "Pasted image 20260809144743.png",
-    "Pasted image 20260809144652.png",
     "learning学习/嵌入式/STM32/FreeRTOS",
     "learning学习/嵌入式/PCB/常用模块",
     "learning学习/嵌入式/PCB",
