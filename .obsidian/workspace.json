@@ -10,7 +10,6 @@
           {
             "id": "0cb2bdb9c5f5e375",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -19,7 +18,6 @@
                 "source": false,
                 "backlinks": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "基础函数"
             }
@@ -114,8 +112,7 @@
               "title": "ESP8266"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -358,8 +355,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1412c4805a062288",
+  "active": "0cb2bdb9c5f5e375",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
