@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "未命名 2",
       "path": "未命名 2.base"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "基本函数",
