@@ -112,7 +112,8 @@
               "title": "ESP8266"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -355,10 +356,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0cb2bdb9c5f5e375",
+  "active": "be2f9c7b98700957",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
+    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "Pasted image 20260829180258.png",
