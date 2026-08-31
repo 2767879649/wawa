@@ -18,8 +18,8 @@
 ![[Pasted image 20260724222115.png|584]]
 
 ![[Pasted image 20260724222101.png|587]]
-
-
+## I 2 C 数据传输等级
+![[Pasted image 20260831225532.png]]
 ## 使用 I 2 C 通信的模块
 [[MPU6050]]
 
