@@ -101,18 +101,17 @@
             "id": "1412c4805a062288",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "未命名 2.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "ESP8266"
+              "icon": "lucide-table",
+              "title": "未命名 2"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "未命名 2.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -355,12 +354,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0cb2bdb9c5f5e375",
+  "active": "1412c4805a062288",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
+    "未命名 2.base",
+    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-    "learning学习/嵌入式/HAL库/基础函数.md",
-    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "Pasted image 20260829180258.png",
     "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
     "learning学习/嵌入式/STM32/FreeRTOS/中断.md",
@@ -387,7 +387,6 @@
     "learning学习/嵌入式/STM32/记录基础/舵机.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
-    "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md",
     "Pasted image 20260820204600.png",
     "Pasted image 20260815174429.png",
     "learning学习/嵌入式/HAL库",
@@ -402,7 +401,6 @@
     "learning学习/嵌入式/PCB/常用模块",
     "learning学习/嵌入式/PCB",
     "learning学习/嵌入式/STM32/记录基础/image",
-    "STM32F10xxx参考手册（中文） 1.pdf",
     "未命名 1.canvas",
     "未命名 3.canvas",
     "未命名 2.canvas",
