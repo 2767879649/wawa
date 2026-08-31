@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "I2C通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PWM",
       "path": "learning学习/嵌入式/STM32/记录基础/PWM.md"
-    },
-    {
-      "basename": "开始",
-      "path": "learning学习/无人机/开始.md"
     }
   ],
   "omittedPaths": [],
