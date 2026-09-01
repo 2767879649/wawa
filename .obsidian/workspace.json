@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "I2C通信"
+              "title": "基础函数"
             }
           },
           {
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -282,6 +281,7 @@
   },
   "active": "0cb2bdb9c5f5e375",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "Pasted image 20260831225532.png",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
@@ -323,7 +323,6 @@
     "Pasted image 20260811151358.png",
     "Pasted image 20260811131725.png",
     "Pasted image 20260809165230.png",
-    "Pasted image 20260809144743.png",
     "learning学习/嵌入式/STM32/FreeRTOS",
     "learning学习/嵌入式/PCB/常用模块",
     "learning学习/嵌入式/PCB",
