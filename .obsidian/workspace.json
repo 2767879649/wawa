@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基础函数"
+              "title": "ESP8266"
             }
           },
           {
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -281,11 +282,11 @@
   },
   "active": "0cb2bdb9c5f5e375",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
+    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "Pasted image 20260831225532.png",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-    "learning学习/嵌入式/HAL库/基础函数.md",
-    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/STM32/记录基础/DWT.md",
     "learning学习/嵌入式/STM32/FreeRTOS/中断.md",
     "未命名 2.base",
