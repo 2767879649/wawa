@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -297,11 +298,11 @@
   },
   "active": "1bf23db56141e38f",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
+    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/cJSON/库的使用.md",
     "templates/notes/8b28fa3f-9f8a-4706-9d85-b55ae2a6bd22.md",
-    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/cJSON",
-    "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "templates/notes/a49aa6d9-7c6c-41f4-8a66-0dbded2a91c1.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
