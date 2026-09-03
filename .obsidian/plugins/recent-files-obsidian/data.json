@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "按键",
+      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
+    },
+    {
       "basename": "ESP8266",
       "path": "learning学习/嵌入式/STM32/记录基础/ESP8266.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "队列",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
-    },
-    {
-      "basename": "按键",
-      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
     },
     {
       "basename": "任务通知",
