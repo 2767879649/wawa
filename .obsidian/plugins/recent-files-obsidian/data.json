@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
+      "basename": "库的使用",
+      "path": "learning学习/嵌入式/cJSON/库的使用.md"
+    },
+    {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
     },
@@ -9,20 +17,12 @@
       "path": "learning学习/嵌入式/STM32/FreeRTOS/定时器.md"
     },
     {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
-    },
-    {
       "basename": "按键",
       "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
     },
     {
       "basename": "ESP8266",
       "path": "learning学习/嵌入式/STM32/记录基础/ESP8266.md"
-    },
-    {
-      "basename": "库的使用",
-      "path": "learning学习/嵌入式/cJSON/库的使用.md"
     },
     {
       "basename": "GPIO端口",
