@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/按键.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,8 +310,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "622c38cc4717a50d",
+  "active": "1bf23db56141e38f",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
     "learning学习/嵌入式/cJSON/库的使用.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
@@ -335,7 +336,6 @@
     "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
     "learning学习/嵌入式/STM32/FreeRTOS/定时器.md",
     "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
-    "learning学习/嵌入式/STM32/记录基础/按键.md",
     "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
     "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
     "learning学习/嵌入式/STM32/记录基础/DMA.md",
