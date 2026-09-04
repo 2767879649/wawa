@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "正交编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/正交编码器.md"
-    },
-    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -13,12 +9,36 @@
       "path": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md"
     },
     {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+      "basename": "LECO显示屏",
+      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
     },
     {
       "basename": "库的使用",
       "path": "learning学习/嵌入式/cJSON/库的使用.md"
+    },
+    {
+      "basename": "MPU6050",
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/MPU6050.md"
+    },
+    {
+      "basename": "W25Q64",
+      "path": "learning学习/嵌入式/STM32/记录基础/W25Q64.md"
+    },
+    {
+      "basename": "RTC",
+      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
+    },
+    {
+      "basename": "温湿度传感器",
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/温湿度传感器.md"
+    },
+    {
+      "basename": "正交编码器",
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "定时器",
@@ -30,7 +50,7 @@
     },
     {
       "basename": "按键",
-      "path": "learning学习/嵌入式/STM32/记录基础/按键.md"
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/按键.md"
     },
     {
       "basename": "ESP8266",
@@ -133,10 +153,6 @@
       "path": "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md"
     },
     {
-      "basename": "LECO显示屏",
-      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
-    },
-    {
       "basename": "旋钮编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/中断事件/EXTI外部中断/旋钮编码器.md"
     },
@@ -158,7 +174,7 @@
     },
     {
       "basename": "DTH11温湿度传感器",
-      "path": "learning学习/嵌入式/STM32/记录基础/DTH11温湿度传感器.md"
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/DTH11温湿度传感器.md"
     },
     {
       "basename": "建立一个新工程",
@@ -173,20 +189,8 @@
       "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
     },
     {
-      "basename": "W25Q64",
-      "path": "learning学习/嵌入式/STM32/记录基础/W25Q64.md"
-    },
-    {
-      "basename": "RTC",
-      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
-    },
-    {
       "basename": "PWR",
       "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
-    },
-    {
-      "basename": "温湿度传感器",
-      "path": "learning学习/嵌入式/STM32/记录基础/温湿度传感器.md"
     },
     {
       "basename": "基本知识",
@@ -195,10 +199,6 @@
     {
       "basename": "电脑快捷键",
       "path": "learning学习/电脑快捷键.md"
-    },
-    {
-      "basename": "01-开发环境搭建",
-      "path": "learning学习/嵌入式/人脸识别系统（Linus+Qt+opencv）/02-开发环境搭建/01-开发环境搭建.md"
     }
   ],
   "omittedPaths": [],
