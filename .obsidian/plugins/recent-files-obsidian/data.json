@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "ESP8266",
       "path": "learning学习/嵌入式/STM32/记录基础/ESP8266.md"
-    },
-    {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
       "basename": "I2C通信",
