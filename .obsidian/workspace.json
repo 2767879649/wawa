@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0cb2bdb9c5f5e375",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "基础函数"
-            }
-          },
-          {
             "id": "d949bf03843de6c0",
             "type": "leaf",
             "state": {
@@ -146,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -310,10 +294,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0cb2bdb9c5f5e375",
+  "active": "228bfa193061227f",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
+    "Pasted image 20260904195218.png",
     "learning学习/嵌入式/HAL库/基础函数.md",
+    "learning学习/嵌入式/STM32/记录基础/模块",
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "Pasted image 20260903160522.png",
     "learning学习/嵌入式/cJSON/库的使用.md",
     "learning学习/嵌入式/STM32/记录基础/定时器.md",
@@ -344,7 +331,6 @@
     "learning学习/Git基础使用.md",
     "learning学习/嵌入式/STM32/记录基础/看门狗.md",
     "learning学习/嵌入式/STM32/记录基础/BKP.md",
-    "learning学习/编程语言/C语言/笔记.md",
     "Pasted image 20260825233831.png",
     "Pasted image 20260820204600.png",
     "Pasted image 20260815174429.png",
@@ -353,10 +339,8 @@
     "Pasted image 20260813151356.png",
     "learning学习/无人机",
     "Pasted image 20260811151358.png",
-    "Pasted image 20260811131725.png",
     "learning学习/嵌入式/STM32/FreeRTOS",
     "learning学习/嵌入式/PCB/常用模块",
-    "learning学习/嵌入式/PCB",
     "未命名 1.canvas",
     "未命名 3.canvas",
     "未命名 2.canvas",
