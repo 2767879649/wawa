@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "定时器",
+      "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
+    },
+    {
       "basename": "编码电机",
       "path": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "正交编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md"
-    },
-    {
-      "basename": "定时器",
-      "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
     },
     {
       "basename": "定时器",
