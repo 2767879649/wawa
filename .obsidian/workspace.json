@@ -37,8 +37,7 @@
               "title": "基础函数"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,8 +280,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "618a20a7b2ab4b65",
+  "active": "d949bf03843de6c0",
   "lastOpenFiles": [
+    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
@@ -293,7 +293,6 @@
     "learning学习/嵌入式/STM32/记录基础/模块/温湿度传感器.md",
     "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md",
     "Pasted image 20260904195218.png",
-    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/模块",
     "Pasted image 20260903160522.png",
     "learning学习/嵌入式/STM32/记录基础/定时器.md",
