@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/嵌入式/HAL库/基础函数.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -37,7 +37,8 @@
               "title": "基础函数"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/定时器.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,8 +280,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d949bf03843de6c0",
+  "active": "618a20a7b2ab4b65",
   "lastOpenFiles": [
+    "Pasted image 20260905202523.png",
+    "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
@@ -294,7 +297,6 @@
     "Pasted image 20260904195218.png",
     "learning学习/嵌入式/STM32/记录基础/模块",
     "Pasted image 20260903160522.png",
-    "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "learning学习/嵌入式/STM32/FreeRTOS/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/模块/按键.md",
     "learning学习/嵌入式/STM32/记录基础/ESP8266.md",
@@ -316,7 +318,6 @@
     "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
     "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
     "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
-    "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
     "Pasted image 20260825233831.png",
     "Pasted image 20260820204600.png",
     "Pasted image 20260815174429.png",
