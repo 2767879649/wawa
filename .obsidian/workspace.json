@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基础函数"
+              "title": "正交编码器"
             }
           }
         ],
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,10 +283,11 @@
   },
   "active": "618a20a7b2ab4b65",
   "lastOpenFiles": [
-    "Pasted image 20260905202523.png",
-    "learning学习/嵌入式/STM32/记录基础/定时器.md",
+    "Pasted image 20260906232616.png",
     "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
+    "Pasted image 20260905202523.png",
+    "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/cJSON/库的使用.md",
@@ -326,7 +327,6 @@
     "Pasted image 20260813155223.png",
     "Pasted image 20260813151356.png",
     "learning学习/无人机",
-    "Pasted image 20260811151358.png",
     "learning学习/嵌入式/STM32/FreeRTOS",
     "learning学习/嵌入式/PCB/常用模块",
     "未命名 1.canvas",
