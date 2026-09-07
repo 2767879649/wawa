@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "基础",
+      "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
+    },
+    {
+      "basename": "PID算法学习",
+      "path": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md"
+    },
+    {
       "basename": "正交编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md"
     },
@@ -173,10 +181,6 @@
       "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
     },
     {
-      "basename": "PID算法学习",
-      "path": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md"
-    },
-    {
       "basename": "DTH11温湿度传感器",
       "path": "learning学习/嵌入式/STM32/记录基础/模块/DTH11温湿度传感器.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PWR",
       "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
-    },
-    {
-      "basename": "基本知识",
-      "path": "learning学习/嵌入式/STM32/记录基础/基本知识.md"
     }
   ],
   "omittedPaths": [],
