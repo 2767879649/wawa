@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "开始流程",
+      "path": "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md"
+    },
+    {
       "basename": "正交编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ADC",
       "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
-    },
-    {
-      "basename": "PWR",
-      "path": "learning学习/嵌入式/STM32/记录基础/PWR.md"
     }
   ],
   "omittedPaths": [],
