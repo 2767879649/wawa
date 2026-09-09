@@ -5,6 +5,18 @@
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
     {
+      "basename": "直流电机（小风扇）",
+      "path": "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md"
+    },
+    {
+      "basename": "STM32F10xxx参考手册（中文）",
+      "path": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf"
+    },
+    {
+      "basename": "STM32入门教程",
+      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
+    },
+    {
       "basename": "开始流程",
       "path": "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md"
     },
@@ -101,14 +113,6 @@
       "path": "learning学习/嵌入式/STM32/基础开始 1.md"
     },
     {
-      "basename": "STM32F10xxx参考手册（中文）",
-      "path": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf"
-    },
-    {
-      "basename": "STM32入门教程",
-      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
-    },
-    {
       "basename": "基本知识",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "输入捕获",
       "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
-    },
-    {
-      "basename": "ADC",
-      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
     }
   ],
   "omittedPaths": [],
