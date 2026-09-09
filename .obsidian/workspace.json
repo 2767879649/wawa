@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,8 +296,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "276de970eee63afb",
+  "active": "37e105efa515578f",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf",
@@ -311,7 +312,6 @@
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/定时器.md",
     "Pasted image 20260906232616.png",
-    "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
     "Pasted image 20260905202523.png",
     "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md",
     "learning学习/嵌入式/cJSON/库的使用.md",
