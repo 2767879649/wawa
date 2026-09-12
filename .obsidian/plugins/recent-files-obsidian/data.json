@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "问题",
+      "path": "learning学习/嵌入式/STM32/智能可调时钟/问题.md"
+    },
+    {
       "basename": "基础",
       "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "电源模块",
       "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
-    },
-    {
-      "basename": "DTH11温湿度传感器",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/DTH11温湿度传感器.md"
     }
   ],
   "omittedPaths": [],
