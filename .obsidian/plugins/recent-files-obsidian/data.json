@@ -5,6 +5,18 @@
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
+      "basename": "基础",
+      "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
+    },
+    {
+      "basename": "开始流程",
+      "path": "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md"
+    },
+    {
+      "basename": "PID算法学习",
+      "path": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md"
+    },
+    {
       "basename": "c语言",
       "path": "learning学习/八股文/c语言.md"
     },
@@ -35,18 +47,6 @@
     {
       "basename": "STM32入门教程",
       "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
-    },
-    {
-      "basename": "开始流程",
-      "path": "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md"
-    },
-    {
-      "basename": "基础",
-      "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
-    },
-    {
-      "basename": "PID算法学习",
-      "path": "learning学习/嵌入式/STM32/记录基础/PID算法学习.md"
     },
     {
       "basename": "基础函数",
