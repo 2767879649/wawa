@@ -85,7 +85,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/Git基础使用.md",
+                "file": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,15 +328,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cae72eaf9b2ab4cd",
+  "active": "0482a37ea20735dc",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/八股文/c语言.md",
+    "learning学习/Git基础使用.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/双轮平衡小车/基础.md",
     "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md",
     "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
-    "learning学习/八股文/c语言.md",
     "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/备考/嵌入式.md",
     "learning学习/八股文",
     "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
@@ -366,7 +367,6 @@
     "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md",
     "Pasted image 20260831225532.png",
     "learning学习/嵌入式/STM32/记录基础/DWT.md",
-    "learning学习/嵌入式/STM32/FreeRTOS/中断.md",
     "未命名 2.base",
     "Pasted image 20260829180258.png",
     "learning学习/嵌入式/STM32/记录基础/~$STM32入门教程.pptx",
