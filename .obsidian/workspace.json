@@ -327,8 +327,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "be43feaaf68d79cb",
+  "active": "228bfa193061227f",
   "lastOpenFiles": [
+    "learning学习/MATLAB",
     "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
     "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
@@ -361,7 +362,6 @@
     "learning学习/嵌入式/STM32/记录基础/模块/MPU6050.md",
     "learning学习/嵌入式/STM32/记录基础/W25Q64.md",
     "learning学习/嵌入式/STM32/记录基础/RTC.md",
-    "learning学习/嵌入式/STM32/记录基础/模块/温湿度传感器.md",
     "Pasted image 20260904195218.png",
     "learning学习/嵌入式/STM32/记录基础/模块",
     "Pasted image 20260903160522.png",
