@@ -60,13 +60,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "信号量"
+              "title": "基本函数"
             }
           },
           {
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,8 +330,8 @@
   },
   "active": "0482a37ea20735dc",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
+    "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
     "learning学习/嵌入式/STM32/智能可调时钟/问题.md",
     "learning学习/八股文/c语言.md",
