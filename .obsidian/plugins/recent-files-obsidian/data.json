@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "问题",
+      "path": "learning学习/嵌入式/STM32/智能可调时钟/问题.md"
+    },
+    {
       "basename": "事件组",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "队列",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
-    },
-    {
-      "basename": "问题",
-      "path": "learning学习/嵌入式/STM32/智能可调时钟/问题.md"
     },
     {
       "basename": "基础",

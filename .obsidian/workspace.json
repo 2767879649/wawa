@@ -75,13 +75,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
-                "mode": "preview",
+                "file": "learning学习/嵌入式/STM32/智能可调时钟/问题.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "事件组"
+              "title": "问题"
             }
           }
         ],
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
+                "file": "learning学习/嵌入式/STM32/智能可调时钟/问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,6 +329,7 @@
   },
   "active": "be43feaaf68d79cb",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
     "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
@@ -364,7 +365,6 @@
     "Pasted image 20260904195218.png",
     "learning学习/嵌入式/STM32/记录基础/模块",
     "Pasted image 20260903160522.png",
-    "learning学习/嵌入式/STM32/FreeRTOS/定时器.md",
     "learning学习/嵌入式/cJSON",
     "Pasted image 20260831225532.png",
     "未命名 2.base",
