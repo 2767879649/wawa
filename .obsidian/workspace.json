@@ -84,7 +84,8 @@
               "title": "Git基础使用"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/模块/ESP8266.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,8 +328,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9ee3874c451b7227",
+  "active": "0482a37ea20735dc",
   "lastOpenFiles": [
+    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/模块/ESP8266.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
     "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
@@ -340,7 +342,6 @@
     "learning学习/嵌入式/STM32/智能可调时钟",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/Git基础使用.md",
-    "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md",
     "learning学习/嵌入式/STM32/记录基础/PID算法学习.md",
     "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md",
