@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "信号量",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
+    },
+    {
+      "basename": "队列",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
+    },
+    {
+      "basename": "任务通知",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md"
+    },
+    {
       "basename": "问题",
       "path": "learning学习/嵌入式/STM32/智能可调时钟/问题.md"
+    },
+    {
+      "basename": "c语言",
+      "path": "learning学习/八股文/c语言.md"
     },
     {
       "basename": "基础",
@@ -11,10 +27,6 @@
     {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "c语言",
-      "path": "learning学习/八股文/c语言.md"
     },
     {
       "basename": "Git基础使用",
@@ -135,18 +147,6 @@
     {
       "basename": "移植过程",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md"
-    },
-    {
-      "basename": "队列",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
-    },
-    {
-      "basename": "任务通知",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md"
-    },
-    {
-      "basename": "信号量",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
     },
     {
       "basename": "DMA",
