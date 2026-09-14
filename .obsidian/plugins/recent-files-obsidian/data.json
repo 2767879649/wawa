@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
-    },
-    {
       "basename": "问题",
       "path": "learning学习/嵌入式/STM32/智能可调时钟/问题.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "Git基础使用",
