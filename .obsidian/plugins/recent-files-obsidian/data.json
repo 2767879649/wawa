@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
       "basename": "问题",
       "path": "learning学习/嵌入式/STM32/智能可调时钟/问题.md"
+    },
+    {
+      "basename": "Git基础使用",
+      "path": "learning学习/Git基础使用.md"
+    },
+    {
+      "basename": "c语言",
+      "path": "learning学习/八股文/c语言.md"
     },
     {
       "basename": "事件组",
@@ -17,16 +29,8 @@
       "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
     },
     {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
-    },
-    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "c语言",
-      "path": "learning学习/八股文/c语言.md"
     },
     {
       "basename": "ESP8266",
@@ -43,10 +47,6 @@
     {
       "basename": "基础",
       "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
-    },
-    {
-      "basename": "Git基础使用",
-      "path": "learning学习/Git基础使用.md"
     },
     {
       "basename": "开始流程",
