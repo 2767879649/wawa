@@ -99,8 +99,7 @@
               "title": "W25Q64"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,11 +342,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "37e105efa515578f",
+  "active": "9ee3874c451b7227",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md",
-    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/模块/W25Q64.md",
     "templates/notes/abfa7234-c146-492f-84c3-f9157b07a646_任务：活过村子第七日的神庙祭祀.md",
     "templates/notes/abfa7234-c146-492f-84c3-f9157b07a646_任务：活过村子第七日的神庙ji'si.md",
