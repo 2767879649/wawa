@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "SPI通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
-    },
-    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
+      "basename": "SPI通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
     },
     {
       "basename": "HC-05主从一体蓝牙模块",
