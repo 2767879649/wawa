@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.61111450195312
+    "width": 240.61111450195312,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -282,7 +283,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "228bfa193061227f",
+  "active": "063cc454f6c0c5d7",
   "lastOpenFiles": [
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/ESP32/基础.md",
