@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "编码电机",
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md"
+    },
+    {
       "basename": "外设功能",
       "path": "learning学习/嵌入式/ESP32/外设功能.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "嵌入式",
       "path": "learning学习/备考/嵌入式.md"
-    },
-    {
-      "basename": "编码电机",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md"
     },
     {
       "basename": "直流电机（小风扇）",
