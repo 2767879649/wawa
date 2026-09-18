@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基础函数"
+              "title": "HC-05主从一体蓝牙模块"
             }
           }
         ],
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/基础函数.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.61111450195312
+    "width": 240.61111450195312,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -284,8 +285,8 @@
   },
   "active": "063cc454f6c0c5d7",
   "lastOpenFiles": [
-    "learning学习/嵌入式/ESP32/外设功能.md",
     "learning学习/嵌入式/ESP32/基础函数.md",
+    "learning学习/嵌入式/ESP32/外设功能.md",
     "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
     "templates/notes/c3c975ae-353f-48b1-8c45-58303975b86c.md",
     "learning学习/嵌入式/STM32/记录基础/模块/按键.md",
