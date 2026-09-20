@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
-    },
-    {
-      "basename": "HC-05主从一体蓝牙模块",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md"
+      "basename": "外设功能",
+      "path": "learning学习/嵌入式/ESP32/外设功能.md"
     },
     {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/ESP32/基础函数.md"
     },
     {
-      "basename": "外设功能",
-      "path": "learning学习/嵌入式/ESP32/外设功能.md"
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "HC-05主从一体蓝牙模块",
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md"
+    },
+    {
+      "basename": "开始流程",
+      "path": "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md"
+    },
+    {
+      "basename": "基础",
+      "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "编码电机",
@@ -71,14 +79,6 @@
     {
       "basename": "队列",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
-    },
-    {
-      "basename": "基础",
-      "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
-    },
-    {
-      "basename": "开始流程",
-      "path": "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md"
     },
     {
       "basename": "PID算法学习",
