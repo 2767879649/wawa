@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/基础函数.md",
+                "file": "learning学习/嵌入式/ESP32/外设功能.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基础函数"
+              "title": "外设功能"
             }
           }
         ],
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/基础函数.md",
+                "file": "learning学习/嵌入式/ESP32/外设功能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,6 +284,9 @@
   },
   "active": "9fda2948f0bf8694",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/简历.pdf",
+    "learning学习/嵌入式/ESP32/基础函数.md",
+    "learning学习/嵌入式/ESP32/外设功能.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被裕田公寓的凶手杀死之前，找到大楼中杀手.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被裕田公寓的凶手杀死之前，找到.md",
@@ -298,8 +301,6 @@
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：zai.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：.md",
-    "learning学习/嵌入式/ESP32/外设功能.md",
-    "learning学习/嵌入式/ESP32/基础函数.md",
     "learning学习/嵌入式/STM32/记录基础/模块/按键.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md",
@@ -310,7 +311,6 @@
     "templates/notes/c3c975ae-353f-48b1-8c45-58303975b86c.md",
     "learning学习/嵌入式/ESP32",
     "learning学习/嵌入式/STM32/记录基础/模块/W25Q64.md",
-    "templates/notes/abfa7234-c146-492f-84c3-f9157b07a646_任务：活过村子第七日的神庙祭祀.md",
     "learning学习/MATLAB",
     "learning学习/嵌入式/STM32/智能可调时钟",
     "learning学习/八股文",
