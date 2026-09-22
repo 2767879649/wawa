@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/Git基础使用.md",
+                "file": "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Git基础使用"
+              "title": "零件"
             }
           },
           {
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/Git基础使用.md",
+                "file": "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.61111450195312,
-    "collapsed": true
+    "width": 240.61111450195312
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -303,6 +302,10 @@
   },
   "active": "9fda2948f0bf8694",
   "lastOpenFiles": [
+    "Pasted image 20260922185043.png",
+    "learning学习/Git基础使用.md",
+    "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
+    "learning学习/嵌入式/ESP32/莱罗三角形",
     "learning学习/嵌入式/ESP32/基础函数.md",
     "Pasted image 20260922160234.png",
     "learning学习/嵌入式/STM32/记录基础/模块/ESP8266.md",
@@ -328,8 +331,6 @@
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被裕tian'gong'yu.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被yu'tiangongyu.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被yu'tian'gongyu.md",
-    "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被yu'tian.md",
-    "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被.md",
     "learning学习/嵌入式/ESP32",
     "learning学习/MATLAB",
     "learning学习/嵌入式/STM32/智能可调时钟",
@@ -342,7 +343,6 @@
     "Pasted image 20260904195218.png",
     "learning学习/嵌入式/STM32/记录基础/模块",
     "Pasted image 20260903160522.png",
-    "learning学习/嵌入式/cJSON",
     "Pasted image 20260831225532.png",
     "Pasted image 20260829180258.png",
     "Pasted image 20260825233831.png",

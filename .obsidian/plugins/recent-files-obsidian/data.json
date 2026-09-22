@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "零件",
+      "path": "learning学习/嵌入式/ESP32/莱罗三角形/零件.md"
+    },
+    {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "C与指针",
       "path": "learning学习/编程语言/C语言/C与指针.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "learning学习/编程语言/C语言/数据类型.md"
     }
   ],
   "omittedPaths": [],
