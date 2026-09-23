@@ -54,8 +54,7 @@
               "title": "DWT"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -300,11 +299,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9fda2948f0bf8694",
+  "active": "9ee3874c451b7227",
   "lastOpenFiles": [
+    "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
     "Pasted image 20260922185043.png",
     "learning学习/Git基础使用.md",
-    "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
     "learning学习/嵌入式/ESP32/莱罗三角形",
     "learning学习/嵌入式/ESP32/基础函数.md",
     "Pasted image 20260922160234.png",
@@ -347,7 +346,6 @@
     "Pasted image 20260829180258.png",
     "Pasted image 20260825233831.png",
     "Pasted image 20260820204600.png",
-    "Pasted image 20260815174429.png",
     "未命名 1.canvas",
     "未命名 3.canvas",
     "未命名 2.canvas",
