@@ -61,7 +61,7 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/八股文/嵌入式.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -315,7 +315,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "228bfa193061227f",
+  "active": "cb6f681321a6760e",
   "lastOpenFiles": [
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
