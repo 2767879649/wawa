@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基本函数",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
+    },
+    {
       "basename": "信号量",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "任务通知",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md"
-    },
-    {
-      "basename": "基本函数",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md"
     },
     {
       "basename": "队列",
