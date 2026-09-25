@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/八股文/嵌入式.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "嵌入式"
+              "title": "信号量"
             }
           }
         ],
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/八股文/嵌入式.md",
+                "file": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.61111450195312
+    "width": 240.61111450195312,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -287,9 +288,10 @@
   },
   "active": "cb6f681321a6760e",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
+    "learning学习/八股文/嵌入式.md",
     "learning学习/嵌入式/STM32/记录基础/DWT.md",
     "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
-    "learning学习/八股文/嵌入式.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "Pasted image 20260922185043.png",
     "learning学习/Git基础使用.md",
@@ -316,7 +318,6 @@
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被裕田gong'yu.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被裕tian'gong'yu.md",
     "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被yu'tiangongyu.md",
-    "templates/notes/0baf4ef5-c3bb-4f41-9e2d-d09f8b2fc6e4_任务：在被yu'tian'gongyu.md",
     "learning学习/嵌入式/ESP32",
     "learning学习/MATLAB",
     "learning学习/嵌入式/STM32/智能可调时钟",
