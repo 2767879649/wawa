@@ -9,12 +9,16 @@
       "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
     },
     {
-      "basename": "任务通知",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md"
+      "basename": "事件组",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
     },
     {
       "basename": "定时器",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/定时器.md"
+    },
+    {
+      "basename": "任务通知",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md"
     },
     {
       "basename": "中断",
@@ -31,10 +35,6 @@
     {
       "basename": "移植过程",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md"
-    },
-    {
-      "basename": "事件组",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
     },
     {
       "basename": "基础函数",
