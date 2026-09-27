@@ -45,13 +45,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
-                "mode": "preview",
+                "file": "learning学习/模电/记录.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "队列"
+              "title": "记录"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
+                "file": "learning学习/模电/记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.61111450195312
+    "width": 240.61111450195312,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -302,11 +303,13 @@
   },
   "active": "58fdcab42723368f",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
+    "learning学习/模电/记录.md",
+    "learning学习/模电",
     "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
     "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
     "learning学习/嵌入式/STM32/FreeRTOS/定时器.md",
     "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
-    "learning学习/嵌入式/STM32/FreeRTOS/队列.md",
     "learning学习/嵌入式/STM32/FreeRTOS/中断.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
@@ -330,7 +333,6 @@
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/通信/串口通信.md",
-    "learning学习/嵌入式/STM32/记录基础/模块/W25Q64.md",
     "learning学习/嵌入式/STM32/简历.pdf",
     "learning学习/嵌入式/ESP32",
     "learning学习/MATLAB",
@@ -342,7 +344,6 @@
     "Pasted image 20260906232616.png",
     "Pasted image 20260905202523.png",
     "Pasted image 20260904195218.png",
-    "learning学习/嵌入式/STM32/记录基础/模块",
     "Pasted image 20260903160522.png",
     "Pasted image 20260831225532.png",
     "Pasted image 20260829180258.png",

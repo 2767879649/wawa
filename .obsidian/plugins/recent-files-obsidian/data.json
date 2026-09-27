@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "记录",
+      "path": "learning学习/模电/记录.md"
+    },
+    {
       "basename": "队列",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "笔记",
       "path": "learning学习/编程语言/C语言/笔记.md"
-    },
-    {
-      "basename": "C与指针",
-      "path": "learning学习/编程语言/C语言/C与指针.md"
     }
   ],
   "omittedPaths": [],
