@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "外设功能",
+      "path": "learning学习/嵌入式/ESP32/外设功能.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/ESP32/基础函数.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
+      "basename": "按键",
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/按键.md"
+    },
+    {
       "basename": "记录",
       "path": "learning学习/模电/记录.md"
     },
@@ -41,14 +57,6 @@
       "path": "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md"
     },
     {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
-    },
-    {
-      "basename": "按键",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/按键.md"
-    },
-    {
       "basename": "正交编码器",
       "path": "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "Git基础使用",
       "path": "learning学习/Git基础使用.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/ESP32/基础函数.md"
     },
     {
       "basename": "ESP8266",
@@ -111,10 +115,6 @@
     {
       "basename": "HC-05主从一体蓝牙模块",
       "path": "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md"
-    },
-    {
-      "basename": "外设功能",
-      "path": "learning学习/嵌入式/ESP32/外设功能.md"
     },
     {
       "basename": "GPIO端口",
