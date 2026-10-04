@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "记录",
-      "path": "learning学习/模电/记录.md"
-    },
-    {
       "basename": "音频模块",
       "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
+    },
+    {
+      "basename": "记录",
+      "path": "learning学习/模电/记录.md"
     },
     {
       "basename": "基础函数",
