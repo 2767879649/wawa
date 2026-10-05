@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "开始",
+      "path": "learning学习/嵌入式/FOC/开始.md"
+    },
+    {
       "basename": "音频模块",
       "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "看门狗",
       "path": "learning学习/嵌入式/STM32/记录基础/看门狗.md"
-    },
-    {
-      "basename": "BKP",
-      "path": "learning学习/嵌入式/STM32/记录基础/BKP.md"
     }
   ],
   "omittedPaths": [],
