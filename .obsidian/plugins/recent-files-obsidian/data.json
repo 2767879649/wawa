@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "浩盛FOC",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DMA",
       "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
-    },
-    {
-      "basename": "看门狗",
-      "path": "learning学习/嵌入式/STM32/记录基础/看门狗.md"
     }
   ],
   "omittedPaths": [],
