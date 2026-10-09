@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
       "basename": "开始",
       "path": "learning学习/嵌入式/FOC/开始.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "外设功能",
       "path": "learning学习/嵌入式/ESP32/外设功能.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "正交编码器",
