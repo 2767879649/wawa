@@ -69,7 +69,8 @@
               "title": "浩盛FOC"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -315,11 +316,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9ee3874c451b7227",
+  "active": "c49c53a513c9f866",
   "lastOpenFiles": [
-    "templates/notes/47bf2ff4-f25f-42a4-a461-69fb32d83dd3.md",
     "learning学习/嵌入式/FOC/浩盛FOC.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
+    "templates/notes/47bf2ff4-f25f-42a4-a461-69fb32d83dd3.md",
     "learning学习/嵌入式/FOC/开始.md",
     "Pasted image 20261008203801.png",
     "Pasted image 20261008141047.png",
