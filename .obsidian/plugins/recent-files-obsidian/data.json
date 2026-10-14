@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "音频模块",
-      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
-    },
-    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
+      "basename": "内容说明",
+      "path": "projects项目文档/人脸识别系统/内容说明.md"
+    },
+    {
+      "basename": "个人网站",
+      "path": "projects项目文档/个人网站.md"
+    },
+    {
+      "basename": "learning-note",
+      "path": "templates/learning-note.md"
+    },
+    {
+      "basename": "project-doc",
+      "path": "templates/project-doc.md"
+    },
+    {
+      "basename": "tech-note",
+      "path": "templates/tech-note.md"
+    },
+    {
+      "basename": "Drawing 2026-10-14 12.12.39.excalidraw",
+      "path": "Excalidraw/Drawing 2026-10-14 12.12.39.excalidraw.md"
+    },
+    {
+      "basename": "音频模块",
+      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
     },
     {
       "basename": "外设功能",
@@ -21,20 +45,8 @@
       "path": "learning学习/嵌入式/FOC/浩盛FOC板子/未命名.md"
     },
     {
-      "basename": "learning-note",
-      "path": "templates/learning-note.md"
-    },
-    {
       "basename": "Schematic_浩盛单路电机开发板V2.2_2026-06-09",
       "path": "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf"
-    },
-    {
-      "basename": "project-doc",
-      "path": "templates/project-doc.md"
-    },
-    {
-      "basename": "tech-note",
-      "path": "templates/tech-note.md"
     },
     {
       "basename": "电源模块",
@@ -187,14 +199,6 @@
     {
       "basename": "嵌入式",
       "path": "learning学习/备考/嵌入式.md"
-    },
-    {
-      "basename": "STM32F10xxx参考手册（中文）",
-      "path": "learning学习/嵌入式/STM32/STM32F10xxx参考手册（中文）.pdf"
-    },
-    {
-      "basename": "STM32入门教程",
-      "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
     }
   ],
   "omittedPaths": [],

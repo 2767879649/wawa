@@ -1167,7 +1167,7 @@
   "mobileCommands": [],
   "enableMultipleConfig": false,
   "enableTopToolbar": true,
-  "enableFollowingToolbar": true,
+  "enableFollowingToolbar": false,
   "enableFixedToolbar": false,
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
@@ -1195,7 +1195,8 @@
   "formatBrushes": {},
   "customCommands": [],
   "viewTypeSettings": {
-    "excalidraw": false
+    "excalidraw": false,
+    "markdown": true
   },
   "appearanceByStyle": {
     "top": {
