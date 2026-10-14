@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-10-14",
-      "path": "2026-10-14.md"
-    },
-    {
-      "basename": "开始",
-      "path": "learning学习/嵌入式/FOC/开始.md"
-    },
-    {
-      "basename": "浩盛FOC",
-      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
+      "basename": "电源模块",
+      "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
     },
     {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
+      "basename": "浩盛FOC",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
+    },
+    {
+      "basename": "开始",
+      "path": "learning学习/嵌入式/FOC/开始.md"
+    },
+    {
+      "basename": "Schematic_浩盛单路电机开发板V2.2_2026-06-09",
+      "path": "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf"
+    },
+    {
+      "basename": "tech-note",
+      "path": "templates/tech-note.md"
+    },
+    {
+      "basename": "learning-note",
+      "path": "templates/learning-note.md"
+    },
+    {
+      "basename": "project-doc",
+      "path": "templates/project-doc.md"
+    },
+    {
+      "basename": "微信机器人",
+      "path": "notes笔记/life生活/微信机器人.md"
+    },
+    {
+      "basename": "2026-06-20-python-async",
+      "path": "notes笔记/tech/2026-06-20-python-async.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/ESP32/基础函数.md"
+    },
+    {
+      "basename": "2026-10-14",
+      "path": "2026-10-14.md"
     },
     {
       "basename": "音频模块",
@@ -171,34 +199,6 @@
     {
       "basename": "库的使用",
       "path": "learning学习/嵌入式/cJSON/库的使用.md"
-    },
-    {
-      "basename": "MPU6050",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/MPU6050.md"
-    },
-    {
-      "basename": "W25Q64",
-      "path": "learning学习/嵌入式/STM32/记录基础/W25Q64.md"
-    },
-    {
-      "basename": "RTC",
-      "path": "learning学习/嵌入式/STM32/记录基础/RTC.md"
-    },
-    {
-      "basename": "温湿度传感器",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/温湿度传感器.md"
-    },
-    {
-      "basename": "I2C通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
-    },
-    {
-      "basename": "未命名 2",
-      "path": "未命名 2.base"
-    },
-    {
-      "basename": "基础开始 1",
-      "path": "learning学习/嵌入式/STM32/基础开始 1.md"
     }
   ],
   "omittedPaths": [],

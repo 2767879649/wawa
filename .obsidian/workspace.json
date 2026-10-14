@@ -25,37 +25,22 @@
             }
           },
           {
-            "id": "601f157e26592f25",
+            "id": "c0890b229daa6191",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/基础函数.md",
-                "mode": "source",
+                "file": "learning学习/嵌入式/PCB/常用模块/电源模块.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基础函数"
-            }
-          },
-          {
-            "id": "c49c53a513c9f866",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-10-14.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-14"
+              "title": "电源模块"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-10-14.md",
+                "file": "learning学习/嵌入式/PCB/常用模块/电源模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -276,12 +261,12 @@
               "title": "基础开始 1 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 293,
-    "collapsed": true
+    "width": 293
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -290,28 +275,36 @@
       "obsidian-git:Open Git source control": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
+      "templates:插入模板": false,
       "command-palette:打开命令面板": true,
       "bases:新建数据库": true,
       "realclaudian:Open Claudian": false,
       "random-note:开始漫游笔记": false,
       "fast-note-sync:FNS菜单": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "c49c53a513c9f866",
+  "active": "c0890b229daa6191",
   "lastOpenFiles": [
-    "learning学习/嵌入式/FOC/开始.md",
-    "2026-10-14.md",
-    "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
-    "learning学习/嵌入式/FOC/浩盛FOC板子",
-    "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf",
     "learning学习/嵌入式/HAL库/基础函数.md",
+    "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
+    "learning学习/嵌入式/FOC/开始.md",
+    "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf",
+    "templates/tech-note.md",
+    "templates/learning-note.md",
+    "templates/project-doc.md",
+    "notes笔记/life生活/微信机器人.md",
+    "notes笔记/tech/2026-06-20-python-async.md",
+    "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
+    "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md",
+    "learning学习/嵌入式/ESP32/基础函数.md",
+    "2026-10-14.md",
+    "learning学习/嵌入式/FOC/浩盛FOC板子",
     "templates/notes/47bf2ff4-f25f-42a4-a461-69fb32d83dd3.md",
     "Pasted image 20261008203801.png",
     "Pasted image 20261008141047.png",
-    "learning学习/嵌入式/ESP32/基础函数.md",
     "Pasted image 20261007230938.png",
     "Pasted image 20261007230509.png",
     "Pasted image 20261007230258.png",
@@ -335,15 +328,7 @@
     "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md",
     "learning学习/嵌入式/STM32/FreeRTOS/中断.md",
     "learning学习/嵌入式/STM32/FreeRTOS/基本知识.md",
-    "learning学习/嵌入式/STM32/FreeRTOS/基本函数.md",
-    "learning学习/嵌入式/STM32/FreeRTOS/移植过程.md",
-    "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
-    "learning学习/八股文/嵌入式.md",
-    "learning学习/嵌入式/STM32/记录基础/DWT.md",
-    "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
-    "learning学习/Git基础使用.md",
     "learning学习/嵌入式/ESP32/莱罗三角形",
-    "learning学习/嵌入式/STM32/记录基础/模块/ESP8266.md",
     "learning学习/嵌入式/STM32/简历.pdf",
     "learning学习/嵌入式/ESP32",
     "learning学习/MATLAB",
