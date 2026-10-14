@@ -39,8 +39,7 @@
               "title": "浩盛FOC"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
+                "file": "learning学习/嵌入式/HAL库/基础函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,7 +154,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
+                "file": "learning学习/嵌入式/HAL库/基础函数.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -302,8 +301,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "4459bde59e779c59",
+  "active": "9ee3874c451b7227",
   "lastOpenFiles": [
+    "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "notes笔记/life生活/微信机器人.md",
     "projects项目文档/人脸识别系统/内容说明.md",
@@ -315,7 +315,6 @@
     "Excalidraw",
     "learning学习/嵌入式/ESP32/模块/音频模块.md",
     "learning学习/嵌入式/ESP32/外设功能.md",
-    "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子/未命名.md",
     "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf",
     "templates/notes/c3c975ae-353f-48b1-8c45-58303975b86c.md",
