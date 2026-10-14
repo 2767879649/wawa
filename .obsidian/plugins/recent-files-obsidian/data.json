@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "浩盛FOC",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
+      "basename": "微信机器人",
+      "path": "notes笔记/life生活/微信机器人.md"
     },
     {
       "basename": "内容说明",
@@ -37,10 +45,6 @@
       "path": "learning学习/嵌入式/ESP32/外设功能.md"
     },
     {
-      "basename": "浩盛FOC",
-      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
-    },
-    {
       "basename": "未命名",
       "path": "learning学习/嵌入式/FOC/浩盛FOC板子/未命名.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "开始",
       "path": "learning学习/嵌入式/FOC/开始.md"
-    },
-    {
-      "basename": "微信机器人",
-      "path": "notes笔记/life生活/微信机器人.md"
     },
     {
       "basename": "2026-06-20-python-async",
