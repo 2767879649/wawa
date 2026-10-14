@@ -12,5 +12,5 @@
   "vimMode": false,
   "focusNewTab": true,
   "readableLineLength": true,
-  "settingsPopoutWindow": false
+  "settingsPopoutWindow": true
 }

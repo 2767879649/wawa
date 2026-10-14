@@ -53,5 +53,6 @@
   "zen@@text-line-height": 20,
   "zen@@text-paragraph-gap": 2.4,
   "zen@@win-translucent-off": true,
-  "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight"
+  "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight",
+  "minimal-style@@color-red@@dark": "#BD2222"
 }

@@ -15,8 +15,8 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/嵌入式/HAL库/基础函数.md",
-                "mode": "preview",
-                "source": true,
+                "mode": "source",
+                "source": false,
                 "backlinks": false
               },
               "pinned": true,
@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -173,7 +174,7 @@
                     {
                       "tabId": "tab-1791951391904-g2w7587",
                       "conversationId": null,
-                      "draftModel": "opus",
+                      "draftModel": "fable",
                       "providerId": "claude"
                     }
                   ],
@@ -286,7 +287,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "13506b6f5d5669e0",
+  "active": "9ee3874c451b7227",
   "lastOpenFiles": [
     "projects项目文档/人脸识别系统/内容说明.md",
     "projects项目文档/个人网站.md",

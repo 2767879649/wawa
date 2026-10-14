@@ -180,7 +180,7 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
     "providerId": "claude",
-    "model": "opus"
+    "model": "fable"
   },
   "savedProviderModel": {
     "claude": "opus"
