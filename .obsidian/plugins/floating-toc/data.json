@@ -4,14 +4,14 @@
   "positionStyle": "right",
   "isLoadOnMobile": true,
   "isLeft": true,
-  "isDefaultPin": false,
+  "isDefaultPin": true,
   "isTooltip": true,
   "defaultCollapsedLevel": 6,
   "expandAllSubheadings": true,
   "isDefaultHide": false,
   "enableHeadingNowrap": true,
   "barStyle": "enable-dot-style",
-  "enableBarHeadingText": true,
-  "enableContentOffset": false,
+  "enableBarHeadingText": false,
+  "enableContentOffset": true,
   "enableDragReorder": true
 }

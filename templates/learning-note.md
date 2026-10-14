@@ -2,10 +2,6 @@
 title: ""
 source: ""
 tags:
-  - Dify
-  - Docker
-  - Git
-  - Deepseek
 created:
   "{ date }":
 updated:

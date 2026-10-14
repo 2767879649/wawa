@@ -1,36 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "电源模块",
-      "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
+      "basename": "音频模块",
+      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
     },
     {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
+      "basename": "外设功能",
+      "path": "learning学习/嵌入式/ESP32/外设功能.md"
+    },
+    {
       "basename": "浩盛FOC",
       "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
     },
     {
-      "basename": "开始",
-      "path": "learning学习/嵌入式/FOC/开始.md"
-    },
-    {
-      "basename": "Schematic_浩盛单路电机开发板V2.2_2026-06-09",
-      "path": "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf"
-    },
-    {
-      "basename": "tech-note",
-      "path": "templates/tech-note.md"
+      "basename": "未命名",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/未命名.md"
     },
     {
       "basename": "learning-note",
       "path": "templates/learning-note.md"
     },
     {
+      "basename": "Schematic_浩盛单路电机开发板V2.2_2026-06-09",
+      "path": "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf"
+    },
+    {
       "basename": "project-doc",
       "path": "templates/project-doc.md"
+    },
+    {
+      "basename": "tech-note",
+      "path": "templates/tech-note.md"
+    },
+    {
+      "basename": "电源模块",
+      "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
+    },
+    {
+      "basename": "开始",
+      "path": "learning学习/嵌入式/FOC/开始.md"
     },
     {
       "basename": "微信机器人",
@@ -49,16 +61,8 @@
       "path": "2026-10-14.md"
     },
     {
-      "basename": "音频模块",
-      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
-    },
-    {
       "basename": "记录",
       "path": "learning学习/模电/记录.md"
-    },
-    {
-      "basename": "外设功能",
-      "path": "learning学习/嵌入式/ESP32/外设功能.md"
     },
     {
       "basename": "正交编码器",
@@ -191,14 +195,6 @@
     {
       "basename": "STM32入门教程",
       "path": "learning学习/嵌入式/STM32/STM32入门教程.pdf"
-    },
-    {
-      "basename": "LECO显示屏",
-      "path": "learning学习/嵌入式/STM32/记录基础/LECO显示屏.md"
-    },
-    {
-      "basename": "库的使用",
-      "path": "learning学习/嵌入式/cJSON/库的使用.md"
     }
   ],
   "omittedPaths": [],
