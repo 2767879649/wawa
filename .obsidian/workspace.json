@@ -15,8 +15,8 @@
               "type": "markdown",
               "state": {
                 "file": "learning学习/嵌入式/HAL库/基础函数.md",
-                "mode": "source",
-                "source": false,
+                "mode": "preview",
+                "source": true,
                 "backlinks": false
               },
               "pinned": true,
@@ -286,7 +286,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "9ee3874c451b7227",
+  "active": "13506b6f5d5669e0",
   "lastOpenFiles": [
     "projects项目文档/人脸识别系统/内容说明.md",
     "projects项目文档/个人网站.md",

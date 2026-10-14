@@ -46,12 +46,12 @@
   "zen@@win-window-opacity": 0.15,
   "zen@@alt-heading-off": true,
   "zen@@editor-brightness": 1,
-  "zen@@close-left-vault-profile": false,
+  "zen@@close-left-vault-profile": true,
   "zen@@window-brightness": 1.06,
   "zen@@window-font-size": 15,
   "zen@@editor-width": 1220,
   "zen@@text-line-height": 20,
   "zen@@text-paragraph-gap": 2.4,
-  "zen@@win-translucent-off": false,
+  "zen@@win-translucent-off": true,
   "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight"
 }
