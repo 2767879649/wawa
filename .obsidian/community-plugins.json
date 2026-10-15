@@ -1,6 +1,5 @@
 [
   "recent-files-obsidian",
-  "omnisearch",
   "obsidian-local-rest-api",
   "realclaudian",
   "obsidian-git",
@@ -9,6 +8,6 @@
   "editing-toolbar",
   "quickadd",
   "fast-note-sync",
-  "obsidian-style-settings",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-style-settings"
 ]
