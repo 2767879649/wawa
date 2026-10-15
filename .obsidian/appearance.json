@@ -8,9 +8,10 @@
   "enabledCssSnippets": [
     "extended-colorschemes",
     "custom-rainbow-colors",
-    "minimal-cards",
     "Extended-colorschemes",
-    "zhungtailan"
+    "zhungtailan",
+    "minimal-cards",
+    "yincang"
   ],
   "theme": "obsidian",
   "nativeMenus": false
