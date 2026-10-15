@@ -39,7 +39,8 @@
               "title": "浩盛FOC"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -294,17 +295,15 @@
       "command-palette:打开命令面板": true,
       "bases:新建数据库": true,
       "realclaudian:Open Claudian": false,
-      "random-note:开始漫游笔记": false,
       "fast-note-sync:FNS菜单": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "omnisearch:Omnisearch": false,
-      "workspaces:管理工作区布局": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "9ee3874c451b7227",
+  "active": "4459bde59e779c59",
   "lastOpenFiles": [
-    "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
+    "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
     "notes笔记/life生活/微信机器人.md",
     "projects项目文档/人脸识别系统/内容说明.md",
     "projects项目文档/个人网站.md",
