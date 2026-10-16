@@ -295,8 +295,7 @@
       "bases:新建数据库": true,
       "realclaudian:Open Claudian": false,
       "fast-note-sync:FNS菜单": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "4459bde59e779c59",
