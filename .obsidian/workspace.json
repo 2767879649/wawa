@@ -39,7 +39,8 @@
               "title": "浩盛FOC"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +155,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/HAL库/基础函数.md"
+                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -298,11 +299,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "9ee3874c451b7227",
+  "active": "4459bde59e779c59",
   "lastOpenFiles": [
+    "learning学习/嵌入式/HAL库/基础函数.md",
     "templates/notes/2316f835-40b2-443c-875f-dfcb1a20808b.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
-    "learning学习/嵌入式/HAL库/基础函数.md",
     "notes笔记/life生活/微信机器人.md",
     "projects项目文档/人脸识别系统/内容说明.md",
     "projects项目文档/个人网站.md",
