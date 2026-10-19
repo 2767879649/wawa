@@ -5,6 +5,10 @@
       "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
     },
     {
+      "basename": "遇到的问题",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/遇到的问题.md"
+    },
+    {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "外设功能",
       "path": "learning学习/嵌入式/ESP32/外设功能.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/未命名.md"
     },
     {
       "basename": "Schematic_浩盛单路电机开发板V2.2_2026-06-09",
