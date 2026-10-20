@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "音频模块",
+      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/ESP32/基础函数.md"
+    },
+    {
+      "basename": "外设功能",
+      "path": "learning学习/嵌入式/ESP32/外设功能.md"
+    },
+    {
       "basename": "浩盛FOC",
       "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
     },
@@ -41,14 +53,6 @@
       "path": "Excalidraw/Drawing 2026-10-14 12.12.39.excalidraw.md"
     },
     {
-      "basename": "音频模块",
-      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
-    },
-    {
-      "basename": "外设功能",
-      "path": "learning学习/嵌入式/ESP32/外设功能.md"
-    },
-    {
       "basename": "Schematic_浩盛单路电机开发板V2.2_2026-06-09",
       "path": "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "2026-06-20-python-async",
       "path": "notes笔记/tech/2026-06-20-python-async.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/ESP32/基础函数.md"
     },
     {
       "basename": "2026-10-14",
