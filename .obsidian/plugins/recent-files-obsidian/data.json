@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "项目",
+      "path": "learning学习/嵌入式/项目.md"
+    },
+    {
+      "basename": "开始",
+      "path": "learning学习/无人机/开始.md"
+    },
+    {
       "basename": "音频模块",
       "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
     },
@@ -187,18 +195,6 @@
     {
       "basename": "基础",
       "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
-    },
-    {
-      "basename": "SPI通信",
-      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
-    },
-    {
-      "basename": "问题",
-      "path": "learning学习/嵌入式/STM32/智能可调时钟/问题.md"
-    },
-    {
-      "basename": "嵌入式",
-      "path": "learning学习/备考/嵌入式.md"
     }
   ],
   "omittedPaths": [],

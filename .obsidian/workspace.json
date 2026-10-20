@@ -25,18 +25,18 @@
             }
           },
           {
-            "id": "4459bde59e779c59",
+            "id": "34ede7d5711e55ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/模块/音频模块.md",
+                "file": "learning学习/嵌入式/项目.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "音频模块"
+              "title": "项目"
             }
           }
         ],
@@ -155,7 +155,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/模块/音频模块.md"
+                "file": "learning学习/嵌入式/项目.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -298,8 +298,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4459bde59e779c59",
+  "active": "34ede7d5711e55ae",
   "lastOpenFiles": [
+    "learning学习/项目/未命名 1.md",
+    "learning学习/嵌入式/项目.md",
+    "learning学习/项目/未命名.md",
+    "learning学习/无人机/开始.md",
+    "learning学习/嵌入式/ESP32/模块/音频模块.md",
+    "learning学习/项目",
+    "learning学习/嵌入式/项目/未命名.md",
+    "learning学习/嵌入式/项目",
     "learning学习/嵌入式/ESP32/基础函数.md",
     "learning学习/嵌入式/ESP32/外设功能.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
@@ -316,7 +324,6 @@
     "templates/tech-note.md",
     "Excalidraw/Drawing 2026-10-14 12.12.39.excalidraw.md",
     "Excalidraw",
-    "learning学习/嵌入式/ESP32/模块/音频模块.md",
     "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf",
     "templates/notes/c3c975ae-353f-48b1-8c45-58303975b86c.md",
     "learning学习/嵌入式/PCB/常用模块/电源模块.md",
@@ -324,9 +331,7 @@
     "notes笔记/tech/2026-06-20-python-async.md",
     "Clippings/Bilibili/2026-06-21-三分钟搞懂Docker.md",
     "Clippings/Bilibili/2026-07-05-8分钟让你快速掌握Markdown.md",
-    "2026-10-14.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子",
-    "templates/notes/47bf2ff4-f25f-42a4-a461-69fb32d83dd3.md",
     "Pasted image 20261008203801.png",
     "Pasted image 20261008141047.png",
     "Pasted image 20261007230938.png",
@@ -337,14 +342,10 @@
     "Pasted image 20261007215455.png",
     "Pasted image 20261006202429.png",
     "learning学习/嵌入式/FOC",
-    "learning学习/模电/记录.md",
     "learning学习/嵌入式/ESP32/模块",
-    "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md",
     "learning学习/模电",
     "learning学习/嵌入式/ESP32/莱罗三角形",
     "learning学习/嵌入式/STM32/简历.pdf",
-    "learning学习/嵌入式/ESP32",
-    "learning学习/MATLAB",
     "未命名 1.canvas",
     "未命名 3.canvas",
     "未命名 2.canvas",
