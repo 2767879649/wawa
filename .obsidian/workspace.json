@@ -25,37 +25,22 @@
             }
           },
           {
-            "id": "34ede7d5711e55ae",
+            "id": "0154343c0a3c0d8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/项目.md",
+                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "项目"
-            }
-          },
-          {
-            "id": "7f4ebb6268901946",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning学习/嵌入式/ESP32/模块/音频模块.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "音频模块"
+              "title": "浩盛FOC"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +155,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/ESP32/模块/音频模块.md"
+                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -181,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -313,15 +299,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7f4ebb6268901946",
+  "active": "0154343c0a3c0d8b",
   "lastOpenFiles": [
-    "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/项目.md",
+    "learning学习/嵌入式/ESP32/模块/音频模块.md",
+    "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
     "learning学习/项目/未命名 1.md",
     "learning学习/项目/未命名.md",
     "learning学习/无人机/开始.md",
-    "learning学习/嵌入式/ESP32/模块/音频模块.md",
     "learning学习/项目",
     "learning学习/嵌入式/项目/未命名.md",
     "learning学习/嵌入式/项目",

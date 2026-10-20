@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "音频模块",
-      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
-    },
-    {
-      "basename": "零件",
-      "path": "learning学习/嵌入式/ESP32/莱罗三角形/零件.md"
+      "basename": "浩盛FOC",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
     },
     {
       "basename": "基础函数",
@@ -15,6 +11,14 @@
     {
       "basename": "项目",
       "path": "learning学习/嵌入式/项目.md"
+    },
+    {
+      "basename": "音频模块",
+      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
+    },
+    {
+      "basename": "零件",
+      "path": "learning学习/嵌入式/ESP32/莱罗三角形/零件.md"
     },
     {
       "basename": "开始",
@@ -27,10 +31,6 @@
     {
       "basename": "外设功能",
       "path": "learning学习/嵌入式/ESP32/外设功能.md"
-    },
-    {
-      "basename": "浩盛FOC",
-      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
     },
     {
       "basename": "遇到的问题",
