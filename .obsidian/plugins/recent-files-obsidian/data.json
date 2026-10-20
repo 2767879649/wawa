@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "音频模块",
+      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
+    },
+    {
+      "basename": "零件",
+      "path": "learning学习/嵌入式/ESP32/莱罗三角形/零件.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
       "basename": "项目",
       "path": "learning学习/嵌入式/项目.md"
     },
     {
       "basename": "开始",
       "path": "learning学习/无人机/开始.md"
-    },
-    {
-      "basename": "音频模块",
-      "path": "learning学习/嵌入式/ESP32/模块/音频模块.md"
     },
     {
       "basename": "基础函数",
@@ -27,10 +35,6 @@
     {
       "basename": "遇到的问题",
       "path": "learning学习/嵌入式/FOC/浩盛FOC板子/遇到的问题.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "微信机器人",
@@ -139,10 +143,6 @@
     {
       "basename": "DWT",
       "path": "learning学习/嵌入式/STM32/记录基础/DWT.md"
-    },
-    {
-      "basename": "零件",
-      "path": "learning学习/嵌入式/ESP32/莱罗三角形/零件.md"
     },
     {
       "basename": "Git基础使用",
