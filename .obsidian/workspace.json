@@ -155,7 +155,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/Git基础使用.md"
+                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
