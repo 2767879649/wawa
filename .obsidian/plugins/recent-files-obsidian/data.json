@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+      "basename": "开始",
+      "path": "learning学习/嵌入式/FOC/开始.md"
     },
     {
       "basename": "浩盛FOC",
       "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "Git基础使用",
@@ -75,10 +79,6 @@
     {
       "basename": "电源模块",
       "path": "learning学习/嵌入式/PCB/常用模块/电源模块.md"
-    },
-    {
-      "basename": "开始",
-      "path": "learning学习/嵌入式/FOC/开始.md"
     },
     {
       "basename": "2026-06-20-python-async",
