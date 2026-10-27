@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/FOC/开始.md",
-                "mode": "preview",
+                "file": "learning学习/嵌入式/FOC/笔记.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "开始"
+              "title": "笔记"
             }
           }
         ],
@@ -155,7 +155,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/FOC/开始.md"
+                "file": "learning学习/嵌入式/FOC/笔记.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -300,10 +301,11 @@
   },
   "active": "19854b3c39706c41",
   "lastOpenFiles": [
+    "learning学习/嵌入式/FOC/开始.md",
+    "learning学习/嵌入式/FOC/笔记.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子/遇到的问题.md",
-    "learning学习/嵌入式/FOC/开始.md",
     "learning学习/Git基础使用.md",
     "learning学习/嵌入式/项目.md",
     "learning学习/嵌入式/ESP32/模块/音频模块.md",
@@ -330,7 +332,6 @@
     "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf",
     "templates/notes/c3c975ae-353f-48b1-8c45-58303975b86c.md",
     "learning学习/嵌入式/PCB/常用模块/电源模块.md",
-    "notes笔记/tech/2026-06-20-python-async.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子",
     "Pasted image 20261008203801.png",
     "Pasted image 20261008141047.png",
