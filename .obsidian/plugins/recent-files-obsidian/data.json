@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "信号量",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
+    },
+    {
+      "basename": "事件组",
+      "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
+    },
+    {
+      "basename": "基础函数",
+      "path": "learning学习/嵌入式/HAL库/基础函数.md"
+    },
+    {
       "basename": "浩盛FOC",
       "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "HC-05主从一体蓝牙模块",
       "path": "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md"
-    },
-    {
-      "basename": "基础函数",
-      "path": "learning学习/嵌入式/HAL库/基础函数.md"
     },
     {
       "basename": "遇到的问题",
@@ -115,14 +123,6 @@
     {
       "basename": "队列",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
-    },
-    {
-      "basename": "信号量",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/信号量.md"
-    },
-    {
-      "basename": "事件组",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
     },
     {
       "basename": "定时器",
