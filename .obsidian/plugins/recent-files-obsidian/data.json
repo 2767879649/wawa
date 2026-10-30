@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "编码电机",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md"
-    },
-    {
-      "basename": "HC-05主从一体蓝牙模块",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md"
-    },
-    {
-      "basename": "笔记",
-      "path": "learning学习/嵌入式/FOC/笔记.md"
+      "basename": "浩盛FOC",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
     },
     {
       "basename": "开始",
       "path": "learning学习/嵌入式/FOC/开始.md"
     },
     {
-      "basename": "浩盛FOC",
-      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
+      "basename": "笔记",
+      "path": "learning学习/嵌入式/FOC/笔记.md"
+    },
+    {
+      "basename": "编码电机",
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md"
+    },
+    {
+      "basename": "HC-05主从一体蓝牙模块",
+      "path": "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md"
     },
     {
       "basename": "基础函数",

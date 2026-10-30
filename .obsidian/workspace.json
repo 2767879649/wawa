@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
+                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "编码电机"
+              "title": "浩盛FOC"
             }
           }
         ],
@@ -155,7 +155,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md"
+                "file": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -301,8 +301,10 @@
   },
   "active": "19854b3c39706c41",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md",
+    "learning学习/嵌入式/FOC/开始.md",
     "learning学习/嵌入式/FOC/笔记.md",
+    "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
+    "learning学习/嵌入式/STM32/记录基础/模块/HC-05主从一体蓝牙模块.md",
     "templates/notes/95391389-c218-437f-9e3a-ef118e8e161a_10.29河南大学生就业服务平台.md",
     "templates/notes/95391389-c218-437f-9e3a-ef118e8e161a_10.29hen'e.md",
     "templates/notes/95391389-c218-437f-9e3a-ef118e8e161a_10.29.md",
@@ -310,7 +312,6 @@
     "templates/notes/985b248d-21d2-470e-9adb-8805dd301be3_10.29.md",
     "templates/notes/985b248d-21d2-470e-9adb-8805dd301be3_110.29.md",
     "templates/notes/985b248d-21d2-470e-9adb-8805dd301be3.md",
-    "learning学习/嵌入式/FOC/开始.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/FOC/浩盛FOC板子/遇到的问题.md",
@@ -329,7 +330,6 @@
     "Pasted image 20261018231224.png",
     "templates/notes/0eec5848-e95f-4dcc-912a-32476388f02d.md",
     "templates/notes/2316f835-40b2-443c-875f-dfcb1a20808b.md",
-    "notes笔记/life生活/微信机器人.md",
     "Excalidraw",
     "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf",
     "learning学习/嵌入式/FOC/浩盛FOC板子",
