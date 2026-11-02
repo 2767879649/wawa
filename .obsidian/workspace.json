@@ -221,6 +221,39 @@
               "icon": "lucide-list",
               "title": "基础开始 1 的大纲"
             }
+          },
+          {
+            "id": "48ee41aa60b0aa87",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "bab2b986d4f33e9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
           }
         ],
         "currentTab": 2
