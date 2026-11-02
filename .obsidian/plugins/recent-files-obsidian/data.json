@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "F103信息",
+      "path": "learning学习/嵌入式/STM32/记录基础/F103信息.md"
+    },
+    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "开始流程",
       "path": "learning学习/嵌入式/STM32/双轮平衡小车/开始流程.md"
-    },
-    {
-      "basename": "基础",
-      "path": "learning学习/嵌入式/STM32/双轮平衡小车/基础.md"
     }
   ],
   "omittedPaths": [],

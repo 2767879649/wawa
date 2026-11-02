@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-                "mode": "preview",
+                "file": "learning学习/嵌入式/STM32/记录基础/F103信息.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GPIO端口"
+              "title": "F103信息"
             }
           }
         ],
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/F103信息.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/STM32/记录基础/F103信息.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -280,6 +280,7 @@
   },
   "active": "ee80b3e91b904065",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
@@ -305,7 +306,6 @@
     "learning学习/嵌入式/ESP32/模块/音频模块.md",
     "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
     "learning学习/项目/未命名 1.md",
-    "learning学习/项目/未命名.md",
     "learning学习/项目",
     "learning学习/嵌入式/项目",
     "Pasted image 20261018231224.png",
