@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+                "file": "learning学习/嵌入式/FOC/蛙式板子.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GPIO端口"
+              "title": "蛙式板子"
             }
           }
         ],
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d8905c2b0546afa2",
@@ -280,8 +279,11 @@
   },
   "active": "ee80b3e91b904065",
   "lastOpenFiles": [
-    "learning学习/嵌入式/STM32/记录基础/F103信息.md",
+    "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
+    "learning学习/嵌入式/FOC/蛙式板子.md",
+    "learning学习/嵌入式/FOC/浩盛FOC板子/遇到的问题.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
+    "learning学习/嵌入式/STM32/记录基础/F103信息.md",
     "learning学习/嵌入式/STM32/记录基础/输入捕获.md",
     "learning学习/嵌入式/STM32/记录基础/直流电机（小风扇）.md",
     "learning学习/嵌入式/STM32/记录基础/基础函数.md",
@@ -290,7 +292,6 @@
     "learning学习/嵌入式/STM32/FreeRTOS/信号量.md",
     "learning学习/嵌入式/STM32/FreeRTOS/事件组.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
-    "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md",
     "learning学习/嵌入式/FOC/开始.md",
     "learning学习/嵌入式/FOC/笔记.md",
     "learning学习/嵌入式/STM32/记录基础/模块/编码电机.md",
@@ -302,10 +303,8 @@
     "templates/notes/985b248d-21d2-470e-9adb-8805dd301be3_10.29.md",
     "templates/notes/985b248d-21d2-470e-9adb-8805dd301be3_110.29.md",
     "templates/notes/985b248d-21d2-470e-9adb-8805dd301be3.md",
-    "learning学习/嵌入式/FOC/浩盛FOC板子/遇到的问题.md",
     "learning学习/Git基础使用.md",
     "learning学习/嵌入式/ESP32/模块/音频模块.md",
-    "learning学习/嵌入式/ESP32/莱罗三角形/零件.md",
     "learning学习/项目",
     "learning学习/嵌入式/项目",
     "Pasted image 20261018231224.png",
