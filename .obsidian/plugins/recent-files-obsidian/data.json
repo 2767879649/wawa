@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "基础使用",
+      "path": "learning学习/嵌入式/Qt/基础使用.md"
+    },
+    {
+      "basename": "项目",
+      "path": "learning学习/嵌入式/项目.md"
+    },
+    {
+      "basename": "案例模板",
+      "path": "learning学习/嵌入式/Qt/案例模板.md"
+    },
+    {
       "basename": "嵌入式",
       "path": "learning学习/八股文/嵌入式.md"
     },
@@ -79,10 +91,6 @@
     {
       "basename": "基础函数",
       "path": "learning学习/嵌入式/STM32/记录基础/基础函数.md"
-    },
-    {
-      "basename": "项目",
-      "path": "learning学习/嵌入式/项目.md"
     },
     {
       "basename": "基本知识",
@@ -191,14 +199,6 @@
     {
       "basename": "队列",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/队列.md"
-    },
-    {
-      "basename": "定时器",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/定时器.md"
-    },
-    {
-      "basename": "任务通知",
-      "path": "learning学习/嵌入式/STM32/FreeRTOS/任务通知.md"
     }
   ],
   "omittedPaths": [],
