@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "遇到的问题",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/遇到的问题.md"
+    },
+    {
+      "basename": "浩盛FOC",
+      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
+    },
+    {
+      "basename": "笔记",
+      "path": "learning学习/嵌入式/FOC/笔记.md"
+    },
+    {
+      "basename": "开始",
+      "path": "learning学习/嵌入式/FOC/开始.md"
+    },
+    {
+      "basename": "蛙式板子",
+      "path": "learning学习/嵌入式/FOC/蛙式板子.md"
+    },
+    {
       "basename": "基础使用",
       "path": "learning学习/嵌入式/Qt/基础使用.md"
     },
@@ -61,18 +81,6 @@
       "path": "learning学习/总结内容.md"
     },
     {
-      "basename": "蛙式板子",
-      "path": "learning学习/嵌入式/FOC/蛙式板子.md"
-    },
-    {
-      "basename": "浩盛FOC",
-      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/浩盛FOC.md"
-    },
-    {
-      "basename": "遇到的问题",
-      "path": "learning学习/嵌入式/FOC/浩盛FOC板子/遇到的问题.md"
-    },
-    {
       "basename": "GPIO端口",
       "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
     },
@@ -103,14 +111,6 @@
     {
       "basename": "事件组",
       "path": "learning学习/嵌入式/STM32/FreeRTOS/事件组.md"
-    },
-    {
-      "basename": "开始",
-      "path": "learning学习/嵌入式/FOC/开始.md"
-    },
-    {
-      "basename": "笔记",
-      "path": "learning学习/嵌入式/FOC/笔记.md"
     },
     {
       "basename": "编码电机",
