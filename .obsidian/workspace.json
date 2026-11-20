@@ -277,11 +277,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "228bfa193061227f",
+  "active": "bbce0fced42ab496",
   "lastOpenFiles": [
+    "learning学习/嵌入式/STM32/记录基础/基本知识.md",
+    "learning学习/嵌入式/PCB/PCB模块.md",
     "learning学习/嵌入式/PCB/基础元件.md",
     "learning学习/嵌入式/PCB/电子器件.md",
-    "learning学习/嵌入式/PCB/PCB模块.md",
     "learning学习/嵌入式/HAL库/基础函数.md",
     "learning学习/嵌入式/PCB/常用模块/电源模块.md",
     "learning学习/嵌入式/FOC/开始.md",
@@ -304,7 +305,6 @@
     "learning学习/虚拟机基础使用.md",
     "learning学习/总结内容.md",
     "learning学习/嵌入式/STM32/记录基础/GPIO端口.md",
-    "learning学习/嵌入式/STM32/记录基础/F103信息.md",
     "learning学习/项目",
     "learning学习/嵌入式/项目",
     "Pasted image 20261018231224.png",
