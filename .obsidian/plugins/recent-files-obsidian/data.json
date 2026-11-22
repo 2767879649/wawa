@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "GPIO端口",
+      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
+    },
+    {
+      "basename": "定时器",
+      "path": "learning学习/嵌入式/STM32/记录基础/定时器.md"
+    },
+    {
+      "basename": "DMA",
+      "path": "learning学习/嵌入式/STM32/记录基础/DMA.md"
+    },
+    {
+      "basename": "ADC",
+      "path": "learning学习/嵌入式/STM32/记录基础/ADC.md"
+    },
+    {
+      "basename": "LED",
+      "path": "learning学习/嵌入式/STM32/记录基础/LED.md"
+    },
+    {
+      "basename": "AFIO",
+      "path": "learning学习/嵌入式/STM32/记录基础/AFIO.md"
+    },
+    {
+      "basename": "F103信息",
+      "path": "learning学习/嵌入式/STM32/记录基础/F103信息.md"
+    },
+    {
       "basename": "SPI通信",
       "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
     },
@@ -105,14 +133,6 @@
       "path": "learning学习/总结内容.md"
     },
     {
-      "basename": "GPIO端口",
-      "path": "learning学习/嵌入式/STM32/记录基础/GPIO端口.md"
-    },
-    {
-      "basename": "F103信息",
-      "path": "learning学习/嵌入式/STM32/记录基础/F103信息.md"
-    },
-    {
       "basename": "输入捕获",
       "path": "learning学习/嵌入式/STM32/记录基础/输入捕获.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "learning-note",
       "path": "templates/learning-note.md"
-    },
-    {
-      "basename": "project-doc",
-      "path": "templates/project-doc.md"
-    },
-    {
-      "basename": "tech-note",
-      "path": "templates/tech-note.md"
-    },
-    {
-      "basename": "Drawing 2026-10-14 12.12.39.excalidraw",
-      "path": "Excalidraw/Drawing 2026-10-14 12.12.39.excalidraw.md"
-    },
-    {
-      "basename": "Schematic_浩盛单路电机开发板V2.2_2026-06-09",
-      "path": "Schematic_浩盛单路电机开发板V2.2_2026-06-09.pdf"
-    },
-    {
-      "basename": "2026-06-20-python-async",
-      "path": "notes笔记/tech/2026-06-20-python-async.md"
     }
   ],
   "omittedPaths": [],
