@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "SPI通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/SPI通信.md"
+    },
+    {
+      "basename": "I2C通信",
+      "path": "learning学习/嵌入式/STM32/记录基础/通信/I2C通信.md"
+    },
+    {
+      "basename": "基础使用",
+      "path": "learning学习/嵌入式/Qt/基础使用.md"
+    },
+    {
       "basename": "电子器件",
       "path": "learning学习/嵌入式/PCB/电子器件.md"
+    },
+    {
+      "basename": "PCB模块",
+      "path": "learning学习/嵌入式/PCB/PCB模块.md"
     },
     {
       "basename": "基础元件",
@@ -35,10 +51,6 @@
     {
       "basename": "蛙式板子",
       "path": "learning学习/嵌入式/FOC/蛙式板子.md"
-    },
-    {
-      "basename": "基础使用",
-      "path": "learning学习/嵌入式/Qt/基础使用.md"
     },
     {
       "basename": "项目",
@@ -187,18 +199,6 @@
     {
       "basename": "2026-06-20-python-async",
       "path": "notes笔记/tech/2026-06-20-python-async.md"
-    },
-    {
-      "basename": "2026-10-14",
-      "path": "2026-10-14.md"
-    },
-    {
-      "basename": "记录",
-      "path": "learning学习/模电/记录.md"
-    },
-    {
-      "basename": "正交编码器",
-      "path": "learning学习/嵌入式/STM32/记录基础/模块/正交编码器.md"
     }
   ],
   "omittedPaths": [],
